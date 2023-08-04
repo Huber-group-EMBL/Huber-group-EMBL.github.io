@@ -16,4 +16,4 @@
 ### Figures:
 - Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is good advice on this on the internet. If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, as much as possible use different color maps for different variables.
 - Font sizes: make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. 
-- Aspect ratio: for plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio consistent, i.e., usually 1:1.
+- Aspect ratio: for plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1.

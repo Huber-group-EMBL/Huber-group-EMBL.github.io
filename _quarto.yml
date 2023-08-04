@@ -1,4 +1,22 @@
 project:
   type: website
-  output-dir: docs
 
+website:
+  title: "Langmead Lab @ JHU"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - research.qmd
+      - people.qmd
+      - teaching.qmd
+      - contact.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto
