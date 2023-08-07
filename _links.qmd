@@ -11,3 +11,7 @@
 [HilbertVis]: https://bioconductor.org/packages/HilbertVis
 [HTSeq]: https://htseq.readthedocs.io/en/latest 
 [Bioconductor]: https://bioconductor.org
+[Molecular Medicine Partnership Unit]: https://www.embl.org/about/info/mmpu
+[MMPU]: https://www.embl.org/about/info/mmpu
+[ELLIS Unit Heidelberg]: https://www.ellis-life-heidelberg.eu
+[DECODE]: https://erc-decode.eu
