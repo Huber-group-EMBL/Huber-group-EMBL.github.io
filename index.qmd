@@ -2,21 +2,17 @@
 
 #  Welcome to the Huber group
 
-Our group at the Computer Science department at Johns Hopkins University studies methods for Computational Genomics.
-The laboratory’s goal is to make high-throughput life science data as useful as possible to everyday life scientists. 
+Our group at ...  studies methods for Computational Genomics.
 
 ![Huber group hike on 2023-05-31](photos/2023-05-31-2048x858.jpeg){.profile-pic fig-align="center"}
 :::
 
-High-throughput life science instruments, especially [DNA sequencers](http://en.wikipedia.org/wiki/DNA_sequencing), are improving rapidly. Sequencing has become a [ubiquitous tool](http://www.nature.com/nrg/series/nextgeneration/index.html) in the study of biology, genetics and disease. Today, because [sequencing throughput is outpacing computer speed and storage capacity](http://www.sciencemag.org/content/331/6018/728.full), the most crucial biological research bottlenecks are increasingly computational: computing, storage, labor, and power.
+Lorem Ipsum
 
-We pursue this goal by:
+* Lorem Ipsum
+* Lorem Ipsum
+* Lorem Ipsum
 
-* Developing methods and software tools that are efficient, allowing researchers to interact with datasets quickly and effectively. See: [Bowtie] & [Bowtie 2], [Kraken 2], [Dashing], [Dashing 2], [r-index], [MONI], [SPUMONI], [Vargas], [Lighter], [Samovar], [Arioc], [HISAT].  See also our [read alignment review](https://www.annualreviews.org/doi/abs/10.1146/annurev-genom-090413-025358).
-* Developing scalable tools that allow researchers to work with very large datasets, or large collections of datasets. See: [recount3], [Snaptron], [Megadepth], [Recount], [recount2], [recount3], [ASCOT], [Intropolis], [Monorail], [Rail-RNA], [Rail-dbGaP], [Myrna], [Crossbow], [Boiler].  See also our [cloud computing review](https://www.nature.com/articles/nrg.2017.113).
-* Making output from our software as interpretable and free of bias as possible.  See: [Qtip], [FORGe], [Reference Flow] and the related [LevioSAM] tool.
-
-See [Ben's Google Scholar Profile](https://scholar.google.com/citations?user=2JMaTKsAAAAJ&hl=en) for a full list of our publications.
 
 We are passionate about teaching, both in the classroom at online e.g. in our highly-rated [Algorithms for DNA Sequencing](https://www.coursera.org/learn/dna-sequencing) course on Coursera. We freely distribute teaching materials, including lecture videos, screencasts, lecture notes, and programming notebooks. These span subjects from programming in C/C++ to applied algorithms and data structures in computational biology. See the Teaching Materials page for links and details.
 
