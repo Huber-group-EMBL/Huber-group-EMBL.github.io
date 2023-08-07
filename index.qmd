@@ -1,22 +1,24 @@
-::: {layout="[70,30]" .profile-header layout-valign="bottom"}
-
 #  Welcome to the Huber group
 
-Our group at ...  studies methods for Computational Genomics.
+The Huber group develops statistical methods for modern biotechnologies, applies them to biological discovery, and translates them into reusable tools.
 
-![Huber group hike on 2023-05-31](photos/2023-05-31-2048x858.jpeg){.profile-pic fig-align="center"}
+<!---
+::: {.column-margin}
+[![Huber group hike on 2023-05-31](photos/2023-05-31-2048x858.jpeg)](photos/2023-05-31-2048x858.jpeg)
 :::
+--->
 
-Lorem Ipsum
+![Huber group hike on 2023-05-31](photos/2023-05-31-2048x858.jpeg){width=512 fig-align="center"}
 
-* Lorem Ipsum
-* Lorem Ipsum
-* Lorem Ipsum
+Our team studies biological systems by developing statistical and computational methods for the analysis of new data types and novel, large systematic datasets. These include single-cell and spatial omics, high-throughput drug- and CRISPR-based perturbation assays, and quantitative imaging. Projects range from applied data analysis for biological discovery to theoretical method development. We study fundamental biological model systems, as well as clinical samples for direct applications in biomedicine and precision oncology. We maintain an extensive network of collaborations. These include the Molecular Medicine Partnership Unit (MMPU) ‘Systems Medicine of Cancer Drugs’, the ERC Synergy project DECODE, the ELLIS unit Heidelberg, and the Bioconductor project.
+
+Our interdisciplinary team comprises researchers from quantitative disciplines – such as physics, mathematics, statistics, computer science – and different fields of biology and medicine. We employ statistics and machine learning to discover patterns in data, understand mechanisms, and to build and investigate models. We pursue three main aims:
+
+- Develop and improve new data generating technologies by powering them with the best statistical methods. This includes inference – reasoning with uncertainty, making optimal decisions based on incomplete, noisy or overwhelming data – as well as data exploration and visualization: helping scientists make and discoveries from large, complex datasets that they could not grasp otherwise.
+- Make biological discoveries on drug–gene–environment interaction networks and their dynamical and context-dependent outcome in phenotypes. This includes the use of high-throughput perturbation data, single-cell, spatial, multimodal omics, and imaging.
+- Make statistical methods more widely usable, not only for experts, but for the range of natural scientists. This aim is embodied by our engagement in open source, open science and the Bioconductor project.
 
 
-We are passionate about teaching, both in the classroom at online e.g. in our highly-rated [Algorithms for DNA Sequencing](https://www.coursera.org/learn/dna-sequencing) course on Coursera. We freely distribute teaching materials, including lecture videos, screencasts, lecture notes, and programming notebooks. These span subjects from programming in C/C++ to applied algorithms and data structures in computational biology. See the Teaching Materials page for links and details.
-
-The lab is located at [Johns Hopkins University](https://www.jhu.edu/) in the [Department of Computer Science](https://www.cs.jhu.edu/).
 
 {{< include _links.qmd >}}
 

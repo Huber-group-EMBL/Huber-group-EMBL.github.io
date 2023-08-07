@@ -2,66 +2,33 @@
 title: "Research"
 ---
 
-## Papers
+## Functional precision medicine
 
-For a complete and up-to-date publication list, so the [Google Scholar](https://scholar.google.com/citations?user=2JMaTKsAAAAJ&hl=en) profile.
+Omics and imaging technologies are producing increasingly detailed biology-based understanding of human health and disease. The next challenge is using this knowledge to engineer treatments and cures. To this end, we integrate observational data, such as from large-scale sequencing and molecular profiling, with interventional data, such as from systematic genetic or chemical screens, to reconstruct a fuller picture of the underlying causal relationships and actionable intervention points. A fascinating example is our collaboration on molecular mechanisms of individual sensitivity and resistance of tumors to treatments in our precision oncology project together with Thorsten Zenz at University Hospital Zürich and Sascha Dietrich at University Hospital Düsseldorf.
 
-## Software
+## Open science
 
-### Alignment
+As we engage with new data types, we aim to develop high-quality computational methods of wide applicability. We consider the release and maintenance of scientific software an integral part of doing science. We contribute to the Bioconductor project, an open source software collaboration to provide tools for the analysis and understanding of genome-scale data. An example is our DESeq2 package for analyzing count data from high-throughput sequencing.
 
-* [Bowtie] -- fast short read alignment
-* [Bowtie 2]  -- fast gapped read alignment for short reads
-* [Qtip] -- mapping quality predictions
-* [Samovar] -- somatic mosaic variant detection
-* [Vargas] -- heuristic-free read alignment
-* [Arioc] by Richard Wilton -- fast GPU-based alignment
-* [HISAT] by Daehwan Kim -- fast spliced alignment
+## Mentoring and career development
 
-### Pangenome Indexing and Alignment
+Science is an intellectual adventure and a creative process done by people. Their training and professional development is at the center of what we do. Former group members have moved on to rewarding careers: professors, independent group leaders, senior management or professional scientist roles in industry.
 
-* [FORGe] -- selecting variation to include in a pangenome
-* [Reference Flow] -- multi-genome alignment
-* [r-index] -- by Nicola Prezza with modifications by Taher Mun, pangenome index
-* [MONI] -- by Max Rossi, fast MEM finding with a pangenome index
-* [SPUMONI] -- fast classification with a pangenome index
-* [rowbowt] -- efficient pangenome genotyping
-* [LevioSAM] -- lift-over for pangenome alignment
-* [LevioSAM 2] -- pangenome alignment across structurally distinct assemblies
+## Teaching
 
-### Genomic Sketching
+We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes and Wolfgang Huber. The book is available online, for free, as HTML. It was published as a printed book in 2019 by Cambridge University Press.
 
-* [Dashing] -- genomic sketching with HyperLogLog
-* [Dashing 2] -- genomic sketching with SetSketch
-* [DandD] -- k-independent measurement of sequence content & similarity
+We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. Here is the webpage of the 2023 edition.
 
-### Large-scale Reanalysis
+In July 2023, we co-organized the first Biological Data Science Summer School in Ukraine, in Uzhhorod.
 
-* [recount3] -- vast compendium of analyzed, summarized RNA-seq experiments
-* [Snaptron] -- queryable index over recount
-* [ASCOT] by Jonathan Ling -- catalog of cell type specific splicing
-* [FC-R2] by Eddie Imada & Diego Fernando Sanchez -- recount data analyzed with FANTOM annotations
-* [REPAC] by Eddie Imada -- catalog of alternate polyadenylation
-* (superseded) [Rail-dbGaP]
-* (superseded) [recount2]
-* (superseded) [recount]
-* (superseded) [Intropolis]
-* (superseded) [Myrna]
-* (superseded) [Crossbow]
+## Future projects and goals
 
-### RNA-seq analysis
+We aim to exploit new data types and new types of experiments and studies by developing the computational techniques needed to turn raw data into biology.
 
-* [Monorail] -- reproducible recount3 analysis pipeline
-* [Megadepth] -- RNA-seq coverage analysis
-* [Polyester] by Alyssa Frazee -- RNA-seq read simulator
-* [Boiler] -- compression of RNA-seq alignments
-* (superseded) [Rail-RNA]
-
-### Other
-
-* [Samovar] -- somatic mosaic variant detection
-* [Lighter] by Li Song -- short read error correction
-* [minicore] -- fast k-means clustering
-* [Bsmooth] -- bisulfity sequencing data analysis
+- Multi-scale biology in space and time: bringing together different data types and resolutions to find low-dimensional explanations (factors, gradients, clusters, trees and networks) of high-dimensional data, using statistical models, first-principles based theory and machine learning.
+- Driving the use of spatial omics in immunooncology to find and improve treatment options for patients.
+- Multidimensional phenotyping of genetic and drug-based perturbation assays to map context-dependent gene-gene and gene-drug interaction networks.
+- Many powerful mathematical and computational ideas exist but are difficult to access. We aim to translate them into practical methods and software that make a real difference to biomedical researchers. We sometimes term this approach ‘Translational Statistics’.
 
 {{< include _links.qmd >}}

@@ -1,46 +1,12 @@
-[Bowtie]: http://bowtie-bio.sourceforge.net/
-[Bowtie 2]: http://bowtie-bio.sourceforge.net/bowtie2
-
-[Kraken 2]: https://github.com/DerrickWood/kraken2/wiki
-
-[Reference Flow]: https://github.com/langmead-lab/reference_flow
-[LevioSAM]: https://github.com/alshai/levioSAM
-[LevioSAM 2]: https://github.com/milkschen/leviosam2
-
-[Dashing]: https://github.com/dnbaker/dashing
-[Dashing 2]: https://github.com/dnbaker/dashing2
-[DandD]: https://github.com/jessicabonnie/dandd
-
-[r-index]: https://github.com/alshai/r-index
-[MONI]: https://github.com/maxrossi91/moni
-[SPUMONI]: https://github.com/oma219/spumoni "SPUMONI 1&2"
-
-[Vargas]: https://github.com/langmead-lab/vargas
-
-[Lighter]: https://github.com/mourisl/Lighter
-[Samovar]: https://github.com/cdarby/samovar
-[Arioc]: https://github.com/RWilton/Arioc
-[HISAT]: https://github.com/DaehwanKimLab/hisat
-[Megadepth]: https://github.com/ChristopherWilks/megadepth
-
-[Qtip]: https://github.com/BenLangmead/qtip
-[FORGe]: https://github.com/langmead-lab/FORGe
-
-[Recount]: https://bowtie-bio.sourceforge.net/recount/
-[recount2]: https://jhubiostatistics.shinyapps.io/recount/
-[recount3]: https://rna.recount.bio/
-[ASCOT]: http://ascot.cs.jhu.edu/
-[Intropolis]: https://github.com/nellore/intropolis
-[Monorail]: https://github.com/langmead-lab/monorail-external
-[Rail-RNA]: https://github.com/nellore/rail
-[Rail-dbGaP]: https://github.com/nellore/rail-dbgap
-[Myrna]: https://bowtie-bio.sourceforge.net/myrna/index.shtml
-[Crossbow]: https://bowtie-bio.sourceforge.net/crossbow/index.shtml
-[Boiler]: https://github.com/jpritt/boiler
-[Snaptron]: https://snaptron.cs.jhu.edu/
-[minicore]: https://github.com/dnbaker/minicore
-[REPAC]: https://github.com/eddieimada/REPAC
-[rowbowt]: https://github.com/alshai/rowbowt
-[Polyester]: https://bioconductor.org/packages/release/bioc/html/polyester.html
-[Bsmooth]: https://bioconductor.org/packages/release/bioc/html/bsseq.html
-[FC-R2]: http://marchionnilab.org/fcr2.html
+[LEMUR]: https://github.com/const-ae/lemur
+[MOFA]: https://biofam.github.io/MOFA2
+[DESeq2]: https://bioconductor.org/packages/DESeq2
+[IHW]: https://bioconductor.org/packages/IHW
+[EBImage]: https://bioconductor.org/packages/EBImage
+[Rarr]: https://bioconductor.org/packages/Rarr
+[rhdf5]: https://bioconductor.org/packages/rhdf5
+[vsn]: https://bioconductor.org/packages/vsn
+[cellHTS2]: http://www.bioconductor.org/packages/cellHTS2
+[DEXSeq]: http://bioconductor.org/packages/DEXSeq
+[HilbertVis]: https://bioconductor.org/packages/HilbertVis
+[HTSeq]: https://htseq.readthedocs.io/en/latest 
