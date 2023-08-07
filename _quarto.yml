@@ -15,9 +15,13 @@ website:
 
 format:
   html:
-    theme: lux
+    theme: zephyr
     css: styles.css
     toc: true
+    grid:
+      sidebar-width: 150px
+      body-width: 600px
+      margin-width: 400px
 
 execute:
   freeze: auto

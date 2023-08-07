@@ -7,6 +7,10 @@ We are continually inviting applications for postdoc, PhD and internship positio
 -   Method development in statistical methodology and computing in biological research
 -   Biological discovery through integrative data analysis
 
+::: {.column-margin}
+[![](photos/DSC9178-2048x1401.jpeg)](photos/DSC9178-2048x1401.jpeg)
+:::
+
 For Track 1, you will have strong quantitative and analytical skills, such as acquired through a degree in mathematics, statistics, physics, computer science or a related field. You have curiosity and motivation to work in interdisciplinary projects, which include generation of new data and their analysis, and are eager to get to grips with relevant areas of biology and the technologies used in biology research. You have experience in scientific computing and are familiar with one or several computer languages. Familiarity with R is definitively a plus.
 
 For Track 2, you will have a training in life sciences and strong coding skills that enable you to undertake complex data transformations, integrative operations, applications of mathematical models and visualizations. You are driven by making fundamental discoveries by mining cutting-edge, large data sets.
@@ -30,4 +34,4 @@ The following collaborations provide exciting opportunities to pursue interdisci
 - **Nikos Ignatiadis**, Chicago: statistical methodology
 - **The Bioconductor Community**
 
-![](photos/DSC9178-2048x1401.jpeg){width=512 fig-align="center"}
+

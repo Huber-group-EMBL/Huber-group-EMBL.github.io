@@ -8,7 +8,7 @@ Omics and imaging technologies are producing increasingly detailed biology-based
 
 ## Open science
 
-As we engage with new data types, we aim to develop high-quality computational methods of wide applicability. We consider the release and maintenance of scientific software an integral part of doing science. We contribute to the Bioconductor project, an open source software collaboration to provide tools for the analysis and understanding of genome-scale data. An example is our DESeq2 package for analyzing count data from high-throughput sequencing.
+As we engage with new data types, we aim to develop high-quality computational methods of wide applicability. We consider the release and maintenance of scientific software an integral part of doing science. We contribute to the [Bioconductor] project, an open source software collaboration to provide tools for the analysis and understanding of genome-scale data. An example is our [DESeq2] package for analyzing count data from high-throughput sequencing.
 
 ## Mentoring and career development
 
@@ -16,11 +16,11 @@ Science is an intellectual adventure and a creative process done by people. Thei
 
 ## Teaching
 
-We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes and Wolfgang Huber. The book is available online, for free, as HTML. It was published as a printed book in 2019 by Cambridge University Press.
+We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes and Wolfgang Huber. The book is available [online, for free, as HTML](https://www.huber.embl.de/msmb). It was published as a [printed book in 2019 by Cambridge University Press](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).
 
-We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. Here is the webpage of the 2023 edition.
+We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2023 edition](https://csama2023.bioconductor.eu).
 
-In July 2023, we co-organized the first Biological Data Science Summer School in Ukraine, in Uzhhorod.
+In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org).
 
 ## Future projects and goals
 
