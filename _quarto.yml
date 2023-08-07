@@ -1,6 +1,7 @@
 project:
   type: website
-
+  output-dir: _site
+  
 website:
   title: "Huber Group @ EMBL"
   navbar:
