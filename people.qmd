@@ -4,30 +4,20 @@ title: "People"
 
 ## Current members
 
-| Name/Role | Links |
-| ----------------------- | -------------- |
-| **Ben Langmead** <br /> Principal Investigator  | [GitHub](https://github.com/BenLangmead), [Scholar](https://scholar.google.com/citations?user=2JMaTKsAAAAJ&hl=en), [Talks](https://speakerdeck.com/benlangmead/), [Twitter](https://twitter.com/BenLangmead), [LinkedIn](https://www.linkedin.com/in/benjaminlangmead/) |
-| **Rone Charles** <br /> Software Engineer | [GitHub](https://github.com/ch4rr0) |
-| **Mohsen Zakeri** <br /> Postdoctoral Fellow        | [GitHub](https://github.com/mohsenzakeri/), [Scholar](https://scholar.google.com/citations?user=7I-mNqcAAAAJ&hl=en&oi=ao), [Twitter](https://twitter.com/MohsenZakeri1), [LinkedIn](https://www.linkedin.com/in/mohsen-zakeri-56017576/) |
-| **Anna Liebhoff** <br /> Postdoctoral Fellow, <br /> co-mentored with [Ben Larman](https://labs.pathology.jhu.edu/larman/) | [GitHub](https://github.com/kepsi), [Scholar](https://scholar.google.com/citations?user=eC2T-zsAAAAJ&hl=en&oi=ao), [Twitter](https://twitter.com/DrAnnaLieb) |
-| **Jessica Bonnie** <br /> Ph.D. Student              | [GitHub](https://github.com/jessicabonnie/), [Scholar](https://scholar.google.com/citations?user=mTTrb6MAAAAJ&hl=en&oi=ao), [LinkedIn](https://www.linkedin.com/in/jessicabonnie/) |
-| **Omar Ahmed** <br /> Ph.D. Student              | [GitHub](https://github.com/oma219/), [Scholar](https://scholar.google.com/citations?user=lO2wRlYAAAAJ&hl=en&oi=ao), [Twitter](https://twitter.com/oyfahmed), [LinkedIn](https://www.linkedin.com/in/omar-ahmed-6a0226106/) |
-| **Naga Sai Kavya Vaddadi** <br /> Ph.D. Student              | [GitHub](https://github.com/kvaddad1), [Scholar](https://scholar.google.com/citations?user=gcUPxzwAAAAJ&hl=en&oi=ao) |
-| **Mao-Jan Lin** <br /> Ph.D. Student              | [GitHub](https://github.com/maojanlin), [Scholar](https://scholar.google.com/citations?user=L_EVYB8AAAAJ&hl=en&oi=ao), [Twitter](https://twitter.com/MaoJanLin) |
-| **Vikram Shivakumar** <br /> Ph.D. Student              | [GitHub](https://github.com/vshiv18), [Scholar](https://scholar.google.com/citations?user=CsJK2y4AAAAJ&hl=en&oi=ao) |
-| **Stephen Hwang** <br /> Ph.D. Student              | [GitHub](https://github.com/StephenHwang), [LinkedIn](https://www.linkedin.com/in/hwangjstephen/) |
+<!-- using readLines R code below since {{< include file >}} did not work for me when I tried -->
+```{r}
+#| label: inc
+#| echo : FALSE
+inc = function(x) paste(readLines(file.path("people", x)), collapse = " ")
+```
+|      |           |
+| ---- | --------- |
+|![](people/wolfgang-huber-400x400.jpg){width="100%"} | **Wolfgang Huber** `r inc("_wolfgang-huber-short.md")` |
+
 
 ## Alumni
 
 | Name/Training | Currently |
 | ---- | --------- |
-| **Nae-Chyun Chen** <br /> Ph.D.  | Software engineer, Comp. Genomics <br /> Exai Bio |
-| **Taher Mun** <br /> Ph.D. | Bioinformatics Scientist <br /> Illumina |
-| **Daniel Baker** <br /> Ph.D. | Senior Scientist <br /> Pacific BioSciences |
-| **Dominik Kempa** <br /> Postdoctoral Fellow | Assistant Professor <br /> Stony Brook U. CS |
-| **Christopher Wilks** <br /> Ph.D. | Computational Scientist <br /> Neumora |
-| **Charlotte Darby** <br /> Ph.D. <br /> co-mentored with [Mike Schatz](https://schatz-lab.org/) | Computational Biologist <br /> Takeda Pharmaceuticals |
-| **Brad Solomon** <br /> Postdoctoral Fellow | Teaching Assistant Professor <br /> UIUC CS |
-| **Jacob Pritt** <br /> Ph.D. | Junior Bio-Computational Scientist <br /> Mimetics |
-| **Abhinav Nellore** <br /> Postdoctoral Fellow | Assistant Professor <br /> Oregon Health & Science University |
-| **Derrick Wood** <br /> Postdoctoral Fellow | Bioinformatics Scientist and Software Developer |
+| **NN** <br /> Ph.D. | Molecular Systems Biology <br /> Novartis |
+| **NN** <br /> Ph.D. | Bioinformatics <br /> Genenetech|
