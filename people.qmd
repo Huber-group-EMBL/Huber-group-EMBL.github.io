@@ -2,6 +2,9 @@
 title: "People"
 ---
 
+## <font color="red">Work in progess</font>
+Aim: A grid of small tile with portrait, name, and short info for each person, plus link to a full page for those who want to have one.
+
 ## Current members
 
 <!-- using readLines R code below since {{< include file >}} did not work for me when I tried -->

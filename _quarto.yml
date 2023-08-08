@@ -5,6 +5,7 @@ project:
 website:
   title: "Huber Group @ EMBL"
   navbar:
+    search: true
     left:
       - href: index.qmd
         text: Home
@@ -12,6 +13,7 @@ website:
       - pub.qmd
       - people.qmd
       - workwithus.qmd
+      - posts.qmd
       - contact.qmd
 
 format:

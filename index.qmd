@@ -20,7 +20,7 @@ Our interdisciplinary team comprises researchers from quantitative disciplines �
 
 - Develop and improve new data generating technologies by powering them with the best statistical methods. This includes inference – reasoning with uncertainty, making optimal decisions based on incomplete, noisy or overwhelming data – as well as data exploration and visualization: helping scientists make and discoveries from large, complex datasets that they could not grasp otherwise.
 - Make biological discoveries on drug–gene–environment interaction networks and their dynamical and context-dependent outcome in phenotypes. This includes the use of high-throughput perturbation data, single-cell, spatial, multimodal omics, and imaging.
-- Make statistical methods more widely usable, not only for experts, but for the range of natural scientists. This aim is embodied by our engagement in open source, open science and the Bioconductor project.
+- Make statistical methods more widely usable, not only for experts, but for the range of natural scientists. This aim is embodied by our engagement in open source, open science and the [Bioconductor] project.
 
 {{< include _links.qmd >}}
 
