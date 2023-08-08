@@ -18,6 +18,7 @@ website:
 
 format:
   html:
+    page-layout: full
     theme: zephyr
     css: styles.css
     toc: true
