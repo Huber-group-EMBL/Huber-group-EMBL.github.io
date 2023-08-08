@@ -1,9 +1,8 @@
 ---
-title: "My Post"
-description: "Post description"
-author: "Fizz McPhee"
-date: "5/22/2021"
-draft: true
+title: "Biological Data Science Summer School in Ukraine"
+description: "Uzhhorod, 2-14 July 2023. Some notes and conclusions"
+author: "Wolfgang Huber"
+date: "2023-08-08"
 ---
 
 From 2-14 July 2023, [we](https://bds3.org/our-team) organized a [summer school in Ukraine for university students on biological data science](https://bds3.org). Here’s some takeaways:
@@ -31,14 +30,14 @@ Related press releases:
 - From UZHNU: <https://www.uzhnu.edu.ua/uk/news/biological-data-science-summer-school.htm>
 - From OIST: <https://www.oist.jp/news-center/news/2023/8/3/oist-researchers-help-organize-data-science-summer-school-ukraine>
 
-![The BDS$^\textrm{3}$ class of 2023](photos/2023-07-13-bds3-class.jpg)
+![The BDS$^\textrm{3}$ class of 2023](../photos/2023-07-13-bds3-class.jpg)
 
-![Computational biology is fun](photos/2023-07-11-classroom.jpg)
+![Computational biology is fun](../photos/2023-07-11-classroom.jpg)
 
-![Robert Gentleman on linear regression](photos/2023-07-10-Robert.jpg)      
+![Robert Gentleman on linear regression](../photos/2023-07-10-Robert.jpg)      
 
-![Faculty and students chilling in a cocktail bar along the riverside](photos/2023-07-11-cocktailbar.jpg)
+![Faculty and students chilling in a cocktail bar along the riverside](../photos/2023-07-11-cocktailbar.jpg)
 
-![Discussing latest developments in bioinformatics over a drink in the pub](photos/2023-07-13-pub.jpg)
+![Discussing latest developments in bioinformatics over a drink in the pub](../photos/2023-07-13-pub.jpg)
 
-![Staff from Uzhhorod National University](photos/2023-07-02-UzhNU-staff.jpg)
+![Staff from Uzhhorod National University](../photos/2023-07-02-UzhNU-staff.jpg)

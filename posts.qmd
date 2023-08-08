@@ -1,19 +1,13 @@
 ---
 title: "Posts"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
 
-## <font color="red">Work in progess</font>
-Follow <https://quarto.org/docs/websites/website-blog>?
-In any case, need better layout.
-
-## Eclectic writing tips (2023-07-31)
-::: {.callout-tip collapse="true"}
-{{< include posts/writingtips.md >}}
-:::
-
-## Biological Data Science Summer School in Ukraine (Uzhhorod), 2-14 July 2023
-::: {.callout-tip collapse="true"}
-{{< include posts/2023-08-onbds3.md >}}
-:::
-
-{{< include _links.qmd >}}
