@@ -21,10 +21,12 @@ inc = function(x) paste(readLines(file.path("people", x)), collapse = " ")
 |![](people/placeholder.png){width="100%"} | **Klemens Tuemay Capraz** PhD candidate |
 |![](people/placeholder.png){width="100%"} | **Erin Chung**  PhD candidate |
 |![](people/placeholder.png){width="100%"} | **Donnacha Fitzgerald** PhD candidate  |
+|![](people/placeholder.png){width="100%"} | **Anastasiia Horlova** PhD candidate  |
 |![](people/wolfgang-huber-400x400.jpg){width="100%"} | **Wolfgang Huber** `r inc("_wolfgang-huber-short.md")` |
 |![](people/placeholder.png){width="100%"} | **Sarah Kaspar**  Consultant Statistics / Data Science|
 |![](people/placeholder.png){width="100%"} | **Matthias Meyer-Bender** PhD candidate |
 |![](people/placeholder.png){width="100%"} | **Thomas Naake** Postdoctoral researcher |
+|![](people/placeholder.png){width="100%"} | **Stefan Peidli** Postdoctoral researcher |
 |![](people/placeholder.png){width="100%"} | **Julia Philipp** Data Manager / Data Scientist|
 |![](people/placeholder.png){width="100%"} | **Petr Smirnov**  Postdoctoral researcher|
 
