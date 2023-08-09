@@ -13,7 +13,16 @@ We are continually inviting applications for postdoc, PhD and internship positio
 
 For Track 1, you will have strong quantitative and analytical skills, such as acquired through a degree in mathematics, statistics, physics, computer science or a related field. You have curiosity and motivation to work in interdisciplinary projects, which include generation of new data and their analysis, and are eager to get to grips with relevant areas of biology and the technologies used in biology research. You have experience in scientific computing and are familiar with one or several computer languages. Familiarity with R is definitively a plus.
 
+::: {.column-margin}
+[![](photos/2021-10-21-retreathike.jpg)](photos/2021-10-21-retreathike.jpg)
+:::
+
 For Track 2, you will have a training in life sciences and strong coding skills that enable you to undertake complex data transformations, integrative operations, applications of mathematical models and visualizations. You are driven by making fundamental discoveries by mining cutting-edge, large data sets.
+
+::: {.column-margin}
+[![](photos/2022-03-11-dinner.jpg)](photos/2022-03-11-dinner.jpg)
+:::
+
 
 To apply, please contact Wolfgang Huber with your CV, a brief statement of research interests, and examples of your work: besides your publications, this can include theses, research reports, talk slides, software projects (e.g. R packages, github projects) or data analysis reports (e.g. markdown reports or Jupyter notebooks).
 
