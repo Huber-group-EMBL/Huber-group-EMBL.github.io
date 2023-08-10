@@ -3,12 +3,12 @@ title: "Matthias Meyer-Bender"
 description: "PhD candidate"
 ---
 
-![@NAME](placeholder.png){width=500 fig-align="center"}
+![Matthias Meyer-Bender](placeholder.png){width=500 fig-align="center"}
 
-Au commencement, Dieu créa les cieux et la terre.
+ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν
 
-La terre était informe et vide: il y avait des ténèbres à la surface de l'abîme, et l'esprit de Dieu se mouvait au-dessus des eaux.
+ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος
 
-Dieu dit: Que la lumière soit! Et la lumière fut.
+καὶ εἶπεν ὁ θεός γενηθήτω φῶς καὶ ἐγένετο φῶς
 
-Dieu vit que la lumière était bonne; et Dieu sépara la lumière d'avec les ténèbres.
+καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους

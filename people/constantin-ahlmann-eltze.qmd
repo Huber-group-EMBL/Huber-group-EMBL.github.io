@@ -3,12 +3,6 @@ title: "Constantin Ahlmann-Eltze"
 description: "PhD candidate"
 ---
 
-![@NAME](placeholder.png){width=500 fig-align="center"}
+![Constantin Ahlmann-Eltze](ahlmann-eltze_constantin.jpg){width=500 fig-align="center"}
 
-Au commencement, Dieu créa les cieux et la terre.
-
-La terre était informe et vide: il y avait des ténèbres à la surface de l'abîme, et l'esprit de Dieu se mouvait au-dessus des eaux.
-
-Dieu dit: Que la lumière soit! Et la lumière fut.
-
-Dieu vit que la lumière était bonne; et Dieu sépara la lumière d'avec les ténèbres.
+Constantin develops statistical methods for the analysis of high-throughput biological data. He studied molecular biotechnology and is currently finishing his PhD, where he compared preprocessing tools for single-cell data and has developed a new tool to predict the differential expression patterns of multi-condition single-cell data. He maintains ten R packages for scientific applications, for which he was recently awarded the Bioconductor Award. In his free time, he enjoys cycling, bouldering, and traveling.

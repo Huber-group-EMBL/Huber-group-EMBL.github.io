@@ -3,12 +3,8 @@ title: "Hosna Baniadam"
 description: "PhD candidate"
 ---
 
-![@NAME](placeholder.png){width=500 fig-align="center"}
+![Hosna Baniadam](hosna_baniadam-460x460.jpg){width=500 fig-align="center"}
 
-Au commencement, Dieu créa les cieux et la terre.
+Hosna is a PhD student interested in using statistical methodology to understand and improve heterogeneous therapy response in haemato-oncology. She specialises in analysing high-dimensional cytometry and single-cell RNA-seq data from B-cell non-Hodgkin lymphoma. 
 
-La terre était informe et vide: il y avait des ténèbres à la surface de l'abîme, et l'esprit de Dieu se mouvait au-dessus des eaux.
-
-Dieu dit: Que la lumière soit! Et la lumière fut.
-
-Dieu vit que la lumière était bonne; et Dieu sépara la lumière d'avec les ténèbres.
+Hosna holds an MSc in bioinformatics from Université Paris-Saclay and is affiliated with Strasbourg medical school MD-PhD programme. She is passionate about transversal research and hopes to contribute to the improvement of treatments for blood cancers using knowledge from medicine, statistics and immunology. Outside the lab, she enjoys playing squash, reading about history, art and philosophy and learning new languages. 
