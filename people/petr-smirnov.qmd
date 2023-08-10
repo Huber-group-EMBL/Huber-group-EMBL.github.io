@@ -1,0 +1,14 @@
+---
+title: "Petr Smirnov"
+description: "Postdoctoral researcher"
+---
+
+![@NAME](placeholder.png){width=500 fig-align="center"}
+
+Au commencement, Dieu créa les cieux et la terre.
+
+La terre était informe et vide: il y avait des ténèbres à la surface de l'abîme, et l'esprit de Dieu se mouvait au-dessus des eaux.
+
+Dieu dit: Que la lumière soit! Et la lumière fut.
+
+Dieu vit que la lumière était bonne; et Dieu sépara la lumière d'avec les ténèbres.
