@@ -6,6 +6,29 @@ title: "Research"
 
 Omics and imaging technologies are producing increasingly detailed biology-based understanding of human health and disease. The next challenge is using this knowledge to engineer treatments and cures. To this end, we integrate observational data, such as from large-scale sequencing and molecular profiling, with interventional data, such as from systematic genetic or chemical screens, to reconstruct a fuller picture of the underlying causal relationships and actionable intervention points. A fascinating example is our collaboration on molecular mechanisms of individual sensitivity and resistance of tumors to treatments in our precision oncology project together with Thorsten Zenz at University Hospital Zürich and Sascha Dietrich at University Hospital Düsseldorf.
 
+## 
+
+::: {.column-margin}
+![Modern Statistics for Modern Biology textbook, with Susan Holmes: [online version](https://www.huber.embl.de/msmb). There is also a [print version published by CUP](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).](photos/MSFMB-Cover2-compressed.jpg){width=240 fig-align="center"}
+:::
+
+::: {.column-margin}
+![Cellular neighborhood analysis of healthy and malignant lymph nodes based on single-cell resolution spatial proteomics by multiplexed immunohistochemistry.](photos/cellularneighborhoods.png){width=240 fig-align="center"}
+:::
+
+::: {.column-margin}
+![Cluster-free differential expression analysis of sc-RNA-seq data using LEMUR. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/clusterfreeDE-2048x1649.png){width=240 fig-align="center"}
+:::
+
+::: {.column-margin}
+![Comparison of transformations for single-cell RNA-seq data. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/Transformations-Fig1c.png)
+:::
+
+::: {.column-margin}
+![Ternary plots of relative sensitivities to targeted kinase inhibitors for a cohort of primary tumour samples of chronic lymphocytic leukaemia (CLL). [Paper link](https://doi.org/10.1172/JCI93801).](photos/JCI2018-fig_02_l.jpg)
+:::
+
+
 ## Open science
 
 As we engage with new data types, we aim to develop high-quality computational methods of wide applicability. We consider the release and maintenance of scientific software an integral part of doing science. We contribute to the [Bioconductor] project, an open source software collaboration to provide tools for the analysis and understanding of genome-scale data. An example is our [DESeq2] package for analyzing count data from high-throughput sequencing.
@@ -30,5 +53,7 @@ We aim to exploit new data types and new types of experiments and studies by dev
 - Driving the use of spatial omics in immunooncology to find and improve treatment options for patients.
 - Multidimensional phenotyping of genetic and drug-based perturbation assays to map context-dependent gene-gene and gene-drug interaction networks.
 - Many powerful mathematical and computational ideas exist but are difficult to access. We aim to translate them into practical methods and software that make a real difference to biomedical researchers. We sometimes term this approach ‘Translational Statistics’.
+
+
 
 {{< include _links.qmd >}}
