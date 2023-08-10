@@ -1,0 +1,3 @@
+Hosna is a PhD student interested in using statistical methodology to understand and improve heterogeneous therapy response in haemato-oncology. She specialises in analysing high-dimensional cytometry and single-cell RNA-seq data from B-cell non-Hodgkin lymphoma. 
+
+Hosna holds an MSc in bioinformatics from Université Paris-Saclay and is affiliated with Strasbourg medical school MD-PhD programme. She is passionate about transversal research and hopes to contribute to the improvement of treatments for blood cancers using knowledge from medicine, statistics and immunology. Outside the lab, she enjoys playing squash, reading about history, art and philosophy and learning new languages. 
