@@ -3,9 +3,12 @@ title: "Wolfgang Huber"
 description: "Group leader"
 ---
 
-![Wolfgang Huber](wolfgang-huber-1000x700.jpg){width=500 fig-align="center"}
+![](wolfgang-huber-1000x700.jpg){width=500 fig-align="center"}
 
-[Google Scholar](https://scholar.google.com/citations?user=gI8o6x8AAAAJ&hl=en)
+>Google Scholar  [gI8o6x8AAAAJ](https://scholar.google.com/citations?user=gI8o6x8AAAAJ&hl=en) \
+>Twitter         [@wolfgangkhuber](https://twitter.com/wolfgangkhuber) \
+>Bluesky         [@wkhuber.bsky.social](https://bsky.app/profile/wkhuber.bsky.social) \
+>Mastodon        [@whuber@mastodon.social ](https://mastodon.social/@whuber) \
 
 Wolfgang enjoys exploring new datasets, developing statisticals method, and discovering new biologcal insights.
 Trained in theoretical physics, he now considers himself a statistician. He is happy to work with a brilliant team of master students, PhD candidates, postdocs and staff scientists, with outstanding colleagues at EMBL and with an international network of collaborators. When he is not working on science, he likes to spend time with his two sons, or biking up the hills around Heidelberg and elsewhere.
