@@ -1,5 +1,5 @@
 ---
-title: "Klemens Tuemay Capraz"
+title: "Klemens Tümay Capraz"
 description: "PhD candidate"
 ---
 
