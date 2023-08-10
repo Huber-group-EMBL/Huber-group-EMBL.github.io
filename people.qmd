@@ -3,7 +3,17 @@ title: "People"
 ---
 
 ## <font color="red">Work in progess</font>
-Aim: A grid of small tile with portrait, name, and short info for each person, plus link to a full page for those who want to have one. Use posts / blog functionality?
+Aim: A grid of small tile with portrait, name, and short info for each person, plus link to a full page for those who want to have one. 
+
+Use posts / blog functionality?
+See <https://quarto.org/docs/websites/website-listings>
+`
+listing:
+  contents: posts
+  type: grid
+  sort: "title asc"
+  date-format https://quarto.org/docs/reference/dates
+`
 
 ## Current members
 
