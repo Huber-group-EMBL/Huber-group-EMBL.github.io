@@ -6,6 +6,7 @@ description: "Group leader"
 ![](wolfgang-huber-1000x700.jpg){width=500 fig-align="center"}
 
 >Google Scholar  [gI8o6x8AAAAJ](https://scholar.google.com/citations?user=gI8o6x8AAAAJ&hl=en) \
+>GitHub          [wolfganghuber](https://github.com/wolfganghuber) \
 >Twitter         [@wolfgangkhuber](https://twitter.com/wolfgangkhuber) \
 >Bluesky         [@wkhuber.bsky.social](https://bsky.app/profile/wkhuber.bsky.social) \
 >Mastodon        [@whuber@mastodon.social ](https://mastodon.social/@whuber) \
