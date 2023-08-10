@@ -24,8 +24,8 @@ format:
     toc: true
     grid:
       sidebar-width: 150px
-      body-width: 600px
-      margin-width: 400px
+      body-width: 750px
+      margin-width: 300px
 
 execute:
   freeze: auto
