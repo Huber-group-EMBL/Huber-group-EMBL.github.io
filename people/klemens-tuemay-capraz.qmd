@@ -1,9 +1,9 @@
 ---
-title: "Klemens Tuemay Capraz"
+title: "Klemens Tümay Capraz"
 description: "PhD candidate"
 ---
 
-![Klemens Tuemay Capraz](placeholder.jpg){width=500 fig-align="center"}
+![Klemens Tümay Capraz](placeholder.jpg){width=500 fig-align="center"}
 
 ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν
 
