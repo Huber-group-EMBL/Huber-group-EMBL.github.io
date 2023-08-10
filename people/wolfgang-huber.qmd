@@ -30,3 +30,8 @@ In 2009, he joined the new Genome Biology unit at EMBL Heidelberg.
 With Susan Holmes, he co-wrote the textbook [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb).
 
 Wolfgang is interested in open source software community building, and engages in courses, workshops and consortia that help drive these. He is also deeply committed to cross-disciplinary scientific training: teaching biologists and medical researchers in statistics, computation and AI, and teaching computational scientists in biological applications and data generating technologies. 
+
+![](../photos/Marmolada.jpg){fig-align="center" width="75%"}
+
+![](../photos/Forcella-Ambrizzola.jpg){fig-align="center" width="75%"}
+
