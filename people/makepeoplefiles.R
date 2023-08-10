@@ -1,7 +1,5 @@
 
 people = read.csv(textConnection("
-Constantin Ahlmann-Eltze,PhD candidate
-Hosna Baniadam,PhD candidate
 Simone Bell,Senior Project Manager
 Klemens Tuemay Capraz,PhD candidate
 Erin Chung,PhD candidate
@@ -18,8 +16,9 @@ colnames(people) = c("name", "fun")
   
 for(i in seq_len(nrow(people)))
   Biobase::copySubstitute(
-    src = "person-template.qmd", 
+    src = "_person-template.qmd", 
     dest = paste0(gsub(" ", "-", tolower(people$name[i])), ".qmd"),
     symbolValues = list(NAME = people$name[i], 
-                        FUNCTION = people$fun[i])
+                        FUNCTION = people$fun[i],
+                        IMG = c("placeholder.jpg", "placeholder.png")[i%%2+1])
   )
