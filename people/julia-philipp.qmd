@@ -3,12 +3,6 @@ title: "Julia Philipp"
 description: "Data Manager / Data Scientist"
 ---
 
-![Julia Philipp](placeholder.jpg){width=500 fig-align="center"}
+![](julia-philipp.jpg){width=500 fig-align="center"}
 
-ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν
-
-ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος
-
-καὶ εἶπεν ὁ θεός γενηθήτω φῶς καὶ ἐγένετο φῶς
-
-καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους
+Julia maintains the data management infrastructure and analyses omics datasets for the DECODE project and coordinates the training efforts for [GHGA](https://ghga.de). She holds a PhD in Molecular, Cell, and Developmental Biology from the University of California, Santa Cruz, where she investigated post-transcriptional gene regulation in primates. In her free time, she enjoys running, hiking, and fiber crafts.
