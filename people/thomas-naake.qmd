@@ -3,12 +3,19 @@ title: "Thomas Naake"
 description: "Postdoctoral researcher"
 ---
 
-![Thomas Naake](placeholder.jpg){width=500 fig-align="center"}
+![Thomas Naake](thomas-naake-1852x2286.jpg){width=500 fig-align="center"}
+>[Personal webpage](https://tnaake.github.io) \
+>GitHub          [tnaake](https://github.com/tnaake) \
+>Twitter         [@thomasnaake](https://twitter.com/thomasnaake) \
 
-ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν
+Thomas is a Postdoctoral Fellow who employs statistical methods to unravel
+the intricacies of cancer biology. His primary focus is to enhance predictions
+of cancer recurrence across diverse cancer types using
+metabolomics and proteomics data sets. He is also developing novel tools
+that increase the robustness and interpretability of these data types.
 
-ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος
-
-καὶ εἶπεν ὁ θεός γενηθήτω φῶς καὶ ἐγένετο φῶς
-
-καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους
+Prior to joining the group in November 2020, he did his PhD in Biochemistry at the 
+Max Planck Institute of Molecular Plant Physiology in Potsdam. Thomas holds
+an M.Sc. in Molecular Biotechnology from the University of Heidelberg and a 
+B.Sc. in Environmental Natural Sciences from the University of Freiburg. 
+In his free time, he enjoys traveling, doing sports, and learning new languages.
