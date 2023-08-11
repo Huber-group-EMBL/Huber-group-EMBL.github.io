@@ -1,6 +1,6 @@
 ---
-title: "Building a group webpage with quarto"
-description: ""
+title: "quarto rocks"
+description: "Building a group webpage with quarto"
 author: "Wolfgang Huber"
 date: "2023-07-30"
 ---
@@ -9,7 +9,7 @@ This webpage was built with [quarto](https://quarto.org/).
 I used the [RStudio IDE](https://posit.co/download/rstudio-desktop/) as an editor (but that is secondary).
 I really enjoyed the experience:
 
- - everything is based on simple markdown and YAML files, extensible at will through using R/Python snippets.
+ - everything is based on simple markdown and YAML files, extensible at will through R or Python snippets.
  - rapid development
  - the resulting website is static HTML that can be deployed anywhere.
  
