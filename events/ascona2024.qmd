@@ -1,0 +1,60 @@
+---
+title: "Ascona Workshop 2024"
+format:
+  html:
+    toc: false
+---
+
+![](../photos/ascona_22.png){fig-align="center" width=80%}
+
+
+### Spatial and temporal statistical modeling in molecular biology
+
+#### Scope
+Living systems operate in space and time, and recent developments in technologies, including spatial omics of tissues and organs, cell-scale structural biology, and planet-scale molecular sampling, are creating exciting new challenges for mathematical modeling, statistical inference and data science.
+This workshop has two main objectives: (i) to bring together scientists close to data generation and scientists with advanced modeling and theoretical perspectives, and (ii) to explore conceptual and methodological analogies between different data types and spatiotemporal scales.
+At the micrometer scale, it is now becoming possible to bridge from individual macromolecules to whole cells using light and electron microscopy and tomography, merging structural biology with cell biology; at the millimeter scale, we can image hundreds of biomolecules in tissues and organ(oid)s using multiplexed immunohistochemistry, fluorescence hybridization or spatially resolved mass spectrometry; at kilo- and megameter scale, systematic sampling of soil, sediment, (waste) water, air, or of model organisms characterizes species diversity, and molecular and genetic variation.
+This progress in data acquisition creates novel elementary challenges including data size, exploration and visualization, calibration and harmonization. 
+There are also new conceptual and theoretical challenges to develop suitable mathematical descriptions and models of the underlying biological systems. How can they optimally and practically be fit to the data? How can we use the results to understand the underlying dynamics of the biological systems? What are the important variables (“coarse graining”)? Can we use our models for prediction? How can such insights be used for interventions (e.g., maintenance of health, therapy against disease, bioengineering to improve crop yield, regulation to keep an ecosystem intact)?
+These questions will be explored by an interdisciplinary group of speakers and participants.
+
+#### News
+Pre-registration will open in January 2024.
+
+#### Dates
+**Workshop:** 8-13 September 2024 \
+**Deadline for the pre-registration:** TBD
+
+#### Location
+[Congressi Stefano Franscini](http://www.csf.ethz.ch/), Monte Verità, Ascona, Switzerland
+
+#### Growing List of Keynote Speakers
+* Shila Ghazanfar, University of Sydney
+* Virginie Uhlmann, EMBL-EBI
+* Laura Urban, Technical University Munich / Helmholtz Center
+* Stefanie Hicks, Johns Hopkins University
+* Ewa Szczurek, University of Warsaw
+* Andreas Moor, ETH BSSE
+* Peer Bork, EMBL Heidelberg
+* Omer Bayraktar, Sanger Institute
+
+#### Pre-registration
+Note that this application does not ensure participation. Abstracts will be selected by the organizers, and successful applicants will then be invited to register. Pre-registration is non-binding but mandatory to participate in the workshop.
+
+#### Registration fees (not due until final registration)
+Academia TBD \
+Industry TBD
+
+#### Contact
+TBD
+
+#### Organizing committee
+Niko Beerenwinkel, Valentina Boeva, Peter Bühlmann, Wolfgang Huber
+
+#### Programm
+TBD
+
+#### Sponsors
+TBD
+
+
