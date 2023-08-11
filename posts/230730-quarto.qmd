@@ -12,4 +12,7 @@ I really enjoyed the experience:
  - everything is based on simple markdown and YAML files, extensible at will through R or Python snippets.
  - rapid development
  - the resulting website is static HTML that can be deployed anywhere.
+
+The code is here: <https://github.com/Huber-group-EMBL/Huber-group-EMBL.github.io>.
+
  
