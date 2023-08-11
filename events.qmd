@@ -1,0 +1,14 @@
+---
+title: "Events"
+listing:
+  contents: events
+  type: default
+  sort: "date"
+  date-format: "YYYY-MM-DD"
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+
