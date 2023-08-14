@@ -15,8 +15,9 @@ date: "2023-07-31"
 - Make each point once, and properly, and then move on. Avoid being repetitive. For instance, state the objective of the work, or of a particular portion of it, clearly and explicitly at the outset, and then just get on with describing the steps, and results; do not keep repeating the motives.
 - Make sure there is logical progression. Avoid sounding circular. E.g., you can start a paragraph with stating a conclusion, and then provide your logical, fact-based argument for it, based on your premises. Or, start with the premises, and then go through the logical steps to arrive at a conclusion. But do not put the conclusion, or the premises, both at the start and end of a paragraph. The reader will likely end up being puzzled about what was actually achieved.
 - Use a spell-checker.
-- Putting terms in quotes tends to look “unprofessional” and can in most cases be avoided by being careful about the choice of words.  
+- Putting terms in quotes tends to look "unprofessional" and can in most cases be avoided by being careful about the choice of words.  
 - If multiple spellings are possible for a term (e.g., hyphenation), pick one and stick with it.
+- In biomedical studies, only use the word "patients" if you mean the actual people, i.e., persons with life histories, families, feelings. Don't use the word if you are just referring to blood samples or tissue biopsies. 
 
 ### Figures:
 - Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is good advice on this on the internet. If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, as much as possible use different color maps for different variables.
