@@ -8,6 +8,7 @@ listing:
   sort-ui: false
   filter-ui: false
   date-format: "YYYY-MM-DD"
+  image-height: 100px
 page-layout: full
 title-block-banner: false
 ---
