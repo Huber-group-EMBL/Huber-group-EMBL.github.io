@@ -1,0 +1,21 @@
+---
+title: "Impressions from CSAMA 2023"
+description: "Brixen/Bressanone, 11-16 June 2023"
+author: "Wolfgang Huber"
+date: "2023-06-16"
+---
+
+Like every year^[Except during the pandemic 2020 and 2021.] since 2004, we organised the summer school  [Biological Data Science](https://csama2023.bioconductor.eu/) in June 2023. The one-week intensive course taught statistical and computational analyses of modern molecular data types in biology and biomedicine, especially single cell and spatial omics. It comprised lectures on underlying theory and concepts, practical hands-on exercises, and informal discussion sessions. The lecture covered measurement technologies, statistical analysis, visualisation, and computational tools. In hands-on exercises, students investigated state-of-the-art datasets using the R / Bioconductor environment. 
+
+#### Impressions:
+
+![Mid-course group hike on Wednesday afternoon. We took the cable car up to Plose and hiked to Rossalm.](../photos/2023-06-14-Plose-groupphoto.jpg){width="75%"}
+
+![Charlotte Soneson and Mike Love](../photos/2023-06-14-Charlotte+Mike.jpg){width="75%"}
+
+![Mike Love](../photos/2023-06-14-MikeLove.jpg){width="75%"}
+
+![Simone Bell chilling at Rosslam](../photos/2023-06-14-SimoneBell.jpg){width="75%"}
+
+![Johannes Rainer](../photos/2023-06-15-Johannes.jpg){width="75%"}
+	
