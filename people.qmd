@@ -23,43 +23,47 @@ tbl-cap-location: bottom
 
 ### Alumni
 
-| Name      | What they did with us | Where they moved on to; where are they are now |
-| --------- | --------- | ------------------ |
-Karsten Bach&Master Student&Cellzome\tabularnewline\hline
-Simone Bell&Project Manager&EC (SOUND)\tabularnewline\hline
-Dr.~Dorothee Childs&Postdoc&Cellzome\tabularnewline\hline
-Annika Lisa Gable&Master Student&EMBL\tabularnewline\hline
-Nikolaos Ignatiadis&Master Student&EMBL\tabularnewline\hline
-Vladislav Kim&Master Student&BMBF\tabularnewline\hline
-Dr.~Bernd Klaus&Scientific Officer&Centre for Statistical Data Analysis (EMBL)\tabularnewline \hline
-Dr.~Junyan Lu&Postdoc&EC (SOUND)\tabularnewline\hline
-Dr.~Andrzej Ole\'{s}&Scientific Programmer&BMBF (BioTop)\tabularnewline\hline
-Ma\l{}gorzata Ole\'{s}&PhD Student&EMBL\tabularnewline\hline
-Dr.~Alejandro Reyes&Bridging Postdoc&EC (SOUND)\tabularnewline\hline
-Dr.~Mike Smith&Scientific Officer&BMBF (de.nbi)\tabularnewline\hline
-Britta Velten&PhD Student&EMBL\tabularnewline\hline
-\multicolumn{3}{|l|}{\textbf{Shared:}}\tabularnewline\hline
-Dr.~Thomas Schwarzl&Postdoc&EIPOD. Primary group: Hentze\tabularnewline \hline \hline
-\end{longtable}
-
-\vspace*{2ex}
-
-
-%------------------------------------------------------------
-\section{Former Group Members (since 2012)}
-%------------------------------------------------------------
-\vspace*{-5mm}
-\begin{longtable}{|>{\raggedright}p{35mm}|>{\raggedright}p{35mm}|p{75mm}|}
-\hline
-Name (Year Departed)&Position at EMBL&Position to Which They Moved
-\tabularnewline \hline \hline \endhead
-%
-| **Dr. Sascha Dietrich**| Postdoc | Director, [Clinic for Haematology, Oncology and Clinical Immunology, University Hospital Düsseldorf](https://www.uniklinik-duesseldorf.de/patienten-besucher/klinikeninstitutezentren/klinik-fuer-haematologie-onkologie-und-klinische-immunologie) |
-| **Michael I. Love** |Visiting PhD Student | Postdoc at DFCI, Harvard; [Professor at UNC Chapel Hill](https://mikelove.github.io/)|
+| Name         | What they did with us | Where they moved on to; where are they are now |
+| --------------- | --------- | ----------------- |
+| **Nick Hirschmüller** | Master Student | PhD at Univ. Cambridge  |
+| **Dr. Alexander Helmboldt** | Postdoc | HMS Analytical Software |
+| **Caroline Lohoff** | Master student | PhD student with Junyan Lu at Univ. Hospital Heidelberg |
+| **Holly Giles** | EMBL PhD program | Postdoc at Univ. Cambridge |
+| **Alina Batzilla** | Master Student | PhD with Maria Bernabeu Aznar, EMBL Barcelona  |
+| **Daniel Fridljand** | BSc Student | Yale <!---PhD with Niko Beerenwinkel, ETH--->  |
+| **Dorothee Mersch** | Intern ||
+| **Ainara Claveras Cabezudo** | Master Student | PhD at MPI Biophysics, Frankfurt |
+| **Stefanie Reisenauer** | Master Student | PhD at Univ. Hospital Zürich |
+| **Arne Hindrik Smits** | Postdoc | Bayer |
+| **Frederik Ziebell** | Postdoc | Cellzome/GSK |
+| **Jennifer Hüllein** | Staff researcher | DKFZ |
+| **Emma Dann** | Master Student | PhD at Sanger Institute |
+| **Cécile Le Sueur** | Master Student | EMBL PhD program (joint w/ M.Savitski) |
+| **Almut Lütge** | Master Student | PhD at University of Zürich |
+| **Dr. Katharina Imkeller** | Postdoc | [Independent Group Leader, Univ. of Frankfurt](https://agimkeller.github.io) |
+| **Dr. Laleh Haghverdi** | Postdoc | [Independent Group Leader, Max-Delbrück-Center, Berlin](https://www.mdc-berlin.de/haghverdi)
+| **Elyas Heidari** | Intern | Master at Univ. Zurich; PhD at DKFZ |
+| **Andreas Mock** | Trainee | PhD at DKFZ and University of Heidelberg |
+| **Elsa Bernard** | Visiting PhD student |  [Memorial Sloan Kettering Cancer Center](https://elsab.github.io/)
+| **Olena Yavorska** | Intern | PhD at University of Oxford |
+| **Nils Kurzawa** | Master Student; EMBL PhD program (joint w/ M.Savitski) | Cellzome/GSK |
+| **Karsten Bach** | Master Student | PhD at CRUK with John Marioni |
+| **Dr. Dorothee Childs** | Postdoc | HMS Analytical Software |
+| **Annika Lisa Gable** | Master Student | PhD at Univ. of Zürich |
+| **Nikolaos Ignatiadis** | Master Student | PhD at Stanford; [Professor at Univ. of Chicago](https://nignatiadis.github.io/) |
+| **Vladislav Kim** | EMBL PhD program | Bayer Research |
+| **Dr. Bernd Klaus** | Statistical Data Analysis Consultant | Häfele, Nagold |
+| **Dr. Junyan Lu** | Postdoc, staff researcher | [Independent Group Leader at Univ. Hospital Heidelberg](https://lu-group-ukhd.github.io/) |
+| **Dr. Andrzej Oleś** | Scientific Programmer | [Heidelberg Institute for Geoinformation Technology (HeiGIT)](https://www.geog.uni-heidelberg.de/gis/oles.html) |
+| **Małgorzata Oleś** | EMBL PhD program | National Center of Tumor Diseases (NCT) |
+| **Britta Velten** | EMBL PhD program | [Professor at Univ. of Heidelberg](https://bv2.github.io/)
+| **Dr. Thomas Schwarzl** | Postdoc, staff researcher | HMS Analytical Software |
+| **Dr. Sascha Dietrich**| Postdoc | Director, [Clinic for Haematology, Oncology & Clinical Immunology, Univ. Hospital Düsseldorf](https://www.uniklinik-duesseldorf.de/patienten-besucher/klinikeninstitutezentren/klinik-fuer-haematologie-onkologie-und-klinische-immunologie) |
+| **Michael I. Love** |Visiting PhD Student | Postdoc at DFCI, Harvard; [Professor at UNC Chapel Hill](https://mikelove.github.io/) |
 | **Sophie Rabe** | Bachelor Student | PhD with Sascha Dietrich at Univ. Hospital Heidelberg|
-| **Jacqueline Severino**| Master Student | PhD program at CRG, Barcelona|
-| **Dr. Aleksandra Pękowska**| Postdoc | NIH; [Group Leader, Nencki Institute of Experimental Biology](https://pekowskalab.nencki.edu.pl/), Warsaw, PL|
-| **Felix Klein** | EMBL PhD program | Consultant Data Science, Alexander Thamm GmbH |
+| **Jacqueline Severino**| Master Student | PhD program at CRG, Barcelona |
+| **Dr. Aleksandra Pękowska**| Postdoc | NIH; [Group Leader, Nencki Institute of Experimental Biology](https://pekowskalab.nencki.edu.pl/), Warsaw, PL |
+| **Felix Klein** | EMBL PhD program | Consultant Data Science, Alexander Thamm GmbH, Munich |
 | **Paul-Theodor Pyl** | EMBL PhD program | Lund University Cancer Center, Sweden |
 | **Alejandro Reyes** | EMBL PhD program | Postdoc at DFCI, Harvard; Novartis Institute for Biomedical Research (Basel) |
 | **Julian Gehring** | EMBL PhD program | Illumina (UK) |
@@ -72,25 +76,25 @@ Name (Year Departed)&Position at EMBL&Position to Which They Moved
 | **Remy Clement** | Student internship | |
 | **Kristen Feher** | Student internship | |
 | **Dr. Bernd Fischer** | Postdoc, Staff researcher | Indep. Group Leader at DKFZ |
-| **Daniel Murrell** | Staff researcher ||
-| **Ramona Schmid** | Visiting (during PhD) | Team Leader at Boehringer Ingelheim |
+| **Daniel Murrell** | Staff researcher | |
+| **Ramona Schmid** | Visiting PhD student | Team Leader at Boehringer Ingelheim |
 | **Elin Axelsson** | PhD | Gregor Mendel Institute, Vienna |
-| **Dr. Richard Bourgon** | Postdoc, staff researcher | Genentech |
-| **Lígia Brás** | Visiting PhD student | Hovione |
 | **Tineke Casneuf** | Visiting PhD student	| Janssen Research & Development |
-| **Tony Chiang** | PhD | U Washington, Seattle |
-| **Florian Hahne** | Visiting PhD student | Novartis Institute for Biomedical Research (Basel) |
 | **Thomas Horn** | Master student | Novartis Institutes for Biomedical Research (Boston) |
 | **Dr. Audrey Kauffmann** | Staff researcher | Novartis Institutes for Biomedical Research (Basel/Boston) |
-| **Paul McGettigan** |  Visiting PhD student | Novartis |
 | **Alessandro Brozzi** |	Visiting PhD student |	European Institute of Oncology, Milan, IT |
+| **Dr. Richard Bourgon** | Postdoc, staff researcher | Genentech |
+| **Tony Chiang** | PhD | U Washington, Seattle |
+| **Florian Hahne** | Visiting PhD student | Novartis Institute for Biomedical Research (Basel) |
+| **Paul McGettigan** |  Visiting PhD student | Novartis |
 | **David Jitao Zhang** | Visiting PhD student | DKFZ |
 | **Dr. Gregoire Pau** | Postdoc, staff researcher | Genentech |
-| **Matt Ritchie** | Postdoc | Professor, WEHI Melbourne |
-| **Raeka Aiyar**	| Master student | PhD with Lars Steinmetz|
-| **Zhenyu Xu** | Master student | PhD with Lars Steinmetz;  Chief Scientific Officer, Sophia Genetics|
-| **Jörn Tödling** | EMBL PhD program | Postdoc, Institut Curie, Paris; Group Leader, Charité, Berlin|
-| **Oleg Sklyar**	| Staff researcher | Finance quant in London and Zürich; Google Research, Zürich|
+| **Dr. Matt Ritchie** | Postdoc | Professor, WEHI Melbourne |
+| **Raeka Aiyar**	| Master student | EMBL PhD with Lars Steinmetz |
+| **Zhenyu Xu** | Master student | EMBL PhD with Lars Steinmetz;  Chief Scientific Officer, Sophia Genetics |
+| **Lígia Brás** | Visiting PhD student | Hovione |
+| **Jörn Tödling** | EMBL PhD program | Postdoc, Institut Curie, Paris; Group Leader, Charité, Berlin |
+| **Dr. Oleg Sklyar**	| Staff researcher | Finance quant in London and Zürich; Google Research, Zürich |
 
-: Sorted approximately in reverse temporal order by time of joining the group. Academic titles are as at the time of joining the group. Of course, many have acquired further titles in the meanwhile. Additional information or suggestions for updates are always welcome, esp. if you are one of the above :) 
+: "Dr." titles are as at the time of joining the group. Sorted order is approximately in reverse order of that time. Of course, many have acquired this and further titles in the meanwhile. Additional information or suggestions for updates are welcome, especially if you are one of the above :) 
 
