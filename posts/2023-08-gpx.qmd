@@ -1,0 +1,27 @@
+---
+title: "GPX tracks for cycling around EMBL"
+description: "Safe commute to EMBL by bike, and some after work tour options"
+author: "Wolfgang Huber"
+date: "2023-08-01"
+---
+
+## Safe commute from Weststadt to EMBL
+
+To do
+
+## After work tour (<1h)
+
+::: {layout-ncol=2}
+
+[![Map](../photos/2023-08-14-Feierabendtour-map.jpg)](../photos/2023-08-14-Feierabendtour-map.jpg)
+
+[![View over Heidelberg from Königstuhl](../photos/2022-08-04-Koenigstuhl.jpg){width=45%}](../photos/2022-08-04-Koenigstuhl.jpg)
+
+:::
+
+[GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx). 
+View [on Komoot](https://www.komoot.com/tour/1260576037/zoom).
+For the downhill part, a full-suspension bike is advisable.
+
+
+

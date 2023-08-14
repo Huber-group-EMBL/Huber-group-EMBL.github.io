@@ -1,5 +1,5 @@
 ---
-title: "quarto rocks"
+title: "Quarto rocks"
 description: "Building a group webpage with quarto"
 author: "Wolfgang Huber"
 date: "2023-07-30"
