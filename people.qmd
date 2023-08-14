@@ -14,7 +14,9 @@ listing:
   id: currentpeople
 page-layout: full
 title-block-banner: false
-tbl-cap-location: bottom
+format:
+  html:
+    tbl-cap-location: bottom
 ---
 <!-- https://quarto.org/docs/websites/website-listings -->
 
@@ -96,5 +98,5 @@ tbl-cap-location: bottom
 | **Jörn Tödling** | EMBL PhD program | Postdoc, Institut Curie, Paris; Group Leader, Charité, Berlin |
 | **Dr. Oleg Sklyar**	| Staff researcher | Finance quant in London and Zürich; Google Research, Zürich |
 
-: "Dr." titles are as at the time of joining the group. Sorted order is approximately in reverse order of that time. Of course, many have acquired this and further titles in the meanwhile. Additional information or suggestions for updates are welcome, especially if you are one of the above :) 
+"Dr." titles are as at the time of joining the group. Sort order is approximately reverse with respect to that time. Of course, many have acquired further titles in the meanwhile. Additional information or suggestions for updates are welcome, especially if you are one of the above :smiley: 
 
