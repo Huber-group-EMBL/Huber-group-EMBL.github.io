@@ -5,7 +5,7 @@ author: "Wolfgang Huber"
 date: "2023-08-01"
 ---
 
-## Safe commute from Heidelberg Weststadt to EMBL
+## A safe bike commute from Heidelberg Weststadt to EMBL
 
 The most obvious route is for cyclists to follow the road that the cars and busses take, up Steigerweg. But in the uphill direction, this can be nasty and unsafe, as the road is narrow and steep, and traffic can be intense. There are better alternatives. Here is one. 
 
@@ -21,6 +21,27 @@ The most obvious route is for cyclists to follow the road that the cars and buss
 
 [GPX track](../gpx/Commute-from-HD-Weststadt-to-EMBL.gpx).
 View [on Komoot](https://www.komoot.com/tour/1261076604).
+
+
+
+
+## Heidelberg Rohrbach to EMBL via Bierhelder Hof
+
+Perhaps the most obvious choice of route would be to continue on Kühler Grund to Forstquelle (the red <font color="red">A</font> on the map) and then go up Bierhelderhofweg. But the latter is part is nasty: narrow, steep, with fast moving cars and trucks. Another option would be to turn right at Forstquelle and then go past the Heating Station (the red <font color="red">B</font> on the map) through the forest. 
+
+Here, instead, we go up slightly left of Kühler Grund and pass Bierhelder Hof on a paved road that crosses a pleasant meadow with cows. The section on Rotstückweg is a bit steep and unpaved, a more relaxed option is to go via the red <font color="red">C</font> on the map.
+
+
+[![Map](../photos/Commute-from-HD-Rohrbach-to-EMBL.jpg)](../photos/Commute-from-HD-Rohrbach-to-EMBL.jpg)
+
+[GPX track](../gpx/Rohrbach-to-EMBL.gpx).
+View [on Komoot](https://www.komoot.com/tour/1261647422).
+
+
+
+
+
+
 
 ## After work tour (<1h)
 
