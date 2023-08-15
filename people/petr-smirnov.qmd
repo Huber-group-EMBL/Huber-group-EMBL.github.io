@@ -3,12 +3,8 @@ title: "Petr Smirnov"
 description: "Postdoctoral researcher"
 ---
 
-![Petr Smirnov](placeholder.png){width=500 fig-align="center"}
+![Petr Smirnov](Smirnov Petr-2.jpg){width=500 fig-align="center"}
 
-ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν
+Petr is a postdoctoral fellow, working together with the Genome Instability in Tumours group of Aurélie Ernst at DKFZ. His current research involves deciphering subclonal genomic instability using single cell technologies, as well as investigating how modern AI image models can be used to decipher the impact of genomics on tumour and stromal spatial organization and morphology. 
 
-ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος
-
-καὶ εἶπεν ὁ θεός γενηθήτω φῶς καὶ ἐγένετο φῶς
-
-καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους
+Petr holds a Doctorate in Medical Biophysics from the University of Toronto, where his research focused on statistical approaches to discover robust biomarkers predictive of drug response. 
