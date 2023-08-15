@@ -1,6 +1,6 @@
 ---
-title: "GPX tracks for cycling around EMBL"
-description: "Safe commute to EMBL by bike, and some after work tour options"
+title: "GPS tracks for cycling around EMBL"
+description: "Safe bike commute to EMBL, and some after work tour options"
 author: "Wolfgang Huber"
 date: "2023-08-01"
 ---
@@ -9,7 +9,7 @@ date: "2023-08-01"
 
 The most obvious route is for cyclists to follow the road that the cars and busses take, up Steigerweg. But in the uphill direction, this can be nasty and unsafe, as the road is narrow and steep, and traffic can be intense. There are better alternatives. Here is one. 
 
-::: {layout="[[4,2,2]]"}
+::: {layout="[[50,-1,25,-1,25]]"}
 
 [![Map](../photos/Commute-from-HD-Weststadt-to-EMBL.jpg)](../photos/Commute-from-HD-Weststadt-to-EMBL.jpg)
 
@@ -41,20 +41,31 @@ View [on Komoot](https://www.komoot.com/tour/1261647422).
 
 
 
+## After work tour to Königstuhl, route 1 (<1h)
 
-
-## After work tour to Königstuhl (<1h)
-
-::: {layout-ncol=2}
+::: {layout="[[50,-1,50]]"}
 
 [![Map](../photos/2023-08-14-Feierabendtour-map.jpg)](../photos/2023-08-14-Feierabendtour-map.jpg)
 
-[![View over Heidelberg from Königstuhl](../photos/2022-08-04-Koenigstuhl.jpg){width=45%}](../photos/2022-08-04-Koenigstuhl.jpg)
+[![View over Heidelberg from Königstuhl](../photos/2022-08-04-Koenigstuhl.jpg)](../photos/2022-08-04-Koenigstuhl.jpg)
 
 :::
 
 [GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx) (the altitude measurements seem to be 60-70m too high). 
 View [on Komoot](https://www.komoot.com/tour/1260576037).
-For the downhill part, a full-suspension bike is advisable.
+For the downhill part, better use a full-suspension bike.
 
+## After work tour to Königstuhl, route 2 (<1h)
 
+[![Map](../photos/2023-08-15-Feierabendtour-map.jpg){width="60%"}](../photos/2023-08-15-Feierabendtour-map.jpg)
+
+::: {layout="[[50,-1,50]]"}
+
+[![View over Heidelberg from Bismarckhöhenweg, on the downhill part of the tour](../photos/2023-08-15-view-from-Bismarckhoehenweg.jpg)](../photos/2023-08-15-view-from-Bismarckhoehenweg.jpg)
+
+[![View on the back side of the castle.](../photos/2023-08-10-castle.jpg)](../photos/2023-08-10-castle.jpg)
+
+:::
+
+[GPX track](../gpx/2023-08-15_1262473551_Feierabendtour.gpx) (the altitude measurements seem to be 60-70m too high). 
+View [on Komoot](https://www.komoot.com/tour/1262473551). Use a bike with low gears for the uphill part.
