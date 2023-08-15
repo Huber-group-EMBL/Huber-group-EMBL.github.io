@@ -5,9 +5,22 @@ author: "Wolfgang Huber"
 date: "2023-08-01"
 ---
 
-## Safe commute from Weststadt to EMBL
+## Safe commute from Heidelberg Weststadt to EMBL
 
-To do
+The most obvious route is for cyclists to follow the road that the cars and busses take, up Steigerweg. But in the uphill direction, this can be nasty and unsafe, as the road is narrow and steep, and traffic can be intense. There are better alternatives. Here is one. 
+
+::: {layout="[[4,2,2]]"}
+
+[![Map](../photos/Commute-from-HD-Weststadt-to-EMBL.jpg)](../photos/Commute-from-HD-Weststadt-to-EMBL.jpg)
+
+[![Oberer Gaisbergweg, a quiet residential street and cul-de-sac. Much of the altitude gain is made here.](../photos/2023-08-15-0828.jpeg)](../photos/2023-08-15-0828.jpeg)
+
+[![Unterer Parkweg, a shortcut through the forest from Speyerer Hof to MPI, towards the end of the trip.](../photos/2023-08-15-08-37.jpeg)](../photos/2023-08-15-08-37.jpeg)
+
+:::
+
+[GPX track](../gpx/Commute-from-HD-Weststadt-to-EMBL.gpx).
+View [on Komoot](https://www.komoot.com/tour/1261076604).
 
 ## After work tour (<1h)
 
@@ -20,7 +33,7 @@ To do
 :::
 
 [GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx) (the altitude measurements seem to be 60-70m too high). 
-View [on Komoot](https://www.komoot.com/tour/1260576037/zoom).
+View [on Komoot](https://www.komoot.com/tour/1260576037).
 For the downhill part, a full-suspension bike is advisable.
 
 
