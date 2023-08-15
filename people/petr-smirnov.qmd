@@ -3,7 +3,7 @@ title: "Petr Smirnov"
 description: "Postdoctoral researcher"
 ---
 
-![Petr Smirnov](smirnov.png){width=500 fig-align="center"}
+![Petr Smirnov](Smirnov Petr-2.jpg){width=500 fig-align="center"}
 
 Petr is a postdoctoral fellow, working together with the Genome Instability in Tumours group of Aurélie Ernst at DKFZ. His current research involves deciphering subclonal genomic instability using single cell technologies, as well as investigating how modern AI image models can be used to decipher the impact of genomics on tumour and stromal spatial organization and morphology. 
 
