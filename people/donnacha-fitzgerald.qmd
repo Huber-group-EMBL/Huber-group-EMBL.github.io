@@ -3,12 +3,11 @@ title: "Donnacha Fitzgerald"
 description: "PhD candidate"
 ---
 
-![Donnacha Fitzgerald](placeholder.jpg){width=500 fig-align="center"}
+![Donnacha Fitzgerald](donnacha-fitzgerald.jpg){width=500 fig-align="center"}
 
-ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν
+>LinkedIn          [donnacha-fitzgerald](https://www.linkedin.com/in/donnacha-fitzgerald/) \
+>Twitter         [@DN_Fitzgerald](https://twitter.com/DN_Fitzgerald) \
 
-ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος
+Donnacha is finishing a joint PhD between the Huber and Dietrich groups at EMBL and Heidelberg University Hospital in the field of systems medicine. His primary research focus has been characterizing a single-cell multi-omic and spatial atlas of B-cell lymphomas, discovering the underlying drivers of intratumor heterogeneity, tumor evolution, and treatment resistance. 
 
-καὶ εἶπεν ὁ θεός γενηθήτω φῶς καὶ ἐγένετο φῶς
-
-καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους
+Previously, Donnacha trained as a pharmacist, completed an MBA, and worked in the fields of synthetic biology and microfluidics. Outside of the lab, he plays active roles in the advancement of the pharmacy profession, biotech translation, and science ethics. In his free time, he enjoys traveling, music, and reading - sometimes all three at once!
