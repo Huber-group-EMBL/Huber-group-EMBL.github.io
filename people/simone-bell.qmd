@@ -3,7 +3,7 @@ title: "Simone Bell"
 description: "Senior Project Manager"
 ---
 
-![Simone Bell](simone-bell.jpg){width=500 fig-align="center"}
+![Simone Bell](simone-bell-1530x1859.jpg){width=500 fig-align="center"}
 
 Simone is responsible for strategic and day-to-day project management for a portfolio of collaborative multi-site projects. She takes responsibilities in project proposal conception and writing (in particular resourcing and budgeting), and in operational set-up, staffing, operations, reporting, and finalization.
 
