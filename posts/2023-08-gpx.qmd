@@ -1,11 +1,13 @@
 ---
 title: "GPS tracks for cycling around EMBL"
-description: "Safe bike commute to EMBL, and some after work tour options"
+description: "Bike commute to EMBL, and some after work tour options"
 author: "Wolfgang Huber"
 date: "2023-08-01"
 ---
 
-## A safe bike commute from Heidelberg Weststadt to EMBL
+One of the things to know about EMBL Heidelberg is the commute to it by bike on pleasant routes through the forest, and pretty decent mountain-biking on the hills around it.
+
+## Bike commute from Heidelberg Weststadt to EMBL
 
 The most obvious route is for cyclists to follow the road that the cars and busses take, up Steigerweg. But in the uphill direction, this can be nasty and unsafe, as the road is narrow and steep, and traffic can be intense. There are better alternatives. Here is one. 
 
@@ -27,7 +29,7 @@ View [on Komoot](https://www.komoot.com/tour/1261076604).
 
 ## Heidelberg Rohrbach to EMBL via Bierhelder Hof
 
-Here, an obvious choice of route would be to go up Kühler Grund all the way to Forstquelle (the red <font color="red">A</font> on the map) and then continue on Bierhelderhofweg. But the latter is part is nasty: narrow, steep, obstructed view, fast moving cars and trucks. Another option would be to turn right at Forstquelle and then go past the Heating Station (the red <font color="red">B</font> on the map) through the forest. 
+Here, an obvious choice of route would be to go up Kühler Grund all the way to Forstquelle (the red <font color="red">A</font> on the map) and then continue left on Bierhelderhofweg. But the latter is part is not good: narrow, steep, obstructed view, fast moving cars. Alternatively, one can turn right at Forstquelle and go past the Heating Station (the red <font color="red">B</font> on the map) through the forest; but it's a bit of a detour. 
 
 Instead, we go up slightly left of Kühler Grund and pass Bierhelder Hof on a paved road that crosses a pleasant meadow with cows. The section on Rotstückweg is a bit steep and unpaved. A more relaxed option is to go via the red <font color="red">C</font> on the map.
 
@@ -46,11 +48,11 @@ View [on Komoot](https://www.komoot.com/tour/1261647422).
 
 [![Map](../photos/2023-08-14-Feierabendtour-map.jpg)](../photos/2023-08-14-Feierabendtour-map.jpg)
 
-[![View over Heidelberg from Königstuhl. The same view can also be enjoyed from a (decent) restaurant with an outdoors terrace, and a beergarden-kiosk with a terrace, both adjacent to the vista point.](../photos/2022-08-04-Koenigstuhl.jpg)](../photos/2022-08-04-Koenigstuhl.jpg)
+[![View over Heidelberg from Königstuhl. A popular picnic spot. The same view can also be enjoyed from a restaurant with an outdoors terrace, or from a beergarden-kiosk with a terrace, both adjacent to the vista point.](../photos/2022-08-04-Koenigstuhl.jpg)](../photos/2022-08-04-Koenigstuhl.jpg)
 
 :::
 
-[GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx) (the altitude measurements seem to be 60-70m too high). 
+[GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx) (the altitude measurements seem 60 too high). 
 View [on Komoot](https://www.komoot.com/tour/1260576037).
 For the downhill part, better use a full-suspension bike.
 
@@ -62,9 +64,9 @@ For the downhill part, better use a full-suspension bike.
 
 [![View over Heidelberg from Bismarckhöhenweg, on the downhill part of the tour](../photos/2023-08-15-view-from-Bismarckhoehenweg.jpg)](../photos/2023-08-15-view-from-Bismarckhoehenweg.jpg)
 
-[![View on the back side of the castle.](../photos/2023-08-10-castle.jpg)](../photos/2023-08-10-castle.jpg)
+[![The route passes along the back side of the castle.](../photos/2023-08-10-castle.jpg)](../photos/2023-08-10-castle.jpg)
 
 :::
 
-[GPX track](../gpx/2023-08-15_1262473551_Feierabendtour.gpx) (the altitude measurements seem to be 60-70m too high). 
+[GPX track](../gpx/2023-08-15_1262473551_Feierabendtour.gpx) (the altitude measurements seem 60m too high). 
 View [on Komoot](https://www.komoot.com/tour/1262473551). Use a bike with low gears for the uphill part.
