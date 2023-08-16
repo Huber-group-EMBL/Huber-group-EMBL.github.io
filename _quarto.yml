@@ -11,8 +11,6 @@ website:
        "Huber Group @ EMBL"
   navbar:
     search: true
-    background: "#0056B9" 
-    foreground: "#FFD800" 
     left:
       - href: index.qmd
         text: Home
