@@ -1,0 +1,26 @@
+---
+title: "Statistics related threads"
+description: "Random musing on statistical applications in molecular biology"
+author: "Wolfgang Huber"
+date: "2023-08-21"
+---
+
+# Distributional assumptions
+
+One of the more unhelpful concepts when empirical scientists use statistics to analyze their data is the phrase
+
+> "we assume the data are 'X' distributed". 
+
+Where 'X' is often 'normal', but can also be 'Poisson', 'Gamma', or whatever.
+Except in the most trivial cases: 
+
+- If you look close enough, the assumption is most certainly not true. The deviations may be more or less big, but they're there. Assumption not true.
+- Conversely, it is usually not possible to positively prove that such an assumption *is* true, in any logically stringent way. This would  require such tight control over all steps of the data generation that is normally only possible in simulations.
+
+So, the phrase leads to a logical dead-end, to a depressing, dreary place.
+
+A much better concept is 
+
+> "we model the data by 'X' distribution". 
+
+This is something we can work with. We can ask and study whether or to what extent the model is useful for the task at hand. The model may have too many parameters, too few parameters, or the wrong set of parameters. There may be multiple alternative, similarly useful models. But these are questions we can productively address. 
