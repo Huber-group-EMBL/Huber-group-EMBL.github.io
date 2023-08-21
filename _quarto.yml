@@ -4,6 +4,11 @@ project:
   
 website:
   title: "Huber Group @ EMBL"
+  open-graph:
+     locale:
+       en_US
+     site-name:
+       "Huber Group @ EMBL"
   navbar:
     search: true
     left:
