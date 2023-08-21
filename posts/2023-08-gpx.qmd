@@ -25,9 +25,9 @@ The most obvious route is for cyclists to follow the road that the cars and buss
 View [on Komoot](https://www.komoot.com/tour/1261076604).
 
 
-
-
+<!--      -->
 ## Heidelberg Rohrbach to EMBL via Bierhelder Hof
+<!--      -->
 
 Here, an obvious choice of route would be to go up Kühler Grund all the way to Forstquelle (the red <font color="red">A</font> on the map) and then continue left on Bierhelderhofweg. But the latter is part is not good: narrow, steep, obstructed view, fast moving cars. Alternatively, one can turn right at Forstquelle and go past the Heating Station (the red <font color="red">B</font> on the map) through the forest; but it's a bit of a detour. 
 
@@ -40,21 +40,24 @@ View [on Komoot](https://www.komoot.com/tour/1261647422).
 
 
 
-
-
+<!--      -->
 ## After work tour to Königstuhl, route 1 (<1h)
+<!--      -->
 
 ::: {layout="[[50,-1,50]]"}
 
 [![Map](../photos/2023-08-14-Feierabendtour-map.jpg)](../photos/2023-08-14-Feierabendtour-map.jpg)
 
-[![View over Heidelberg from Königstuhl. A popular picnic spot. The same view can also be enjoyed from a restaurant with an outdoors terrace, or from a beergarden-kiosk with a terrace, both adjacent to the vista point.](../photos/2022-08-04-Koenigstuhl.jpg)](../photos/2022-08-04-Koenigstuhl.jpg)
+[![View over Heidelberg from Königstuhl.](../photos/2022-08-04-Koenigstuhl.jpg)](../photos/2022-08-04-Koenigstuhl.jpg)
 
 :::
 
-[GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx) (the altitude measurements seem 60 too high). 
-View [on Komoot](https://www.komoot.com/tour/1260576037).
-For the downhill part, better use a full-suspension bike.
+The highest point of the tour is a vista point with a popular picnic spot, a [restaurant with an outdoors terrace](https://www.gasthof-koenigstuhl.de/en/restaurants/bergstuben) and a [beergarden-kiosk](https://riosk.de/content/riosk-fuchsbau-k%C3%B6nigstuhl) with a terrace.
+ 
+[![Cows at BierhelderHof.](../photos/BierhelderHofKuehe.jpg){width="50%"}](../photos/BierhelderHofKuehe.jpg)
+
+[GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx) (the altitude measurements seem 60m too high). 
+View [on Komoot](https://www.komoot.com/tour/1260576037). For the downhill part, better use a full-suspension bike.
 
 ## After work tour to Königstuhl, route 2 (<1h)
 
