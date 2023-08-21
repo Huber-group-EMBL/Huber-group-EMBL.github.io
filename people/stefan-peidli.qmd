@@ -1,6 +1,7 @@
 ---
 title: "Stefan Peidli"
 description: "Postdoctoral researcher"
+image: "stefan-peidli-thumbnail.jpg"
 ---
 
 ![Stefan Peidli](stefan-peidli.jpg){width=500 fig-align="center"}
