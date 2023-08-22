@@ -82,13 +82,13 @@ format:
 | **Dr. Bernd Fischer** | Postdoc, Staff researcher | Indep. Group Leader at DKFZ |
 | **Daniel Murrell** | Staff researcher | |
 | **Ramona Schmid** | Visiting PhD student | Team Leader at Boehringer Ingelheim |
-| **Elin Axelsson** | PhD | Gregor Mendel Institute, Vienna |
+| **Elin Axelsson** | EMBL PhD program | Gregor Mendel Institute, Vienna |
 | **Tineke Casneuf** | Visiting PhD student	| Janssen Research & Development |
 | **Thomas Horn** | Master thesis | Novartis Institutes for Biomedical Research (Boston) |
 | **Dr. Audrey Kauffmann** | Staff researcher | Novartis Institutes for Biomedical Research (Basel/Boston) |
 | **Alessandro Brozzi** |	Visiting PhD student |	European Institute of Oncology, Milan, IT |
 | **Dr. Richard Bourgon** | Postdoc, staff researcher | Genentech; Freenome Holdings |
-| **Tony Chiang** | PhD | Univ. of Washington, Seattle |
+| **Tony Chiang** | EMBL PhD program | Univ. of Washington, Seattle |
 | **Florian Hahne** | Visiting PhD student | Novartis Institute for Biomedical Research (Basel) |
 | **Paul McGettigan** |  Visiting PhD student | Novartis |
 | **David Jitao Zhang** | Visiting PhD student | DKFZ |
