@@ -3,6 +3,7 @@ title: "Scientific writing advice"
 description: "An eclectic and subjective list"
 author: "Wolfgang Huber"
 date: "2023-07-31"
+categories: "Wisdom"
 ---
 
 - Present experimental observations and measurements in past tense, and interpretations and conclusions in present tense. The statements in past tense are the real, hard substance of the paper that make it worthwhile. Anyone can speculate and toss around generalities. Use active voice for things that you did--to distinguish from what others did or from what already pre-existed e.g. from prior work.

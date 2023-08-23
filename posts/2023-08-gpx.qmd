@@ -3,6 +3,7 @@ title: "GPS tracks for cycling around EMBL"
 description: "Bike commute to EMBL, and some after work tour options"
 author: "Wolfgang Huber"
 date: "2023-08-01"
+categories: "Resources"
 ---
 
 One of the things to know about EMBL Heidelberg is the commute to it by bike on pleasant routes through the forest, and pretty decent mountain-biking on the hills around it.

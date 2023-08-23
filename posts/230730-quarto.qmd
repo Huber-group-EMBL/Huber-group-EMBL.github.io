@@ -3,6 +3,7 @@ title: "Quarto rocks"
 description: "Building a group webpage with quarto"
 author: "Wolfgang Huber"
 date: "2023-07-30"
+categories: "Resources"
 ---
 
 This webpage was built with [quarto](https://quarto.org/).

@@ -2,7 +2,12 @@
 title: "Come work with us"
 ---
 
-We are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
+### Current opening
+
+- [Postdoctoral position in spatial and single-cell computational biology for precision oncology](posts/2023-08-bialymp.html)
+
+Besides any specific calls, we are 
+continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
 
 -   Method development in statistical methodology and computing in biological research
 -   Biological discovery through integrative data analysis
