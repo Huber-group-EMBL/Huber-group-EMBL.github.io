@@ -7,7 +7,7 @@ We exploit new data types and new types of experiments and studies by developing
 - **Multi-scale biology in space and time**: bringing together different data types and resolutions to find low-dimensional explanations (factors, gradients, clusters, trees and networks) of high-dimensional data, using statistical models, first-principles based theory and machine learning.
 - Use **spatial omics in immunooncology** to find and improve treatment options for patients.
 - Multidimensional **phenotyping of genetic and drug-based perturbation** assays to map context-dependent gene-gene and gene-drug interaction networks.
-- Many powerful mathematical and computational ideas exist but are difficult to access. We aim to translate them into practical methods and software that make a real difference to biomedical researchers. We sometimes term this approach **Translational Statistics**.
+- Many powerful mathematical and computational ideas exist but are difficult to access. We aim to translate them into practical methods and software that make a real difference to biomedical researchers. We sometimes term this approach **translational statistics**.
 
 
 ###
@@ -48,9 +48,9 @@ Science is an intellectual adventure and a creative process done by people. Thei
 
 We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes and Wolfgang Huber. The book is available [online, for free, as HTML](https://www.huber.embl.de/msmb). It was published as a [printed book in 2019 by Cambridge University Press](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).
 
-We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2023 edition](https://csama2023.bioconductor.eu).
+We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2023 edition](https://csama2023.bioconductor.eu). See [here for some impressions](https://www.huber.embl.de/group/posts/2023-06-16-csama.html).
 
-In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org).
+In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org). See also [Wolfgang's post about it](https://www.huber.embl.de/group/posts/2023-08-onbds3.html).
 
 ### Software
 
