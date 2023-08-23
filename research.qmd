@@ -2,9 +2,13 @@
 title: "Research"
 ---
 
-### Functional precision medicine
+We exploit new data types and new types of experiments and studies by developing the computational techniques needed to turn raw data into biology.
 
-Omics and imaging technologies are producing increasingly detailed biology-based understanding of human health and disease. The next challenge is using this knowledge to engineer treatments and cures. To this end, we integrate observational data, such as from large-scale sequencing and molecular profiling, with interventional data, such as from systematic genetic or chemical screens, to reconstruct a fuller picture of the underlying causal relationships and actionable intervention points. A fascinating example is our collaboration on molecular mechanisms of individual sensitivity and resistance of tumors to treatments in our precision oncology project together with Thorsten Zenz at University Hospital Zürich and Sascha Dietrich at University Hospital Düsseldorf.
+- **Multi-scale biology in space and time**: bringing together different data types and resolutions to find low-dimensional explanations (factors, gradients, clusters, trees and networks) of high-dimensional data, using statistical models, first-principles based theory and machine learning.
+- Use **spatial omics in immunooncology** to find and improve treatment options for patients.
+- Multidimensional **phenotyping of genetic and drug-based perturbation** assays to map context-dependent gene-gene and gene-drug interaction networks.
+- Many powerful mathematical and computational ideas exist but are difficult to access. We aim to translate them into practical methods and software that make a real difference to biomedical researchers. We sometimes term this approach **Translational Statistics**.
+
 
 ###
 
@@ -28,6 +32,9 @@ Omics and imaging technologies are producing increasingly detailed biology-based
 ![Ternary plots of relative sensitivities to targeted kinase inhibitors for a cohort of primary tumour samples of chronic lymphocytic leukaemia (CLL). [Paper link](https://doi.org/10.1172/JCI93801).](photos/JCI2018-fig_02_l.jpg)
 :::
 
+### Functional precision medicine
+
+Omics and imaging technologies are producing increasingly detailed biology-based understanding of human health and disease. The next challenge is using this knowledge to engineer treatments and cures. To this end, we integrate observational data, such as from large-scale sequencing and molecular profiling, with interventional data, such as from systematic genetic or chemical screens, to reconstruct a fuller picture of the underlying causal relationships and actionable intervention points. A fascinating example is our collaboration on molecular mechanisms of individual sensitivity and resistance of tumors to treatments in our precision oncology project together with Thorsten Zenz at University Hospital Zurich and Sascha Dietrich at University Hospital Düsseldorf.
 
 ### Open science
 
@@ -45,13 +52,27 @@ We run the annual summer school CSAMA—Biological Data Science. It usually take
 
 In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org).
 
-# Future projects and goals
+### Software
 
-We aim to exploit new data types and new types of experiments and studies by developing the computational techniques needed to turn raw data into biology.
+We are a frequent contributor to the Bioconductor project
 
-- Multi-scale biology in space and time: bringing together different data types and resolutions to find low-dimensional explanations (factors, gradients, clusters, trees and networks) of high-dimensional data, using statistical models, first-principles based theory and machine learning.
-- Driving the use of spatial omics in immunooncology to find and improve treatment options for patients.
-- Multidimensional phenotyping of genetic and drug-based perturbation assays to map context-dependent gene-gene and gene-drug interaction networks.
-- Many powerful mathematical and computational ideas exist but are difficult to access. We aim to translate them into practical methods and software that make a real difference to biomedical researchers. We sometimes term this approach ‘Translational Statistics’.
+|              |                                    |
+|--------------|------------------------------------|
+|[LEMUR](https://github.com/const-ae/lemur/)|Cluster-free differential expression analysis of multi-condition single-cell data using Latent Embedding Multivariate Regression|
+|[MOFA](https://biofam.github.io/MOFA2/)|Multi-Omics Factor Analysis|
+|[DESeq2](https://bioconductor.org/packages/DESeq2)|Differential gene expression analysis based on the negative binomial distribution|
+|[IHW](https://bioconductor.org/packages/IHW)|Multiple testing and false discovery rate (FDR) control by Independent Hypothesis Weighting|
+|[EBImage](https://bioconductor.org/packages/EBImage)|Image processing and analysis toolbox for R|
+|[Rarr](https://bioconductor.org/packages/Rarr)|Read Zarr Files in R|
+|[rdf5](https://bioconductor.org/packages/rhdf5)|R Interface to HDF5|
+|[vsn](https://bioconductor.org/packages/vsn)|Normalization and variance stabilizing transformation of fluorescence intensity data|
+|[cellHTS2](https://bioconductor.org/packages/cellHTS2)|Analysis of cell-based high-throughput screens|
+|[DEXSeq](https://bioconductor.org/packages/DEXSeq)|Inference of differential exon usage in RNA-Seq|
+|[HilbertVis](https://bioconductor.org/packages/HilbertVis)|Visualize long vectors of data using Hilbert curves|
+| | |
+|**Python**| |
+|[HTSeq](https://htseq.readthedocs.io/en/latest/)|Processing and analyzing data from high-throughput sequencing assays|
+
+: {tbl-colwidths="[20,80]"}
 
 {{< include _links.qmd >}}
