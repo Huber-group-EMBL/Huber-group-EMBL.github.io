@@ -11,11 +11,19 @@ One of the things to know about EMBL Heidelberg is the commute to it by bike on 
 
 The most obvious route is for cyclists to follow the road that the cars and busses take, up Steigerweg. But in the uphill direction, this can be nasty and unsafe, as the road is narrow and steep, and traffic can be intense. There are better alternatives. Here is one. 
 
-::: {layout="[[50,-1,25,-1,25]]"}
+::: {layout="[[50,-1,50]]"}
 
 [![Map](../photos/Commute-from-HD-Weststadt-to-EMBL.jpg)](../photos/Commute-from-HD-Weststadt-to-EMBL.jpg)
 
-[![Oberer Gaisbergweg, a quiet residential street and cul-de-sac. Much of the altitude gain is made here.](../photos/2023-08-15-0828.jpeg)](../photos/2023-08-15-0828.jpeg)
+[![Oberer Gaisbergweg, a quiet residential street and cul-de-sac.](../photos/20230822_195053-sm.jpeg)](../photos/20230822_195053-sm.jpeg)
+
+:::
+
+::: {layout="[[34,-1,34,-1,34]]"}
+
+[![A bit further up on Oberer Gaisbergweg. Much of the altitude gain is made here.](../photos/20230822_195333-sm.jpeg)](../photos/20230822_195333-sm.jpeg)
+
+[![Oberer Gaisbergweg.](../photos/20230822_195625-sm.jpeg)](../photos/20230822_195625-sm.jpeg)
 
 [![Unterer Parkweg, a shortcut through the forest from Speyerer Hof to MPI, towards the end of the trip.](../photos/2023-08-15-08-37.jpeg)](../photos/2023-08-15-08-37.jpeg)
 

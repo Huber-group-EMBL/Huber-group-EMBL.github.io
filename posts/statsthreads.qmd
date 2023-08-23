@@ -14,7 +14,7 @@ One of the more unhelpful concepts when empirical scientists use statistics to a
 Where 'X' is often 'normal', but can also be 'Poisson', 'Gamma', or whatever.
 Except in the most trivial cases: 
 
-- If you look close enough, the assumption is most certainly not true. The deviations may be more or less big, but they're there. Assumption not true.
+- If you look close enough, the assumption is most likely not true. The deviations may be more or less big, but they're there. Assumption not true.
 - Conversely, it is usually not possible to positively prove that such an assumption *is* true, in any logically stringent way. This would  require such tight control over all steps of the data generation that is normally only possible in simulations.
 
 So, the phrase leads to a logical dead-end, to a depressing, dreary place.
