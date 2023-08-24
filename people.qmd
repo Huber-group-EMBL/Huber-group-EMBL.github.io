@@ -42,7 +42,7 @@ format:
 | **Frederik Ziebell** | Postdoc | Cellzome/GSK |
 | **Jennifer Hüllein** | Staff researcher | DKFZ |
 | **Emma Dann** | Master thesis | PhD at Sanger Institute |
-| **Cécile Le Sueur** | Master thesis | EMBL PhD program (joint w/ M.Savitski) |
+| **Cécile Le Sueur** | Master thesis | EMBL PhD program with M.Savitski |
 | **Almut Lütge** | Master thesis | PhD with Mark Robinson, Univ. Zurich |
 | **Dr. Katharina Imkeller** | Postdoc | [Independent Group Leader, Univ. of Frankfurt](https://agimkeller.github.io) |
 | **Dr. Laleh Haghverdi** | Postdoc | [Independent Group Leader, Max-Delbrück-Center, Berlin](https://www.mdc-berlin.de/haghverdi)
@@ -50,7 +50,7 @@ format:
 | **Andreas Mock** | Trainee | PhD at DKFZ and University of Heidelberg |
 | **Elsa Bernard** | Visiting PhD student |  [Memorial Sloan Kettering Cancer Center](https://elsab.github.io/)
 | **Olena Yavorska** | Intern | PhD at Univ. Oxford |
-| **Nils Kurzawa** | Master thesis; EMBL PhD program (joint w/ M.Savitski) | Cellzome/GSK |
+| **Nils Kurzawa** | Master thesis; EMBL PhD program, joint w/ M.Savitski | Cellzome/GSK |
 | **Karsten Bach** | Master thesis | PhD at CRUK with John Marioni |
 | **Dr. Dorothee Childs** | Postdoc | HMS Analytical Software |
 | **Annika Lisa Gable** | Master thesis | PhD at Univ. Zurich |
