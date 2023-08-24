@@ -40,8 +40,9 @@ The following collaborations provide exciting opportunities to pursue interdisci
 - **Michael Boutros**, DKFZ: high-throughput genetics, imaging, in-vivo perturb-seq
 - **Thorsten Zenz**, University Hospital Zürich: genomics of drug sensitivity in blood cancers
 - **Nassos Typas**, EMBL: bacterial communities and high-throughput perturbation assays
-- **Sinem Saka**, EMBL: spatial biology from molecules to tissues
 - **Misha Savitski**, EMBL: stability proteomics
+- **Sinem Saka**, EMBL: spatial biology from molecules to tissues
+- **Victoria Ingham**, University Hospital Heidelberg: Parasitology, insecticide resistance and malaria
 - **Susan Holmes**, Stanford: statistical methodology
 - **Lars Steinmetz**, Stanford: systems genetics, genomic technologies
 - **Nikos Ignatiadis**, Chicago: statistical methodology
