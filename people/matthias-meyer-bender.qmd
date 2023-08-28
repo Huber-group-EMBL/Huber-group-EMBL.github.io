@@ -3,7 +3,7 @@ title: "Matthias Meyer-Bender"
 description: "PhD candidate"
 ---
 
-![Matthias Meyer-Bender](placeholder.png){width=500 fig-align="center"}
+![Matthias Meyer-Bender](matthias_meyer-bender.jpg){width=500 fig-align="center"}
 
 Matthias is a bioinformatician who is interested in applying machine learning methods to questions of biomedical relevance. He currently specializes in analyzing highly multiplexed fluorescence microscopy images of Non-Hodgkin B cell lymphoma. He holds BSc and MSc degrees in bioinformatics from the Technical University of Munich and Ludwig-Maxmilians-Universität Munich.
 
