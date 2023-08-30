@@ -2,9 +2,10 @@
 title: "Come work with us"
 ---
 
-### Current opening
+### Current openings
 
 - [Postdoctoral position in spatial and single-cell computational biology for precision oncology](posts/2023-08-bialymp.html)
+- [Master thesis project in cancer genomics with shared affiliation between EMBL and the German Cancer Research Center (DKFZ)](posts/2023-08-chromothripsis-master.md)
 
 Besides any specific calls, we are 
 continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
