@@ -21,6 +21,10 @@ website:
       - posts.qmd
       - events.qmd
       - contact.qmd
+  page-footer:
+    center: 
+      - text: "Contact"
+        href: contact.qmd
 
 format:
   html:
