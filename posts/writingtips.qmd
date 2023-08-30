@@ -3,11 +3,12 @@ title: "Scientific writing advice"
 description: "An eclectic and subjective list"
 author: "Wolfgang Huber"
 date: "2023-07-31"
+categories: "Wisdom"
 ---
 
-- Present experimental observations and measurements in past tense, and interpretations and conclusions in present tense. The statements in past tense are the real, hard substance of the paper that make it worthwhile. Anyone can speculate and toss around generalities.
+- Present experimental observations and measurements in past tense, and interpretations and conclusions in present tense. The statements in past tense are the real, hard substance of the paper that make it worthwhile. Anyone can speculate and toss around generalities. Use active voice for things that you did--to distinguish from what others did or from what already pre-existed e.g. from prior work.
 - Use one term per concept, and one concept per term. I.e., avoid lexical variation, as it just adds unnecessary mental load on the reader (“Do they really mean the same? Or do they mean to leave room for some subtle distinction?”). Similarly do not overload the same word with multiple meanings. A frequent example is using the same word for data that were actually measured, and for what the authors want them to mean. It is a mark of a good scientist to care about the difference.
-- In the Results section, focus on what you did. Musings about what you or someone could have done instead are (if at all) for Intro or Discussion.
+- In the Results section, focus on what you did. Musings about what you or someone could have done instead are (if at all) for Intro or Discussion. The Results section should proceed step by step. E.g., in an experimental omics paper, from sample acquisition, to choice of measurement technology, to specific protocol used, to specs of the data generated (e.g. number of reads, alignment, quality filters). Then, discuss how the data were analysed. Always step by step, and such that each intermediate step or result is explained before it is used by another step.
 - Beware of dangling participles. Even if the intended meaning is clear. You may think you sound sophisticated, but it actually undermines you. Similarly for dangling pronouns.
 - If you want to use fancy sounding words, make sure you really understand their meaning, and that it is what you want.
 - Spell out abbreviations. You may think that you make the text more readable by compressing it, but the opposite is the case. Many readers do not read the paper linearly from beginning to end, and instead jump around or start in the middle. Even if you think a certain abbreviation is obvious, you will be surprised by how many readers you lose with it. 
@@ -18,6 +19,7 @@ date: "2023-07-31"
 - Putting terms in quotes tends to look "unprofessional" and can in most cases be avoided by being careful about the choice of words.  
 - If multiple spellings are possible for a term (e.g., hyphenation), pick one and stick with it.
 - In biomedical studies, use the word "patients" if you mean the actual people, i.e., persons with life histories, families, feelings. Use another word if you are just referring to blood samples or tissue biopsies. 
+- Don't say "X represents Y" when you just mean "X is Y". (Doing so exposes you as pompous and careless of logical thinking.)
 
 ### Figures:
 - Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is good advice on this on the internet. If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, as much as possible use different color maps for different variables.

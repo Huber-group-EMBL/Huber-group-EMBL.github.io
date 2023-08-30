@@ -2,7 +2,12 @@
 title: "Come work with us"
 ---
 
-We are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
+### Current opening
+
+- [Postdoctoral position in spatial and single-cell computational biology for precision oncology](posts/2023-08-bialymp.html)
+
+Besides any specific calls, we are 
+continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
 
 -   Method development in statistical methodology and computing in biological research
 -   Biological discovery through integrative data analysis
@@ -35,8 +40,9 @@ The following collaborations provide exciting opportunities to pursue interdisci
 - **Michael Boutros**, DKFZ: high-throughput genetics, imaging, in-vivo perturb-seq
 - **Thorsten Zenz**, University Hospital Zürich: genomics of drug sensitivity in blood cancers
 - **Nassos Typas**, EMBL: bacterial communities and high-throughput perturbation assays
-- **Sinem Saka**, EMBL: spatial biology from molecules to tissues
 - **Misha Savitski**, EMBL: stability proteomics
+- **Sinem Saka**, EMBL: spatial biology from molecules to tissues
+- **Victoria Ingham**, University Hospital Heidelberg: Parasitology, insecticide resistance and malaria
 - **Susan Holmes**, Stanford: statistical methodology
 - **Lars Steinmetz**, Stanford: systems genetics, genomic technologies
 - **Nikos Ignatiadis**, Chicago: statistical methodology

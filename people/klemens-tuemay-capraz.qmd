@@ -1,14 +1,10 @@
 ---
-title: "Klemens Tümay Capraz"
+title: "Tümay Capraz"
 description: "PhD candidate"
 ---
 
-![Klemens Tümay Capraz](placeholder.jpg){width=500 fig-align="center"}
+![Tümay Capraz](Tuemay.png){width=500 fig-align="center"}
 
-ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν
+Tümay is a PhD candidate and works on statistical and machine learning methods for multi-omics data analysis. Additionally he develops computational tools to study gene functions of gut microbes.
 
-ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος
-
-καὶ εἶπεν ὁ θεός γενηθήτω φῶς καὶ ἐγένετο φῶς
-
-καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους
+Previously Tümay studied Biotechnology at the University of Natural Resources and Life Sciences (BOKU) in Vienna. For his master thesis he was working on a high-throughput method for protein complex localization assignment at ETH Zurich. Outside the lab he plays the trombone in various bands and big bands and enjoys beach volleyball.

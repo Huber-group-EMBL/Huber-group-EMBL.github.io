@@ -3,12 +3,9 @@ title: "Sarah Kaspar"
 description: "Consultant Statistics / Data Science"
 ---
 
-![Sarah Kaspar](placeholder.jpg){width=500 fig-align="center"}
+![Sarah Kaspar](Sarah_Kaspar_profile.jpg){width=500 fig-align="center"}
 
-ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν
 
-ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος
+Sarah is a biostatistics consultant and trainer. She runs EMBL's [Centre for Statistical Data Analysis](https://bio-it.embl.de/centres/csda/) which supports EMBL researchers in scientific coding and applying adequate statistical methods to answer biological questions. She offers internal and external training, as well as [on-demand training materials](https://www.ebi.ac.uk/training/trainers/sarah-kaspar).
 
-καὶ εἶπεν ὁ θεός γενηθήτω φῶς καὶ ἐγένετο φῶς
-
-καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους
+Sarah received her PhD from Heidelberg University, where she developed mathematical models for bacterial gene expression. She joined EMBL in 2020 as part of the Huber group and the Centre for Statistical Data Analysis.

@@ -1,6 +1,7 @@
 ---
 title: "Thomas Naake"
 description: "Postdoctoral researcher"
+image: "thomas-naake-thumbnail.jpg"
 ---
 
 ![Thomas Naake](thomas-naake-1852x2286.jpg){width=500 fig-align="center"}
