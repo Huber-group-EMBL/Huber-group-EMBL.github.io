@@ -9,6 +9,6 @@ title: "Contact"
 >Germany
 
 Email: `wolfgang.huber <at> embl.org` \
-Twitter: [@wolfgangkhuber](https://twitter.com/wolfgangkhuber) \
 Bluesky: [@wkhuber.bsky.social](https://bsky.app/profile/wkhuber.bsky.social) \
 Mastodon: [@whuber@mastodon.social ](https://mastodon.social/@whuber) 
+Twitter: [@wolfgangkhuber](https://twitter.com/wolfgangkhuber) \
