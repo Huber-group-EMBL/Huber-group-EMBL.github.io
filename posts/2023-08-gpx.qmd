@@ -48,6 +48,9 @@ Instead, we go up slightly left of Kühler Grund and pass Bierhelder Hof on a pa
 View [on Komoot](https://www.komoot.com/tour/1261647422).
 
 
+**The tours below involve parts that are off-road, washed-out single trails, steep descents. Please use with caution. Even though the routes were fine for biking when I recorded them, changes are always possible, e.g., due to forest works, falling trees, erosion, etc.**
+
+A full suspension mountain bike is recommend for these tours. The altitude measurements in the GPX files seem to be some 60m too high, possibly an artefact of my phone.
 
 <!--      -->
 ## After work tour to Königstuhl, route 1 (<1h)
@@ -65,8 +68,8 @@ The highest point of the tour is a vista point with a popular picnic spot, a [re
  
 [![Cows at BierhelderHof.](../photos/BierhelderHofKuehe.jpg){width="50%"}](../photos/BierhelderHofKuehe.jpg)
 
-[GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx) (the altitude measurements seem 60m too high). 
-View [on Komoot](https://www.komoot.com/tour/1260576037). For the downhill part, better use a full-suspension bike.
+[GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx).
+View [on Komoot](https://www.komoot.com/tour/1260576037). 
 
 ## After work tour to Königstuhl, route 2 (<1h)
 
@@ -80,5 +83,29 @@ View [on Komoot](https://www.komoot.com/tour/1260576037). For the downhill part,
 
 :::
 
-[GPX track](../gpx/2023-08-15_1262473551_Feierabendtour.gpx) (the altitude measurements seem 60m too high). 
-View [on Komoot](https://www.komoot.com/tour/1262473551). Use a bike with low gears for the uphill part.
+[GPX track](../gpx/2023-08-15_1262473551_Feierabendtour.gpx).
+View [on Komoot](https://www.komoot.com/tour/1262473551).
+
+## Weisser Stein, route 1 (1.15h)
+
+This trail involves several touristic highlights including remnants from a prehistoric Celtic settlement with a deep hole in the ground, [ruins from a medieval monastery](https://de.wikipedia.org/wiki/Michaelskloster_(Heidelberg)), a strange [Nazi-era amphitheatre](https://de.wikipedia.org/wiki/Thingst%C3%A4tte_(Heidelberg)), three inns in the forest ([Waldschenke](https://www.waldschenke-heidelberg.de), [Weisser Stein](https://www.zum-weissen-stein.eu), [Kloster Neuburg](https://gasthof-zum-klostergarten.de)), and the Philosophenweg.
+
+::: {layout="[[67,-1,33]]"}
+[![Map](../photos/WeisserStein-1-tour.jpg){width="60%"}](../photos/WeisserStein-1-tour.jpg)
+
+[![Single trail between Heiligenberg and Zollstockbrunnen](../photos/WeisserStein-singletrail.jpg){width="60%"}](../photos/WeisserStein-singletrail.jpg)
+
+:::
+
+::: {layout="[[33,-1,33,-1,33]]"}
+
+[![View from Philosophenweg](../photos/20230902-Philosophenweg.jpg)](../photos/20230902-Philosophenweg.jpg)
+
+[![Lars Steinmetz and Wolfgang on Weisser Stein](../photos/WeisserStein-Lars+Wolfgang.jpg)](../photos/WeisserStein-Lars+Wolfgang.jpg)
+
+[![Also a good destination in the winter. The restaurant offers warm-up and hearty food.](../photos/WeisserStein-snow-sm.jpg)](../photos/WeisserStein-snow-sm.jpg)
+
+:::
+
+[GPX track](../gpx/Weisser-Stein-1.gpx).
+View [on Komoot](https://www.komoot.com/tour/1289364651). 
