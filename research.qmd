@@ -32,7 +32,7 @@ As we engage with new data types, we aim to develop high-quality computational m
 
 ### Mentoring and career development
 
-Science is an intellectual adventure and a creative process done by people. For each of us, our work is at the same time a means to achieve a scientific goal, and a stage of training and professional development. This includes student internships, BSc/MSc theses, PhD theses, postdoctoral projects. The group, and EMBL more generally, offers a well-established mentoring framework to support these dual objectives. [Former group members](people.html#alumni) have moved on to rewarding careers: professors, independent group leaders, senior management or professional scientist roles in industry.
+Science is an intellectual adventure and a creative process done by people. For each of us, our work is at the same time, a means to achieve a scientific goal, a job that enables us pay our bills, and a stage of training and professional development. This includes student internships, BSc/MSc theses, PhD theses, postdoctoral projects. The group, and EMBL more generally, offers a well-established mentoring framework to support these triple objectives. [Former group members](people.html#alumni) have moved on to rewarding careers: professors, independent group leaders, senior management or professional scientist roles in industry.
 
 ### Teaching
 
