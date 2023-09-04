@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Approach & Outputs"
 ---
 
 We exploit new data types and new types of experiments and studies by developing the computational techniques needed to turn raw data into biology.
@@ -10,25 +10,15 @@ We exploit new data types and new types of experiments and studies by developing
 - Many powerful mathematical and computational ideas exist but are difficult to access. We aim to translate them into practical methods and software that make a real difference to biomedical researchers. We sometimes term this approach **translational statistics**.
 
 
-###
-
 ::: {.column-margin}
-![Modern Statistics for Modern Biology textbook, with Susan Holmes: [online version](https://www.huber.embl.de/msmb). There is also a [print version published by CUP](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).](photos/MSFMB-Cover2-compressed.jpg){width=240 fig-align="center"}
-:::
+![Modern Statistics for Modern Biology textbook, with Susan Holmes: [online version](https://www.huber.embl.de/msmb/). There is also a [print version published by CUP](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).](photos/MSFMB-Cover2-compressed.jpg){width=240 fig-align="center"}
 
-::: {.column-margin}
 ![Cellular neighborhood analysis of healthy and malignant lymph nodes based on single-cell resolution spatial proteomics by multiplexed immunohistochemistry.](photos/cellularneighborhoods.png){width=240 fig-align="center"}
-:::
 
-::: {.column-margin}
 ![Cluster-free differential expression analysis of sc-RNA-seq data using LEMUR. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/clusterfreeDE-2048x1649.png){width=240 fig-align="center"}
-:::
 
-::: {.column-margin}
 ![Comparison of transformations for single-cell RNA-seq data. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/Transformations-Fig1c.png)
-:::
 
-::: {.column-margin}
 ![Ternary plots of relative sensitivities to targeted kinase inhibitors for a cohort of primary tumour samples of chronic lymphocytic leukaemia (CLL). [Paper link](https://doi.org/10.1172/JCI93801).](photos/JCI2018-fig_02_l.jpg)
 :::
 
@@ -42,11 +32,11 @@ As we engage with new data types, we aim to develop high-quality computational m
 
 ### Mentoring and career development
 
-Science is an intellectual adventure and a creative process done by people. Their training and professional development is at the center of what we do. Former group members have moved on to rewarding careers: professors, independent group leaders, senior management or professional scientist roles in industry.
+Science is an intellectual adventure and a creative process done by people. For each of us, our work is at the same time a means to achieve a scientific goal, and a stage of training and professional development. This includes student internships, BSc/MSc theses, PhD theses, postdoctoral projects. The group, and EMBL more generally, offers a well-established mentoring framework to support these dual objectives. [Former group members](people.html#alumni) have moved on to rewarding careers: professors, independent group leaders, senior management or professional scientist roles in industry.
 
 ### Teaching
 
-We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes and Wolfgang Huber. The book is available [online, for free, as HTML](https://www.huber.embl.de/msmb). It was published as a [printed book in 2019 by Cambridge University Press](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).
+We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes and Wolfgang Huber. The book is available [online, for free, as HTML](https://www.huber.embl.de/msmb/). It was published as a [printed book in 2019 by Cambridge University Press](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).
 
 We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2023 edition](https://csama2023.bioconductor.eu). See [here for some impressions](https://www.huber.embl.de/group/posts/2023-06-16-csama.html).
 

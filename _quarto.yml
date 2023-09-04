@@ -14,17 +14,17 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - research.qmd
-      - pub.qmd
-      - people.qmd
+      - href: research.qmd
+        text: Approach & Outputs
       - workwithus.qmd
+      - people.qmd
       - posts.qmd
       - events.qmd
+      - pub.qmd
       - contact.qmd
 
 format:
   html:
-    page-layout: full
     theme: zephyr
     css: styles.css
     toc: true
