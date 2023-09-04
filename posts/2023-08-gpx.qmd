@@ -88,7 +88,16 @@ View [on Komoot](https://www.komoot.com/tour/1262473551).
 
 ## Weisser Stein, route 1 (1.15h)
 
-This trail involves several touristic highlights including remnants from a prehistoric Celtic settlement with a deep hole in the ground, [ruins from a medieval monastery](https://de.wikipedia.org/wiki/Michaelskloster_(Heidelberg)), a strange [Nazi-era amphitheatre](https://de.wikipedia.org/wiki/Thingst%C3%A4tte_(Heidelberg)), three inns in the forest ([Waldschenke](https://www.waldschenke-heidelberg.de), [Weisser Stein](https://www.zum-weissen-stein.eu), [Kloster Neuburg](https://gasthof-zum-klostergarten.de)), and the Philosophenweg.
+This trail involves [several touristic highlights](https://de.wikipedia.org/wiki/Heiligenberg_(Heidelberg)), 
+including remnants from a 
+[prehistoric Celtic settlement](https://heiligenberg-handschuhsheim.de/7000-jahre-heiligenberg/7000-years-of-heiligenberg-english-version) with a 
+[deep hole in the ground](https://de.wikipedia.org/wiki/Heidenloch_(Heidelberg)), 
+[ruins from a medieval monastery](https://de.wikipedia.org/wiki/Michaelskloster_(Heidelberg)), 
+a strange [Nazi-era amphitheatre](https://de.wikipedia.org/wiki/Thingst%C3%A4tte_(Heidelberg)), 
+three inns in the forest 
+([Waldschenke](https://www.waldschenke-heidelberg.de), 
+[Weisser Stein](https://www.zum-weissen-stein.eu), 
+[Kloster Neuburg](https://gasthof-zum-klostergarten.de)), and the Philosophenweg.
 
 ::: {layout="[[67,-1,33]]"}
 [![Map](../photos/WeisserStein-1-tour.jpg){width="60%"}](../photos/WeisserStein-1-tour.jpg)
