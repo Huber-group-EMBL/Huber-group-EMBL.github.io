@@ -1,0 +1,20 @@
+---
+title: "Research Assessment"
+description: "DORA, CoARA, responsible research assessment"
+author: "Wolfgang Huber"
+date: "2023-09-05"
+categories: "Wisdom"
+---
+
+::: {layout="[[60,40]]"}
+
+During 2020, I got drafted into a new EMBL working group on [DORA](https://sfdora.org/), whose task was institutional change management towards a more explicit and more visible commitment by the institution to DORA. We also identified a few action points that are now summarized [here](https://www.embl.org/about/research-assessment/).
+Here's a few relevant links and resources:
+
+![](../photos/How-do-you-decide.jpg){width="50%"}
+
+:::
+
+- [Interview for the EMBL Newsletter (June 2023)](https://www.embl.org/news/lab-matters/research-assessment-reform-at-embl-an-interview-with-wolfgang-huber/)
+- [Slides from my talk at the EMBL Lab Day 2023](https://docs.google.com/presentation/d/e/2PACX-1vRpWT5bmqfJ5u4T4Uov2UelSFTQh7qiF4G-AQk6EGjmMkk0aCty8DcKeLE_jo1iqlKxqex99HvpJGMH/pub?start=false&loop=false&delayms=3000#slide=id.g257b878f5f8_0_0).
+- [Landing page on research assessment on the EMBL website](https://www.embl.org/about/research-assessment/)
