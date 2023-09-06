@@ -35,7 +35,7 @@ View [on Komoot](https://www.komoot.com/tour/1261076604).
 
 
 <!--      -->
-## Heidelberg Rohrbach to EMBL via Bierhelder Hof
+## Bike commute from Heidelberg Rohrbach to EMBL via Bierhelder Hof
 <!--      -->
 
 Here, an obvious choice of route would be to go up Kühler Grund all the way to Forstquelle (the red <font color="red">A</font> on the map) and then continue left on Bierhelderhofweg. But the latter is part is not good: narrow, steep, obstructed view, fast moving cars. Alternatively, one can turn right at Forstquelle and go past the Heating Station (the red <font color="red">B</font> on the map) through the forest; but it's a bit of a detour. 
@@ -47,10 +47,11 @@ Instead, we go up slightly left of Kühler Grund and pass Bierhelder Hof on a pa
 [GPX track](../gpx/Rohrbach-to-EMBL.gpx).
 View [on Komoot](https://www.komoot.com/tour/1261647422).
 
+## README ##
 
-**The tours below involve parts that are off-road, washed-out single trails, steep descents. Please use with caution. Even though the routes were fine for biking when I recorded them, changes are always possible, e.g., due to forest works, falling trees, erosion, etc.**
+The company MOVELO offers an e-bike rental service on campus [Intranet link](https://www.embl.org/internal-information/administration/ebike-hire/).
 
-A full suspension mountain bike is recommend for these tours. The altitude measurements in the GPX files seem to be some 60m too high, possibly an artefact of my phone.
+The tours below involve parts that are off-road, washed-out single trails, steep descents. Please use with caution. Even though the routes were fine for biking when I recorded them, changes are always possible, e.g., due to forest works, falling trees, erosion, etc. A full suspension mountain bike is recommended. The altitude measurements in the GPX files seem to be some 60m too high, possibly an artefact of my phone.
 
 <!--      -->
 ## After work tour to Königstuhl, route 1 (<1h)

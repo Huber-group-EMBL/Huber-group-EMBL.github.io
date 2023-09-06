@@ -4,6 +4,7 @@ description: "DORA, CoARA, responsible research assessment"
 author: "Wolfgang Huber"
 date: "2023-09-05"
 categories: "Wisdom"
+image: "../photos/How-do-you-decide-thumb.jpg"
 ---
 
 ::: {layout="[[60,40]]"}
