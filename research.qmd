@@ -42,6 +42,8 @@ We run the annual summer school CSAMA—Biological Data Science. It usually take
 
 In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org). See also [Wolfgang's post about it](https://www.huber.embl.de/group/posts/2023-08-onbds3.html).
 
+We develop publicly available interactive [training materials on statistical methods](https://www.ebi.ac.uk/training/online/courses/biostatistics-introduction/). 
+
 ### Software
 
 We are a frequent contributor to the Bioconductor project
