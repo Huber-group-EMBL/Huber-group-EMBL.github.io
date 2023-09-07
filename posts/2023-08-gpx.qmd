@@ -92,7 +92,7 @@ View [on Komoot](https://www.komoot.com/tour/1262473551).
 
 `r myfig500("Koenigstuhl-quick.jpg")`
 
-[GPX track](../gpx/gpx/Koenigstuhl-quick.gpx  ).
+[GPX track](../gpx/Koenigstuhl-quick.gpx).
 View [on Komoot](https://www.komoot.com/tour/1103276509). 
 
 
