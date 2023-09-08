@@ -4,11 +4,9 @@ description: "Internship for bioinformatics trainers"
 author: "Sarah Kaspar"
 date: "2023-09-27"
 categories: "Positions"
-image: "../photos/codexspots-h.jpg"
 ---
 
 > Location: Heidelberg, Germany\
-> Staff Category: \
 > Duration: 3 months\
 
 ## About the project 
