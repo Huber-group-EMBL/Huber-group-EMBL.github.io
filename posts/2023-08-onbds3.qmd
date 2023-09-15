@@ -30,6 +30,7 @@ Related press releases:
 
 - From UZHNU: <https://www.uzhnu.edu.ua/uk/news/biological-data-science-summer-school.htm>
 - From OIST: <https://www.oist.jp/news-center/news/2023/8/3/oist-researchers-help-organize-data-science-summer-school-ukraine>
+- Linked in post by [Alvis Brazma](https://www.linkedin.com/pulse/biological-data-science-summer-school-ukraine-alvis-brazma)
 
 ![The BDS$^\textrm{3}$ class of 2023](../photos/2023-07-13-bds3-class.jpg)
 
