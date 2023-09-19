@@ -9,12 +9,14 @@ image: "../photos/How-do-you-decide-thumb.jpg"
 
 ::: {layout="[[60,40]]"}
 
-During 2020, I got drafted into a new EMBL working group on [DORA](https://sfdora.org/), whose task was institutional change management towards a more explicit and more visible commitment by the institution to DORA. We also identified a few action points that are now summarized [here](https://www.embl.org/about/research-assessment/).
-Here's a few relevant links and resources:
+During 2020, I got drafted into a new EMBL working group on [DORA](https://sfdora.org/), whose task was institutional change management towards a more explicit and more visible commitment by the institution to DORA. Initially I was not super-excited about yet more committee work. But I got to realize how important and interesting the topic is. I touches all that we do as scientists. And I got to love my institution even more for its progressive and pragmatic approach. \
 
 ![](../photos/How-do-you-decide.jpg){width="50%"}
 
 :::
+
+Anyway, we also identified a few action points, which are now summarized [here](https://www.embl.org/about/research-assessment/).
+Here's a few relevant links and resources:
 
 - [Interview for the EMBL Newsletter (June 2023)](https://www.embl.org/news/lab-matters/research-assessment-reform-at-embl-an-interview-with-wolfgang-huber/)
 - [Slides from my talk at the EMBL Lab Day 2023](https://docs.google.com/presentation/d/e/2PACX-1vRpWT5bmqfJ5u4T4Uov2UelSFTQh7qiF4G-AQk6EGjmMkk0aCty8DcKeLE_jo1iqlKxqex99HvpJGMH/pub?start=false&loop=false&delayms=3000#slide=id.g257b878f5f8_0_0).
