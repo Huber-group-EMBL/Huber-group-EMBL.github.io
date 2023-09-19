@@ -4,6 +4,7 @@ description: "Random musings on statistical applications in molecular biology"
 author: "Wolfgang Huber"
 date: "2023-08-21"
 categories: "Wisdom"
+image: "../photos/geothmetic_meandian_2x.png"
 ---
 
 # Distributional assumptions
@@ -25,3 +26,9 @@ A much better concept is
 > "we model the data by 'X' distribution". 
 
 This is something we can work with. We can ask and study whether or to what extent the model is useful for the task at hand. The model may have too many parameters, too few parameters, or the wrong set of parameters. There may be multiple alternative, similarly useful models. But these are questions we can productively address. 
+
+# Experimental design
+
+Everyone knows that having a good plan for what you want to achieve and how *at the outset* of an experiment or a study is much better than winging it and spending a lot of time collecting a pile of data that in the end are inconclusive, uninterpretable, or plain boring. The analog also applies to computational "studies". I made some [slides on this topic](https://www.huber.embl.de/users/whuber/2301-GHGA-best-analysis-practices/) for a course at [GHGA](https://www.ghga.de/), which are partly based on [the chapter from the MSMB book](https://www.huber.embl.de/msmb/) with Susan Holmes.
+
+

@@ -4,6 +4,7 @@ description: "An eclectic and subjective list"
 author: "Wolfgang Huber"
 date: "2023-07-31"
 categories: "Wisdom"
+image: "../photos/einstein-gr.jpg"
 ---
 
 - Present experimental observations and measurements in past tense. Use present tense for presuppositions, interpretations and conclusions. The statements in past tense are the real, hard substance, the novelty of a research paper. 
