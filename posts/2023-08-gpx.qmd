@@ -144,4 +144,11 @@ View [on Komoot](https://www.komoot.com/tour/1289364651).
 View [on Komoot](https://www.komoot.com/tour/1144802501). 
 
 
+## Weisser Stein direct descent
+
+`r myfig500("Weisser-Stein-direct-descent.jpg")`
+
+[GPX track](../gpx/Weisser-Stein-direct-descent.gpx).
+View [on Komoot](https://www.komoot.com/tour/1313978021). 
+
 
