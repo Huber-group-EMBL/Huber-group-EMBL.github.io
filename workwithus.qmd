@@ -6,6 +6,7 @@ title: "Working with us"
 
 - [Postdoctoral position in spatial and single-cell computational biology for precision oncology](posts/2023-08-bialymp.html)
 - [Master thesis project in cancer genomics with shared affiliation between EMBL and the German Cancer Research Center (DKFZ)](posts/2023-08-chromothripsis-master.md)
+- [Internship for bioinformatics trainers](posts/2023-09-csda-internship.qmd)
 
 Besides any specific calls, we are 
 continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:

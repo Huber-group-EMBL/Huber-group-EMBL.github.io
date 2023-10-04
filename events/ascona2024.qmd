@@ -24,14 +24,16 @@ There are also new conceptual and theoretical challenges to develop suitable mat
 These questions will be explored by an interdisciplinary group of speakers and participants.
 
 #### Keynote Speakers
-* Shila Ghazanfar, University of Sydney
-* Virginie Uhlmann, EMBL
-* Lara Urban, Technical University Munich / Helmholtz Center
-* Stefanie Hicks, Johns Hopkins University
-* Ewa Szczurek, Univ. of Warsaw
-* Andreas Moor, ETH
 * Peer Bork, EMBL
+* Maria Cristina Gambetta, Univ. of Lausanne
+* Shila Ghazanfar, Univ. of Sydney
+* Stefanie Hicks, Johns Hopkins University
+* Dmitry Kobak, Univ. of Tübingen
+* Andreas Moor, ETH
 * Emma Schymanski, Univ. of Luxemburg	
+* Ewa Szczurek, Univ. of Warsaw
+* Virginie Uhlmann, Univ. of Zürich
+* Lara Urban, Technical University Munich / Helmholtz Center
 
 #### News
 Pre-registration will open in January 2024 and close on (Date TBD).
@@ -40,7 +42,7 @@ Pre-registration is non-binding, but it is mandatory for participating in the wo
 
 #### Dates
 **Deadline for pre-registration:** TBD\
-**Workshop:**  8-13 September 2024
+**Workshop:**  8-13 September 2024 (Sunday evening till Friday noon)
 
 #### Location
 [Congressi Stefano Franscini](http://www.csf.ethz.ch/), Monte Verità, Ascona, Switzerland
@@ -49,16 +51,19 @@ Pre-registration is non-binding, but it is mandatory for participating in the wo
 Academia TBD \
 Industry TBD
 
+<!---
 #### Contact
 TBD
+--->
 
 #### Organizing committee
 Niko Beerenwinkel, Valentina Boeva, Peter Bühlmann, Wolfgang Huber
 
+<!---
 #### Programm
 TBD
 
 #### Sponsors
 TBD
-
+-->
 

@@ -1,10 +1,13 @@
 ---
 title: "Sarah Kaspar"
-description: "Consultant Statistics / Data Science"
+description: "Biostatistics Consultant and Trainer"
 ---
 
 ![Sarah Kaspar](Sarah_Kaspar_profile.jpg){width=500 fig-align="center"}
 
+>[Personal webpage](https://sarahkaspar.github.io) \
+>GitHub          [sarahkaspar](https://github.com/SarahKaspar) \
+>LinkedIn        [sarah-kaspar](https://linkedin.com/in/sarah-kaspar)
 
 Sarah is a biostatistics consultant and trainer. She runs EMBL's [Centre for Statistical Data Analysis](https://bio-it.embl.de/centres/csda/) which supports EMBL researchers in scientific coding and applying adequate statistical methods to answer biological questions. She offers internal and external training, as well as [on-demand training materials](https://www.ebi.ac.uk/training/trainers/sarah-kaspar).
 

@@ -3,12 +3,12 @@ title: "Erin Chung"
 description: "PhD candidate"
 ---
 
-![Erin Chung](placeholder.png){width=500 fig-align="center"}
+![Erin Chung](chung_photo.jpeg){width=500 fig-align="center"}
 
-ἐν ἀρχῇ ἐποίησεν ὁ θεὸς τὸν οὐρανὸν καὶ τὴν γῆν
+>Twitter/X         [@erin_kch](https://twitter.com/erin_kch) \
+>LinkedIn          [Erin Chung](https://www.linkedin.com/in/erin-kch/) \
 
-ἡ δὲ γῆ ἦν ἀόρατος καὶ ἀκατασκεύαστος καὶ σκότος ἐπάνω τῆς ἀβύσσου καὶ πνεῦμα θεοῦ ἐπεφέρετο ἐπάνω τοῦ ὕδατος
+Erin's PhD work focuses on identifying how genomic changes alter cellular interactions and tissue architecture in B-cell non-Hodgkin's lymphoma, and method development for single-cell spatial analysis of multiplexed immunofluorescence images.
 
-καὶ εἶπεν ὁ θεός γενηθήτω φῶς καὶ ἐγένετο φῶς
+Before joining EMBL, Erin studied molecular biology and computer science at Boston University. During her degree she completed research internships in sequence analysis at the A*STAR Bioinformatics Institute, and a final year project in the BUMC Hematology and Oncology Department researching triple-negative breast cancer. 
 
-καὶ εἶδεν ὁ θεὸς τὸ φῶς ὅτι καλόν καὶ διεχώρισεν ὁ θεὸς ἀνὰ μέσον τοῦ φωτὸς καὶ ἀνὰ μέσον τοῦ σκότους

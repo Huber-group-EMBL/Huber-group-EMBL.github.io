@@ -4,7 +4,18 @@ description: "Random musings on statistical applications in molecular biology"
 author: "Wolfgang Huber"
 date: "2023-08-21"
 categories: "Wisdom"
+image: "../photos/geothmetic_meandian_2x.png"
 ---
+
+# Methods benchmarking
+
+All batch correction methods are wrong, but some are useful. [(Bluesky)](https://bsky.app/profile/wkhuber.bsky.social/post/3kacqov7znf2z)
+
+We should treat methods in computational biology more like the wet lab, with positive and negative controls, and 'replication' with different inputs and parameters. Many methods rely on heuristics and even if not,  objectives are typically so nuanced that provable correctness/optimality do not help. [(Bluesky)](https://bsky.app/profile/wkhuber.bsky.social/post/3kaed2dk47t2n)
+
+# Experimental design
+
+Everyone knows that having a good plan for what you want to achieve and how *at the outset* of an experiment or a study is much better than winging it and spending a lot of time collecting a pile of data that in the end are inconclusive, uninterpretable, or plain boring. The analog also applies to computational "studies". I made some [slides on this topic](https://www.huber.embl.de/users/whuber/2301-GHGA-best-analysis-practices/) for a course at [GHGA](https://www.ghga.de/), which are partly based on [the chapter from the MSMB book](https://www.huber.embl.de/msmb/) with Susan Holmes.
 
 # Distributional assumptions
 
@@ -25,3 +36,9 @@ A much better concept is
 > "we model the data by 'X' distribution". 
 
 This is something we can work with. We can ask and study whether or to what extent the model is useful for the task at hand. The model may have too many parameters, too few parameters, or the wrong set of parameters. There may be multiple alternative, similarly useful models. But these are questions we can productively address. 
+
+# The t-test and its assumptions
+
+I often hear from people avoiding using the t-test because they're nervous about normality assumptions. They worry that their data aren't normal, even run tests "against normality" to show they can't use the test. There is rarely a need for that. The t-test works just fine for data quite far from normality. There is however, another assumption that is far more critical: independence. If there are correlations (sometimes also called *batch effects*), then the results of the t-test (and pretty much any basic test you can think of) are unreliable. Applied to correlated data, the p-values from the t-test will be all over the place. Often, too small, leading to false discoveries. I put up a [little shiny app](https://wolfganghuber.shinyapps.io/t-test-normality-and-independence) to demonstrate this. Even for very long-tailed distributions, the test's calibration is fine. If anything, the t-test gets more conservative. If there are correlations, however, there is a strong effect: an abundance of (spurious) small p-values. 
+
+This means that you **can** use the t-test for quite non-normal data; not that you **should**. That depends on whether the mean is a good summary. For very skewed data (say, income distributions in a country), shifts in the average may just not be the right thing to look for. 

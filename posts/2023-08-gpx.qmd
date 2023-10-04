@@ -12,22 +12,26 @@ One of the things to know about EMBL Heidelberg is the commute to it by bike on 
 
 The most obvious route is for cyclists to follow the road that the cars and busses take, up Steigerweg. But in the uphill direction, this can be nasty and unsafe, as the road is narrow and steep, and traffic can be intense. There are better alternatives. Here is one. 
 
+```{r}
+#| label: defmyfig
+#| echo: FALSE
+myfig    = function(x, s = "Map") sprintf("[![%s](../photos/%s)](../photos/%s)", s, x, x)
+myfig500 = function(x, s = "Map") sprintf("[![%s](../photos/%s){width='500px'}](../photos/%s)", s, x, x)
+```
+
 ::: {layout="[[50,-1,50]]"}
+`r myfig("Commute-from-HD-Weststadt-to-EMBL.jpg")`
 
-[![Map](../photos/Commute-from-HD-Weststadt-to-EMBL.jpg)](../photos/Commute-from-HD-Weststadt-to-EMBL.jpg)
-
-[![Oberer Gaisbergweg, a quiet residential street and cul-de-sac.](../photos/20230822_195053-sm.jpeg)](../photos/20230822_195053-sm.jpeg)
-
+`r myfig("20230822_195053-sm.jpeg", "Oberer Gaisbergweg, a quiet residential street and cul-de-sac.")`
 :::
 
 ::: {layout="[[34,-1,34,-1,34]]"}
 
-[![A bit further up on Oberer Gaisbergweg. Much of the altitude gain is made here.](../photos/20230822_195333-sm.jpeg)](../photos/20230822_195333-sm.jpeg)
+`r myfig("20230822_195333-sm.jpeg", "A bit further up on Oberer Gaisbergweg. Much of the altitude gain is made here.")`
 
-[![Oberer Gaisbergweg.](../photos/20230822_195625-sm.jpeg)](../photos/20230822_195625-sm.jpeg)
+`r myfig("20230822_195625-sm.jpeg", "Oberer Gaisbergweg.")`
 
-[![Unterer Parkweg, a shortcut through the forest from Speyerer Hof to MPI, towards the end of the trip.](../photos/2023-08-15-08-37.jpeg)](../photos/2023-08-15-08-37.jpeg)
-
+`r myfig("2023-08-15-08-37.jpeg", "Unterer Parkweg, a shortcut through the forest from Speyerer Hof to MPI, towards the end of the trip.")`
 :::
 
 [GPX track](../gpx/Commute-from-HD-Weststadt-to-EMBL.gpx).
@@ -42,7 +46,7 @@ Here, an obvious choice of route would be to go up Kühler Grund all the way to 
 
 Instead, we go up slightly left of Kühler Grund and pass Bierhelder Hof on a paved road that crosses a pleasant meadow with cows. The section on Rotstückweg is a bit steep and unpaved. A more relaxed option is to go via the red <font color="red">C</font> on the map.
 
-[![Map](../photos/Commute-from-HD-Rohrbach-to-EMBL.jpg){width="60%"}](../photos/Commute-from-HD-Rohrbach-to-EMBL.jpg)
+`r myfig500("Commute-from-HD-Rohrbach-to-EMBL.jpg")`
 
 [GPX track](../gpx/Rohrbach-to-EMBL.gpx).
 View [on Komoot](https://www.komoot.com/tour/1261647422).
@@ -58,34 +62,49 @@ The tours below involve parts that are off-road, washed-out single trails, steep
 <!--      -->
 
 ::: {layout="[[50,-1,50]]"}
+`r myfig("2023-08-14-Feierabendtour-map.jpg")`
 
-[![Map](../photos/2023-08-14-Feierabendtour-map.jpg)](../photos/2023-08-14-Feierabendtour-map.jpg)
-
-[![View over Heidelberg from Königstuhl.](../photos/2022-08-04-Koenigstuhl.jpg)](../photos/2022-08-04-Koenigstuhl.jpg)
-
+`r myfig("2022-08-04-Koenigstuhl.jpg", "View over Heidelberg from Königstuhl.")`
 :::
 
 The highest point of the tour is a vista point with a popular picnic spot, a [restaurant with an outdoors terrace](https://www.gasthof-koenigstuhl.de/en/restaurants/bergstuben) and a [beergarden-kiosk](https://riosk.de/content/riosk-fuchsbau-k%C3%B6nigstuhl) with a terrace.
  
-[![Cows at BierhelderHof.](../photos/BierhelderHofKuehe.jpg){width="50%"}](../photos/BierhelderHofKuehe.jpg)
+`r myfig500("BierhelderHofKuehe.jpg", "Cows at BierhelderHof.")`
 
 [GPX track](../gpx/2023-08-14_1260576037_Feierabendtour.gpx).
 View [on Komoot](https://www.komoot.com/tour/1260576037). 
 
 ## After work tour to Königstuhl, route 2 (<1h)
 
-[![Map](../photos/2023-08-15-Feierabendtour-map.jpg){width="60%"}](../photos/2023-08-15-Feierabendtour-map.jpg)
+`r myfig500("2023-08-15-Feierabendtour-map.jpg")`
 
 ::: {layout="[[50,-1,50]]"}
+`r myfig("2023-08-15-view-from-Bismarckhoehenweg.jpg", "View over Heidelberg from Bismarckhöhenweg, on the downhill part of the tour.")`
 
-[![View over Heidelberg from Bismarckhöhenweg, on the downhill part of the tour](../photos/2023-08-15-view-from-Bismarckhoehenweg.jpg)](../photos/2023-08-15-view-from-Bismarckhoehenweg.jpg)
-
-[![The route passes along the back side of the castle.](../photos/2023-08-10-castle.jpg)](../photos/2023-08-10-castle.jpg)
-
+`r myfig("2023-08-10-castle.jpg", "The route passes along the back side of the castle.")`
 :::
 
 [GPX track](../gpx/2023-08-15_1262473551_Feierabendtour.gpx).
 View [on Komoot](https://www.komoot.com/tour/1262473551).
+
+
+## Königstuhl quick 
+
+`r myfig500("Koenigstuhl-quick.jpg")`
+
+[GPX track](../gpx/Koenigstuhl-quick.gpx).
+View [on Komoot](https://www.komoot.com/tour/1103276509). 
+
+
+## Downhill from Königstuhl with lots of flow trail
+
+`r myfig500("Koenigstuhl-Downhill-via-Leopoldstein.jpg")`
+
+The route tries to optimize the amount of flowtrail, and passes the two Max-Planck-Institutes
+
+[GPX track](../gpx/Koenigstuhl-Downhill-via-Leopoldstein.gpx).
+View [on Komoot](https://www.komoot.com/tour/1296261992).
+
 
 ## Weisser Stein, route 1 (1.15h)
 
@@ -101,21 +120,35 @@ three inns in the forest
 [Kloster Neuburg](https://gasthof-zum-klostergarten.de)), and the Philosophenweg.
 
 ::: {layout="[[67,-1,33]]"}
-[![Map](../photos/WeisserStein-1-tour.jpg){width="60%"}](../photos/WeisserStein-1-tour.jpg)
+`r myfig("WeisserStein-1-tour.jpg")`
 
-[![Single trail between Heiligenberg and Zollstockbrunnen](../photos/WeisserStein-singletrail.jpg){width="60%"}](../photos/WeisserStein-singletrail.jpg)
-
+`r myfig("WeisserStein-singletrail.jpg", "Single trail between Heiligenberg and Zollstockbrunnen.")`
 :::
 
 ::: {layout="[[33,-1,33,-1,33]]"}
+`r myfig("20230902-Philosophenweg.jpg", "View from Philosophenweg.")`
 
-[![View from Philosophenweg](../photos/20230902-Philosophenweg.jpg)](../photos/20230902-Philosophenweg.jpg)
+`r myfig("WeisserStein-Lars+Wolfgang.jpg", "Lars Steinmetz and Wolfgang on Weisser Stein.")`
 
-[![Lars Steinmetz and Wolfgang on Weisser Stein](../photos/WeisserStein-Lars+Wolfgang.jpg)](../photos/WeisserStein-Lars+Wolfgang.jpg)
-
-[![Also a good destination in the winter. The restaurant offers warm-up and hearty food.](../photos/WeisserStein-snow-sm.jpg)](../photos/WeisserStein-snow-sm.jpg)
-
+`r myfig("WeisserStein-snow-sm.jpg", "Also a good destination in the winter. The restaurant offers warm-up and hearty food.")`
 :::
 
 [GPX track](../gpx/Weisser-Stein-1.gpx).
 View [on Komoot](https://www.komoot.com/tour/1289364651). 
+
+## Königstuhl and Weisser Stein combined, via Ziegelhausen
+
+`r myfig500("Koenigstuhl-and-Weisser-Stein.jpg")`
+
+[GPX track](../gpx/Koenigstuhl-and-Weisser-Stein.gpx).
+View [on Komoot](https://www.komoot.com/tour/1144802501). 
+
+
+## Weisser Stein direct descent
+
+`r myfig500("Weisser-Stein-direct-descent.jpg")`
+
+[GPX track](../gpx/Weisser-Stein-direct-descent.gpx).
+View [on Komoot](https://www.komoot.com/tour/1313978021). 
+
+
