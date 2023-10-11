@@ -19,13 +19,14 @@ image: "../photos/einstein-gr.jpg"
 - Spell out abbreviations. You may think that you make the text more readable by compressing it, but the opposite is the case. Many readers do not read the paper linearly from beginning to end, and instead jump around or start in the middle. Even if you think a certain abbreviation is obvious, you will be surprised by how many readers you lose with it. 
 - Make each point once, and properly, and then move on. Avoid being repetitive. For instance, state the objective of the work, or of a particular portion of it, clearly and explicitly at the outset, and then just get on with describing the steps, and results. Do not keep repeating the motives, or a previous result.
 - Make sure there is logical progression. Avoid sounding circular. E.g., you can start a paragraph with stating a conclusion, and then provide your logical, fact-based argument for it, based on your premises and data. Or, start with the premises, and then go through the logical steps of data analysis to arrive at a conclusion. But do not put the conclusion, or the premises, both at the start and end of a paragraph. The reader will likely end up being puzzled about what was actually achieved.
-- Use a spell-checker.
 - Putting terms in quotes tends to look "unprofessional" and can in most cases be avoided by being careful about the choice of words.  
-- After having a first draft, prune it for occurences of phrases of the form "To achieve *X*, we did *(different word for X)*". And similarly, for other tautologies.
 - If multiple spellings are possible for a term (e.g., hyphenation, capitalization), pick one and stick with it.
-- In biomedical studies, use the word "patient" if you mean the actual person, i.e., a human being with a life story, a family, feelings. Use another word if you are just referring to a blood sample or a tissue biopsy. 
-- Don't say "X represents Y" when you just mean "X is Y". Doing so exposes you as careless of logical thinking.
-- More generally, keep things simple and laconic. Overuse of buzzwords and technical jargon sounds pompous and undermines you.
+- In biomedical studies, use the word "patients" if you mean the actual people, i.e., human beings with life histories, families, feelings. Use another word if you are just referring to blood samples or tissue biopsies. 
+- Keep it simple and laconic. Buzzwords and overuse of technical jargon sound pompous and undermine you.
+- Keep it lean. Periodically, go over the text and ask for *every single word* whether it is necessary. Does it carry new and relevant information? If not, remove it.
+   * E.g., prune for occurences of phrases of the form " To achieve *X*, we did *(different word for X)* ".
+   * Don't say "X represents Y" when you just mean "X is Y". Doing so exposes you as careless of logical thinking.
+- Use a spell-checker.
 
 ### Figures:
 - Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is [good advice on this on the internet](https://ggplot2-book.org/scales-colour). If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, use distinct color maps for different variables.
