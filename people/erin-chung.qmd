@@ -1,9 +1,10 @@
 ---
 title: "Erin Chung"
 description: "PhD candidate"
+image: "chung_photo_s.jpg"
 ---
 
-![Erin Chung](chung_photo_s.jpg){width=500 fig-align="center"}
+![Erin Chung](chung_photo.jpeg){width=500 fig-align="center"}
 
 >Twitter/X         [@erin_kch](https://twitter.com/erin_kch) \
 >LinkedIn          [Erin Chung](https://www.linkedin.com/in/erin-kch/) \

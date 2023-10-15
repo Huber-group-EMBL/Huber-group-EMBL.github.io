@@ -4,17 +4,20 @@ title: "Working with us"
 
 ### Current openings
 
+- [Postdoctoral position within the EIPOD-LinC (Life in Context) Program](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/). See [below](#collaborations) for a list of potential partners (co-supervisors).
 - [Postdoctoral position in spatial and single-cell computational biology for precision oncology](posts/2023-08-bialymp.html)
+- [Postdoctoral position in statistical and AI method development for in-vivo Perturb-Seq in the ERC project DECODE](https://erc-decode.eu/)
 - [Master thesis project in cancer genomics with shared affiliation between EMBL and the German Cancer Research Center (DKFZ)](posts/2023-08-chromothripsis-master.md)
 - [Internship for bioinformatics trainers](posts/2023-09-csda-internship.qmd)
 
-Besides any specific calls, we are 
-continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
+Besides these specific calls, we are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
 
 -   Method development in statistical methodology and computing in biological research
 -   Biological discovery through integrative data analysis
 
 ::: {.column-margin}
+[![](photos/EIPOD_LinC_CMYK.jpeg)](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/)
+
 [![](photos/DSC9178-2048x1401.jpeg)](photos/DSC9178-2048x1401.jpeg)
 
 [![](photos/2021-10-21-retreathike.jpg)](photos/2021-10-21-retreathike.jpg)
@@ -32,18 +35,22 @@ Please note that we recruit PhD candidates via the [EMBL international PhD progr
 
 ## Collaborations
 
-The following collaborations provide exciting opportunities to pursue interdisciplinary projects. The list is not exclusive.
+The following collaborations provide exciting opportunities to pursue interdisciplinary projects. The list is not exhaustive.
 
-- **Sascha Dietrich**, University Hospital Düsseldorf: spatial omics, tumor microenvironment, immunooncology
-- **Michael Boutros**, DKFZ: high-throughput genetics, imaging, in-vivo perturb-seq
-- **Thorsten Zenz**, University Hospital Zürich: genomics of drug sensitivity in blood cancers
-- **Nassos Typas**, EMBL: bacterial communities and high-throughput perturbation assays
-- **Misha Savitski**, EMBL: stability proteomics
-- **Sinem Saka**, EMBL: spatial biology from molecules to tissues
-- **Victoria Ingham**, University Hospital Heidelberg: Parasitology, insecticide resistance and malaria
+- [Davide Risso](https://drisso.github.io/), University of Padova: statistical method development for spatial omics, deep learning, latent space models
+- [Anna Kreshuk](https://www.embl.org/groups/kreshuk/), EMBL: biological phenotyping in imaging-based latent spaces, foundation models, LLMs
+- [Lars Steinmetz](https://www.embl.org/groups/steinmetz/), EMBL and  [Stanford](https://web.stanford.edu/group/steinmetzlab/cgi-bin/wordpress/): statistical method development for phenotyping environmental microbial communities using high-speed fluorescence image–enabled cell sorting
+- [Michael Boutros](https://erc-decode.eu/), DKFZ: statistical method development for in-vivo Perturb-Seq and high-throughput imaging-based phenotyping
+- [Sascha Dietrich](https://www.dietrichlab.de/), University Hospital Düsseldorf and [MMPU](https://www.embl.org/about/info/mmpu/research-groups/systems-medicine-of-cancer-drugs/): spatial omics, immunotherapies and the tumor microenvironment, immunooncology
+- [Thorsten Zenz](https://www.lymphomaresearchzurich.com/), University Hospital Zürich: 'omics of drug sensitivity in blood cancers
+- [Nassos Typas](https://www.embl.org/groups/typas/), EMBL: high-throughput phenotyping of microbial communities under genetic and chemical perturbations; antibiotica, phages
+- [Misha Savitski](https://www.embl.org/groups/savitski/), EMBL: stability proteomics
+- [Sinem Saka](https://www.embl.org/groups/saka/), EMBL: spatial biology from molecules to tissues
+- [Oliver Stegle](https://www.embl.org/groups/stegle/), EMBL: statistical genomics and systems genetics
+- [Victoria Ingham](https://www.klinikum.uni-heidelberg.de/zentrum-fuer-infektiologie/parasitology-unit/research/ingham-lab), University Hospital Heidelberg: Parasitology, insecticide resistance and malaria
+- [Aedín Culhane](https://www.ul.ie/hri/prof-aedin-culhane/), University of Limerick: dimension reduction and latent spaces for (single cell resolution) omics data 
+- [Nikos Ignatiadis](https://nignatiadis.github.io/), Chicago: statistical methodology
 - **Susan Holmes**, Stanford: statistical methodology
-- **Lars Steinmetz**, Stanford: systems genetics, genomic technologies
-- **Nikos Ignatiadis**, Chicago: statistical methodology
 - **The Bioconductor Community**
 
 
