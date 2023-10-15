@@ -10,13 +10,8 @@ title: "Working with us"
 - [Master thesis project in cancer genomics with shared affiliation between EMBL and the German Cancer Research Center (DKFZ)](posts/2023-08-chromothripsis-master.md)
 - [Internship for bioinformatics trainers](posts/2023-09-csda-internship.qmd)
 
-Besides these specific calls, we are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
-
--   Method development in statistical methodology and computing in biological research
--   Biological discovery through integrative data analysis
-
 ::: {.column-margin}
-[![](photos/EIPOD_LinC_CMYK.jpeg)](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/)
+[![](photos/EIPOD_LinC_RGB.png)](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/)
 
 [![](photos/DSC9178-2048x1401.jpeg)](photos/DSC9178-2048x1401.jpeg)
 
@@ -24,6 +19,11 @@ Besides these specific calls, we are continually inviting applications for postd
 
 [![](photos/2022-03-11-dinner.jpg)](photos/2022-03-11-dinner.jpg)
 :::
+
+Besides these specific calls, we are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
+
+-   Method development in statistical methodology and computing in biological research
+-   Biological discovery through integrative data analysis
 
 For Track 1, you will have strong quantitative and analytical skills, such as acquired through a degree in mathematics, statistics, physics, computer science or a related field. You have curiosity and motivation to work in interdisciplinary projects, which include generation of new data and their analysis, and are eager to get to grips with relevant areas of biology and the technologies used in biology research. You have experience in scientific computing and are familiar with one or several computer languages. Familiarity with R is definitively a plus.
 
