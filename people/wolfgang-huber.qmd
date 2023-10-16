@@ -7,11 +7,10 @@ description: "Group leader"
 
 >Google Scholar  [gI8o6x8AAAAJ](https://scholar.google.com/citations?user=gI8o6x8AAAAJ&hl=en) \
 >GitHub          [wolfganghuber](https://github.com/wolfganghuber) \
->Twitter         [@wolfgangkhuber](https://twitter.com/wolfgangkhuber) \
 >Bluesky         [@wkhuber.bsky.social](https://bsky.app/profile/wkhuber.bsky.social) \
->Mastodon        [@whuber@mastodon.social ](https://mastodon.social/@whuber) \
+>Twitter         [@wolfgangkhuber](https://twitter.com/wolfgangkhuber) \
 
-Wolfgang enjoys exploring new datasets, developing statisticals method, and discovering new biologcal insights.
+Wolfgang enjoys exploring new datasets, developing statistical methods, and discovering new biological insights.
 Trained in theoretical physics, he now considers himself a statistician. He is happy to work with a brilliant team of master students, PhD candidates, postdocs and staff scientists, with outstanding colleagues at EMBL and with an international network of collaborators. When he is not working on science, he likes to spend time with his two sons, or biking up the hills around Heidelberg and elsewhere.
 
 Wolfgang works as a research group leader in computational biology and statistical/computational method development for novel biotechnologies, new data types and large systematic datasets.
