@@ -33,9 +33,9 @@ To apply, please contact Wolfgang Huber with your CV, a brief statement of resea
 
 Please note that we recruit PhD candidates via the [EMBL international PhD programme](https://www.embl.org/about/info/embl-international-phd-programme/). You are highly welcome to discuss your application with Wolfgang Huber in advance.
 
-## Collaborations
+## Partners for collaborative projects
 
-The following collaborations provide exciting opportunities to pursue interdisciplinary projects. The list is not exhaustive.
+The following list provides potential co-supervision partners for exciting opportunities to pursue interdisciplinary projects. The list is not exhaustive.
 
 - [Davide Risso](https://drisso.github.io/), University of Padova: statistical method development for spatial omics, deep learning, latent space models
 - [Anna Kreshuk](https://www.embl.org/groups/kreshuk/), EMBL: biological phenotyping in imaging-based latent spaces, foundation models, LLMs
