@@ -4,9 +4,10 @@ subtitle: "8-13 September 2024 at Congressi Stefano Franscini on  Monte Verità 
 format:
   html:
     toc: false
+image: "../photos/bnhl_neighbourhood_s.png"
 ---
 
-![](../photos/ascona_22.png){fig-align="center" width=80%}
+![](../photos/bnhl_neighbourhood.png){fig-align="center" width=80%}
 
 ### Spatial and temporal statistical modeling in molecular biology
 
