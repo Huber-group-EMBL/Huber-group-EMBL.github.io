@@ -4,7 +4,7 @@ subtitle: "8-13 September 2024 at Congressi Stefano Franscini on  Monte Verità 
 format:
   html:
     toc: false
-image: "../photos/bnhl_neighbourhood_s.png"
+image: "../photos/bnhl_neighbourhood_s.jpg"
 ---
 
 ![](../photos/bnhl_neighbourhood.png){fig-align="center" width=80%}
