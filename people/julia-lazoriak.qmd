@@ -1,9 +1,9 @@
 ---
-title: "Julia Lazoriak"
+title: "Yuliia Lazoriak"
 description: "Intern"
 ---
 
-![Julia Lazoriak](placeholder.jpg){width=500 fig-align="center"}
+![Yuliia Lazoriak / Юлія Лазоряк](placeholder.jpg){width=500 fig-align="center"}
 
 
 בְּרֵאשִׁית, בָּרָא אלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ. 
