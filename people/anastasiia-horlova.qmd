@@ -5,10 +5,14 @@ description: "PhD candidate"
 
 ![Anastasiia Horlova](placeholder.jpg){width=500 fig-align="center"}
 
+>LinkedIn [anastasiia-horlova](https://www.linkedin.com/in/anastsiia-horlova/)
+>BlueSky [anastasiiahorlova.bsky.social](https://bsky.app/profile/anastasiiahorlova.bsky.social)
 
-בְּרֵאשִׁית, בָּרָא אלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ. 
+Anastasiia is a PhD student who is interested in decoding context-dependent genetic networks using single-cell genomics, statistical and computational methods.
 
- וְהָאָרֶץ, הָיְתָה תֹהוּ וָבֹהוּ, וְחֹשֶׁךְ, עַל-פְּנֵי תְהוֹם; וְרוּחַ אֱלֹהִים, מְרַחֶפֶת עַל-פְּנֵי הַמָּיִם.
- 
- וַיֹּאמֶר אֱלֹהִים, יְהִי אוֹר; וַיְהִי-אוֹר. 
+Anastasiia has her BS degree in Biotechnologies and her Ms degree in Computer sciences. During her internships she was working on profiling the tissue architecture of the lymph nodes in non-Hodgkin B-cell lymphomas (EMBL 2022-2023). In 2023 Anastasiia worked on developing a computational tool for the statistical modelling of spatial relationships between cells, based on the patterns of their distribution in tissues (BIH-Charite 2023).
+
+Anastasiia is passionate about supporting scientific training opportunities for Ukrainian students and her desire to contribute to the development of better communication between European and Ukrainian science. This will provide opportunities for sharing experiences between researchers and establish fruitful collaborations, which she believes will lead to new scientific discoveries and advances.
+
+In her free time Anastasiia enjoys hiking, playing board games, handcrafting, organising picnics, reading books, learning history and cognitive science. These activities help her to relax and recharge, and they also inspire her research. 
  
