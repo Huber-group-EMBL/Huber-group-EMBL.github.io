@@ -1,18 +1,19 @@
 ---
 title: "Anastasiia Horlova"
 description: "PhD candidate"
+image: "HorlovaPhoto3_5x4_5-sm.jpg"
 ---
 
-![Anastasiia Horlova](placeholder.jpg){width=500 fig-align="center"}
+![Anastasiia Horlova](HorlovaPhoto3_5x4_5.jpg){width=500 fig-align="center"}
 
->LinkedIn [anastasiia-horlova](https://www.linkedin.com/in/anastsiia-horlova/)
+>LinkedIn [anastasiia-horlova](https://www.linkedin.com/in/anastsiia-horlova/) \
 >BlueSky [anastasiiahorlova.bsky.social](https://bsky.app/profile/anastasiiahorlova.bsky.social)
 
-Anastasiia is a PhD student who is interested in decoding context-dependent genetic networks using single-cell genomics, statistical and computational methods.
+Anastasiia is a PhD student interested in decoding context-dependent genetic networks using single-cell genomics, statistical and computational methods.
 
-Anastasiia has her BS degree in Biotechnologies and her Ms degree in Computer sciences. During her internships she was working on profiling the tissue architecture of the lymph nodes in non-Hodgkin B-cell lymphomas (EMBL 2022-2023). In 2023 Anastasiia worked on developing a computational tool for the statistical modelling of spatial relationships between cells, based on the patterns of their distribution in tissues (BIH-Charite 2023).
+Anastasiia has a BS degree in Biotechnologies and an MSc degree in Computer Science. In 2022-23, she did an internship at EMBL, where she worked on profiling the tissue architecture of lymph nodes in non-Hodgkin B-cell lymphoma. In 2023, she did an internship at BIH-Charité, where she developed a computational tool for the statistical modelling of spatial relationships between cells, based on the patterns of their distribution in tissues.
 
-Anastasiia is passionate about supporting scientific training opportunities for Ukrainian students and her desire to contribute to the development of better communication between European and Ukrainian science. This will provide opportunities for sharing experiences between researchers and establish fruitful collaborations, which she believes will lead to new scientific discoveries and advances.
+Anastasiia is passionate about supporting scientific training opportunities for Ukrainian students and contributing to the further integration of the scientific communities in Ukraine and the rest of the free world. This will provide opportunities for sharing experiences between researchers and establish fruitful collaborations, which she believes will lead to new scientific discoveries and advances.
 
 In her free time Anastasiia enjoys hiking, playing board games, handcrafting, organising picnics, reading books, learning history and cognitive science. These activities help her to relax and recharge, and they also inspire her research. 
  
