@@ -1,0 +1,11 @@
+---
+title: "Sviatoslav Kharuk"
+description: "Postdoctoral researcher"
+---
+
+![Sviatoslav Kharuk](@IMG@){width=500 fig-align="center"}
+
+>[Personal webpage](https://sviatkh.github.io/) \
+>GitHub          [sviatkh](https://github.com/sviatkh) \
+>LinkedIn        [Sviatoslav Kharuk](https://www.linkedin.com/in/sviatoslav-kharuk-388790139/) \
+
