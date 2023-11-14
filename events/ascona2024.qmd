@@ -4,6 +4,7 @@ subtitle: "8-13 September 2024 at Congressi Stefano Franscini on  Monte Verità 
 format:
   html:
     toc: false
+    email-obfuscation: references
 image: "../photos/bnhl_neighbourhood_s.jpg"
 ---
 
@@ -37,7 +38,7 @@ These questions will be explored by an interdisciplinary group of speakers and p
 * Lara Urban, Technical University Munich / Helmholtz Center
 
 #### How to participate
-Pre-registration is now open via this [application form](https://juliawillputagoogledochere).
+Pre-registration is now open via this [application form](https://forms.gle/B1K91wwci8C2p8Ec8).
 Following pre-registration, abstracts will be selected by the program committee.
 Successful applicants will then be invited to register by mid-May.
 Pre-registration is non-binding, but is mandatory for participating in the workshop.
@@ -58,7 +59,7 @@ Industry 900 CHF
 **Important**: Accommodation and full board will be available [at the conference venue](https://www.monteverita.org/en/hospitality/hotel-complex), and charged separately. Usually, most but not all conference attendees use this option. The venue is in Ascona, a lively tourist town, and in walking distance to many additional accommodation options.
 
 #### Contact
-[Dr. Julia Philipp](julia.philipp@embl.de)
+[Dr. Julia Philipp](mailto:julia.philipp@embl.de)
 
 #### Organizing committee
 Niko Beerenwinkel, Valentina Boeva, Peter Bühlmann, Wolfgang Huber
