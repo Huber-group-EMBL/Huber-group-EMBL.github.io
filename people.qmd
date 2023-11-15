@@ -61,7 +61,7 @@ format:
 | **Dr. Andrzej Oleś** | Scientific Programmer | [Heidelberg Institute for Geoinformation Technology (HeiGIT)](https://www.geog.uni-heidelberg.de/gis/oles.html) |
 | **Małgorzata Oleś** | EMBL PhD program | National Center of Tumor Diseases (NCT) |
 | **Britta Velten** | EMBL PhD program | Postdoc at DKFZ; [Professor at Univ. of Heidelberg](https://bv2.github.io/)
-| **Dr. Thomas Schwarzl** | Postdoc, staff researcher | HMS Analytical Software |
+| **Dr. Thomas Schwarzl** | Postdoc, staff researcher | Boehringer Ingelheim |
 | **Dr. Sascha Dietrich**| Postdoc | Director, [Clinic for Haematology, Oncology & Clinical Immunology, Univ. Hospital Düsseldorf](https://www.uniklinik-duesseldorf.de/patienten-besucher/klinikeninstitutezentren/klinik-fuer-haematologie-onkologie-und-klinische-immunologie) |
 | **Michael I. Love** |Visiting PhD Student | Postdoc at DFCI, Harvard; [Professor at UNC Chapel Hill](https://mikelove.github.io/) |
 | **Sophie Rabe** | Bachelor thesis | PhD with Sascha Dietrich at Univ. Hospital Heidelberg|

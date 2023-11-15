@@ -4,6 +4,7 @@ subtitle: "8-13 September 2024 at Congressi Stefano Franscini on  Monte Verità 
 format:
   html:
     toc: false
+    email-obfuscation: references
 image: "../photos/bnhl_neighbourhood_s.jpg"
 ---
 
@@ -30,32 +31,36 @@ These questions will be explored by an interdisciplinary group of speakers and p
 * Shila Ghazanfar, Univ. of Sydney
 * Stefanie Hicks, Johns Hopkins University
 * Dmitry Kobak, Univ. of Tübingen
+* Anna Kreshuk, EMBL
 * Andreas Moor, ETH
 * Emma Schymanski, Univ. of Luxemburg	
 * Ewa Szczurek, Univ. of Warsaw
 * Virginie Uhlmann, Univ. of Zürich
 * Lara Urban, Technical University Munich / Helmholtz Center
 
-#### News
-Pre-registration will open in January 2024 and close on (Date TBD).
-Following pre-registration, abstracts will be selected by the programme committee, and successful applicants will then be invited to register. 
-Pre-registration is non-binding, but it is mandatory for participating in the workshop.
+#### How to participate
+Pre-registration is now open via this [application form](https://forms.gle/B1K91wwci8C2p8Ec8).
+Following pre-registration, abstracts will be selected by the program committee.
+Successful applicants will then be invited to register by mid-May.
+Pre-registration is non-binding, but is required for participating in the workshop.
 
 #### Dates
-**Deadline for pre-registration:** TBD\
+**Deadline for pre-registration:** 22 April 2024, 23:59 CEST\
+**Notification and invitation to register:** before 20 May 2024\
+**Deadline for registration:** 17 June 2024\
 **Workshop:**  8-13 September 2024 (Sunday evening till Friday noon)
 
 #### Location
 [Congressi Stefano Franscini](http://www.csf.ethz.ch/), Monte Verità, Ascona, Switzerland
 
 #### Registration fees (not due until final registration)
-Academia TBD \
-Industry TBD
+Academia 300 CHF \
+Industry 900 CHF
 
-<!---
+**Important**: Accommodation and full board will be available [at the conference venue](https://www.monteverita.org/en/hospitality/hotel-complex), and charged separately. Usually, most but not all conference attendees use this option. The venue is in Ascona, a lively tourist town, and in walking distance to many additional accommodation options.
+
 #### Contact
-TBD
---->
+[Dr. Julia Philipp](mailto:julia.philipp@embl.de)
 
 #### Organizing committee
 Niko Beerenwinkel, Valentina Boeva, Peter Bühlmann, Wolfgang Huber
