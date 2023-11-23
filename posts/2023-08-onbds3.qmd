@@ -3,7 +3,7 @@ title: "Biological Data Science Summer School in Ukraine"
 description: "Uzhhorod, 2-14 July 2023. Outcomes and conclusions."
 author: "Wolfgang Huber"
 date: "2023-08-08"
-categories: "Events"
+categories: "Past events"
 ---
 
 From 2-14 July 2023, [we](https://bds3.org/our-team) organized a [summer school in Ukraine for university students on biological data science](https://bds3.org). Here’s some takeaways:

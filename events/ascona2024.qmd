@@ -1,6 +1,7 @@
 ---
 title: "Ascona Workshop: Spatial and temporal statistical modeling in molecular biology"
 subtitle: "8-13 September 2024 at Congressi Stefano Franscini on  Monte Verità in Ascona, CH"
+date: "2024-09-08"
 format:
   html:
     toc: false
@@ -8,9 +9,21 @@ format:
 image: "../photos/bnhl_neighbourhood_s.jpg"
 ---
 
+::: {.column-margin}
+![](../photos/ETH-Zurich-logo-400x60.png)
+
+![](../photos/EMBL-logo-319x146.jpg)
+
+![](../photos/CSF-logo.gif)
+:::
+
 ![](../photos/bnhl_neighbourhood.png){fig-align="center" width=80%}
 
 ### Spatial and temporal statistical modeling in molecular biology
+
+Organizers: Niko Beerenwinkel (ETH), Valentina Boeva (ETH), Peter Bühlmann (ETH), Wolfgang Huber (EMBL)
+
+
 
 #### Scope
 Living systems operate in space and time, and recent developments in technologies, including spatial omics of tissues and organs, cell-scale structural biology, and planet-scale molecular sampling, are creating exciting new challenges for mathematical modeling, statistical inference and data science. This workshop has two main objectives: 
@@ -61,9 +74,6 @@ Industry 900 CHF
 
 #### Contact
 [Dr. Julia Philipp](mailto:julia.philipp@embl.de)
-
-#### Organizing committee
-Niko Beerenwinkel, Valentina Boeva, Peter Bühlmann, Wolfgang Huber
 
 <!---
 #### Programm

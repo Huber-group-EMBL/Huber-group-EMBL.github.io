@@ -1,0 +1,14 @@
+---
+title: "AI and biology"
+subtitle: "12-15 March 2024 at EMBL Heidelberg, Germany"
+date: "2024-03-12"
+format:
+  html:
+    toc: false
+    email-obfuscation: references
+image: "../photos/AI+Bio-banner.jpg"
+---
+
+<https://www.embl.org/about/info/course-and-conference-office/events/ees24-01/>
+
+
