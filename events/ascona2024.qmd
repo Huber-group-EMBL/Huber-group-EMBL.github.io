@@ -23,8 +23,6 @@ image: "../photos/bnhl_neighbourhood_s.jpg"
 
 Organizers: Niko Beerenwinkel (ETH), Valentina Boeva (ETH), Peter Bühlmann (ETH), Wolfgang Huber (EMBL)
 
-
-
 #### Scope
 Living systems operate in space and time, and recent developments in technologies, including spatial omics of tissues and organs, cell-scale structural biology, and planet-scale molecular sampling, are creating exciting new challenges for mathematical modeling, statistical inference and data science. This workshop has two main objectives: 
 
@@ -42,7 +40,7 @@ These questions will be explored by an interdisciplinary group of speakers and p
 * Peer Bork, EMBL
 * Maria Cristina Gambetta, Univ. of Lausanne
 * Shila Ghazanfar, Univ. of Sydney
-* Stefanie Hicks, Johns Hopkins University
+* Stephanie Hicks, Johns Hopkins University
 * Dmitry Kobak, Univ. of Tübingen
 * Anna Kreshuk, EMBL
 * Andreas Moor, ETH
