@@ -2,7 +2,7 @@
 title: "Postdoctoral position"
 description: "Spatial and single-cell computational biology for precision oncology"
 author: "Wolfgang Huber"
-date: "2023-08-23"
+date: "2023-11-23"
 categories: "Positions"
 image: "../photos/codexspots-h.jpg"
 ---
@@ -10,6 +10,7 @@ image: "../photos/codexspots-h.jpg"
 > Location: Heidelberg, Germany\
 > Staff Category: Postdoctoral Fellow Contract\
 > Duration: 3 years\
+> Job ad at EMBL HR site: <https://www.embl.org/jobs/position/HD02326>\
 
 ## About the project 
 

@@ -1,0 +1,44 @@
+---
+title: "Townhouse or private island"
+description: "Why having many dependencies in a stable package ecosystem can be good for your computational biology research"
+author: "Wolfgang Huber"
+date: "2023-11-16"
+categories: "Wisdom"
+image: "../photos/Amsterdam_sm.jpeg"
+---
+
+![](../photos/Amsterdam_0.jpg){width="50%" style="float:right; position:relative; padding-top:10px; padding-left:20px; padding-bottom:10px"}
+You live in a decent enough townhouse, 20th century but nicely renovated, in a fine and lively city. But you don't really like dealing with people. The seating in the neighborhood restaurants is not quite how you like it. The shops in the center are too trashy. The show hours of the opera house are not quite suitable to your rhythm. So, you decide to have a private island instead. Make everything exactly how you like it, brand-new. You'll get some friends to do the cooking in your restaurant, or do it yourself, it can't be so hard. Your place will be so great that all the best designer brands will come and setup shop. You'll also build and run your own opera house. Also a dance club. And more. If this sounds absurd to you, then you're probably not a proper bioinformatician.
+
+Take DESeq2 for example. It's a popular package for differential gene expression analysis with RNA-Seq and similar data. It has a bit less than 9000 lines of source code, of which 7 \% are in C++, the rest is in R. (The documentation is nearly as much, with a bit more than 6500 lines.) It sounds easy enough for a keen Python or Julia programmer to port this into their favorite language in a few days. But then come the dependencies. DESeq2 directly depends on 15 other CRAN and Bioconductor packages, some of them in turn depend on other packages, and so on. Altogether this results in 93 mandatory dependencies, and a further 114^[According to the `dependency_database` function in Zuguang Gu's excellent `pkgndep` package.] that provide optional functionality, or are used for illustrative applications in the DESeq2 documentation. Not all of these dependencies are equally substantive. In some cases, the import is just a lightweight utility function that could be reimplemented locally^[And indeed in some cases we have been or are doing this.]. But some others are heavy duty stuff and encapsulate years of someone's work^[An example is the [locfit](https://CRAN.R-project.org/package=locfit)  package for smooth non-parametric regression, which implements years of C.\ Loader's work and [her textbook](https://link.springer.com/book/10.1007/b98858).]. In any case, porting or replacing all this additional infrastructure becomes a much more daunting task. I do not even know a good method to estimate the amount of that effort. It'd be enormous.
+
+And that's the point---I do not know how much effort it would be to replace all the dependencies that DESeq2 is built upon, because we never tried, and never needed to. From conception to implementation of the main pieces, it took Mike Love and Simone Anders maybe five months, exactly *because* they could rely on so many well-tested other packages they could import functionality from. And DESeq2 has been operational, and installable automatically and without hassle by anyone with a current version of R on their computer (Linux, Windows or Mac) almost any day since 2014. Despite this huge dependency graph over which we have no control, and numerous updates and fluctuations in it. This extraordinary stability of the CRAN and Bioconductor package ecosystems is not a given. Had we used any packages not from these repositories, but for instance scraped from someone's homepage or GitHub repository, it is a near certainty that things would have gone stale in those nine years.
+
+This is a sometimes overlooked argument on choosing a software development and distribution platform for your computational biology research. Many students, especially from computer science or physics backgrounds, nowadays come from uni with a grasp of Python, it is fairly widely used and has many good things speaking for it, so why should they learn another language? The R language has historic quirks. Its roots are in rapidly scripting one-off tasks rather than providing a disciplined, safe software engineering environment. The core language is supplemented by numerous extension packages, and it can be confusing that there are often several ways to do the same thing, of which some are worse than others. R's community is smaller. Beyond Python and R, there are also newer developments in scientific computing, most notably Julia. On the other hand, R has great graphics and data wrangling, and of course a plethora of statistical methods, including the well-developed foundations, such as linear models. Then again, it is only catching up on integrating some of the new machine learning algorithms and models. I'm not arguing that any single computing environment is uniformly optimal for all use cases (there is no such thing), but am here throwing in one more argument that is perhaps sometimes overlooked.
+
+So, in a nutshell, you can move fast and create really complex software out of your research idea with only a few thousand lines of code, by building upon many other people's packages (which in some cases embody years of someone's work), *and* this can be be useful for others, be maintainable, sustainable, and keep functioning for years.
+
+## Tangents
+
+1. Occasionally, starting things from scratch and not caring about existing stuff is good. After all, R itself is the result of someone sitting down and thinking, "Oh, let's reimplement the statistics system S from scratch". The same is true for many other innovative piece of software. New cities are founded and prosper, and old cities die. But there's an engineering and maintenance effort involved.
+
+2. I'm not arguing that having many dependencies is only good and has no downsides. Of course these exist, they are well-known and pretty obvious. I am just arguing that it is possible to keep the downsides at bay if you work within an ecosystem such as Bioconductor, and that this makes it possible for the upsides to overweigh.
+
+3. I used DESeq2 as an example above, but it's somewhat similar with Susan Holmes' and my [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/) book. It is a set of Rmarkdown (now: quarto) documents that together have several hundred package dependencies, was written during 2015--2018, and nevertheless we have managed to keep it working and building with all releases of R, Bioconductor and CRAN packages in the years since then. A few packages got deprecated, and we needed to update to something that replaces them. There have been only a few "flaky" dependencies that we would rather get rid off.
+
+4. R is beautiful. Functional programming is a lot more elegant and fun than procedural. R allows both, but its roots are in LISP (one of the greatest languages ever), and its functional features are alive today, e.g., with the pipe operators popularized by the tidyverse. "Code is data" is a powerful idea. R has several object systems (I'm aware of four), which means that probably none of them currently makes everybody happy. R has inherited from S the ethos that it wants to "turn users into developers". This means that many R developers are great scientists in their domain, but never trained in software engineering---and this shows in some of the code that is out there. I think it's a trade-off worth accepting.
+
+
+
+<!--
+
+DESeq2 sources (cat * | wc):
+R code: 8344 lines, (376k)
+C++ code: 607 lines (40k)
+man pages: 3171 lines (216k)
+vignette: 3367 lines (140k)
+
+DESeq2 dependencies:
+pkgndep::dependency_database()
+
+-->
