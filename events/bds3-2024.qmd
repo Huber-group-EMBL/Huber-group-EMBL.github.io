@@ -1,7 +1,7 @@
 ---
 title: "BDS^3 2024: Biological Data Science"
-subtitle: "Summer 2024 in Ukraine"
-date: "2024-07-01"
+subtitle: "Summer 2024 in Uzhhorod Ukraine"
+date: "2024-07-07"
 format:
   html:
     toc: false
@@ -9,6 +9,6 @@ format:
 image: "../photos/Flag_of_Ukraine.png"
 ---
 
-To be announced.
+7--20 July at [UzhNU](https://www.uzhnu.edu.ua/).
 
 
