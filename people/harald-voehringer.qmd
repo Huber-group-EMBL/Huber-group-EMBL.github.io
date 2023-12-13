@@ -8,7 +8,6 @@ description: "Postdoctoral researcher"
 >Twitter/X         [@harald_voeh](https://twitter.com/harald_voeh) \
 >LinkedIn          [Harald](https://www.linkedin.com/in/harald-v%C3%B6hringer-66045097/) \
 
-Harald's research focuses on identifying how genomic changes alter cellular interactions and tissue architecture in B-cell non-Hodgkin's lymphoma, and method development for single-cell transcriptomics and spatial analysis of multiplexed immunofluorescence images.
-
+Harald's research focuses on identifying how genomic changes alter cellular interactions and tissue architecture in B-cell non-Hodgkin's lymphoma, and method development for single-cell transcriptomics and spatial analysis of multiplexed immunofluorescence images. He is a joint postdoc between the research groups of [Sascha Dietrich](https://www.uniklinik-duesseldorf.de/patienten-besucher/klinikeninstitutezentren/klinik-fuer-haematologie-onkologie-und-klinische-immunologie/ag-dietrich) ([see also here](https://www.dietrichlab.de)) and Wolfgang Huber.
 
 Prior to joining the group in August 2021, he did his PhD in Cancer Genomics at the European Bionformatics Institute and the University of Cambridge. Harald holds an M.Sc. in Molecular Biology and a B.Sc. in Molecular Medicine from the University of Göttingen. 
