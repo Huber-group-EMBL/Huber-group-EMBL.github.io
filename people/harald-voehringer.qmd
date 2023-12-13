@@ -1,0 +1,17 @@
+---
+title: "Harald Vöhringer"
+description: "Postdoctoral researcher"
+image: "placeholder.jpg"
+---
+<!-- Use a smaller thumbnail preview picture with appropriate aspect ratio for the YAML image argument--->
+
+
+![Harald Vöhringer](placeholder.png){width=500 fig-align="center"}
+
+>Twitter/X         [@harald](https://twitter.com/erin_kch) \
+>LinkedIn          [Harald](https://www.linkedin.com/in/erin-kch/) \
+
+Harald's research focuses on identifying how genomic changes alter cellular interactions and tissue architecture in B-cell non-Hodgkin's lymphoma, and method development for single-cell spatial analysis of multiplexed immunofluorescence images.
+
+Before joining EMBL, Harald studied molecular biology and computer science at Boston University. During her degree she completed research internships in sequence analysis at the A*STAR Bioinformatics Institute, and a final year project in the BUMC Hematology and Oncology Department researching triple-negative breast cancer. 
+
