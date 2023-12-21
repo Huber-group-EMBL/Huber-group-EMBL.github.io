@@ -10,6 +10,8 @@ website:
      site-name:
        "Huber Group @ EMBL"
   navbar:
+    background: "#18974C"
+    foreground: "#D0DEBB"
     search: true
     left:
       - href: index.qmd
@@ -25,7 +27,8 @@ website:
 
 format:
   html:
-    theme: quartz
+    theme: journal
+    linkcolor: "#2A57A3"
     css: styles.css
     toc: true
     grid:
