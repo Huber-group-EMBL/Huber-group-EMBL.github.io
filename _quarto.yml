@@ -25,7 +25,7 @@ website:
 
 format:
   html:
-    theme: zephyr
+    theme: quartz
     css: styles.css
     toc: true
     grid:
