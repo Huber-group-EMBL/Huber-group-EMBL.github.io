@@ -2,36 +2,61 @@
 title: "Scientific writing advice"
 description: "An eclectic and subjective list"
 author: "Wolfgang Huber"
-date: "2023-07-31"
+date: "2023-12-22"
 categories: "Wisdom"
 image: "../photos/einstein-gr.jpg"
 ---
 
-1. Present experimental observations and measurements in past tense. Use present tense for presuppositions, interpretations and conclusions. The statements in past tense are the real, hard substance, the novelty of a research paper. 
-2. Use active voice. Avoid passive voice. Use the active voice form to make it clear what you did, what others did, or what already pre-existed from your previously reported work.
-3. Use one term per concept, and one concept per term. Avoid synonyms and lexical variation, as these adds unnecessary mental load on the reader (“Do they really mean the same? Or do they mean to leave room for some subtle distinction?”). Similarly, do not overload the same word with multiple meanings.\
-An example is using the same word for measured data, and for their intended interpretation. E.g., in RNA-seq, you may have collected for each gene the number of matching sequencing reads, and want it to mean the gene product's level of activity. They are (hopefully) related. But they are not the same. It is part of the scientific approach to care about such distinctions. (Good scientists also know when it's fine to gloss over, so they can move on with the narrative rather than burdening everyone with pedantry.)
-4. Define each term. Stick with the conventions of your field. Use textbooks, reviews, or at least Wikipedia, if possible, provide the reference that contains the standard definition. Have a very good reason if you make up your own definitions. In either case, try to keep your paper self-contained and provide the definition in your text. 
-If you want to use fancy sounding words and technical terms, make sure you really understand their meaning, and that it is what you want. Google and dictionaries are your friends.
-5. In the Results section, focus on what you did. Musings about what you or someone could have done instead, or why you didn't, are (if at all) for Intro or Discussion. 
-6. The Results section should proceed step by step. E.g., in an experimental omics paper, from sample acquisition, to choice of measurement technology, to specific protocol used, to specs of the data generated (e.g. number of reads, alignment, quality filters). Then, state the biological questions you asked, how you translated each into a statistical procedure, a visualization and a numerical summary, and how you interpret the result. Always step by step. Such that each intermediate step or result is explained before it is used by another step. Use short, simple sentences, and plain language ("Hemingway style").
-7. In Intro and Discussion, find the right pitch for your story. Research happens in the grey zone between the well-known and the totally unknown. Make sure you describe your situation, i.e., what has been known, and what used to be unknown, or controversial, but now is not, thanks to you. Make sure you find the right framing. It is rarely necessary to paint the scientific background starting with Darwin in the 1860s or the invention of digital computers, but it is also helpful to give a wide enough background for a target audience that has not been completely immersed in the topic for the last three years. 
-8. Be explicit and quantitative. Don't say "few" or many", but state the numbers and/or fractions quantitatively. Avoid most adjectives (e.g., "high", good", "efficient") and adverbs (e.g., "fast"). Instead, state the relevant physical quantities (e.g., speed, length, time interval) or numerical metrics (e.g., percent overlap, confusion table). Adverbs and adjectives are rarely needed in Results and Methods sections of papers. There is some room for them in Intro and Discussion sections, or in reviews. 
-9. Avoid [dangling participles](https://www.vocabulary.com/dictionary/dangling%20participle). Even if the intended meaning is clear. You may think you sound sophisticated, but it undermines you. Similarly for dangling pronouns.
-10. Spell out abbreviations. You may think that you make the text more readable by shortening it. The opposite is the case. Many readers do not read the paper linearly from beginning to end, and instead jump around or start in the middle. Even if you think a certain abbreviation is obvious, you will be surprised by how many readers you lose with it. 
-11. Make each point once, and properly, and then move on. Avoid being repetitive. For instance, state the objective of the work, or of a particular portion of it, clearly and explicitly at the outset, and then just get on with describing the steps, and results. Do not keep repeating the motives, or a previous result.
-12. Make sure there is logical progression. Avoid appearing circular. E.g., you can start a paragraph with stating a conclusion, and then provide your logical, fact-based argument for it, based on your premises and data. Or, start with the premises, and then go through the logical steps of data analysis to arrive at a conclusion. But do not put the conclusion, or the premises, both at the start and end of a paragraph. The reader will likely end up being puzzled about what was actually achieved.
-13. If a previous paper in the field---even if, and in particular, a 'high impact' one--- used sloppy terminology or sloppy thinking, don't just uncritically regurgitate it. Improve, or at least take a stand. In science, we're not paid to be sheep following the herd, but to be better than others.
-14. Putting terms in quotes tends to look "unprofessional" and can in most cases be avoided by being careful about the choice of words.  
-15. If multiple spellings are possible for a term (e.g., hyphenation, capitalization), pick one and stick with it.
-16. In biomedical studies, use the word "patients" if you mean the actual people, i.e., human beings with life histories, families, feelings. Use another word if you are just referring to blood samples or tissue biopsies. 
-17. Keep it simple and laconic. Buzzwords and overuse of technical jargon sound pompous and undermine you.
-18. Keep it lean. Periodically, go over the text and ask for *every single word* whether it is necessary. Does it carry new and relevant information? If not, remove it.
-E.g., prune for occurences of phrases of the form " To achieve *X*, we did *(different word for X)* ".
-Don't say "X represents Y" when you just mean "X is Y". Doing so exposes you as careless of logical thinking.
-19. Use a spell-checker.
+```{r}
+#| echo: FALSE
+#| results: asis
+#| output: asis 
+tips = c("Present experimental observations and measurements in past tense. Use present tense for presuppositions, interpretations and conclusions. The statements in past tense are the real, hard substance, the novelty of a research paper.", 
+         
+"Use active voice. Avoid passive voice. Use the active voice form to make it clear what you did, what others did, or what already pre-existed from your previously reported work.",
 
-### Figures:
-19. Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is [good advice on this on the internet](https://ggplot2-book.org/scales-colour). If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, use distinct color maps for different variables.
-20. Font size: make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. In practice, this is surprisingly hard.
-21. Aspect ratio: for plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1.
+"Use one term per concept, and one concept per term. Avoid synonyms and lexical variation, as these adds unnecessary mental load on the reader ('Do they really mean the same? Or do they mean to leave room for some subtle distinction?'). Similarly, do not overload the same word with multiple meanings. An example is using the same word for measured data, and for their intended interpretation. E.g., in RNA-seq, you may have collected for each gene the number of matching sequencing reads, and want it to mean the gene product's level of activity. They are (hopefully) related. But they are not the same. It is part of the scientific approach to care about such distinctions. (Good scientists also know when it's fine to gloss over, so they can move on with the narrative rather than burdening everyone with pedantry.)",
+
+"Define each term. Stick with the conventions of your field. Use textbooks, reviews, or at least Wikipedia, if possible, provide the reference that contains the standard definition. Have a very good reason if you make up your own definitions. In either case, try to keep your paper self-contained and provide the definition in your text. If you want to use fancy sounding words and technical terms, make sure you really understand their meaning, and that it is what you want. Google and dictionaries are your friends.",
+
+"In the Results section, focus on what you did. Musings about what you or someone could have done instead, or why you didn't, are (if at all) for Intro or Discussion.",
+
+"The Results section should proceed step by step. E.g., in an experimental omics paper, from sample acquisition, to choice of measurement technology, to specific protocol used, to specs of the data generated (e.g. number of reads, alignment, quality filters). Then, state the biological questions you asked, how you translated each into a statistical procedure, a visualization and a numerical summary, and how you interpret the result. Always step by step. Such that each intermediate step or result is explained before it is used by another step. Use short, simple sentences, and plain language ('Hemingway style').",
+
+"In Intro and Discussion, find the right pitch for your story. Research happens in the grey zone between the well-known and the totally unknown. Make sure you describe your situation, i.e., what has been known, and what used to be unknown, or controversial, but now is not, thanks to you. Make sure you find the right framing. It is rarely necessary to paint the scientific background starting with Darwin in the 1860s or the invention of digital computers, but it is also helpful to give a wide enough background for a target audience that has not been completely immersed in the topic for the last three years.",
+
+"Be explicit and quantitative. Don't say 'few' or 'many', but state the numbers and/or fractions quantitatively. Avoid most adjectives (e.g., high, good, efficient) and adverbs (e.g., fast). Instead, state the relevant physical quantities (e.g., speed, length, time interval) or numerical metrics (e.g., percent overlap, confusion table). Adverbs and adjectives are rarely needed in Results and Methods sections of papers. There is some room for them in Intro and Discussion sections, or in reviews.",
+
+"Avoid [dangling participles](https://www.vocabulary.com/dictionary/dangling%20participle). Even if the intended meaning is clear. You may think you sound sophisticated, but it undermines you. Similarly for dangling pronouns.",
+
+"Spell out abbreviations. You may think that you make the text more readable by shortening it. The opposite is the case. Many readers do not read the paper linearly from beginning to end, and instead jump around or start in the middle. Even if you think a certain abbreviation is obvious, you will be surprised by how many readers you lose with it.",
+
+"Make each point once, and properly, and then move on. Avoid being repetitive. For instance, state the objective of the work, or of a particular portion of it, clearly and explicitly at the outset, and then just get on with describing the steps, and results. Do not keep repeating the motives, or a previous result.",
+
+"Make sure there is logical progression. Avoid appearing circular. E.g., you can start a paragraph with stating a conclusion, and then provide your logical, fact-based argument for it, based on your premises and data. Or, start with the premises, and then go through the logical steps of data analysis to arrive at a conclusion. But do not put the conclusion, or the premises, both at the start and end of a paragraph. The reader will likely end up being puzzled about what was actually achieved.",
+
+"If a previous paper in the field---even if, and in particular, a 'high impact' one--- used sloppy terminology or sloppy thinking, don't just uncritically regurgitate it. Improve, or at least take a stand. In science, we're not paid to be sheep following the herd, but to be better than others.",
+
+"Putting terms in quotes tends to look 'unprofessional' and can in most cases be avoided by being careful about the choice of words.",
+
+"If multiple spellings are possible for a term (e.g., hyphenation, capitalization), pick one and stick with it.",
+
+"In biomedical studies, use the word 'patients' if you mean the actual people, i.e., human beings with life histories, families, feelings. Use another word if you are just referring to blood samples or tissue biopsies.",
+
+"Keep it simple and laconic. Buzzwords and overuse of technical jargon sound pompous and undermine you.",
+
+"Keep it lean. Periodically, go over the text and ask for *every single word* whether it is necessary. Does it carry new and relevant information? If not, remove it. E.g., prune for occurences of phrases of the form 'To achieve *X*, we did *(different word for X)*'. Don't say 'X represents Y' when it's just 'X is Y'. Doing so exposes you as careless of logical thinking.",
+
+"Use a spell-checker.",
+
+"Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is [good advice on this on the internet](https://ggplot2-book.org/scales-colour). If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, use distinct color maps for different variables.",
+
+"Font size: make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. In practice, this is surprisingly hard.",
+
+"Aspect ratio: for plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1."
+)
+
+i = seq(along = tips)
+sprintf("[%d.](#%02d) %s\n", i, i, tips) |> cat(sep="\n")
+```
+

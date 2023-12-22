@@ -38,3 +38,6 @@ format:
 
 execute:
   freeze: auto
+
+# 
+# EMBL colors: https://www.embl.org/guidelines/design/design-guidelines/colours/
