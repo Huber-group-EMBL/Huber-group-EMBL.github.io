@@ -1,5 +1,5 @@
 ---
-title: "Scientific writing advice"
+title: "Scientific writing tips"
 description: "An eclectic and subjective list"
 author: "Wolfgang Huber"
 date: "2023-12-22"
@@ -57,6 +57,6 @@ tips = c("Present experimental observations and measurements in past tense. Use 
 )
 
 i = seq(along = tips)
-sprintf("[%d.](#%02d) %s\n", i, i, tips) |> cat(sep="\n")
+sprintf('<a id="%02d">[%d.](#%02d) %s</a>\n', i, i, i, tips) |> cat(sep="\n")
 ```
 

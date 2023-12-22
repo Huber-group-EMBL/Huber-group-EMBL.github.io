@@ -29,12 +29,14 @@ format:
   html:
     theme: journal
     linkcolor: "#2A57A3"
+    toc-color: "#2A57A3"
     css: styles.css
     toc: true
     grid:
       sidebar-width: 150px
       body-width: 750px
       margin-width: 300px
+    date-format: iso
 
 execute:
   freeze: auto
