@@ -3,6 +3,10 @@ title: "À la recherche du temps perdu"
 description: "Horseshoes and other spurious structures in low-dimensional embedding methods"
 date: "2024-01-02"
 categories: "Wisdom"
+format: html
+engine: knitr
+filters:
+  - webr
 bibliography: horseshoes-embeddings.bib
 ---
 
@@ -12,11 +16,61 @@ TODO:
 - Move torus.Rmd into here, also apply cmdscale to same, and UMAP
 -->
 
+webR with Quarto: <https://github.com/coatless/quarto-webr>
+
 This post discusses how you can get spurious structures in common dimension
 reduction methods. We'll see
 
--- how linear trajectories can emerge from "completely random" data, and
--- how horseshoe-looking lines can come from data that are really just on a straight line in the original space. 
+  - how linear trajectories can emerge from "completely random" data, and
+  - how horseshoe-looking lines can come from data that are really just on a straight line in the original space. 
+
+```{webr-r}
+#| label: loadpackages
+set.seed(0xbedada)
+pkgs = c("Rtsne", "umap", "dplyr", "ggplot2", "gridExtra", "ggfortify", "reshape2")
+for (p in pkgs) {
+  webr::install(p)
+  require(p)
+}
+```
+
+```{webr-r}
+#| label: functions
+plotMatrixAsImage <- function(x) {
+  ggplot(melt(x), aes(x = Var1, y = Var2, fill = value)) + geom_tile() + 
+    scale_fill_gradient2() +
+    ggtitle(deparse(substitute(x))) + coord_fixed() + xlab("") + ylab("") +
+    theme(plot.title = element_text(hjust = 0.5))
+}
+
+plotMDS <- function(x, tit, flipy) {
+  dat <- as_tibble(`colnames<-`(x, c("P1", "P2"))) 
+  if (tit %in% flipy)
+    dat <- mutate(dat, P2 = -P2)
+  ggplot(dat) + 
+    geom_point(aes(x = P1, y = P2)) + coord_fixed() + 
+    ggtitle(tit) +
+    theme(plot.title = element_text(hjust = 0.5)) +
+    expand_limits(y = c(-1, 1) * 0.2 * max(abs(dat$P1)))
+}
+
+variousMDSPlots <- function(..., perplexity = 30, flipy = character(0)) { 
+  grid.arrange(
+    plotMatrixAsImage(...), 
+    plotMDS(stats::cmdscale(...), "cmdscale", flipy),
+    plotMDS(MASS::isoMDS(...)$points, "isoMDS", flipy),
+    plotMDS(Rtsne(..., is_distance = TRUE, perplexity = perplexity)$Y, "t-SNE", flipy),
+    plotMDS(umap::umap(..., input = "dist")$layout, "UMAP", flipy),
+    layout_matrix = rbind(c(1, 2, 3), c(1, 4, 5))
+  )
+}
+```
+
+
+```{r variousPlotsPar, echo = FALSE}
+fwid <- 10.5
+fhgt <- 7
+```
 
 ## 2D low pass
 
@@ -28,7 +82,7 @@ matrix `white.noise` has an additional `b` rows and columns padded to
 the left, right, top and bottom to avoid having to make choices about
 how `filter2` should deal with the boundaries.)
 
-```{r 2dlowpasssetup}
+```{webr-r 2dlowpasssetup}
 n <- 100
 k <- 150    
 b <-  35
@@ -39,7 +93,8 @@ x <- smoothened[ b+(1:n), b+(1:k) ]
 
 Let's do a PCA plot of `x`, using the first two principal components
 
-```{r 2dlowpassprcomp}
+```{webr-r}
+#| label: 2dlowpassprcomp
 #| fig.width: 4 
 #| fig.height: 3.5
 #| results: "hide"
@@ -48,7 +103,7 @@ Let's do a PCA plot of `x`, using the first two principal components
 autoplot(prcomp(x)) + coord_fixed()
 ```
 
-We see an (almost-closed) cycle. If the data were from a single-cell
+**FIXME** We see an (almost-closed) cycle. If the data were from a single-cell
 RNA-seq experiment (with, say, `n` cells and `k` genes), it could be
 tempting to see a cellular trajectory that we might think is related to
 a differentiation process and/or the cell cycle. There are software
@@ -61,7 +116,8 @@ one-dimensional process or phenomenon. What is going on?
 Below, we plot the matrix in false color representation, as well as its
 covariance matrix.
 
-```{r 2dlowpassmatrices}
+```{webr-r}
+#| label: 2dlowpassmatrices
 #| fig.width: 9
 #| fig.height: 3.5 
 #| results: "hide"
@@ -70,7 +126,8 @@ covariance matrix.
 grid.arrange(plotMatrixAsImage(x), plotMatrixAsImage(cov(x)), ncol = 2)
 ```
 
-```{r 2dlowpassmds}
+```{webr-r}
+#| label: 2dlowpassmds
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
@@ -85,7 +142,8 @@ We can be even more minimalistic with the non-randomness of the input
 data. In the code below, the `k` times `n` matrix `rw` is filled with
 the numbers from a random walk (a realisation of 1D Brownian motion).
 
-```{r 1dlowpassmatrices}
+```{webr-r}
+#| label: 1dlowpassmatrices
 #| fig.width: 8
 #| fig.height: 4 
 #| warning: FALSE
@@ -100,7 +158,8 @@ grid.arrange(plotMatrixAsImage(rw), autoplot(prcomp(rw)) + coord_fixed(),
 We again see the horseshoe. And interesting patterns in the first five
 principal components:
 
-```{r 1dlowpasspairs}
+```{webr-r} 
+#| label: 1dlowpasspairs
 #| fig.width: 6
 #| fig.height: 6 
 #| results: "hide"
@@ -109,7 +168,8 @@ principal components:
 pairs(prcomp(rw)$x[, 1:5])
 ```
 
-```{r 1dlowpassmds}
+```{webr-r}
+#| label: 1dlowpassmds
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
@@ -124,7 +184,8 @@ Now, instead of a Brownian motion, let's just take a series of
 independent random numbers and subject them to a low-pass filter of
 window size `h` (i.e., a running-average smoother).
 
-```{r runavgmatrices}
+```{webr-r}
+#| label: runavgmatrices
 #| fig.width: 8
 #| fig.height: 4 
 #| warning: FALSE
@@ -139,7 +200,8 @@ grid.arrange(plotMatrixAsImage(rw), autoplot(prcomp(rw)) + coord_fixed(),
              ncol = 2)
 ```
 
-```{r runavgmds}
+```{webr-r}
+#| label: runavgmds
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
@@ -178,51 +240,8 @@ $$
 where $n$ is a positive integer, $i,j=1,\ldots,n$, and $D$ is
 an $n\times n$ matrix.
 
-```{r variousPlotsPar, echo = FALSE}
-fwid <- 10.5
-fhgt <- 7
-```
-
-```{r setup}
-set.seed(0xbedada)
-library("conflicted")
-library("dplyr")
-library("ggplot2")
-library("gridExtra")
-library("reshape2")
-library("ggfortify")
-library("Rtsne")
-library("umap")
-
-plotMatrixAsImage <- function(x) {
-  ggplot(melt(x), aes(x = Var1, y = Var2, fill = value)) + geom_tile() + 
-    scale_fill_gradient2() +
-    ggtitle(deparse(substitute(x))) + coord_fixed() + xlab("") + ylab("") +
-    theme(plot.title = element_text(hjust = 0.5))
-}
-
-plotMDS <- function(x, tit, flipy) {
-  dat <- as_tibble(`colnames<-`(x, c("P1", "P2"))) 
-  if (tit %in% flipy)
-    dat <- mutate(dat, P2 = -P2)
-  ggplot(dat) + 
-    geom_point(aes(x = P1, y = P2)) + coord_fixed() + 
-    ggtitle(tit) +
-    theme(plot.title = element_text(hjust = 0.5)) +
-    expand_limits(y = c(-1, 1) * 0.2 * max(abs(dat$P1)))
-}
-
-variousMDSPlots <- function(..., perplexity = 30, flipy = character(0)) { 
-  grid.arrange(
-    plotMatrixAsImage(...), 
-    plotMDS(stats::cmdscale(...), "cmdscale", flipy),
-    plotMDS(MASS::isoMDS(...)$points, "isoMDS", flipy),
-    plotMDS(Rtsne(..., is_distance = TRUE, perplexity = perplexity)$Y, "t-SNE", flipy),
-    plotMDS(umap::umap(..., input = "dist")$layout, "UMAP", flipy),
-    layout_matrix = rbind(c(1, 2, 3), c(1, 4, 5))
-  )
-}
-
+```{webr-r}
+#| label: diaconisMatrix
 diaconisMatrix <- function(lambda, n)
   1 - outer(seq(0, 1, length.out = n), seq(0, 1, length.out = n), 
         FUN = function(a, b) exp(-lambda * abs(a-b)))
@@ -230,7 +249,8 @@ diaconisMatrix <- function(lambda, n)
 D <- diaconisMatrix(lambda = 2, n = 100)
 ```
 
-```{r diac1}
+```{webr-r}
+#| label: diac1
 #| fig.width: !expr fwid
 #| fig.height: !expr fhgt 
 #| results: "hide"
@@ -242,7 +262,8 @@ variousMDSPlots(D)
 For good measure, let us see what happens if we increase `lambda`, i.e.,
 shorter range of distance increase away from the diagonal (@fig-diac2).
 
-```{r diac2}
+```{webr-r}
+#| label: diac2
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt 
 #| results: "hide"
@@ -252,7 +273,8 @@ D2 <- diaconisMatrix(lambda = 6, n = 100)
 variousMDSPlots(D2, flipy = c("cmdscale", "isoMDS"))
 ```
 
-```{r diac3}
+```{webr-r}
+#| label: diac3
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
@@ -271,7 +293,8 @@ Let's look at some of the eigenvectors of the distance matrix `D`, after
 double centering. These are used by `cmdscale` (albeit not directly by
 the other methods).
 
-```{r Deigenvecpairs}
+```{webr-r}
+#| label: Deigenvecpairs
 #| fig.width: 6
 #| fig.height: 6
 #| fig-cap:  "Eigenvectors (pairs plot)."
@@ -286,7 +309,7 @@ doubleCenter <- function(x) {
   (x - outer(xr, xc, `+`) + s)
 }
 
-eigD <- eigen(doubleCenter(D)
+eigD <- eigen(doubleCenter(D))
 colnames(eigD$vectors) <- paste0("EV", seq_len(ncol(D)))
 pairs(eigD$vectors[, 1:5])
 ```
@@ -294,7 +317,8 @@ pairs(eigD$vectors[, 1:5])
 
 **TO DO** Get rid of pals dependency
 
-```{r Deigenveclines1} 
+```{webr-r}
+#| label: Deigenveclines1 
 #| fig.width: 6
 #| fig.height: 4
 #| fig-cap: "Eigenvectors, scaled to unit length."
@@ -305,7 +329,8 @@ ggplot(melt(eigD$vectors[, 1:5], id = "x") %>% mutate(Var2 = factor(Var2)),
   scale_colour_manual("Eigenvectors", values = unname(pals::alphabet(5)))
 ```
 
-```{r Deigenveclines2}
+```{webr-r}
+#| label: Deigenveclines2
 #| fig.width: 6
 #| fig.height: 4
 #| fig-cap: "Eigenvectors, scaled by eigenvalue."
@@ -331,12 +356,13 @@ $$
 \end{align}
 $$
 
-```{r scaleDmatrix}
+```{webr-r}
+#| label: scaleDmatrix
 #| fig.width: 4
 #| fig.height: 4
 #| fig-cap: "Heatmap of doubly centered $D$."
 #| label: fig-dcd
-plotMatrixAsImage(doubleCenter(D)
+plotMatrixAsImage(doubleCenter(D))
 ```
 
 # Points on a straight line
@@ -349,7 +375,8 @@ $$ where $a$ and $b$ are fixed vectors in ${\mathbb R}^n$ (slope and
 offset). In the code below, we also add some Gaussian noise, with
 $\sigma=0.5$.
 
-```{r straightline1}
+```{webr-r}
+#| label: straightline1
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
@@ -372,7 +399,8 @@ Instead of the Euclidean distances, add some saturation (underestimate
 long distances). For instance, we can take the function
 $s(x) = 1-e^{-x/x_0}$, for which $s(0)=0$ and $\lim_{x\to\infty}s(x)=1$.
 
-```{r saturationfunction}
+```{webr-r}
+#| label: saturationfunction
 #| fig.width: 3.5
 #| fig.height: 2
 #| results: "hide"
@@ -384,7 +412,8 @@ ggplot(tibble(x = as.vector(dm),
   geom_line() + xlab("d") + ylab("sat(d)")
 ```
 
-```{r straightline2}
+```{webr-r}
+#| label: straightline2
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
@@ -397,7 +426,8 @@ variousMDSPlots(sat(dm), perplexity = 11)
 
 Back to the Euclidean distances, but with noise on the points' coordinates.
 
-```{r straightline3}
+```{webr-r}
+#| label: straightline3
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
@@ -417,6 +447,7 @@ aware.
 
 # Session info
 
-```{r sessionInfo}
+```{webr-r}
+#| label: sessionInfo
 devtools::session_info()
 ```
