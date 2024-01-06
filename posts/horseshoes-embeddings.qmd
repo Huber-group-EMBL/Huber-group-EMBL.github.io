@@ -61,7 +61,7 @@ $$
 s(x) = x \left(1-e^{-x/x_0}\right).
 $$
 
-Here, $s_0$ is the distance scale at which distances become "large". For $x\ll x_0$, $s(x)\approx x$, but for $x\gg x_0$, the value $s(x)$ is capped at $x_0$. We can plot this function, for a particular choice of $x_0$:
+Here, $x_0$ is the distance scale at which distances become "large". For $x\ll x_0$, $s(x)\approx x$, but for $x\gg x_0$, the value $s(x)$ is capped at $x_0$. We can plot this function, for a particular choice of $x_0$:
 
 ```{webr-r}
 #| label: fig-saturationfunction
@@ -118,9 +118,11 @@ The horseshoe becomes even bendier.
 #| fig.width: 4
 #| fig.height: 4
 #| fig-cap:  "Heatmap representation of d2."
+#| echo: !expr -1
 par(mai = c(0.5, 0.5, 0.07, 0.07))
 image (as.matrix(d2))
 ```
+
 Let's look at some of the eigenvectors of the distance matrix `d2` after
 double centering. These are used by `cmdscale`.
 
