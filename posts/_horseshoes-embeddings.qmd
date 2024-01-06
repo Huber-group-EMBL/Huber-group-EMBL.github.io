@@ -4,9 +4,6 @@ description: "Horseshoes and other spurious structures in low-dimensional embedd
 date: "2024-01-02"
 categories: "Wisdom"
 format: html
-engine: knitr
-filters:
-  - webr
 bibliography: horseshoes-embeddings.bib
 ---
 
@@ -16,25 +13,49 @@ TODO:
 - Move torus.Rmd into here, also apply cmdscale to same, and UMAP
 -->
 
-webR with Quarto: <https://github.com/coatless/quarto-webr>
-
 This post discusses how you can get spurious structures in common dimension
 reduction methods. We'll see
 
   - how linear trajectories can emerge from "completely random" data, and
   - how horseshoe-looking lines can come from data that are really just on a straight line in the original space. 
 
-```{webr-r}
-#| label: loadpackages
-set.seed(0xbedada)
-pkgs = c("Rtsne", "umap", "dplyr", "ggplot2", "gridExtra", "ggfortify", "reshape2")
-for (p in pkgs) {
-  webr::install(p)
-  require(p)
-}
+```{r}
+#| label: setup
+#| echo: FALSE
+knitr::opts_chunk$set(
+    # cache
+    cache = TRUE,
+    autodep = TRUE,
+    # output
+    eval = TRUE,
+    echo = TRUE,
+    tidy = FALSE,
+    message = FALSE,
+    warning = TRUE,
+    error = FALSE,
+    # figures
+    dpi = 80,
+    dev = 'png',
+    size = 'small',
+    fig.keep = 'high',
+    fig.show = 'hold',
+    fig.width = 4,
+    fig.height = 4.5,
+    fig.margin = TRUE,
+    fig.align = "center"
+)
 ```
 
-```{webr-r}
+```{r}
+#| label: loadpackages
+#| warning: FALSE
+#| results: "hide"
+set.seed(0xbedada)
+pkgs = c("Rtsne", "umap", "dplyr", "ggplot2", "gridExtra", "ggfortify", "reshape2")
+lapply(pkgs, require, character.only = TRUE)
+```
+
+```{r}
 #| label: functions
 plotMatrixAsImage <- function(x) {
   ggplot(melt(x), aes(x = Var1, y = Var2, fill = value)) + geom_tile() + 
@@ -82,7 +103,7 @@ matrix `white.noise` has an additional `b` rows and columns padded to
 the left, right, top and bottom to avoid having to make choices about
 how `filter2` should deal with the boundaries.)
 
-```{webr-r 2dlowpasssetup}
+```{r 2dlowpasssetup}
 n <- 100
 k <- 150    
 b <-  35
@@ -93,13 +114,12 @@ x <- smoothened[ b+(1:n), b+(1:k) ]
 
 Let's do a PCA plot of `x`, using the first two principal components
 
-```{webr-r}
-#| label: 2dlowpassprcomp
+```{r}
+#| label: fig-2dlowpassprcomp
 #| fig.width: 4 
 #| fig.height: 3.5
 #| results: "hide"
 #| fig-cap: "PCA plot of `x`, using the first two principal components."
-#| label: fig-2dlowpassprcomp
 autoplot(prcomp(x)) + coord_fixed()
 ```
 
@@ -116,23 +136,21 @@ one-dimensional process or phenomenon. What is going on?
 Below, we plot the matrix in false color representation, as well as its
 covariance matrix.
 
-```{webr-r}
-#| label: 2dlowpassmatrices
+```{r}
+#| label: fig-2dlowpassmatrices
 #| fig.width: 9
 #| fig.height: 3.5 
 #| results: "hide"
 #| fig-cap: "Matrix `x` in false color representation."
-#| label: fig-2dlowpassmatrices
 grid.arrange(plotMatrixAsImage(x), plotMatrixAsImage(cov(x)), ncol = 2)
 ```
 
-```{webr-r}
-#| label: 2dlowpassmds
+```{r}
+#| label: fig-2dlowpassmds
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
 #| fig-cap: "`dist(x)`."
-#| label: fig-2dlowpassmds
 variousMDSPlots(as.matrix(dist(x)))
 ```
 
@@ -142,14 +160,13 @@ We can be even more minimalistic with the non-randomness of the input
 data. In the code below, the `k` times `n` matrix `rw` is filled with
 the numbers from a random walk (a realisation of 1D Brownian motion).
 
-```{webr-r}
-#| label: 1dlowpassmatrices
+```{r}
+#| label: fig-1dlowpassmatrices
 #| fig.width: 8
 #| fig.height: 4 
 #| warning: FALSE
 #| results: "hide"
 #| fig-cap: "Random walk `rw`."
-#| label: fig-1dlowpassmatrices
 rw <- matrix(cumsum(rnorm(k * n)), nrow = k, ncol = n)
 grid.arrange(plotMatrixAsImage(rw), autoplot(prcomp(rw)) + coord_fixed(), 
              ncol = 2)
@@ -158,25 +175,23 @@ grid.arrange(plotMatrixAsImage(rw), autoplot(prcomp(rw)) + coord_fixed(),
 We again see the horseshoe. And interesting patterns in the first five
 principal components:
 
-```{webr-r} 
-#| label: 1dlowpasspairs
+```{r} 
+#| label: fig-1dlowpasspairs
 #| fig.width: 6
 #| fig.height: 6 
 #| results: "hide"
 #| fig-cap: "First five principal components of `rw`."
-#| label: fig-1dlowpasspairs
 pairs(prcomp(rw)$x[, 1:5])
 ```
 
-```{webr-r}
-#| label: 1dlowpassmds
+```{r}
+#| label: fig-1dlowpassmds
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
 #| message: FALSE
 #| warning: FALSE
 #| fig-cap: "MDS plots of `rw`."
-#| label: fig-1dlowpassmds
 variousMDSPlots(as.matrix(dist(rw)))
 ```
 
@@ -184,14 +199,13 @@ Now, instead of a Brownian motion, let's just take a series of
 independent random numbers and subject them to a low-pass filter of
 window size `h` (i.e., a running-average smoother).
 
-```{webr-r}
-#| label: runavgmatrices
+```{r}
+#| label: fig-runavgmatrices
 #| fig.width: 8
 #| fig.height: 4 
 #| warning: FALSE
 #| results: "hide"
 #| fig-cap: "Just a series of independent random numbers subjected to a low-pass filter of window size `h` (i.e., a running-average smoother)."
-#| label: fig-runavgmatrices
 h  <- 20
 rw <- matrix(
     stats::filter(rnorm(k*n + h), rep(1, h))[ h/2 + 1:(n*k) ],
@@ -200,15 +214,14 @@ grid.arrange(plotMatrixAsImage(rw), autoplot(prcomp(rw)) + coord_fixed(),
              ncol = 2)
 ```
 
-```{webr-r}
-#| label: runavgmds
+```{r}
+#| label: fig-runavgmds
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
 #| message: FALSE
 #| warning: FALSE
 #| fig-cap: "MDS plots of `rw`."
-#| label: fig-runavgmds
 variousMDSPlots(as.matrix(dist(rw)))
 ```
 
@@ -240,7 +253,7 @@ $$
 where $n$ is a positive integer, $i,j=1,\ldots,n$, and $D$ is
 an $n\times n$ matrix.
 
-```{webr-r}
+```{r}
 #| label: diaconisMatrix
 diaconisMatrix <- function(lambda, n)
   1 - outer(seq(0, 1, length.out = n), seq(0, 1, length.out = n), 
@@ -249,37 +262,34 @@ diaconisMatrix <- function(lambda, n)
 D <- diaconisMatrix(lambda = 2, n = 100)
 ```
 
-```{webr-r}
-#| label: diac1
+```{r}
+#| label: fig-diac1
 #| fig.width: !expr fwid
 #| fig.height: !expr fhgt 
 #| results: "hide"
 #| fig-cap: "The matrix D and various types of multidimensional scaling. Classical (linear) multidimensional scaling, `cmdscale`, and Kruskal's non-metric nultidimensional scaling, `isoMDS`, introduce an apparent curvature, or horseshoe shape, even though the matrix $D$ has a simple band-diagonal structure. Also shown are t-SNE and UMAP."
-#| label: fig-diac1
 variousMDSPlots(D)
 ```
 
 For good measure, let us see what happens if we increase `lambda`, i.e.,
 shorter range of distance increase away from the diagonal (@fig-diac2).
 
-```{webr-r}
-#| label: diac2
+```{r}
+#| label: fig-diac2
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt 
 #| results: "hide"
 #| fig-cap: "Like @fig-diac1, but with a different value of  `lambda`, that is, more rapid distance increase away from the diagonal."
-#| label: fig-diac2
 D2 <- diaconisMatrix(lambda = 6, n = 100)
 variousMDSPlots(D2, flipy = c("cmdscale", "isoMDS"))
 ```
 
-```{webr-r}
-#| label: diac3
+```{r}
+#| label: fig-diac3
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
 #| fig-cap: "Like @fig-diac1 and @fig-diac2, but with even higher `lambda`."
-#| label: fig-diac3
 D3 <- diaconisMatrix(lambda = 20, n = 100)
 variousMDSPlots(D3)
 ```
@@ -293,12 +303,11 @@ Let's look at some of the eigenvectors of the distance matrix `D`, after
 double centering. These are used by `cmdscale` (albeit not directly by
 the other methods).
 
-```{webr-r}
-#| label: Deigenvecpairs
+```{r}
+#| label: fig-eigenpairs
 #| fig.width: 6
 #| fig.height: 6
 #| fig-cap:  "Eigenvectors (pairs plot)."
-#| label: fig-eigenpairs
 
 doubleCenter <- function(x) {
   n = dim(x)[1]
@@ -317,24 +326,22 @@ pairs(eigD$vectors[, 1:5])
 
 **TO DO** Get rid of pals dependency
 
-```{webr-r}
-#| label: Deigenveclines1 
+```{r}
+#| label: fig-eigenvecs1
 #| fig.width: 6
 #| fig.height: 4
 #| fig-cap: "Eigenvectors, scaled to unit length."
-#| label: fig-eigenvecs1
 ggplot(melt(eigD$vectors[, 1:5], id = "x") %>% mutate(Var2 = factor(Var2)), 
        aes_string(x = "Var1", y = "value", colour = "Var2", group = "Var2")) +
   geom_line(size = sqrt(2)) + 
   scale_colour_manual("Eigenvectors", values = unname(pals::alphabet(5)))
 ```
 
-```{webr-r}
-#| label: Deigenveclines2
+```{r}
+#| label: fig-eigenvecs2
 #| fig.width: 6
 #| fig.height: 4
 #| fig-cap: "Eigenvectors, scaled by eigenvalue."
-#| label: fig-eigenvecs2
 ev <- eigD$vectors[, 1:5] * 
   matrix(eigD$values[1:5], byrow = TRUE, ncol = 5, nrow = nrow(eigD$vectors))
 ggplot(melt(ev, id = "x") %>% mutate(Var2 = factor(Var2)), 
@@ -356,12 +363,11 @@ $$
 \end{align}
 $$
 
-```{webr-r}
-#| label: scaleDmatrix
+```{r}
+#| label: fig-dcd
 #| fig.width: 4
 #| fig.height: 4
 #| fig-cap: "Heatmap of doubly centered $D$."
-#| label: fig-dcd
 plotMatrixAsImage(doubleCenter(D))
 ```
 
@@ -375,13 +381,12 @@ $$ where $a$ and $b$ are fixed vectors in ${\mathbb R}^n$ (slope and
 offset). In the code below, we also add some Gaussian noise, with
 $\sigma=0.5$.
 
-```{webr-r}
-#| label: straightline1
+```{r}
+#| label: fig-straightline1
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
 #| fig-cap: "Application of dimension reduction methods to a straight line in feature space. The straight line structure is reasonably preserved, although with some peculiarities in the case ot $t$-SNE."
-#| label: fig-straightline1
 d <- 100   # dimension of the space
 n <- 42    # number of points 
 t <- seq(0, n, by = 1) %>% matrix(nrow = 1)          # row vector
@@ -399,26 +404,24 @@ Instead of the Euclidean distances, add some saturation (underestimate
 long distances). For instance, we can take the function
 $s(x) = 1-e^{-x/x_0}$, for which $s(0)=0$ and $\lim_{x\to\infty}s(x)=1$.
 
-```{webr-r}
-#| label: saturationfunction
+```{r}
+#| label: fig-saturationfunction
 #| fig.width: 3.5
 #| fig.height: 2
 #| results: "hide"
 #| fig-cap: "Saturation function"
-#| label: fig-saturationfunction
 sat <- function(x, x0 = median(x)) { x0 * (1 - exp(-x/x0)) }
 ggplot(tibble(x = as.vector(dm),
               y = as.vector(sat(dm))), aes(x = x, y = y)) + 
   geom_line() + xlab("d") + ylab("sat(d)")
 ```
 
-```{webr-r}
-#| label: straightline2
+```{r}
+#| label: fig-straightline2
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
 #| fig-cap: "Like @fig-straightline1, but with some saturation added (underestimation of long distances)."
-#| label: fig-straightline2
 variousMDSPlots(sat(dm), perplexity = 11)
 ```
 
@@ -426,13 +429,12 @@ variousMDSPlots(sat(dm), perplexity = 11)
 
 Back to the Euclidean distances, but with noise on the points' coordinates.
 
-```{webr-r}
-#| label: straightline3
+```{r}
+#| label: fig-straightline3
 #| fig.width:  !expr fwid
 #| fig.height: !expr fhgt
 #| results: "hide"
 #| fig-cap: "Like @fig-straightline1, but with noise."
-#| label: fig-straightline3
 dmnoisy <- as.matrix(dist(t(x + matrix(rnorm(prod(dim(x)), sd = 5), ncol = ncol(x), nrow = nrow(x)))))
 variousMDSPlots(dmnoisy, perplexity = 11)
 ```
@@ -447,7 +449,7 @@ aware.
 
 # Session info
 
-```{webr-r}
+```{r}
 #| label: sessionInfo
 devtools::session_info()
 ```
