@@ -8,19 +8,10 @@ engine: knitr
 filters:
   - webr
 bibliography: horseshoes-embeddings.bib
+image: "../photos/horseshoes-embeddings.jpg"
 ---
 
 This page contains R code that you can edit and run interactively in your browser -- there is no server-side computing involved. See more on webR with quarto: <https://github.com/coatless/quarto-webr>
-
-```{webr-r}
-#| label: setup
-#| context: setup
-```
-
-```{r variousPlotsPar, echo = FALSE}
-fwid = 4
-fhgt = 4
-```
 
 ## Points on a straight line
 
@@ -55,18 +46,18 @@ So far, so good. The embedding method faithfully reproduces the points' relative
 
 ## With saturation
 
-Now let's consider that the pairwise distance matrix isn't measured perfectly well, but saturates: small distances are faithful, but large distances are reported as smaller than they are. We can use the following function to model this
+Now let's consider that the distances aren't measured perfectly well, but saturate: small distances are faithful, but large distances are reported as smaller than they are. We can use the following function to model this
 
 $$
 s(x) = x \left(1-e^{-x/x_0}\right).
 $$
 
-Here, $x_0$ is the distance scale at which distances become "large". For $x\ll x_0$, $s(x)\approx x$, but for $x\gg x_0$, the value $s(x)$ is capped at $x_0$. We can plot this function, for a particular choice of $x_0$:
+Here, $x_0$ is the distance scale at which distances become "large". For $x\ll x_0$, $s(x)\approx x$, but for larger $x$, the value $s(x)$ is capped at $x_0$. We can plot this function, for a particular choice of $x_0$:
 
 ```{webr-r}
 #| label: fig-saturationfunction
-#| fig.width: 3.5
-#| fig.height: 2
+#| fig.width:  3.5
+#| fig.height: 3.5
 #| results: "hide"
 #| fig-cap: "Saturation function"
 sat = function(x, x0) { x0 * (1 - exp(-x/x0)) }
@@ -78,8 +69,8 @@ Let's run multidimensional scaling again:
 
 ```{webr-r}
 #| label: fig-straightline2
-#| fig.width:  !expr fwid
-#| fig.height: !expr fhgt
+#| fig.width:  3.5
+#| fig.height: 3.5
 #| results: "hide"
 #| fig-cap: "Like @fig-straightline1, but for d2 (underestimation of long distances)."
 plot(cmdscale(d2), pch = 19, col = "blue", asp = 1)
@@ -101,8 +92,8 @@ For good measure, let us see what happens if we increase the saturation:
 
 ```{webr-r}
 #| label: fig-straightline3
-#| fig.width:  !expr fwid
-#| fig.height: !expr fhgt
+#| fig.width:  3.5
+#| fig.height: 3.5
 #| results: "hide"
 #| fig-cap: "Like @fig-straightline2, but even more saturation (underestimation of long distances)."
 d3 = sat(d1, x0 = 15)
@@ -117,10 +108,9 @@ The horseshoe becomes even bendier.
 #| label: fig-matrix
 #| fig.width: 4
 #| fig.height: 4
-#| fig-cap:  "Heatmap representation of d2."
-#| echo: !expr -1
+#| fig-cap:  "Heatmap representation of d1 and d2."
 par(mai = c(0.5, 0.5, 0.07, 0.07))
-image (as.matrix(d2))
+image(rbind(as.matrix(d1),as.matrix(d2)))
 ```
 
 Let's look at some of the eigenvectors of the distance matrix `d2` after

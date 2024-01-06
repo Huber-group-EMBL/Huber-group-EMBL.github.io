@@ -2,7 +2,7 @@
 title: "Postdoctoral position"
 description: "Spatial and single-cell computational biology for precision oncology"
 author: "Wolfgang Huber"
-date: "2023-11-23"
+date: "2024-01-08"
 categories: "Positions"
 image: "../photos/codexspots-h.jpg"
 ---
