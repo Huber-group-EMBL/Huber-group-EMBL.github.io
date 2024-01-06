@@ -1,0 +1,156 @@
+---
+title: "Horseshoes in multi-dimensional scaling"
+description: "webR demo"
+date: "2024-01-06"
+categories: "Wisdom"
+format: html
+engine: knitr
+filters:
+  - webr
+bibliography: horseshoes-embeddings.bib
+---
+
+This page contains R code that you can edit and run interactively in your browser -- there is no server-side computing involved. See more on webR with quarto: <https://github.com/coatless/quarto-webr>
+
+```{webr-r}
+#| label: setup
+#| context: setup
+```
+
+```{r variousPlotsPar, echo = FALSE}
+fwid = 4
+fhgt = 4
+```
+
+## Points on a straight line
+
+Let's consider points on a straight line in ${\mathbb R}^d$ parameterized by
+
+$$
+x = ua
+$$ 
+
+where the slope $a$ is a vector in ${\mathbb R}^d$ and $u\in\,]-\infty,+\infty[$ is the real-valued path parameter. We choose $d=24$ for no particular reason, and sample 41 points from $u=-20$ to $u=+20$ at equal distances.
+
+```{webr-r}
+#| label: makex
+a  = runif(24) 
+u  = -20:20
+x  = u %*% t(a)
+dim(x)
+```
+
+We compute the pairwise distance matrix `d1` between all points and use `cmdscale` to perform classical multidimensional scaling
+
+```{webr-r}
+#| label: fig-straightline1
+#| fig.width:  !expr fwid
+#| fig.height: !expr fhgt
+#| fig-cap: "2D multidimensional scaling of points along a straight line in 24-dimensional space."
+d1 = dist(x)
+plot(cmdscale(d1), pch = 19, col = "blue", asp = 1)
+```
+
+So far, so good. The embedding method faithfully reproduces the points' relative positions.
+
+## With saturation
+
+Now let's consider that the pairwise distance matrix isn't measured perfectly well, but saturates: small distances are faithful, but large distances are reported as smaller than they are. We can use the following function to model this
+
+$$
+s(x) = x \left(1-e^{-x/x_0}\right).
+$$
+
+Here, $s_0$ is the distance scale at which distances become "large". For $x\ll x_0$, $s(x)\approx x$, but for $x\gg x_0$, the value $s(x)$ is capped at $x_0$. We can plot this function, for a particular choice of $x_0$:
+
+```{webr-r}
+#| label: fig-saturationfunction
+#| fig.width: 3.5
+#| fig.height: 2
+#| results: "hide"
+#| fig-cap: "Saturation function"
+sat = function(x, x0) { x0 * (1 - exp(-x/x0)) }
+d2 = sat(d1, x0 = 60)
+plot(d1, d2, pch = ".")
+```
+
+Let's run multidimensional scaling again:
+
+```{webr-r}
+#| label: fig-straightline2
+#| fig.width:  !expr fwid
+#| fig.height: !expr fhgt
+#| results: "hide"
+#| fig-cap: "Like @fig-straightline1, but for d2 (underestimation of long distances)."
+plot(cmdscale(d2), pch = 19, col = "blue", asp = 1)
+```
+
+There is a horseshoe!
+
+## Diaconis, Goel and Holmes
+
+In their paper "Horseshoes in multidimensional scaling and local kernel
+methods", @Goel2008 looked at such situations. More precisely, they considered distance matrices 
+that are concentrated along the diagonal. They set out from the example of
+the voting records of the members of the 2005 United States House of
+Representatives. From these records, they computed all pairwise
+distances (or dissimilarities), applied classical multi-dimensional
+scaling, and observed a horseshoe pattern.
+
+For good measure, let us see what happens if we increase the saturation:
+
+```{webr-r}
+#| label: fig-straightline3
+#| fig.width:  !expr fwid
+#| fig.height: !expr fhgt
+#| results: "hide"
+#| fig-cap: "Like @fig-straightline2, but even more saturation (underestimation of long distances)."
+d3 = sat(d1, x0 = 15)
+plot(cmdscale(d3), pch = 19, col = "blue", asp = 1)
+```
+
+The horseshoe becomes even bendier.
+
+## What is going on?
+
+```{webr-r}
+#| label: fig-matrix
+#| fig.width: 4
+#| fig.height: 4
+#| fig-cap:  "Heatmap representation of d2."
+par(mai = c(0.5, 0.5, 0.07, 0.07))
+image (as.matrix(d2))
+```
+Let's look at some of the eigenvectors of the distance matrix `d2` after
+double centering. These are used by `cmdscale`.
+
+```{webr-r}
+#| label: fig-eigenpairs
+#| fig.width: 6
+#| fig.height: 6
+#| fig-cap:  "Eigenvectors (pairs plot)."
+
+doubleCenter = function(x) {
+  - x + outer(rowMeans(x), colMeans(x), FUN = "+") - mean(x)
+}
+
+eigvec = eigen(doubleCenter(as.matrix(d2)))$vectors
+colnames(eigvec) = paste0("EV", seq_len(ncol(eigvec)))
+pairs(eigvec[, 1:4], pch = 19, col = "darkgreen")
+```
+
+
+## Conclusion
+
+Embeddings of high-dimensional data into lower dimensional spaces are useful. But they can also create apparent patterns that have little to do with the data-generating process. Be careful.
+
+## To Do
+
+Show that this also happens with t-SNE and UMAP.
+
+#### Session info
+
+```{webr-r}
+#| label: sessionInfo
+sessionInfo()
+```
