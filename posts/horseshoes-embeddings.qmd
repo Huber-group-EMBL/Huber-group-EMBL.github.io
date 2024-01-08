@@ -131,6 +131,10 @@ colnames(eigvec) = paste0("EV", seq_len(ncol(eigvec)))
 pairs(eigvec[, 1:4], pch = 19, col = "darkgreen")
 ```
 
+If we think of the double centered matrix `d2` as a discretized version
+of a differential operator, we see that a dominating component is the negative of the second derivative,
+i.e., $-d^2/dx^2$, and therefore it is not surprising to see
+eigenfunctions that resemble harmonic functions. These, in turn, create the horseshoe pattern.
 
 ## Conclusion
 
