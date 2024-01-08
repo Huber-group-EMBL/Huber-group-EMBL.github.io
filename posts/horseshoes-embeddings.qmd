@@ -11,7 +11,14 @@ bibliography: horseshoes-embeddings.bib
 image: "../photos/horseshoes-embeddings.jpg"
 ---
 
-This page contains R code that you can edit and run interactively in your browser -- there is no server-side computing involved. See more on webR with quarto: <https://github.com/coatless/quarto-webr>
+This page contains R code that you can edit and run interactively in your browser -- there is no server-side computing involved. 
+
+- [See here for more on webR with quarto](<https://github.com/coatless/quarto-webr) 
+- [Source code for this page](https://github.com/Huber-group-EMBL/Huber-group-EMBL.github.io/blob/main/posts/horseshoes-embeddings.qmd)
+
+<!-- to execute the webR code in a regular R session:
+knitr::knit(text = gsub("webr-r", "r", readLines("horseshoes-embeddings.qmd")), tangle = TRUE) |> textConnection(open="r") |> source()
+-->
 
 ## Points on a straight line
 
@@ -35,8 +42,8 @@ We compute the pairwise distance matrix `d1` between all points and use `cmdscal
 
 ```{webr-r}
 #| label: fig-straightline1
-#| fig.width:  !expr fwid
-#| fig.height: !expr fhgt
+#| fig.width:  3.5
+#| fig.height: 3.5
 #| fig-cap: "2D multidimensional scaling of points along a straight line in 24-dimensional space."
 d1 = dist(x)
 plot(cmdscale(d1), pch = 19, col = "blue", asp = 1)
@@ -136,10 +143,6 @@ If we think of the double centered matrix `d2` as a discretized version of a dif
 ## Conclusion
 
 Embeddings of high-dimensional data into lower dimensional spaces are useful. But they can also create apparent patterns that have little to do with the data-generating process. Be careful.
-
-## To Do
-
-Show that this also happens with t-SNE and UMAP.
 
 #### Session info
 
