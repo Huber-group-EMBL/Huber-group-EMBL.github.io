@@ -2,7 +2,7 @@
 title: "Technical project manager"
 description: "Spatial and single-cell computational biology for precision oncology"
 author: "Wolfgang Huber"
-date: "2024-01-08"
+date: "2024-01-23"
 categories: "Positions"
 image: "../photos/codexspots-h.jpg"
 ---
