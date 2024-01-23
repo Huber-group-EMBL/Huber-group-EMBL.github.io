@@ -1,5 +1,5 @@
 ---
-title: "Technical project manager"
+title: "Technical project manager: software / data"
 description: "Spatial and single-cell computational biology for precision oncology"
 author: "Wolfgang Huber"
 date: "2024-01-23"
@@ -34,7 +34,7 @@ The research group of Wolfgang Huber at EMBL develops statistical data analysis 
 
 ## Your role
 
-You will participate in the overall BIALYMP project and shape your own research profile in one or several of the following areas. The project setup allows for some flexibility in allocation of responsibilities according to qualifications and interests. 
+You will participate in the overall BIALYMP project and shape your own skills profile in one or several of the following areas. The project setup allows for some flexibility in allocation of responsibilities according to qualifications and interests. 
 
 - Data analysis and discovery
 - Develop end-to-end data analysis workflows using the R/Bioconductor and/or Python software ecosystems for bioinformatics, statistics and machine learning 
