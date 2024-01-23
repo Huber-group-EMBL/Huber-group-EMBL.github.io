@@ -1,6 +1,7 @@
 ---
 title: "Data sharing"
 description: "Some thoughts on data sharing in science"
+author: "Wolfgang Huber"
 date: "2024-01-22"
 categories: "Wisdom"
 format: html
