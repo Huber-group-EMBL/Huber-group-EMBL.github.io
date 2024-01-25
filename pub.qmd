@@ -3,6 +3,6 @@ title: "Publications"
 ---
 
 ```{=html}
-<iframe src="https://www.huber.embl.de/pub/pub.html" width="100%" height="100%"></iframe>
+<iframe src="https://www.huber.embl.de/pub/pub.html" width="100%" height="100%" style="border:0.5px solid black;"></iframe>
 ```
 
