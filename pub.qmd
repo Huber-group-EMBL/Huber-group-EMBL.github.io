@@ -3,12 +3,13 @@ title: "Publications"
 format: html 
 ---
 
-<script src="jquery-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(function() {
       $("#includedContent").load("https://www.huber.embl.de/pub/pub.html");
     });
 </script>
+
 <div id="includedContent"></div>
 
 <!--
