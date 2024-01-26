@@ -1,6 +1,8 @@
 ---
 title: "Publications"
-format: html 
+format:
+  html:
+    css: dtdd.css
 ---
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -12,10 +14,3 @@ format: html
 
 <div id="includedContent"></div>
 
-<!--
-Please use the scroll bar within the frame to scroll down.
-```{=html}
-<iframe src="../pub/pub.html" width="100%" height="100%" style="border:0.5px solid black;">
-</iframe>
-```
--->
