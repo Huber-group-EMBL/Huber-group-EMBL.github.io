@@ -18,10 +18,10 @@ image: "../photos/codexspots-h.jpg"
 
 ::: {layout="[[77,23]]"}
 
-Redirection of autologous T-cells through bispecific antibodies is an important therapeutic principle to treat B cell lymphomas. Treatment responses differ strongly between patients. There is an urgent medical need for better understanding of resistance mechanisms, biomarkers for response prediction, and combinatorial targets for response improvement. Both tumour intrinsic, e.g., genetic and epigenetic alterations, and extrinsic factors, e.g. composition and functional state of the lymph node microenvironment, are of interest.
-We apply modern single-cell resolution omics and spatial assays, incl. highly multiplexed immunohistochemistry (CODEX/Akoya) and CITE-Seq. Our aim is to characterise tumors and their microenvironments within a prospective clinical study of patients treated with bispecific antibodies. This work takes place within the Transcan-3 project *Bispecific antibodies in Lymphoma: Microenvironmental profiling to predict treatment response and uncover immunogenic resistance mechanisms (BIALYMP)*. This international collaboration combines biotechnological and computational research groups with clinical oncologists and is coordinated by Wolfgang Huber (EMBL).\
+Redirection of autologous T-cells through bispecific antibodies is an important therapeutic approach to B cell lymphomas. However, treatment responses differ strongly between patients. There is an urgent medical need for better understanding of resistance mechanisms, biomarkers for response prediction, and finding additional targets for response improvement. Both tumor cell intrinsic, e.g., genetic and epigenetic alterations, and tumor cell extrinsic factors, e.g., composition and functional state of the lymph node microenvironment, are of interest.
+We apply modern single-cell resolution omics and spatial assays, incl. highly multiplexed immunohistochemistry (CODEX/Akoya) and scRNA/CITE-seq. We molecularly characterize tumors and their microenvironments within a prospective clinical study of patients treated with bispecific antibodies. This work takes place within the Transcan-3 project *Bispecific antibodies in Lymphoma: Microenvironmental profiling to predict treatment response and uncover immunogenic resistance mechanisms (BIALYMP)*. This international collaboration combines biotechnological and computational research groups with clinical oncologists and is coordinated by Wolfgang Huber (EMBL).\
 \
-We are looking for a computational biologist / bioinformatician / biostatistician who combines data-driven biological discovery research, requisite computational or statistical method development, and central management and integrative analysis of the research data. The position provides excellent opportunities for complementing your existing skills with new ones, building up your research profile in computational biology and biomedicine, and making a real contribution to improving patient outcomes.
+We are looking for a computational biologist / bioinformatician / biostatistician who combines data-driven biological discovery research, requisite computational or statistical method development, and central management and integrative analysis of the research data. The position provides excellent opportunities to complement your existing skills with new ones, build up your research and skills profile in computational biology and biomedicine, and make a real contribution to improving patient outcomes.
 
 ![Rendering of CODEX data from >200 tissue cores](../photos/codexspots-v.jpg)
 
@@ -34,20 +34,18 @@ The research group of Wolfgang Huber at EMBL develops statistical data analysis 
 
 ## Your role
 
-You will participate in the overall BIALYMP project and shape your own skills profile in one or several of the following areas. The project setup allows for some flexibility in allocation of responsibilities according to qualifications and interests. 
+You will participate in the overall BIALYMP project and engage in multiple of the following areas. The project setup allows for some flexibility in allocation of responsibilities according to qualifications and interests. 
 
-- Data analysis and discovery
+- Analyse data and make biomedical discoveries, often in collaboration with domain experts
 - Develop end-to-end data analysis workflows using the R/Bioconductor and/or Python software ecosystems for bioinformatics, statistics and machine learning 
-- Discover exciting new insights from the data, often in collaboration with biomedical domain experts
-- Test and benchmark existing and new single-cell data analysis and statistical methods 
+- Test and benchmark existing and new spatial omics analysis methods, with an emphasis on spatial statistics and biostatistics
 - Improve methods to your needs or develop new approaches. 
-- Data management 
-- Set up shared data storage spaces and metadata management that supports collaborative work, high-powered analyses and visualization, and open science practices such as FAIR data and software publication alongside with the scientific “papers”.
+- Set up shared data storage spaces and metadata management that support collaborative work, high-powered analyses and visualization. Implement open science practices such as FAIR data and software publication alongside with the scientific “papers”.
 
 
 ## You have
 
-a PhD or equivalent qualification in a quantitative discipline (mathematics, statistics, physics, computer science, computational biology). Your expertise includes topics such as  statistics of high-dimensional data, machine learning, representation learning, spatial statistics, scientific data visualisation. Proficiency in R and/or Python are required. We welcome applications that include samples of your prior work, such as GitHub repositories, quarto reports, thesis documents. We encourage applications also from candidates with little or no background in biology or medicine, and a keen interest to learn.
+a PhD or equivalent qualification in a quantitative discipline (mathematics, statistics, physics, computer science, computational biology). Your expertise includes topics such as  statistics of high-dimensional data, machine learning, representation learning, spatial statistics, scientific data visualization. Proficiency in R and/or Python are required. We welcome applications that include samples of your prior work, such as GitHub repositories, quarto reports, thesis documents. We encourage applications also from candidates with little or no background in biology or medicine, and a keen interest to learn.
 
 #### You might also have
 
