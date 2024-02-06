@@ -1,6 +1,6 @@
 ---
-title: "BDS^3 2024: Biological Data Science"
-subtitle: "Summer 2024 in Uzhhorod Ukraine"
+title: "Ukrainian Biological Data Science Summer School"
+subtitle: "7-20 July 2024 in Uzhhorod Ukraine"
 date: "2024-07-07"
 format:
   html:
@@ -13,3 +13,4 @@ published-title: "Start date"
 7--20 July at [UzhNU](https://www.uzhnu.edu.ua/).
 
 
+[Some memories from the 2023 event](../posts/2023-08-onbds3.html)
