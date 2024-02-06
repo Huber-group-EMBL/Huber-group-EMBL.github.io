@@ -7,6 +7,7 @@ format:
     toc: false
     email-obfuscation: references
 image: "../photos/csama2018_massiv.jpg"
+published-title: "Start date"
 ---
 
 To be announced.

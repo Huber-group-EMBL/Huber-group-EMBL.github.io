@@ -7,6 +7,7 @@ format:
     toc: false
     email-obfuscation: references
 image: "../photos/Flag_of_Ukraine.png"
+published-title: "Start date"
 ---
 
 7--20 July at [UzhNU](https://www.uzhnu.edu.ua/).

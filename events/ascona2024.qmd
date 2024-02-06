@@ -7,6 +7,7 @@ format:
     toc: false
     email-obfuscation: references
 image: "../photos/bnhl_neighbourhood_s.jpg"
+published-title: "Start date"
 ---
 
 ::: {.column-margin}
@@ -17,9 +18,7 @@ image: "../photos/bnhl_neighbourhood_s.jpg"
 ![](../photos/CSF-logo.gif)
 :::
 
-![](../photos/bnhl_neighbourhood.png){fig-align="center" width=80%}
-
-### Spatial and temporal statistical modeling in molecular biology
+![](../photos/CSF-people.jpg){fig-align="center" width=80%}
 
 Organizers: Niko Beerenwinkel (ETH), Valentina Boeva (ETH), Peter Bühlmann (ETH), Wolfgang Huber (EMBL)
 
