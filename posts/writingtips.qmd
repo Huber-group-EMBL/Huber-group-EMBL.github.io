@@ -45,6 +45,8 @@ tips = c("Present experimental observations and measurements in past tense. Use 
 
 "Keep it simple and laconic. Buzzwords and overuse of technical jargon sound pompous and undermine you.",
 
+"This one holds with exceptions: you don't need to dump on other people's work in order to make your work look good. It's not a null sum game. You can talk respectfully about prior attempts at your question, and still claim a major advance.",
+
 "Keep it lean. Periodically, go over the text and ask for *every single word* whether it is necessary. Does it carry new and relevant information? If not, remove it. E.g., prune for occurences of phrases of the form 'To achieve *X*, we did *(different word for X)*'. Don't say 'X represents Y' when it's just 'X is Y'. Doing so exposes you as careless of logical thinking.",
 
 "Use a spell-checker.",
