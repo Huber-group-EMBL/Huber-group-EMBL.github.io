@@ -1,6 +1,6 @@
 ---
 title: "Donnacha Fitzgerald"
-description: "PhD candidate"
+description: "Bridging Postdoc"
 ---
 
 ![Donnacha Fitzgerald](donnacha-fitzgerald.jpg){width=500 fig-align="center"}
@@ -8,6 +8,6 @@ description: "PhD candidate"
 >LinkedIn          [donnacha-fitzgerald](https://www.linkedin.com/in/donnacha-fitzgerald/) \
 >Twitter         [@DN_Fitzgerald](https://twitter.com/DN_Fitzgerald) \
 
-Donnacha is finishing a joint PhD between the Huber and Dietrich groups at EMBL and Heidelberg University Hospital in the field of systems medicine. His primary research focus has been characterizing a single-cell multi-omic and spatial atlas of B-cell lymphomas, discovering the underlying drivers of intratumor heterogeneity, tumor evolution, and treatment resistance. 
+Donnacha did a joint PhD project between the Huber and Dietrich groups at EMBL and Heidelberg University Hospital in the field of systems medicine, which he finished in March 2024. He is currently on a bridging postdoc assignment to complete projects. His primary research focus has been characterizing a single-cell multi-omic and spatial atlas of B-cell lymphomas, discovering the underlying drivers of intratumor heterogeneity, tumor evolution, and treatment resistance. 
 
 Previously, Donnacha trained as a pharmacist, completed an MBA, and worked in the fields of synthetic biology and microfluidics. Outside of the lab, he plays active roles in the advancement of the pharmacy profession, biotech translation, and science ethics. In his free time, he enjoys traveling, music, and reading - sometimes all three at once!

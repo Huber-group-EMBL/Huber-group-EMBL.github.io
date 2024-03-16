@@ -1,6 +1,6 @@
 ---
 title: "Constantin Ahlmann-Eltze"
-description: "PhD candidate"
+description: "Bridging Postdoc"
 ---
 
 ![Constantin Ahlmann-Eltze](ahlmann-eltze_constantin.jpg){width=500 fig-align="center"}
