@@ -15,8 +15,8 @@ The most obvious route is for cyclists to follow the road that the cars and buss
 ```{r}
 #| label: defmyfig
 #| echo: FALSE
-myfig    = function(x, s = "Map") sprintf("[![%s](../photos/%s)](../photos/%s)", s, x, x)
-myfig500 = function(x, s = "Map") sprintf("[![%s](../photos/%s){width='500px'}](../photos/%s)", s, x, x)
+myfig    = function(x, s = "Map") sprintf("![%s](../photos/%s){.lightbox}", s, x)
+myfig500 = function(x, s = "Map") sprintf("![%s](../photos/%s){width='500px' .lightbox}", s, x)
 ```
 
 ::: {layout="[[50,-1,50]]"}
