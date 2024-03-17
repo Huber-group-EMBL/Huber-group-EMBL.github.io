@@ -11,5 +11,5 @@ published-title: "Start date"
 ---
 
 
-[![](../photos/csama2018_massiv.jpg "Link to course webpage")](https://csama2024.bioconductor.eu/)
+[![Link to course webpage](../photos/csama2018_massiv.jpg "Link to course webpage")](https://csama2024.bioconductor.eu/)
 

@@ -12,11 +12,11 @@ title: "Working with us"
 ::: {.column-margin}
 [![](photos/EIPOD_LinC_RGB.png)](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/)
 
-[![](photos/DSC9178-2048x1401.jpeg)](photos/DSC9178-2048x1401.jpeg)
+![](photos/DSC9178-2048x1401.jpeg){.lightbox}
 
-[![](photos/2021-10-21-retreathike.jpg)](photos/2021-10-21-retreathike.jpg)
+![](photos/2021-10-21-retreathike.jpg){.lightbox}
 
-[![](photos/2022-03-11-dinner.jpg)](photos/2022-03-11-dinner.jpg)
+![](photos/2022-03-11-dinner.jpg){.lightbox}
 :::
 
 Besides these specific calls, we are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:

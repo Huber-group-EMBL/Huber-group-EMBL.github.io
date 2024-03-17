@@ -2,7 +2,7 @@
 
 The Huber group develops statistical methods for modern biotechnologies, applies them to biological discovery, and translates them into reusable tools.
 
-![Huber group 2023-05-31](photos/2023-05-31-hike.jpg){width=640 fig-align="center"}
+![Huber group 2023-05-31](photos/2023-05-31-hike.jpg){width=640 fig-align="center" .lightbox}
 
 Our team studies biological systems by developing statistical and computational methods for the analysis of new data types and novel, large systematic datasets. These include single-cell and spatial omics, high-throughput drug- and CRISPR-based perturbation assays, and quantitative imaging. Projects range from applied data analysis for biological discovery to theoretical method development. We study fundamental biological model systems, as well as clinical samples for direct applications in biomedicine and precision oncology. We maintain an extensive network of collaborations. These include the 
 [Molecular Medicine Partnership Unit] (MMPU) [Systems Medicine of Cancer Drugs](https://www.embl.org/about/info/mmpu/research-groups/systems-medicine-of-cancer-drugs), 
