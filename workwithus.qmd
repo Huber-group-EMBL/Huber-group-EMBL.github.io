@@ -7,7 +7,6 @@ title: "Working with us"
 - [Postdoctoral position within the EIPOD-LinC (Life in Context) Program](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/). See [below](#collaborations) for a list of potential partners (co-supervisors).
 - [Postdoctoral position in spatial and single-cell computational biology for precision oncology](posts/2023-08-bialymp.html)
 - [Postdoctoral position in statistical and AI method development for in-vivo Perturb-Seq in the ERC project DECODE](https://erc-decode.eu/)
-- [Internship for bioinformatics trainers](posts/2023-09-csda-internship.qmd)
 
 ::: {.column-margin}
 [![](photos/EIPOD_LinC_RGB.png)](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/)
