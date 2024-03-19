@@ -18,7 +18,7 @@ published-title: "Start date"
 ![](../photos/CSF-logo.gif)
 :::
 
-![](../photos/CSF-people.jpg){fig-align="center" width=80%}
+![](../photos/CSF-people.jpg){fig-align="center" width=80% .lightbox}
 
 Organizers: Niko Beerenwinkel (ETH), Valentina Boeva (ETH), Peter Bühlmann (ETH), Wolfgang Huber (EMBL)
 
