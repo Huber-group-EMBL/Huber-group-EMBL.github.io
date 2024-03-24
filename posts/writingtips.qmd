@@ -53,7 +53,7 @@ tips = c("Present experimental observations and measurements in past tense. Use 
 
 "Use a spell-checker.",
 
-"Use a tool that allows collaborative editing in a team, and keeps version history. For quantitative work, my favorite is [Quarto manuscripts](https://quarto.org/docs/manuscripts/)^[Of course, there is also still $\\LaTeX$, but that system is essentially 25 years old, hardly interacts with the web or HTML, and functionality-wise is largely superseded by Quarto.], otherwise, Googledocs.",
+"Use a tool that allows collaborative editing in a team and keeps version history. There are several options. I like [Quarto manuscripts](https://quarto.org/docs/manuscripts/) for quantitative work that involves data visualizations and/or maths, and Googledocs otherwise.",
 
 "Graphics: colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is [good advice on this on the internet](https://ggplot2-book.org/scales-colour). If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, use distinct color maps for different variables.",
 
