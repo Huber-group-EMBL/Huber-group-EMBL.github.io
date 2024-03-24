@@ -11,7 +11,7 @@ image: "../photos/einstein-gr.jpg"
 #| echo: FALSE
 #| results: asis
 #| output: asis 
-tips = c("Present experimental observations and measurements in past tense. Use present tense for presuppositions, interpretations and conclusions. The statements in past tense are the real, hard substance, the novelty of a research paper.", 
+tips = c("Present experimental observations and measurements in past tense. Use present tense for presuppositions, interpretations and conclusions. The statements in past tense are the real, hard substance, the novelty of an experimental or observational science paper.", 
          
 "Use active voice. Avoid passive voice. Use the active voice form to make it clear what you did, what others did, or what already pre-existed from your previously reported work.",
 
@@ -43,7 +43,7 @@ tips = c("Present experimental observations and measurements in past tense. Use 
 
 "If multiple spellings are possible for a term (e.g., hyphenation, capitalization), pick one and stick with it.",
 
-"In biomedical studies, use the word 'patients' if you mean the actual people, i.e., human beings with life histories, families, feelings. Use another word if you are just referring to blood samples or tissue biopsies.",
+"In biomedical studies, use the word 'patients' if you mean actual people, i.e., human beings with life histories, families, feelings, undergoing medical treatment. Use another word if you are just referring to blood samples or tissue biopsies.",
 
 "Keep it simple and laconic. Buzzwords and overuse of technical jargon sound pompous and undermine you.",
 
