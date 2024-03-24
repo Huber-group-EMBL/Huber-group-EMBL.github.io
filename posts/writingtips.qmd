@@ -2,7 +2,7 @@
 title: "Scientific writing tips"
 description: "An eclectic and subjective list"
 author: "Wolfgang Huber"
-date: "2023-12-22"
+date: "2024-03-25"
 categories: "Wisdom"
 image: "../photos/einstein-gr.jpg"
 ---
@@ -55,7 +55,9 @@ tips = c("Present experimental observations and measurements in past tense. Use 
 
 "Font size: make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. In practice, this is surprisingly hard.",
 
-"Aspect ratio: for plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1."
+"Aspect ratio: for plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1.",
+
+"If your paper involves data that you have generated: start early with uploading the data to the appropriate public repository, e.g., [EBI](https://www.ebi.ac.uk/). In particular the good journals have strict data reporting requirements. Bringing together your data (and metadata!) to meet the standards of the public repository can take a significant amount of time. After data upload, sometimes several rounds of back-and-forth with the curators/operators of the database ensue, until the data is really accessible. You do not want to expend the time for this while a journal editor or reviewer are already impatiently waiting."
 )
 
 i = seq(along = tips)
