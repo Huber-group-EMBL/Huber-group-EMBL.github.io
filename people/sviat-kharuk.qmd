@@ -1,11 +1,11 @@
 ---
 title: "Sviatoslav Kharuk"
-description: "Intern"
+description: "Consultant"
 ---
 
 ![Sviatoslav Kharuk](sviat-kharuk-photo.jpg){width=500 fig-align="center"}
 
-Sviat completed his Bachelor in Biochemistry at Vasyl Stefanyk Precarpathian National University of Ukraine. For his internship at EMBL, he tests and benchmarks statistical models and deep learning methods for single-cell omics data.
+Sviat completed his Bachelor in Biochemistry at Vasyl Stefanyk Precarpathian National University of Ukraine. With the Huber group, he applies and benchmarks mathematical models and deep learning methods for single-cell resolution perturbation / RNA-sequencing data from the ERC DECODE project.
 
 >[Personal webpage](https://sviatkh.github.io/) \
 >GitHub          [sviatkh](https://github.com/sviatkh) \
