@@ -49,13 +49,13 @@ These questions will be explored by an interdisciplinary group of speakers and p
 * Lara Urban, Technical University Munich / Helmholtz Center
 
 #### How to participate
-Pre-registration is now open via this [application form](https://forms.gle/B1K91wwci8C2p8Ec8).
+Pre-registration is now closed.
 Following pre-registration, abstracts will be selected by the program committee.
 Pre-registration is non-binding and at no cost.
 Successful applications will be invited to register by mid-May.
 
 #### Dates
-**Deadline for pre-registration:** 22 April 2024, 23:59 CEST\
+**Deadline for pre-registration:** 05 May 2024, 23:59 CEST\
 **Notification and invitation to register:** before 20 May 2024\
 **Deadline for registration:** 17 June 2024\
 **Workshop:**  8-13 September 2024 (Sunday evening till Friday noon)
@@ -72,8 +72,8 @@ Industry 900 CHF
 #### Contact
 [Dr. Julia Philipp](mailto:julia.philipp@embl.de)
 
-#### Programm
-[PDF](Ascona-Programme-v01.pdf)
+#### Preliminary Programm
+[PDF](Ascona-Programme-v02.pdf)
 
 #### Sponsors
 TBA
