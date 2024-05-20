@@ -1,0 +1,30 @@
+---
+title: "Computational Biology is not Cheap"
+description: "Know your worth"
+author: "Wolfgang Huber"
+date: "2024-05-20"
+categories: "Wisdom"
+image: "../photos/1712609860463-sm.jpg"
+---
+
+A favorite fantasy of some of my experimental colleagues is the fully-trained, competent computational biology PhD student or postdoc a few months before the end of their contract, sitting there waiting to be parachuted into an existing project in the colleague's lab that has jammed up, and quickly "do the analyses".^[Of course, simple empiricism tells us that this scenario would be exceedingly unusual. But we might also savor the conceptual conditions for such a thing to be true: the researcher's other projects would have to have finished before time. The person would be competent, but have no own important ideas. They would be motivated by a middle-authorship on some paper rather than, say, money.]
+
+Not rarely this goes along with the view that computational research is cheap, its funding can be dealt with as an afterthought, and/or can be the first to be slashed when things get tough.
+
+It reminds me of that story of Pablo Picasso.
+
+> Picasso was enjoying a meal at a restaurant when a man interrupted him, handed him a napkin and asked:<br>
+> “Could you sketch something for me? I’ll pay. Name your price.”<br>
+> Picasso took the napkin, pulled a charcoal pencil from his pocket and started sketching. Using only a few strokes, he drew a goat that was unmistakably a Picasso. He held it up for the man to see.<br>
+> The man smiled and reached to take the sketch. But Picasso withheld it.<br>
+> “That will be $100,000.” Picasso said.<br>
+> The man was astonished. “$100,000?! You drew that in 30 seconds!”<br>
+> Picasso crumpled up the napkin and stuffed it in his pocket.<br>
+> “You're wrong.” he said.<br>
+> “It's taken me 40 years to do that.”<br>
+><br>
+> Know your worth.
+
+![](../photos/1712609860463.jpg)
+
+*Quoted from [Daniel Abrahams](https://www.linkedin.com/feed/update/urn:li:activity:7183206392533561345/)*
