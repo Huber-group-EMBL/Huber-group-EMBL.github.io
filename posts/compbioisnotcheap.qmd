@@ -7,7 +7,9 @@ categories: "Wisdom"
 image: "../photos/1712609860463-sm.jpg"
 ---
 
-A favorite fantasy of some of my experimental colleagues is the fully-trained, competent computational biology PhD student or postdoc a few months before the end of their contract, sitting there waiting to be parachuted into an existing project in the colleague's lab that has jammed up, and quickly do "the analyses".^[Of course, simple empiricism tells us that this scenario would be exceedingly unusual. But we might also savor the theoretical conditions for such a thing to be true: the researcher's other projects would have to have finished before time. The person would be competent, but have no own important ideas. They would be more motivated by a middle-authorship on some paper than, say, money.]
+A favorite fantasy of some of my experimental colleagues is the fully-trained, competent computational biology PhD student or postdoc a few months before the end of their contract, who has the time and inclination to be parachuted into an existing project in the colleague's lab that has jammed up, and quickly do "the analyses".
+
+By common experience, such a scenario is exceedingly unusual. But we might also savor the conditions that would need to be met for it: the researcher's other projects were finished before time, and lead to no interesting next step. The person is competent, but has no own important ideas. Given all that, they are more motivated by doing more of the same for a middle-authorship on some paper than, say, earning money by consulting, backpacking around the world, or some other extracurricular activity.
 
 Not rarely goes this along with the view that computational research^[As Robert Gentleman pointed out, the points made here analogously apply to the field statistics.] is cheap, its resourcing can be dealt with as an afterthought, and it can be the first to be slashed when things get tough.
 
