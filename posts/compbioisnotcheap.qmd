@@ -7,7 +7,7 @@ categories: "Wisdom"
 image: "../photos/1712609860463-sm.jpg"
 ---
 
-A favorite fantasy of some of my experimental colleagues is the fully-trained, competent computational biology PhD student or postdoc a few months before the end of their contract, who has the time and inclination to be parachuted into an existing project in the colleague's lab that has jammed up, and quickly do "the analyses".
+A favorite fantasy of some of my experimental colleagues is the fully-trained, competent computational biology PhD student or postdoc in my lab a few months before the end of their contract, who they can ask to be parachuted into an existing project in the colleague's lab that has jammed up, and quickly do "the analyses".
 
 There are scenarios where such an arrangement can be beneficial for all. But by common experience, that is unusual. And we might savor the assumptions behind asking the question: there is a researcher whose projects would have finished before time, and have led to no important follow-up. The person would be competent, but have no exciting own ideas. They would be more motivated by doing more of the same for a middle-authorship on someone else's paper than, say, earning money by consulting, backpacking around the world, or some other extracurricular activity.
 
