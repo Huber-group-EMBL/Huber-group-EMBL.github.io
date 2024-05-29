@@ -57,7 +57,7 @@ Successful applications will be invited to register by mid-May.
 #### Dates
 **Deadline for pre-registration:** 05 May 2024, 23:59 CEST\
 **Notification and invitation to register:** before 20 May 2024\
-**Deadline for registration:** 17 June 2024\
+**Deadline for registration:** 31 July 2024\
 **Workshop:**  8-13 September 2024 (Sunday evening till Friday noon)
 
 #### Location
@@ -73,7 +73,9 @@ Industry 900 CHF
 [Dr. Julia Philipp](mailto:julia.philipp@embl.de)
 
 #### Preliminary Programm
-[PDF](Ascona-Programme-v02.pdf)
+```{=html}
+{{< include ascona_schedule.html >}}
+```
 
 #### Sponsors
 TBA
