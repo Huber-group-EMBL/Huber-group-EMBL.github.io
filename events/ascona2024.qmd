@@ -81,5 +81,6 @@ Industry 900 CHF
 ```
 
 #### Sponsors
-TBA
-
+![](../photos/Roche_logo.png){width=200px} 
+![](../photos/Novartis_logo.png){width=200px}
+![](../photos/PHRT_logo.jpeg){width=300px}
