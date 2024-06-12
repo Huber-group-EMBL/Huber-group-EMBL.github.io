@@ -67,3 +67,13 @@ i = seq(along = tips)
 sprintf('<a id="%02d">[%d.](#%02d) %s</a>\n', i, i, i, tips) |> cat(sep="\n")
 ```
 
+## The generic abstract {-}
+
+1. Why is it important?    (1)
+2. What is "it"?   (1)
+3. But what is the problem with it?    (1)
+4. What did you do about the problem?    (1)
+5. What was your result?   (n)
+6. What are some wider implications?  (1)
+
+In parentheses: number of sentences
