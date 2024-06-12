@@ -57,11 +57,14 @@ Successful applications will be invited to register by mid-May.
 #### Dates
 **Deadline for pre-registration:** 05 May 2024, 23:59 CEST\
 **Notification and invitation to register:** before 20 May 2024\
-**Deadline for registration:** 17 June 2024\
+**Deadline for registration:** 31 July 2024\
 **Workshop:**  8-13 September 2024 (Sunday evening till Friday noon)
 
 #### Location
-[Congressi Stefano Franscini](http://www.csf.ethz.ch/), Monte Verità, Ascona, Switzerland
+[Congressi Stefano Franscini](http://www.csf.ethz.ch/), Monte Verità, Ascona, Switzerland\
+For more information on how to get there, visit [https://csf.ethz.ch/monte-verita/by-train.html](https://csf.ethz.ch/monte-verita/by-train.html).\
+We will provide you with additional travel information shortly.
+
 
 #### Registration fees (not due until final registration)
 Academia 300 CHF \
@@ -73,8 +76,11 @@ Industry 900 CHF
 [Dr. Julia Philipp](mailto:julia.philipp@embl.de)
 
 #### Preliminary Programm
-[PDF](Ascona-Programme-v02.pdf)
+```{=html}
+{{< include ascona_schedule.html >}}
+```
 
 #### Sponsors
-TBA
-
+![](../photos/Roche_logo.png){width=200px} 
+![](../photos/Novartis_logo.png){width=200px}
+![](../photos/PHRT_logo.jpeg){width=300px}
