@@ -56,7 +56,7 @@ We are a frequent contributor to the Bioconductor project
 |[IHW](https://bioconductor.org/packages/IHW)|Multiple testing and false discovery rate (FDR) control by Independent Hypothesis Weighting|
 |[EBImage](https://bioconductor.org/packages/EBImage)|Image processing and analysis toolbox for R|
 |[Rarr](https://bioconductor.org/packages/Rarr)|Read Zarr Files in R|
-|[rdf5](https://bioconductor.org/packages/rhdf5)|R Interface to HDF5|
+|[rhdf5](https://bioconductor.org/packages/rhdf5)|R Interface to HDF5|
 |[vsn](https://bioconductor.org/packages/vsn)|Normalization and variance stabilizing transformation of fluorescence intensity data|
 |[cellHTS2](https://bioconductor.org/packages/cellHTS2)|Analysis of cell-based high-throughput screens|
 |[DEXSeq](https://bioconductor.org/packages/DEXSeq)|Inference of differential exon usage in RNA-Seq|
