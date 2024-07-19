@@ -29,6 +29,10 @@ format:
 
 | Name         | What they did with us | Where they moved on to; where are they are now |
 | --------------- | --------- | ----------------- |
+| **Julia Philipp** | Data Manager / Data Scientist |   |
+| **Simone Bell** | Senior Project Manager |   |
+| **Yuliia Lazoriak** | Intern |   |
+| **Sarah Kaspar** | Biostatistics Consultant and Trainer | Biological Data Analysis - Statistician, EMBL Heidelberg  |
 | **Nick Hirschmüller** | Master thesis | PhD at Univ. Cambridge  |
 | **Dr. Alexander Helmboldt** | Postdoc | HMS Analytical Software |
 | **Caroline Lohoff** | Master thesis | PhD with Junyan Lu, Univ. Hospital Heidelberg |
