@@ -52,6 +52,9 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 
 "Keep it lean. Periodically, go over the text and ask for *every single word* whether it is necessary. Does it carry new and relevant information? If not, remove it. E.g., prune for occurences of phrases of the form 'To achieve *X*, we did *(different word for X)*'. Don't say 'X represents Y' when it's just 'X is Y'. Doing so exposes you as careless of logical thinking.",
 
+"Respect [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor): in analysis pipelines, remove unnecessary or inessential steps (transformations, filtering, etc.);
+in simulations, remove inessential model ornaments, parameters, keep parameter ranges as small needed. Think about what you really want to show. Do not do something just because others did it (for reasons that are not relevant in your case) or because you once thought it was needed and have not bothered to throw it out from your code. There can be value in looking at the same thing from different angles, especially if some uncertainty or ambiguity is involved. But if it's possible to make a point with one convincing and forceful argument, do it, and move on.",
+
 "Use a spell-checker.",
 
 "Use a tool that allows collaborative editing in a team and keeps version history. There are several options. I like [Quarto manuscripts](https://quarto.org/docs/manuscripts/) for quantitative work that involves data visualizations and/or maths, and Googledocs otherwise.",
