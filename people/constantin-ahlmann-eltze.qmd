@@ -1,8 +1,0 @@
----
-title: "Constantin Ahlmann-Eltze"
-description: "Bridging Postdoc"
----
-
-![Constantin Ahlmann-Eltze](ahlmann-eltze_constantin.jpg){width=500 fig-align="center"}
-
-Constantin studied molecular biotechnology at the University of Heidelberg. In September 2023, he finished his PhD at EMBL, and he is currently on a bridging postdoc assignment to complete projects. His work includes a [comparative study of preprocessing and transformation approaches for single-cell data](https://doi.org/10.1038/s41592-023-01814-1), and a [method for differential expression analysis with multi-condition single-cell data that does not require clustering or assignment of categorical "cell type" annotation](https://doi.org/10.1101/2023.03.06.531268). He maintains ten R packages for scientific applications, for which he wasawarded the 2023 Bioconductor Award. He enjoys cycling, bouldering and traveling.
