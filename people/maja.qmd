@@ -1,0 +1,13 @@
+---
+title: "Maja Kaźmierczak-Barthel"
+description: "Scientific Project Manager"
+image: "maja.jpg"
+---
+
+![Maja Kaźmierczak-Barthel](maja.jpg){width=500 fig-align="center"}
+
+>LinkedIn          [Maja Kazmierczak-Barthel](https://www.linkedin.com/in/maja-kazmierczak-barthel/) \
+>GitHub          [Maja-KB](https://github.com/Maja-KB) \
+>[Personal Travel Blog](https://travelingrockhopper.com/) \
+
+
