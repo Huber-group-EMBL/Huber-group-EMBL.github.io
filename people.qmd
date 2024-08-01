@@ -29,10 +29,10 @@ format:
 
 | Name         | What they did with us | Where they moved on to; where are they are now |
 | --------------- | --------- | ----------------- |
-| **Dr. Julia Philipp** | Data Manager / Data Scientist |   |
-| **Dr. Constantin Ahlmann-Eltze** | PhD student |   |
-| **Simone Bell** | Senior Project Manager |   |
-| **Yuliia Lazoriak** | Intern |   |
+| **Dr. Julia Philipp** | Data Manager / Data Scientist |  Merck Healthcare KGaA, Darmstadt |
+| **Dr. Constantin Ahlmann-Eltze** | PhD student | Postdoc, UCL Cancer Institute, London, UK   |
+| **Simone Bell** | Senior Project Manager | Project Leader, Bausch + Lomb, Eppelheim  |
+| **Yuliia Lazoriak** | Intern |  Master student, Vienna |
 | **Dr. Sarah Kaspar** | Biostatistics Consultant and Trainer | Biological Data Analysis - Statistician, EMBL Heidelberg  |
 | **Nick Hirschmüller** | Master thesis | PhD at Univ. Cambridge  |
 | **Dr. Alexander Helmboldt** | Postdoc | HMS Analytical Software |
