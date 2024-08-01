@@ -12,5 +12,5 @@ image: "../photos/mike-tyson-quote.jpg"
 Consider Mike Tyson's "Everyone has a plan till they get punched in the mouth"^[ca. 1987] or 
 Helmuth von Moltke's "No plan survives the first enemy contact"^["Kein Operationsplan reicht mit einiger Sicherheit über das erste Zusammentreffen mit der feindlichen Hauptmacht hinaus." - von Moltke, Helmuth Karl Bernhard: "Über Strategie" (1871). In: Kriegsgeschichtliche Einzelschriften, H.13 (1890)]. 
 
-IMHO, more important than a detailed plan is to have the right people, skills, and resources in place and to be able to (re)act quickly upon the data that get produced — if, when, and at the quantity and quality it has - and to possibly rapidly changing scientific questions. This is [not cheap, it needs proper resourcing](compbioisnotcheap.html).
+IMHO, more important than a detailed plan is to have the right people, skills, and resources in place and to be able to (re)act quickly upon the data that get produced — if, when, and at the quantity and quality they have - and to possibly rapidly changing scientific questions. This is [not cheap, it needs proper resourcing](compbioisnotcheap.html).
 
