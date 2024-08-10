@@ -1,6 +1,6 @@
 ---
 title: "Ukrainian Biological Data Science Summer School 2024"
-description: "Uzhhorod, 7-20 July 2024. Impression."
+description: "Uzhhorod, 7-20 July 2024. Impressions."
 author: "Wolfgang Huber"
 date: "2024-08-10"
 categories: "Past events"
