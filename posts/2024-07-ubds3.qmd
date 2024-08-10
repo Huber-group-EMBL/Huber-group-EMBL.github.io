@@ -6,7 +6,7 @@ date: "2024-08-10"
 categories: "Past events"
 ---
 
-From 7-20 July 2024, [we](https://bds3.org/our-team) organized the second edition of the "Ukrainian Biological Data Science Summer School ([link to my post on the first edition](2023-07-ubds3.html). 
+From 7-20 July 2024, [we](https://bds3.org/our-team) organized the second edition of the "Ukrainian Biological Data Science Summer School ([link to my post on the first edition](2023-07-ubds3.html)). 
 
 Here's a newspapaper article from the Rhein-Neckar-Zeitung (local newspaper of Heidelberg), [in German](240803-RNZ-UBDS3.jpg){.lightbox}.
 
