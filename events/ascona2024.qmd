@@ -65,7 +65,6 @@ Successful applications will be invited to register by mid-May.
 For more information on how to get there, visit [https://csf.ethz.ch/monte-verita/by-train.html](https://csf.ethz.ch/monte-verita/by-train.html).\
 We will provide you with additional travel information shortly.
 
-
 #### Registration fees (not due until final registration)
 Academia 300 CHF \
 Industry 900 CHF
@@ -75,7 +74,7 @@ Industry 900 CHF
 #### Contact
 [Dr. Paolo Demaria](mailto:paolo.demaria@demariaevent.ch)
 
-#### Preliminary Programm
+#### Preliminary Program
 ```{=html}
 {{< include ascona_schedule.html >}}
 ```
