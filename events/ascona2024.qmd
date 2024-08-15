@@ -76,7 +76,7 @@ Industry 900 CHF
 
 #### Preliminary Program
 ```{=html}
-{{< include ascona_schedule.html >}}
+{{< include ascona2024_schedule.html >}}
 ```
 
 #### Sponsors
