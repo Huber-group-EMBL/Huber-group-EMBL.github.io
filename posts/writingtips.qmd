@@ -46,7 +46,7 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 
 "In biomedical studies, use the word 'patients' if you mean actual people, i.e., human beings with life histories, families, feelings, undergoing medical treatment. Use another word if you are just referring to blood samples or tissue biopsies.",
 
-"Keep it simple and laconic. Buzzwords and overuse of technical jargon sound pompous and undermine you.",
+"Keep it simple and laconic. Buzzwords and overuse of technical jargon sound pompous and undermine you. Avoid cliché words and phrases like 'utilize', 'Interestingly, ...'",
 
 "You don't need to dump on other people's work in order to make your work look good. It's not a null sum game. You can talk respectfully about prior attempts at your question, and still claim a major advance.",
 
