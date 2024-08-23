@@ -27,10 +27,10 @@ website:
 
 format:
   html:
-    theme: journal
+    theme:
+      - materia
     linkcolor: "#2A57A3"
     toc-color: "#2A57A3"
-    css: styles.css
     toc: true
     grid:
       sidebar-width: 150px
