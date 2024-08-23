@@ -4,7 +4,7 @@ title: "Working with us"
 
 ### Current openings
 
-- [Technical project manager: software / data in spatial and single-cell computational biology for precision oncology](posts/2023-08-bialymp.html)
+- [Bioinformatician - Scientific Data Manager and Research Software Engineer - Precision Oncology and Multiomics](posts/2024-08-data-software-manager.html)
 - [Postdoctoral position in statistical and AI method development for in-vivo Perturb-Seq in the ERC project DECODE](https://erc-decode.eu/)
 
 ::: {.column-margin}
@@ -14,7 +14,7 @@ title: "Working with us"
 
 ![](photos/2021-10-21-retreathike.jpg){.lightbox}
 
-![](photos/2022-03-11-dinner.jpg){.lightbox}
+![](photos/20240325_131603-sm.jpeg){.lightbox}
 :::
 
 Besides these specific calls, we are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:

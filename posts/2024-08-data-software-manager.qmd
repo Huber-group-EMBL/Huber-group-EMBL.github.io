@@ -1,0 +1,68 @@
+---
+title: "Bioinformatician - Scientific Data Manager and Research Software Engineer"
+description: "Precision Oncology and Multiomics"
+author: "Wolfgang Huber"
+date: "2024-08-10"
+categories: "Positions"
+image: "../photos/codexspots-h.jpg"
+---
+
+> Location: Heidelberg, Germany\
+<!--
+> Staff Category: 4, 5, 6 depending on experience and qualifications\
+> Contract duration: until 12/2026\
+> Job ad at EMBL HR site: <https://www.embl.org/jobs/position/HD02682>\
+-->
+
+## About
+
+::: {layout="[[77,23]]"}
+
+EMBL is Europe’s life sciences laboratory – an intergovernmental organisation with more than 110 independent research groups and service teams covering the spectrum of molecular biology. It operates across six sites in Heidelberg (headquarters), Barcelona, Cambridge, Grenoble, Hamburg and Rome. Our mission is to perform basic research in molecular biology; train scientists, students and visitors at all levels; offer vital services to scientists in the public and private sectors within the member states; develop new instruments and methods; and engage actively in technology transfer.\
+\
+The INTeRCePT project at Zurich’s Medical Research Center The LOOP is an interinstitutional, interdisciplinary collaboration whose aim is to improve the outcome of lymphoid malignancies in children and adults, by using advanced single cell omics technologies to understand why some tumors resist treatment and how to overcome this. The research group of Wolfgang Huber at EMBL is seeking a Scientific Data Manager and Research Software Engineer to support all aspects of data management and analysis related to the INTeRCePT project. This includes, among others, CITE-seq, scDNA-seq, high-dimensional flow cytometry, multiplexed immunohistochemistry, high-throughput drug response assays, clinical patient data.
+
+![Rendering of CODEX data from >200 tissue cores](../photos/codexspots-v.jpg)
+
+:::
+
+## About the team 
+
+The research group of Wolfgang Huber at EMBL develops statistical data analysis and machine learning methods for modern biotechnologies, applies them to biological and biomedical discovery, and translates them into reusable tools by engaging in open source software communities. The interdisciplinary and international team has strong collaborations with researchers in cancer and developmental biology. They use cutting edge experimental data to discover and understand biological processes and to develop new biomedical applications. 
+
+
+## Your role
+
+- Establish and curate a FAIR data repository for primary and derived data from INTeRCePT collaborators, using EMBL’s world-class IT infrastructure.
+- Data import, initial QA/QC, consistency and completeness checks, documentation and metadata.
+- Create necessary conditions for dataset integration, such as identifier consistency.
+- Support researchers with finding, accessing and trouble-shooting data.
+- Perform data uploads to public repositories, in conjunction with scientific publications, under guidance by the researchers.
+- Generate interfaces for data visualization and browsing, and perform data transformations to make them suitable for machine learning / AI methods.
+- Adapt and further develop open source scientific software useful for the above tasks.
+- Engage with scientific data management and research software engineering in the broader scientific community internationally, e.g., by contributing open source tools and training material.
+
+
+
+## You have
+
+- A university degree in the natural or life sciences, and experience with biological data analysis. A PhD, and experience in scientific computing are an advantage.
+- A passion for detail, for keeping things well-organized, and for working with others.
+- Knowledge of R and Python: good in at least one, at least basic in the other.
+- You enjoy creating interactive websites using tools such as shiny and quarto.
+
+
+## Why join us
+
+EMBL is an inclusive, equal opportunity employer offering attractive conditions and benefits appropriate to an international research organisation with a collegial and family-friendly working environment. The remuneration package comprises a competitive salary, a comprehensive pension scheme, medical, educational and other social benefits, as well as financial support for relocation and installation, including your family and the availability of an excellent child care facility on campus. EMBL has a large, thriving community of computational biologists, working in close collaboration with experimental scientists and with strong links to other local and international scientists and institutions.
+
+## What else do I need to know
+
+EMBL is Europe’s flagship research laboratory for the life sciences – an intergovernmental organisation doing scientific research in disciplines including molecular biology, physics, chemistry and computer science. We are an international, innovative and interdisciplinary institution with more than 1600 employees from more than 60 nations, operating across six sites in Heidelberg, Barcelona, Cambridge, Grenoble, Hamburg, and Rome.
+
+Our mission is to offer vital services in training scientists, students and visitors at all levels; to develop new instruments and methods in the life sciences and actively engage in technology transfer activities, and to integrate European life science research. Please note that appointments on fixed term contracts can be renewed, depending on circumstances at the time of the review.
+
+If you have any questions prior to your application for this job position, please contact Wolfgang Huber (<wolfgang.huber@embl.org>).
+
+
+ 
