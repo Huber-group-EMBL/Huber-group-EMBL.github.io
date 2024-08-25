@@ -80,3 +80,5 @@ sprintf('<a id="%02d">[%d.](#%02d) %s</a>\n', i, i, i, tips) |> cat(sep="\n")
 6. What are some wider implications?  (1)
 
 In parentheses: number of sentences
+
+<!-- Nice example: https://doi.org/10.1038/s41590-024-01943-5 -->
