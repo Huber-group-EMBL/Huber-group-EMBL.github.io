@@ -35,6 +35,46 @@ There are also new conceptual and theoretical challenges to develop suitable mat
 
 These questions will be explored by an interdisciplinary group of speakers and participants.
 
+#### Preliminary Program
+
+```{r}
+#| label: program
+#| echo: false
+#| results: asis
+#| message: false
+#| warning: false
+#| classes: plain
+
+library("readr")
+library("knitr")
+library("kableExtra")
+options(knitr.kable.NA = "")
+
+p = read_tsv("ascona2024-program.tsv")
+
+# fill in day names
+stopifnot(nrow(p)>=2 && !is.na(p$day[1]))
+current_day = p$day[1]
+for (r in 2:nrow(p))
+  if (is.na(p$day[r])) { p$day[r] = current_day } else {current_day = p$day[r]} 
+
+# make speaker names bold
+p$what = vapply(strsplit(p$what, "talk:"), 
+                function(x) paste0(x[1], if (length(x)>1) paste0("talk: <strong>", x[2], "</strong>") else ""), 
+                FUN.VALUE = character(1))
+
+# The argument 'escape=FALSE' for 'kable' makes sure that the HTML tags are interpreted, i.e., that, e.g., < is not converted to &lt; and > to &gt;.
+# This works, but unfortunately, kableExtra::collapse_rows does not have such an argument, and still performs exactly that conversion.
+# The last line below is a hack to revert that.
+k = kable(p, align = "l", escape = FALSE) |>    
+      collapse_rows(columns = 1, valign = "top")
+gsub("&lt;", "<", gsub("&gt;", ">", k))
+
+# An alternative table library, didn't seeem easier to use.
+# library("gt")
+# k = tab_row_group(gt(p), label = "day", rows = everything())
+```
+
 #### Keynote Speakers
 * Peer Bork, EMBL
 * Maria Cristina Gambetta, Univ. of Lausanne
@@ -74,51 +114,6 @@ Industry 900 CHF
 #### Contact
 [Dr. Paolo Demaria](mailto:paolo.demaria@demariaevent.ch)
 
-#### Preliminary Program
-
-```{r}
-#| label: program
-#| echo: false
-#| results: asis
-#| message: false
-#| warning: false
-#| classes: plain
-
-library("readr")
-library("knitr")
-library("kableExtra")
-options(knitr.kable.NA = "")
-p = read_tsv("ascona2024-program.tsv")
-stopifnot(nrow(p)>=2 && !is.na(p$day[1]))
-
-# fill in day names
-current_day = p$day[1]
-for (r in 2:nrow(p))
-  if (is.na(p$day[r])) { p$day[r] = current_day } else {current_day = p$day[r]} 
-
-# make speaker names bold
-p$what = vapply(strsplit(p$what, "talk:"), 
-                \(x) paste0(x[1], if (length(x)>1) paste0("talk: <strong>", x[2], "</strong>") else ""), 
-                FUN.VALUE = character(1))
-
-# The argument 'escape=FALSE' for 'kabel' makes sure that that the HTML tags are interpreted and that, e.g., < is not converted to &lt; and > to &gt;.
-# This works, but unfortunately, kableExtra::collapse_rows does not have such an argumented, and still performs exactly that conversion.
-# This below a hack to revert that
-k = kable(p, align = "l", escape = FALSE) |>    
-      collapse_rows(columns = 1, valign = "top")
-gsub("&lt;", "<", gsub("&gt;", ">", k))
-
-# library("gt")
-# k = tab_row_group(gt(p),
-#    label = "day",
-#    rows = everything())
-```
-
-<!--
-```{=html}
-{{< include ascona2024_schedule.html >}}
-```
--->
 
 #### Sponsors
 ![](../photos/Roche_logo.png){width=200px} 
