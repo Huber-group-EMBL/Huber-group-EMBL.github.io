@@ -1,55 +1,55 @@
 day	time	what	title
-Sunday 	15:00 - 19:00 	Arrival and Check-in 	
-	18:00 - 19:00 	Welcome Drinks 	
-	19:00 	Dinner 	
-Monday 	8:45 – 9.00 	Welcome 	
-	9:00 – 9:50 	Keynote talk: Shila Ghanzanfar 	
-	9:50 - 10:15 	Contributed talk: Helena Crowell 	Whole-transcriptome spatial molecular imaging of Tubullovillous adenomas: Towards new vistas on their emergence and progression to colorectal cancer
-	10:15 – 10:45 	Coffee break 	
-	10:45 – 11:35 	Keynote talk: Andreas Moor 	
-	11:35 - 12:00 	Contributed talk: Davide Risso 	Preprocessing and quality control of imaging-based spatial transcriptomics data
-	12:15 	Lunch 	
-		Unstructured time 	
-	15:30 – 16:00 	Coffee and cake 	
-	16:00 – 16:50 	Keynote talk: Stefanie Hicks 	
-	17:00 – 19.00 	Poster session 	
-	19:00 	Dinner 			
-Tuesday	9:00 – 9:50 	Keynote talk: Lara Urban	
-	9:50 – 10:15 	Contributed talk: Constantin Ahlmann-Eltze 	Analysis of multi-condition single-cell data with latent embedding multivariate regression
-	10:15 – 10:45 	Coffee break 	
-	10:45 – 11:35 	Keynote talk: Dmitry Kobak 	
-	11:35 - 12:00 	Contributed talk: Charlotte Bunne 	Modeling Cellular Behavior in Space and Time using the Virtual Cell and Artificial Intelligence	
-	12:15	Lunch 	
-		Unstructured time 	
-	15:30 – 16:00 	Coffee and cake 	
-	16:00 – 16:50 	Keynote talk: Ewa Szczurek 	
-	17:00 – 19:00 	Poster session 	
-	19:00 	Dinner
-Wednesday	9:00 – 9:50 	Keynote talk: Peer Bork 	
-	9:50 – 10:15 	Contributed talk: Simon van Vliet 	From molecules to communities: predicting the emergent properties of spatially structured microbial systems
-	10:15 –10:45 	Coffee break 	
-	10:45 - 11:10 	Contributed talk: David Dreifuss 	Estimating growth advantages of SARS-CoV-2 variants through Bayesian hierarchical modeling of wastewater sequencing data across space and time
-	11:10 – 11:35 	Contributed talk: Ben Raphael 	Alignment and Integration of Spatial Transcriptomics Data
-	11:35 - 12:00 	Contributed talk: Mark Robinson 	OPTASO: Optimal annotation of spatial omics data	
-	12:15 	Lunch 		
-	13:30 	Excursion 	Hike in the Verzasca Valley
-	18:30 	Conference Dinner 	Grotto Broggini restaurant		
-Thursday	9:00 – 9:50 	Keynote talk: Anna Kreshuk 	
-	9:50 - 10:15 	Contributed talk: Chenchen Zhu(TBC) 	Performance comparison of spatially resolved transcriptomics methods at single cell resolution for cell atlasing
-	10:15 – 10:45 	Coffee break 	
-	10:45 – 11:35 	Keynote talk: Virginie Uhlmann 	
-	11:35 - 12:00 	Contributed talk: Ming Yu 	Spatial transcriptomics analysis of human colon adenomas reveals distinct features of precancer microenvironment associated with tumor progression
-	12:15 	Lunch 	
-		Unstructured time 	
-	15:30 - 16:00 	Coffee and cake 	
-	16:00 – 16:50 	Keynote talk: Maria Christina Gambetta 	
-	16:50 – 17:15 	Contributed talk: Daniela Corbetta 	Conformal inference for cell type prediction leveraging the cell ontology	
-	19:00 	Dinner 			
-Friday	9:00 – 9:50 	Keynote talk: Emma Schymanski 	
-	9:50 – 10:15 	Contributed talk: Philipp Weiler 	CellRank 2: Unified fate mapping in multiview single-cell data
-	10:15 –10:45 	Coffee break 	
-	10:45 - 11:10 	Contributed talk: Phillip Nicol	Identifying spatially variable genes by projecting to morphologically relevant one-dimensional curves 	
-	11:10 – 11:35 	Contributed talk: Shadi Shafighi 	Tumoroscope: a probabilistic model for mapping cancer clones in tumor tissues
-	11:35 - 12:00 	Contributed talk: Eloise Withnell 	SpottedPy uncovers new environmental cues of epithelial-mesenchymal plasticity in cancer	
-	12:15 	Lunch 	
-		Departure		
+Sunday	15:00 - 19:00	Arrival and Check-in	
+	18:00 - 19:00	Welcome Drinks	
+	19:00	Dinner	
+Monday	8:45 – 9.00	Welcome	
+	9:00 – 9:50	Keynote talk: Shila Ghanzanfar	
+	9:50 - 10:15	Contributed talk: Helena Crowell	Whole-transcriptome spatial molecular imaging of Tubullovillous adenomas: Towards new vistas on their emergence and progression to colorectal cancer
+	10:15 – 10:45	Coffee break	
+	10:45 – 11:35	Keynote talk: Andreas Moor	
+	11:35 - 12:00	Contributed talk: Davide Risso	Preprocessing and quality control of imaging-based spatial transcriptomics data
+	12:15	Lunch	
+		Unstructured time	
+	15:30 – 16:00	Coffee and cake	
+	16:00 – 16:50	Keynote talk: Stefanie Hicks	
+	17:00 – 19.00	Poster session	
+	19:00	Dinner	
+Tuesday	9:00 – 9:50	Keynote talk: Lara Urban	
+	9:50 – 10:15	Contributed talk: Constantin Ahlmann-Eltze	Analysis of multi-condition single-cell data with latent embedding multivariate regression
+	10:15 – 10:45	Coffee break	
+	10:45 – 11:35	Keynote talk: Dmitry Kobak	
+	11:35 - 12:00	Contributed talk: Charlotte Bunne	Modeling Cellular Behavior in Space and Time using the Virtual Cell and Artificial Intelligence
+	12:15	Lunch	
+		Unstructured time	
+	15:30 – 16:00	Coffee and cake	
+	16:00 – 16:50	Keynote talk: Ewa Szczurek	
+	17:00 – 19:00	Poster session	
+	19:00	Dinner	
+Wednesday	9:00 – 9:50	Keynote talk: Peer Bork	
+	9:50 – 10:15	Contributed talk: Simon van Vliet	From molecules to communities: predicting the emergent properties of spatially structured microbial systems
+	10:15 –10:45	Coffee break	
+	10:45 - 11:10	Contributed talk: David Dreifuss	Estimating growth advantages of SARS-CoV-2 variants through Bayesian hierarchical modeling of wastewater sequencing data across space and time
+	11:10 – 11:35	Contributed talk: Ben Raphael	Alignment and Integration of Spatial Transcriptomics Data
+	11:35 - 12:00	Contributed talk: Mark Robinson	OPTASO: Optimal annotation of spatial omics data
+	12:15	Lunch	
+	13:30	Excursion	Hike in the Verzasca Valley
+	18:30	Conference Dinner	Grotto Broggini restaurant
+Thursday	9:00 – 9:50	Keynote talk: Anna Kreshuk	
+	9:50 - 10:15	Contributed talk: Chenchen Zhu(TBC)	Performance comparison of spatially resolved transcriptomics methods at single cell resolution for cell atlasing
+	10:15 – 10:45	Coffee break	
+	10:45 – 11:35	Keynote talk: Virginie Uhlmann	
+	11:35 - 12:00	Contributed talk: Ming Yu	Spatial transcriptomics analysis of human colon adenomas reveals distinct features of precancer microenvironment associated with tumor progression
+	12:15	Lunch	
+		Unstructured time	
+	15:30 - 16:00	Coffee and cake	
+	16:00 – 16:50	Keynote talk: Maria Christina Gambetta	
+	16:50 – 17:15	Contributed talk: Daniela Corbetta	Conformal inference for cell type prediction leveraging the cell ontology
+	19:00	Dinner	
+Friday	9:00 – 9:50	Keynote talk: Emma Schymanski	
+	9:50 – 10:15	Contributed talk: Philipp Weiler	CellRank 2: Unified fate mapping in multiview single-cell data
+	10:15 –10:45	Coffee break	
+	10:45 - 11:10	Contributed talk: Phillip Nicol	Identifying spatially variable genes by projecting to morphologically relevant one-dimensional curves
+	11:10 – 11:35	Contributed talk: Shadi Shafighi	Tumoroscope: a probabilistic model for mapping cancer clones in tumor tissues
+	11:35 - 12:00	Contributed talk: Eloise Withnell	SpottedPy uncovers new environmental cues of epithelial-mesenchymal plasticity in cancer
+	12:15	Lunch	
+		Departure	
