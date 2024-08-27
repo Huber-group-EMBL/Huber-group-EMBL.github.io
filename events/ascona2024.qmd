@@ -54,9 +54,9 @@ p = read_tsv("ascona2024-program.tsv")
 
 # fill in day names
 stopifnot(nrow(p)>=2 && !is.na(p$day[1]))
-current_day = p$day[1]
 for (r in 2:nrow(p))
-  if (is.na(p$day[r])) { p$day[r] = current_day } else {current_day = p$day[r]} 
+  if (is.na(p$day[r]))
+    p$day[r] = p$day[r-1]
 
 # make speaker names bold
 p$what = vapply(strsplit(p$what, "talk:"), 
