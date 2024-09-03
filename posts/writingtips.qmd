@@ -28,6 +28,8 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 
 "Be explicit and quantitative. Don't say 'few' or 'many', but state the numbers and/or fractions quantitatively. Avoid most adjectives (e.g., high, good, efficient) and adverbs (e.g., fast). Instead, state the relevant physical quantities (e.g., speed, length, time interval) or numerical metrics (e.g., percent overlap, confusion table). Adverbs and adjectives are rarely needed in Results and Methods sections of papers.",
 
+"Be careful with comparatives. Only use them if it is clear what you are comparing to, and if that comparison is important. Otherwise, this can lead you into rhetorical rabbit holes. It is often better to just use the regular form. E.g., you can say 'We present an improved method for X' if there is a clear reference method and benchmark result. Otherwise 'We present an effective and powerful method for X' may serve you better.",
+
 "Avoid [dangling participles](https://www.vocabulary.com/dictionary/dangling%20participle). Even if the intended meaning is clear. You may think you sound sophisticated, but it undermines you. Similarly for dangling pronouns.",
 
 "Spell out abbreviations. You may think that you make the text more readable by shortening it. The opposite is the case. Many readers do not read the paper linearly from beginning to end, and instead jump around or start in the middle. Even if you think a certain abbreviation is obvious, you will be surprised by how many readers you lose with it.",
