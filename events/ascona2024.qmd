@@ -35,7 +35,7 @@ There are also new conceptual and theoretical challenges to develop suitable mat
 
 These questions will be explored by an interdisciplinary group of speakers and participants.
 
-#### Preliminary Program
+#### Program
 
 ```{r}
 #| label: program
@@ -87,6 +87,123 @@ gsub("&lt;", "<", gsub("&gt;", ">", k))
 * Ewa Szczurek, Univ. of Warsaw, Helmholtz Munich
 * Virginie Uhlmann, Univ. of Zürich
 * Lara Urban, Technical University Munich, Helmholtz Center
+
+#### Posters
+1. Maialen Arrieta-Lobo
+Integrating Tessellation-Based Quantification with Spatial Omics for Improved Gene
+Colocalization Analysis of Glioblastoma Tumor Microenvironment (Maialen Arrieta-Lobo,
+Sébastian Lillo, Thomas Daubon and Macha Nikolski)
+2. Benjamin Bancher
+Benchmarking cell instance segmentation algorithms in highly multiplexed microscopy
+images across modalities
+3. Daniela Beisser
+Analysing stressor effects on decomposer communities in freshwater ecosytems
+4. Joana P. Bernardes
+Longitudinal single cell transcription profiling of peripheral blood disentangles shared and
+biologic specific patters of early remission in active IBD patients
+5. Ilaria Billato
+Integrating machine learning and omics data to address batch effects in histopathological
+image analysis for cancer research
+6. Alice Blondel
+RNA point cloud segmentation for image-based spatial transcriptomics
+7. Jinseong Bok
+Composite hidden Markov models for sequence data with clustered hidden states
+8. Thomas Bonte
+Deep learning method for cell cycle phase classification from microscopy data
+9. Giulia Capitoli
+Spatially informed sparse Gaussian Graphical Mixture Model to detect latent patterns in
+mass spectrometry imaging
+10. Pawel Czyz
+Estimating growth advantages of SARS-CoV-2 variants through Bayesian hierarchical
+modeling of wastewater sequencing data across space and time
+11. Thomas Defard
+RNA point cloud segmentation for image-based spatial transcriptomics
+12. Alessia Del Panta
+Visualizing realized interactions in space
+13. Maciej Dobrzynski
+Detection and quantification of emergent collective signalling in time-lapse microscopy
+images
+14. Yixing Dong
+A comprehensive benchmarking on the impact of normalization across various Spatial
+Transcriptomics technologies
+15. Francesca Drummer
+InterScale: Towards Understanding Long-Range Interactions in Spatial Transcriptomics
+16. Martin Emons
+spatialFDA - a tool for spatial multi-sample comparisons
+17. Andreas Futschik
+Statistical Inference for Time Series Allele Frequency Data
+18. Johannes Gawron
+Phylogenetic inference reveals clonal heterogeneity in circulating tumor cell clusters
+19. Krzysztof Gogolewski
+Probabilistic modeling of tumor infiltration processes
+20. Luca Gortana
+Cell-type deconvolution from spatial transcriptomics data and single-cell-level histology
+21. Samuel Gunz
+sosta: a framework to analyse spatial structures from spatial omics data
+22. Nikolai Köhler
+Identifying Changes in Subcellular RNA Localization Across Cells
+23. Jack Kuipers
+Network-based clustering unveils interconnected landscapes of genomic and clinical features
+across myeloid malignancies
+24. Thi Kim Hue Nguyen
+Structure learning of dynamic graphical models for count data, with an application to single -
+cell RNA sequencing data
+25. Lennart Opitz
+A Comparative Analysis of Spatial Transcriptomics in Colon Cancer Samples: 10x Visium vs.
+10x Visium HD Slides
+26. Ahmed Osman
+Explainable Machine Learning for Identifying cis-Regulatory Elements Over Development
+Trajectories
+27. Pratibha Panwar
+clustSIGNAL: a method for cell type clustering using Spatially Informed Gene expression with
+Neighbourhood Adapted Learning
+28. Ellis Patrick
+Context is important! Identifying context aware spatial relationships with Kontextual.
+29. Lotte Pollaris
+Revealing spatial expression patterns within cells with SPArrOW, a workflow for subcellular
+resolution spatial transcriptomics assays.
+30. Michael Prummer
+SAUCE for a fast and robust detection of spatially variable genes
+31. Auguste Rimaite
+Finding SARS-CoV-2 mutational patterns in wastewater NGS data
+32. Mayra Luisa Ruiz Tejada Segura
+Nichesphere: Niches of differential cell - cell interactions
+33. Bechara Saade
+Exploring Novel Spatial-temporal Models for Nuclear Receptor Activation: A Stability Analysis
+and Investigation of Oscillatory Solutions
+34. Antonietta Salerno
+Unveiling the effects of copper-chelation therapy in Neuroblastoma immune
+microenvironment with a multi-modal approach
+35. Ela Sauerborn
+Detection of hidden antibiotic resistance using real-time genomic technology
+36. Alexander Schönhuth
+Generating synthetic human genomes using diffusion models
+37. Christoph Schultheiss
+Assessing the overall and partial causal well-specification of nonlinear additive noise models
+38. Swayamshree Senapati
+Polymer and Kinetic Modeling Unveils Quantitative Association of Chromatin Conformation
+and Gene Regulation
+39. Lutecia Servius
+Accurate Prediction of Antibody Isotype Distribution During Immune Response Time Course
+Using Aggregate Data
+40. Nikolay Shvetsov
+Graph Neural Networks for Disease Gene Identification: Unveiling Disease-Specific Networks
+through Link Prediction
+41. Leon Strenger
+Graph-based RNA Colocalization Analysis in Subcellular Spatial Transcriptomics Data
+42. Alena van Bömmel
+Nonlinear DNA methylation trajectories in aging
+43. Michiel Ver Cruysse
+ASAP: a Machine-Learning-Powered Automated Pipeline for Comparative Spatial Analysis of
+Liver Tissue
+44. Lin Wan
+Mean-field modeling and learning of spatial-temporal transcriptome snapshot data
+45. Witold Wolski
+Enhancing Mass Spectrometry Imaging Accuracy via Spatially Informed Mass Recalibration
+46. Zhi Zhao
+Identification of cell composition-based omics features for cancer prognosis
+47. Norio Zimmermann
+Tree inference from single-cell RNA sequencing data
 
 #### How to participate
 Pre-registration is now closed.
