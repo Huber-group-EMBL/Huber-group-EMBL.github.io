@@ -84,9 +84,9 @@ gsub("&lt;", "<", gsub("&gt;", ">", k))
 * Anna Kreshuk, EMBL
 * Andreas Moor, ETH
 * Emma Schymanski, Univ. of Luxemburg	
-* Ewa Szczurek, Univ. of Warsaw
+* Ewa Szczurek, Univ. of Warsaw, Helmholtz Munich
 * Virginie Uhlmann, Univ. of Zürich
-* Lara Urban, Technical University Munich / Helmholtz Center
+* Lara Urban, Technical University Munich, Helmholtz Center
 
 #### How to participate
 Pre-registration is now closed.
