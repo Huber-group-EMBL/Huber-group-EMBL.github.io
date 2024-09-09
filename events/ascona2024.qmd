@@ -201,7 +201,7 @@ Mean-field modeling and learning of spatial-temporal transcriptome snapshot data
 45. Witold Wolski --
 Enhancing Mass Spectrometry Imaging Accuracy via Spatially Informed Mass Recalibration
 46. Zhi Zhao --
-Identification of cell composition-based omics features for cancer prognosis
+Identification of cell composition-based omics features for cancer prognosis 
 47. Norio Zimmermann --
 Tree inference from single-cell RNA sequencing data
 
