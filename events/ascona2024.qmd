@@ -182,7 +182,7 @@ Generating synthetic human genomes using diffusion models
 Assessing the overall and partial causal well-specification of nonlinear additive noise models
 38. Swayamshree Senapati --
 Polymer and Kinetic Modeling Unveils Quantitative Association of Chromatin Conformation
-and Gene Regulation
+and Gene Regulation 
 39. Lutecia Servius --
 Accurate Prediction of Antibody Isotype Distribution During Immune Response Time Course
 Using Aggregate Data
