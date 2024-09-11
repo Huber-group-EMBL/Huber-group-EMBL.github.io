@@ -37,6 +37,9 @@ format:
       body-width: 750px
       margin-width: 300px
     date-format: iso
+    include-in-header:
+      - text: |
+          <meta http-equiv="Cache-Control" content="max-age=1800, must-revalidate">
 
 execute:
   freeze: auto
