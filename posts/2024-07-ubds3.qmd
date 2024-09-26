@@ -9,8 +9,7 @@ image: "../photos/20240708_085930-sm.jpg"
 
 From 7-20 July 2024, [we](https://bds3.org/our-team) organized the second edition of the "Ukrainian Biological Data Science Summer School ([link to my post on the first edition](2023-07-ubds3.html)). 
 
-Here's a newspapaper article from the Rhein-Neckar-Zeitung (local newspaper of Heidelberg), [in German](../photos/240803-RNZ-UBDS3.jpg){.lightbox}.
-
+Here's an article [Summer school in wartime](https://doi.org/10.1038/s41592-024-02329-z) in Nature Methods, and a newspapaper article from the Rhein-Neckar-Zeitung (local newspaper of Heidelberg), [in German](../photos/240803-RNZ-UBDS3.jpg){.lightbox}.
 
 Some photo impressions:
 
