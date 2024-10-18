@@ -38,9 +38,9 @@ Science is an intellectual adventure and a creative process done by people. For 
 
 We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes and Wolfgang Huber. The book is available [online, for free, as HTML](https://www.huber.embl.de/msmb/). It was published as a [printed book in 2019 by Cambridge University Press](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).
 
-We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2023 edition](https://csama2023.bioconductor.eu). See [here for some impressions](https://www.huber.embl.de/group/posts/2023-06-16-csama.html).
+We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2024 edition](https://csama2024.bioconductor.eu). See [here for some impressions](https://www.huber.embl.de/group/posts/2023-06-16-csama.html).
 
-In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org). See also [Wolfgang's post about it](https://www.huber.embl.de/group/posts/2023-08-onbds3.html).
+In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org). See also [Wolfgang's post about it](https://www.huber.embl.de/group/posts/2023-08-onbds3.html). We repeated it in July 2024 and plan to do it again in July 2025.
 
 We develop publicly available interactive [training materials on statistical methods](https://www.ebi.ac.uk/training/online/courses/biostatistics-introduction/). 
 
@@ -64,7 +64,12 @@ We are a frequent contributor to the Bioconductor project
 | | |
 |**Python**| |
 |[HTSeq](https://htseq.readthedocs.io/en/latest/)|Processing and analyzing data from high-throughput sequencing assays|
+|[SOFA](https://github.com/tcapraz/SOFA/)|Semi-supervised (Multi) Omics Factor Analysis|
+|[spatialproteomics](https://github.com/sagar87/spatialproteomics/)|lightweight wrapper around xarray to facilitate processing, exploration and analysis of multiplexed immunohistochemistry data|
 
-: {tbl-colwidths="[20,80]"}
+
+: {tbl-colwidths="[24,76]"}
 
 {{< include _links.qmd >}}
+
+![The manifold hypothesis](photos/manifold-hypothesis.jpg){width=400 fig-align="center" .lightbox}

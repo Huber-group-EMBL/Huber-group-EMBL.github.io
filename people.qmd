@@ -25,10 +25,11 @@ format:
 
 ### Alumni
 
-"Dr." titles are as at the time of joining the group. Sort order is approximately reverse with respect to joining time. Of course, many have acquired further titles in the meanwhile. Additional information or suggestions for updates are welcome. 
+"Dr." titles are as at the time of joining the group. Sort order is approximately reverse chronological. Of course, many have acquired further titles in the meanwhile. Additional information or suggestions for updates are welcome. 
 
 | Name         | What they did with us | Where they moved on to; where are they are now |
 | --------------- | --------- | ----------------- |
+| **Donnacha Fitzgerald** | PhD | Biotech, London, UK |
 | **Dr. Julia Philipp** | Data Manager / Data Scientist |  Merck Healthcare KGaA, Darmstadt |
 | **Dr. Constantin Ahlmann-Eltze** | PhD student | Postdoc, UCL Cancer Institute, London, UK   |
 | **Simone Bell** | Senior Project Manager | Project Leader, Bausch + Lomb, Eppelheim  |
@@ -37,7 +38,7 @@ format:
 | **Nick Hirschmüller** | Master thesis | PhD at Univ. Cambridge  |
 | **Dr. Alexander Helmboldt** | Postdoc | HMS Analytical Software |
 | **Caroline Lohoff** | Master thesis | PhD with Junyan Lu, Univ. Hospital Heidelberg |
-| **Holly Giles** | EMBL PhD program | Postdoc at Univ. Cambridge |
+| **Holly Giles** | PhD | Postdoc at Univ. Cambridge |
 | **Alina Batzilla** | Master thesis | PhD with Maria Bernabeu Aznar, EMBL Barcelona  |
 | **Daniel Fridljand** | BSc thesis | Research Assistant, Stanford |
 | **Dorothee Mersch** | Intern ||
@@ -47,7 +48,7 @@ format:
 | **Frederik Ziebell** | Postdoc | Cellzome/GSK |
 | **Jennifer Hüllein** | Staff researcher | DKFZ |
 | **Emma Dann** | Master thesis | PhD at Sanger Institute |
-| **Cécile Le Sueur** | Master thesis | EMBL PhD program with M.Savitski |
+| **Cécile Le Sueur** | Master thesis | PhD with M. Savitski |
 | **Almut Lütge** | Master thesis | PhD with Mark Robinson, Univ. Zurich |
 | **Dr. Katharina Imkeller** | Postdoc | [Independent Group Leader, Univ. of Frankfurt](https://agimkeller.github.io) |
 | **Dr. Laleh Haghverdi** | Postdoc | [Independent Group Leader, Max-Delbrück-Center, Berlin](https://www.mdc-berlin.de/haghverdi)
@@ -55,31 +56,31 @@ format:
 | **Andreas Mock** | Trainee | PhD at DKFZ and University of Heidelberg |
 | **Elsa Bernard** | Visiting PhD student |  [Memorial Sloan Kettering Cancer Center](https://elsab.github.io/)
 | **Olena Yavorska** | Intern | PhD at Univ. Oxford |
-| **Nils Kurzawa** | Master thesis; EMBL PhD program, joint w/ M.Savitski | Cellzome/GSK |
+| **Nils Kurzawa** | Master thesis, then PhD jointly with M. Savitski | Cellzome/GSK |
 | **Karsten Bach** | Master thesis | PhD at CRUK with John Marioni |
 | **Dr. Dorothee Childs** | Postdoc | HMS Analytical Software |
 | **Annika Lisa Gable** | Master thesis | PhD at Univ. Zurich |
 | **Nikolaos Ignatiadis** | Master thesis | PhD at Stanford; [Professor at Univ. of Chicago](https://nignatiadis.github.io/) |
-| **Vladislav Kim** | EMBL PhD program | Bayer Research |
+| **Vladislav Kim** | PhD | Bayer Research |
 | **Dr. Bernd Klaus** | Statistical Data Analysis Consultant | Häfele SE & Co KG  |
 | **Dr. Junyan Lu** | Postdoc, staff researcher | [Independent Group Leader at Univ. Hospital Heidelberg](https://lu-group-ukhd.github.io/) |
 | **Dr. Andrzej Oleś** | Scientific Programmer | [Heidelberg Institute for Geoinformation Technology (HeiGIT)](https://www.geog.uni-heidelberg.de/gis/oles.html) |
-| **Małgorzata Oleś** | EMBL PhD program | National Center of Tumor Diseases (NCT) |
-| **Britta Velten** | EMBL PhD program | Postdoc at DKFZ; [Professor at Univ. of Heidelberg](https://bv2.github.io/)
+| **Małgorzata Oleś** | PhD | National Center of Tumor Diseases (NCT) |
+| **Britta Velten** | PhD | Postdoc at DKFZ; [Professor at Univ. of Heidelberg](https://bv2.github.io/)
 | **Dr. Thomas Schwarzl** | Postdoc, staff researcher | Boehringer Ingelheim |
 | **Dr. Sascha Dietrich**| Postdoc | Director, [Clinic for Haematology, Oncology & Clinical Immunology, Univ. Hospital Düsseldorf](https://www.uniklinik-duesseldorf.de/patienten-besucher/klinikeninstitutezentren/klinik-fuer-haematologie-onkologie-und-klinische-immunologie) |
 | **Michael I. Love** |Visiting PhD Student | Postdoc at DFCI, Harvard; [Professor at UNC Chapel Hill](https://mikelove.github.io/) |
 | **Sophie Rabe** | Bachelor thesis | PhD with Sascha Dietrich at Univ. Hospital Heidelberg|
 | **Jacqueline Severino**| Master thesis | PhD at CRG, Barcelona |
 | **Dr. Aleksandra Pękowska**| Postdoc | NIH; [Group Leader at Nencki Institute of Experimental Biology](https://pekowskalab.nencki.edu.pl/), Warsaw, PL |
-| **Felix Klein** | EMBL PhD program | Consultant Data Science, Alexander Thamm GmbH, Munich |
-| **Paul-Theodor Pyl** | EMBL PhD program | Lund University Cancer Center, Sweden |
-| **Alejandro Reyes** | EMBL PhD program | Postdoc at DFCI, Harvard; Novartis Institute for Biomedical Research (Basel) |
-| **Julian Gehring** | EMBL PhD program | Illumina (UK) |
+| **Felix Klein** | PhD | Consultant Data Science, Alexander Thamm GmbH, Munich |
+| **Paul-Theodor Pyl** | PhD | Lund University Cancer Center, Sweden |
+| **Alejandro Reyes** | PhD | Postdoc at DFCI, Harvard; Novartis Institute for Biomedical Research (Basel) |
+| **Julian Gehring** | PhD | Illumina (UK) |
 | **Dr. Michael Smith** |	Staff researcher | EMBL Data Science Centre |
 | **Dr. Joseph Barry** | Postdoc | Postdoc at DFCI, Harvard; Associate Director, Alnylam Pharmaceuticals, Cambridge MA | 
 | **Dr. Simon Anders** | Postdoc, Staff researcher | [Professor at Univ. Heidelberg](https://www.zmbh.uni-heidelberg.de/Anders/) |
-| **Maria Secrier** | EMBL PhD program | Assistant Professor, UCL, UK |
+| **Maria Secrier** | PhD | Assistant Professor, UCL, UK |
 | **Danni Yu** | Visiting PhD student | Purdue University, West Lafayette IN |
 | **Eva Benito Garagorri** | Visiting PhD student | EMBO |
 | **Rémy Clément** | Intern | |
@@ -87,13 +88,13 @@ format:
 | **Dr. Bernd Fischer** | Postdoc, Staff researcher | Indep. Group Leader at DKFZ |
 | **Daniel Murrell** | Staff researcher | |
 | **Ramona Schmid** | Visiting PhD student | Team Leader at Boehringer Ingelheim |
-| **Elin Axelsson** | EMBL PhD program | Gregor Mendel Institute, Vienna |
+| **Elin Axelsson** | PhD | Gregor Mendel Institute, Vienna |
 | **Tineke Casneuf** | Visiting PhD student	| Janssen Research & Development |
 | **Thomas Horn** | Master thesis | Novartis Institutes for Biomedical Research (Boston) |
 | **Dr. Audrey Kauffmann** | Staff researcher | Novartis Institutes for Biomedical Research (Basel/Boston) |
 | **Alessandro Brozzi** |	Visiting PhD student |	European Institute of Oncology, Milan, IT |
 | **Dr. Richard Bourgon** | Postdoc, staff researcher | Genentech; Freenome Holdings |
-| **Tony Chiang** | EMBL PhD program | Univ. of Washington, Seattle |
+| **Tony Chiang** | PhD | Univ. of Washington, Seattle |
 | **Florian Hahne** | Visiting PhD student | Novartis Institute for Biomedical Research (Basel) |
 | **Paul McGettigan** |  Visiting PhD student | Novartis |
 | **David Jitao Zhang** | Visiting PhD student | DKFZ |
@@ -102,7 +103,7 @@ format:
 | **Raeka Aiyar**	| Master thesis | EMBL PhD with Lars Steinmetz |
 | **Zhenyu Xu** | Master thesis | EMBL PhD with Lars Steinmetz;  Chief Scientific Officer, Sophia Genetics |
 | **Lígia Brás** | Visiting PhD student | Hovione |
-| **Jörn Tödling** | EMBL PhD program | Postdoc, Institut Curie, Paris; Group Leader, Charité, Berlin |
+| **Jörn Tödling** | PhD | Postdoc, Institut Curie, Paris; Group Leader, Charité, Berlin |
 | **Dr. Oleg Sklyar**	| Staff researcher | Finance quant in London and Zurich; Google Research, Zurich |
 
 
