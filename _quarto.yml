@@ -39,8 +39,9 @@ format:
     date-format: iso
     include-in-header:
       - text: |
-          <meta http-equiv="Cache-Control" content="max-age=1800, must-revalidate">
-
+          <meta http-equiv="Cache-Control" content="max-age=1800, must-revalidate"> 
+    lightbox: true
+  
 execute:
   freeze: auto
 
