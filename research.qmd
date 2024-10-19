@@ -11,15 +11,15 @@ We exploit new data types and new types of experiments and studies by developing
 
 
 ::: {.column-margin}
-![Modern Statistics for Modern Biology textbook, with Susan Holmes: [online version](https://www.huber.embl.de/msmb/). There is also a [print version published by CUP](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).](photos/MSFMB-Cover2-compressed.jpg){width=240 fig-align="center" .lightbox}
+![Modern Statistics for Modern Biology textbook, with Susan Holmes: [online version](https://www.huber.embl.de/msmb/). There is also a [print version published by CUP](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).](photos/MSFMB-Cover2-compressed.jpg){width=240 fig-align="center"}
 
-![Cellular neighborhood analysis of healthy and malignant lymph nodes based on single-cell resolution spatial proteomics by multiplexed immunohistochemistry.](photos/cellularneighborhoods.png){width=240 fig-align="center" .lightbox}
+![Cellular neighborhood analysis of healthy and malignant lymph nodes based on single-cell resolution spatial proteomics by multiplexed immunohistochemistry.](photos/cellularneighborhoods.png){width=240 fig-align="center"}
 
-![Cluster-free differential expression analysis of sc-RNA-seq data using LEMUR. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/clusterfreeDE-2048x1649.png){width=240 fig-align="center" .lightbox}
+![Cluster-free differential expression analysis of sc-RNA-seq data using LEMUR. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/clusterfreeDE-2048x1649.png){width=240 fig-align="center"}
 
-![Comparison of transformations for single-cell RNA-seq data. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/Transformations-Fig1c.png){width=240 fig-align="center" .lightbox}
+![Comparison of transformations for single-cell RNA-seq data. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/Transformations-Fig1c.png){width=240 fig-align="center"}
 
-![Ternary plots of relative sensitivities to targeted kinase inhibitors for a cohort of primary tumour samples of chronic lymphocytic leukaemia (CLL). [Paper link](https://doi.org/10.1172/JCI93801).](photos/JCI2018-fig_02_l.jpg){width=240 fig-align="center" .lightbox}
+![Ternary plots of relative sensitivities to targeted kinase inhibitors for a cohort of primary tumour samples of chronic lymphocytic leukaemia (CLL). [Paper link](https://doi.org/10.1172/JCI93801).](photos/JCI2018-fig_02_l.jpg){width=240 fig-align="center"}
 :::
 
 ### Functional precision medicine
@@ -40,7 +40,7 @@ We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes an
 
 We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2024 edition](https://csama2024.bioconductor.eu). See [here for some impressions](https://www.huber.embl.de/group/posts/2023-06-16-csama.html).
 
-In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org). See also [Wolfgang's post about it](https://www.huber.embl.de/group/posts/2023-08-onbds3.html). We repeated it in July 2024 and plan to do it again in July 2025.
+In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org). See also [Wolfgang's post about it](posts/2023-08-onbds3.html). We [repeated it in July 2024](posts/2024-07-ubds3.html) and plan to do it again in July 2025.
 
 We develop publicly available interactive [training materials on statistical methods](https://www.ebi.ac.uk/training/online/courses/biostatistics-introduction/). 
 
@@ -72,4 +72,4 @@ We are a frequent contributor to the Bioconductor project
 
 {{< include _links.qmd >}}
 
-![The manifold hypothesis](photos/manifold-hypothesis.jpg){width=400 fig-align="center" .lightbox}
+![The manifold hypothesis](photos/manifold-hypothesis.jpg){width=400 fig-align="center"}
