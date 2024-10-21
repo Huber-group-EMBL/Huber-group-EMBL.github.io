@@ -18,3 +18,4 @@ A detailed plan is a nice thing to have - it shows that you know the literature 
 
 But...: IMHO, more important than the detailed plan is to have the right people, skills, and resources in place and to be able to (re)act quickly upon the data that get produced — if, when, and at the quantity and quality they have - and to possibly rapidly changing scientific questions. This is [not cheap, it needs proper resourcing](compbioisnotcheap.html).
 
+In other words: "Plans are nothing; planning is everything." — Dwight D. Eisenhower.
