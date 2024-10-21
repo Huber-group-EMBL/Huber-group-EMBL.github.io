@@ -9,7 +9,7 @@ image: "../photos/mike-tyson-quote.jpg"
 
 ## On 'data analysis plans' in grant proposals and the like
 
-I often get to read project proposals involving production and analysis of (biological) data, with multi-year time horizons, and very specific choices of methods and tools, nowadays usually spiced up with latest instances of deep neural networks, 
+I often get to read project proposals involving production and analysis of (biological) data, with multi-year time horizons, and very specific choices of methods and tools, nowadays usually spiced up with latest instances of deep neural networks. 
 
 Consider Mike Tyson's "Everyone has a plan till they get punched in the mouth"^[ca. 1987] or 
 Helmuth von Moltke's "No plan survives the first enemy contact"^["Kein Operationsplan reicht mit einiger Sicherheit über das erste Zusammentreffen mit der feindlichen Hauptmacht hinaus." - von Moltke, Helmuth Karl Bernhard: "Über Strategie" (1871). In: Kriegsgeschichtliche Einzelschriften, H.13 (1890)]. 
