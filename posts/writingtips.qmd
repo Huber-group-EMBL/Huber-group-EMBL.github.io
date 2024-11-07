@@ -62,16 +62,22 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 
 "Use a tool that allows collaborative editing in a team and keeps version history. There are several options. I like [Quarto manuscripts](https://quarto.org/docs/manuscripts/) and a version control system like Git for quantitative work that involves data visualizations and/or maths, and Googledocs otherwise.",
 
-"Graphics: colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is [good advice on this on the internet](https://ggplot2-book.org/scales-colour). If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, use distinct color maps for different variables.",
+"Graphics: Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is [good advice on this on the internet](https://ggplot2-book.org/scales-colour). If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, use distinct color maps for different variables.",
 
-"Graphics: pay attention to font sizes. Make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. In practice, this is surprisingly hard.",
+"Graphics: Pay attention to font sizes. Make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. In practice, this is surprisingly hard.",
 
-"Graphics: for plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1."
+"Graphics: For plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1.",
+
+"Maths: Mathematical notation is a powerful and elegant language to perform and present exact logical and quantitative reasoning. Like any other language, it takes time and effort to learn it. Do not be afraid to ask others to proofread and help. Refer to [ISO 80000-2: Quantities and units - Part 2: Mathematical signs and symbols to be used in the natural sciences and technology](../resources/ISO80000-2-part2.pdf)."
 )
 
 i = seq(along = tips)
 sprintf('<a id="%02d">[%d.](#%02d) %s</a>\n', i, i, i, tips) |> cat(sep="\n")
 ```
+
+## Further reading {-}
+
+Please check out Stephen King's excellent [On Writing: A Memoir of the Craft](https://en.wikipedia.org/wiki/On_Writing:_A_Memoir_of_the_Craft) !
 
 ## The generic abstract {-}
 
