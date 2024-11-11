@@ -2,7 +2,7 @@
 title: "Scientific writing tips"
 description: "An eclectic and subjective list"
 author: "Wolfgang Huber"
-date: "2024-09-03"
+date: "`r date()`"
 categories: "Wisdom"
 image: "../photos/einstein-gr.jpg"
 ---
