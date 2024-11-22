@@ -47,7 +47,6 @@ The following list provides potential co-supervision partners for exciting oppor
 - [Victoria Ingham](https://www.klinikum.uni-heidelberg.de/zentrum-fuer-infektiologie/parasitology-unit/research/ingham-lab), University Hospital Heidelberg: Parasitology, insecticide resistance and malaria
 - [Aedín Culhane](https://www.ul.ie/hri/prof-aedin-culhane/), University of Limerick: dimension reduction and latent spaces for (single cell resolution) omics data 
 - [Nikos Ignatiadis](https://nignatiadis.github.io/), Chicago: statistical methodology
-- **Susan Holmes**, Stanford: statistical methodology
 - **The Bioconductor Community**
 
 
