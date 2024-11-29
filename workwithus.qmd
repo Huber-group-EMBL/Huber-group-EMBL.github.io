@@ -4,7 +4,7 @@ title: "Working with us"
 
 ### Current openings
 
-- [Bioinformatician - Scientific Data Manager and Research Software Engineer - Precision Oncology and Multiomics](posts/2024-08-data-software-manager.html)
+- [Research Software Engineer — Bioconductor tools for biological data science and AI](posts/2024-11-research-software-engineer.html)
 - [Postdoctoral position in statistical and AI method development for in-vivo Perturb-Seq in the ERC project DECODE](https://erc-decode.eu/)
 
 ::: {.column-margin}
