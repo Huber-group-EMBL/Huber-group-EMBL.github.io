@@ -24,7 +24,8 @@ website:
       - events.qmd
       - pub.qmd
       - contact.qmd
-
+  favicon: resources/favicon.png
+  
 format:
   html:
     theme:
