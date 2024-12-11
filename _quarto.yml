@@ -1,7 +1,13 @@
 project:
   type: website
   output-dir: _site
-  
+
+execute:
+  enabled: true
+  freeze: auto
+
+engine: knitr
+ 
 website:
   title: "Huber Group @ EMBL"
   open-graph:
@@ -25,7 +31,7 @@ website:
       - pub.qmd
       - contact.qmd
   favicon: resources/favicon.png
-  
+ 
 format:
   html:
     theme:
@@ -42,9 +48,6 @@ format:
       - text: |
           <meta http-equiv="Cache-Control" content="max-age=1800, must-revalidate"> 
     lightbox: true
-  
-execute:
-  freeze: auto
-
+    
 # 
 # EMBL colors: https://www.embl.org/guidelines/design/design-guidelines/colours/

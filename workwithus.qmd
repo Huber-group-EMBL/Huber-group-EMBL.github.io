@@ -48,4 +48,3 @@ The following list provides potential co-supervision partners for exciting oppor
 - [Thorsten Zenz](https://www.lymphomaresearchzurich.com/), University Hospital Zürich: 'omics of drug sensitivity in blood cancers
 - **The Bioconductor Community**
 
-
