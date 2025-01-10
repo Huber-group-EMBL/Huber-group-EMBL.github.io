@@ -27,11 +27,11 @@ myfig500 = function(x, s = "Map") sprintf("![%s](../photos/%s){width='500px' .li
 
 ::: {layout="[[34,-1,34,-1,34]]"}
 
-`r myfig("20230822_195333-sm.jpeg", "A bit further up on Oberer Gaisbergweg. Much of the altitude gain is made here.")`
+`r myfig("20230822_195333-sm.jpeg", "Oberer Gaisbergweg. Much of the altitude gain is made here.")`
 
-`r myfig("20230822_195625-sm.jpeg", "Oberer Gaisbergweg.")`
+`r myfig("20230822_195625-sm.jpeg", "A bit further up on Oberer Gaisbergweg.")`
 
-`r myfig("2023-08-15-08-37.jpeg", "Unterer Parkweg, a shortcut through the forest from Speyerer Hof to MPI, towards the end of the trip.")`
+`r myfig("2023-08-15-08-37.jpeg", "Towards the end of the trip: Unterer Parkweg, a shortcut through the forest from Speyerer Hof to the Max-Planck-Institute campus.")`
 :::
 
 [GPX track](../gpx/Commute-from-HD-Weststadt-to-EMBL.gpx).
