@@ -1,6 +1,7 @@
 ---
 title: Welcome to the Huber group
 engine: knitr
+freeze: false
 ---
 
 The Huber group develops statistical and machine learning methods for modern biotechnologies, applies them to biological discovery, and translates them into reusable tools.
@@ -19,7 +20,7 @@ Our interdisciplinary team comprises researchers from quantitative disciplines â
 - Make biological discoveries on drug-gene-environment interaction networks and their dynamical and context-dependent outcome in phenotypes. This includes the use of high-throughput perturbation data, single-cell and spatial omics, and imaging.
 - Make statistical methods more widely usable, not only for experts, but for the range of natural scientists. This aim is embodied by our engagement in open source, open science and the [Bioconductor] project.
 
-<center><small>Last build: `{r} date()`</small><center>
+<center><small>Last build: `{r} format(Sys.time(), "%d %b %Y, %H:%M %Z")`</small><center>
 
 {{< include _links.qmd >}}
 

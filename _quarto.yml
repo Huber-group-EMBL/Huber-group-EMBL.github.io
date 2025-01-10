@@ -4,8 +4,8 @@ project:
 
 execute:
   enabled: true
-  freeze: auto
-
+  freeze: true
+  
 engine: knitr
  
 website:
