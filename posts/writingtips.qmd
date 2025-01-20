@@ -11,18 +11,23 @@ image: "../photos/einstein-gr.jpg"
 #| echo: FALSE
 #| results: asis
 #| output: asis 
-tips = c("Present experimental observations and measurements in the past tense. Use present tense for presuppositions, interpretations and conclusions. The statements in past tense are the facts, the real, hard substance, the novelty of an experimental or observational science paper.", 
-         
-"Use active voice. Avoid passive voice. So you can make it clear what you did, what others did, or what already pre-existed from your previously reported work.",
+tips = c(
+"### Structure",
 
-"![](../photos/MagrittePipe.jpg \"We sometimes use the same word for a thing and a representation of the thing. But it is common sense and logic that they are not the same.\"){style=\"float:right; position:relative; padding-top:10px; padding-left:20px; padding-bottom:10px\"}
-Use one term per concept, and one concept per term. Avoid synonyms and lexical variation. These only add unnecessary mental load on the reader ('Do they really mean the same? Do they mean to leave room for some subtle distinction? Do they even know what they mean?'). Similarly, do not use the same word for different concepts. A bad example is using the same word for observed data, and for the underlying, unobserved quantity that the experiment is meant to probe. E.g., in RNA-seq, you may have collected for each gene the number of matching sequencing reads, and want it to reflect the mRNA abundance, or even the encoded protein's activity. We hope that they are related. But they are not the same. There are many technical and biological steps in between them. It is part of the scientific approach (and logic and common sense) to care about such distinctions. Experienced scientists also know when it's fine to gloss over, and how to find the fine line between necessary precision and pedantry.",
+"Find the right pitch for your story. Research happens in the thin grey zone between the well-known and the totally unknown. Make sure you describe your specific achievement: what has been known, what used to be unknown or controversial, and how does your result change that?", 
+  
+"In the Introduction, describe what is known and relevant previous work. Find the right scope and framing. It is rarely necessary to start with Darwin in the 1860s or the invention of digital computers. But it is helpful to give a wide enough background for a target audience that has not been completely immersed in the topic for the last three years. Papers can work in multiple ways, here are some:
 
+- there is a controversy or a contradiction in the existing literature, which you resolve;
+- there is glaring open question, and you answer it;
+- 'everybody' believes or assumes something, but you are the first to prove it from data;
+- some sufficiently important people claimed something, and you show it is wrong, or more complicated.",
+
+"Avoid overclaims. These can quickly and efficiently bring up editors and reviewers against you. Pick your words wisely, neither under- nor overselling your conclusions.",
+  
 "In the Results section, focus on what you did. Musings about what you or someone could have done instead, or why you did not, are (if at all) for Intro or Discussion.",
 
 "The Results section should proceed step by step, in the right order, without gaps. E.g., in an experimental paper, from choice of measurement technology, to sample acquisition, to specification of the data generated and quality control. Then, state the biological questions you asked, how you translated each into a statistical procedure, a visualization and a numerical summary, and how you interpret the result. Always step by step. Such that each intermediate step or result is explained before it is used by another step. Use short, simple sentences, and plain language ('Hemingway style').",
-
-"In Intro and Discussion, find the right pitch for your story. Research happens in the thin grey zone between the well-known and the totally unknown. Make sure you describe your specific achievement: what has been known, what used to be unknown, or controversial, and how does your result change that. Find the right scope for your background framing. It is rarely necessary to start with Darwin in the 1860s or the invention of digital computers. But it is helpful to give a wide enough background for a target audience that has not been completely immersed in the topic for the last three years.",
 
 "Define each term. Stick with the conventions of your field. Consult textbooks, reviews, or an LLM to find out. Have a very good reason if you make up your own definitions. Try to keep your paper self-contained and provide all necessary definitions in your text. Also provide a reference that readers can consult to learn more.",
 
@@ -35,6 +40,19 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 - what new statement results from them
 - what are necessary versus sufficient conditions (e.g., are your data simply consistent with a certain hypothesis, or do they single-handedly and decisively prove it?)",
 
+"If a previous paper in the field---even if, and in particular, a 'high impact' one--- used sloppy terminology or sloppy thinking, don't just uncritically regurgitate it. Improve, or at least take a stand. In science, we're not paid to be sheep following the herd, but to do it right.",
+
+"Don't use your data to 'prove' things that are obvious, evident, true even if without any data. If your conclusion contains words such as 'could' or 'may': these possibilities existed before. Does your data make them substantially more likely?",
+
+"### Words", 
+
+"Present experimental observations and measurements in the past tense. Use present tense for presuppositions, interpretations and conclusions. The statements in past tense are the facts, the real, hard substance, the novelty of an experimental or observational science paper.", 
+         
+"Use active voice. Avoid passive voice. So you can make it clear what you did, what others did, or what already pre-existed from your previously reported work.",
+
+"Words:![](../photos/MagrittePipe.jpg \"We sometimes use the same word for a thing and a representation of the thing. But it is common sense and logic that they are not the same.\"){style=\"float:right; position:relative; padding-top:10px; padding-left:20px; padding-bottom:10px\"}
+Use one term per concept, and one concept per term. Avoid synonyms and lexical variation. These only add unnecessary mental load on the reader ('Do they really mean the same? Do they mean to leave room for some subtle distinction? Do they even know what they mean?'). Similarly, do not use the same word for different concepts. A bad example is using the same word for observed data, and for the underlying, unobserved quantity that the experiment is meant to probe. E.g., in RNA-seq, you may have collected for each gene the number of matching sequencing reads, and want it to reflect the mRNA abundance, or even the encoded protein's activity. We hope that they are related. But they are not the same. There are many technical and biological steps in between them. It is part of the scientific approach (and logic and common sense) to care about such distinctions. Experienced scientists also know when it's fine to gloss over, and how to find the fine line between necessary precision and pedantry.",
+
 "Be explicit and quantitative. Don't say 'few' or 'many', but state the numbers and/or fractions quantitatively. Avoid most adjectives (e.g., high, good, efficient) and adverbs (e.g., fast). Instead, state the relevant physical quantities (e.g., speed, length, time interval) or numerical metrics (e.g., percent overlap, confusion table). Adverbs and adjectives are rarely needed in Results and Methods sections of papers.",
 
 "Be careful with comparatives. Only use them if it is clear what you are comparing to, and if that comparison is important. Otherwise, this can lead you into rhetorical rabbit holes. It is often better to just use the regular form. E.g., you can say 'We present an improved method for X' if there is a clear reference method and benchmark result. Otherwise 'We present an effective and powerful method for X' may serve you better.",
@@ -42,10 +60,6 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 "Avoid [dangling participles](https://www.vocabulary.com/dictionary/dangling%20participle). Even if the intended meaning is clear. You may think you sound sophisticated, but it undermines you. Similarly for dangling pronouns.",
 
 "Spell out abbreviations. Always. You may think that abbreviations make a text more readable, by shortening it. The opposite is the case. Many readers do not read the paper linearly from beginning to end, and instead jump around or start in the middle. Even if you think a certain abbreviation is obvious, you will be surprised by how many readers you lose with it.",
-
-"If a previous paper in the field---even if, and in particular, a 'high impact' one--- used sloppy terminology or sloppy thinking, don't just uncritically regurgitate it. Improve, or at least take a stand. In science, we're not paid to be sheep following the herd, but to do it right.",
-
-"If your paper involves data that you have generated: start early with uploading the data to the appropriate public repository, e.g., [EMBL-EBI](https://www.ebi.ac.uk/). The better the journal, the stricter their data reporting requirements. Assembling your data (and metadata) to meet the minimal reporting standards of the public repository can take days or weeks. After data upload, sometimes several rounds of back-and-forth with the operators of the database ensue, until the data are really accessible. You do not want to expend the time for this while a journal editor or reviewer are already impatiently waiting.",
 
 "Putting terms in quotes tends to look 'unprofessional' and can in most cases be avoided by being careful about the choice of words.",
 
@@ -59,23 +73,39 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 
 "Keep it lean. Periodically, go over the text and ask for *every single word* whether it is necessary. Does it carry new and relevant information? If not, remove it. E.g., prune for occurences of phrases of the form 'To achieve *X*, we did *(different word for X)*'. Don't say 'X represents Y' when it's just 'X is Y'. Doing so exposes you as careless of logical thinking.",
 
-"Respect [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor): in analysis pipelines, remove inessential steps (transformations, filtering, etc.); in simulations, remove inessential model ornaments, parameters, keep parameter ranges as small needed. Think about what you really want to show. Do not do something just because others did it or because you once thought it was needed and have not bothered to throw it out.",
-
 "Use a spell-checker.",
+
+"Mathematical notation is a powerful and elegant language to perform and present exact logical and quantitative reasoning. Like any other language, it takes time and effort to learn it. Do not be afraid to ask others to proofread and help. Refer to [ISO 80000-2](../resources/ISO80000-2-part2.pdf) (Quantities and units - Part 2: Mathematical signs and symbols to be used in the natural sciences and technology).",
+
+"### Logistics",
+
+"If your paper involves data that you have generated: start early with uploading the data to the appropriate public repository, e.g., [EMBL-EBI](https://www.ebi.ac.uk/). The better the journal, the stricter their data reporting requirements. Assembling your data (and metadata) to meet the minimal reporting standards of the public repository can take days or weeks. After data upload, sometimes several rounds of back-and-forth with the operators of the database ensue, until the data are really accessible. You do not want to expend the time for this while a journal editor or reviewer are already impatiently waiting.",
+
+"Respect [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor): in analysis pipelines, remove inessential steps (transformations, filtering, etc.); in simulations, remove inessential model ornaments, parameters, keep parameter ranges as small needed. Think about what you really want to show. Do not do something just because others did it or because you once thought it was needed and have not bothered to throw it out.",
 
 "Use a tool that allows collaborative editing in a team and keeps version history. There are several options. I like [Quarto manuscripts](https://quarto.org/docs/manuscripts/) and a version control system like Git for quantitative work that involves data visualizations and/or maths, and Googledocs otherwise.",
 
-"Graphics: Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is [good advice on this on the internet](https://ggplot2-book.org/scales-colour). If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, use distinct color maps for different variables.",
+"### Graphics",
 
-"Graphics: Pay attention to font sizes. Make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. In practice, this is surprisingly hard.",
+"Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is [good advice on this on the internet](https://ggplot2-book.org/scales-colour). If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, use distinct color maps for different variables.",
 
-"Graphics: For plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1.",
+"Pay attention to font sizes. Make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. In practice, this is surprisingly hard.",
 
-"Maths: Mathematical notation is a powerful and elegant language to perform and present exact logical and quantitative reasoning. Like any other language, it takes time and effort to learn it. Do not be afraid to ask others to proofread and help. Refer to [ISO 80000-2: Quantities and units - Part 2: Mathematical signs and symbols to be used in the natural sciences and technology](../resources/ISO80000-2-part2.pdf)."
+"For plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1."
 )
 
-i = seq(along = tips)
-sprintf('<a id="%02d">[%d.](#%02d) %s</a>\n', i, i, i, tips) |> cat(sep="\n")
+j = 1
+out = c()
+for (i in seq(along = tips)) {
+  if (grepl("^###", tips[i])) {
+    line = tips[i]
+  } else {
+    line = sprintf('<a id="%02d">[%d.](#%02d) %s</a>\n', j, j, j, tips[i])
+    j = j +1
+  }
+  out = c(out, line)
+}
+cat(out, sep="\n")
 ```
 
 ## Further reading {-}
