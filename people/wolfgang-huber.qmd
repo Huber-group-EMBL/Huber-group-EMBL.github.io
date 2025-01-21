@@ -1,6 +1,7 @@
 ---
 title: "Wolfgang Huber"
 description: "Group leader"
+image: "wolfgang-huber-400x400.jpg"
 ---
 
 ![](wolfgang-huber-1000x700.jpg){width=500 fig-align="center"}
