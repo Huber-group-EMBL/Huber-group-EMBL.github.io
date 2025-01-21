@@ -20,9 +20,9 @@ Add the EMBL S3-compatible server https://s3.embl.de
 mc alias set wwwhuber https://s3.embl.de YOUR-ACCESS-KEY YOUR-SECRET-KEY
 ```
 
-- replace `wwwhuber` with your preferred alias name for the S3 service.
+- here, `wwwhuber` is the alias name that will below be used for the S3 service; replace this with your preferred alias name.
 - if you do not aim for https://s3.embl.de, replace this with the endpoint URL of your S3-compatible service.
-- Replace `ACCESS_KEY` and `SECRET_KEY` with your AWS credentials.
+- Replace `ACCESS_KEY` and `SECRET_KEY` with your AWS or MinIO credentials.
 	
 ### Use `mc mirror` for synchronization
 
