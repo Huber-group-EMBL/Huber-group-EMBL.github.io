@@ -41,7 +41,7 @@ Key Options:
 
 So, for example:
 
-``````
+```
 cd /Users/whuber/clones/Huber-group-EMBL.github.io
 mc mirror --overwrite _site wwwhuber/www-huber/group
 ```
