@@ -39,13 +39,6 @@ Key Options:
 -	`--watch`: Continuously monitors the source directory for changes and mirrors them to the destination.
 -	`--dry-run`: Simulates the operation without making actual changes, so you can review what will happen.
 
-So, for example:
-
-```
-cd /Users/whuber/clones/Huber-group-EMBL.github.io
-mc mirror --overwrite _site wwwhuber/www-huber/group
-```
-
 ### Verify the Sync
 
 You can list the contents of the S3 bucket to verify that the files were copied, interactively via <https://console.s3.embl.de/browser> or on the command line via
@@ -54,3 +47,15 @@ You can list the contents of the S3 bucket to verify that the files were copied,
 mc ls myalias/mybucket/backup
 ```
 
+### Group website specific instantiation of the above
+
+```
+cd /Users/whuber/clones/Huber-group-EMBL.github.io
+mc mirror --overwrite _site wwwhuber/www-huber/group
+```
+
+The following only if the redirection file has been deleted/corrupted:
+
+```
+mc cp resources/redirect.html wwwhuber/www-huber/index.html
+```
