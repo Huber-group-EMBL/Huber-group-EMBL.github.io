@@ -40,9 +40,9 @@ tips = c(
 - what new statement results from them
 - what are necessary versus sufficient conditions (e.g., are your data simply consistent with a certain hypothesis, or do they single-handedly and decisively prove it?)",
 
-"If a previous paper in the field---even if, and in particular, a 'high impact' one--- used sloppy terminology or sloppy thinking, don't just uncritically regurgitate it. Improve, or at least take a stand. In science, we're not paid to be sheep following the herd, but to do it right.",
+"If a previous paper in the field---even if, and in particular, a 'high impact' one---used sloppy terminology or sloppy methods, don't just uncritically regurgitate that. Improve, or at least take a stand. In science, we are not paid to be sheep following the herd, but to do it right.",
 
-"Don't use your data to 'prove' things that are obvious, evident, true even if without any data. If your conclusion contains words such as 'could' or 'may': these possibilities existed before. Does your data make them substantially more likely?",
+"Don't use your data to 'show' statements that are obvious, evident, true even without any data. If your conclusion contains words such as 'could' or 'may': these possibilities existed before. Does your data make them substantially more likely?",
 
 "### Words", 
 
@@ -51,7 +51,7 @@ tips = c(
 "Use active voice. Avoid passive voice. So you can make it clear what you did, what others did, or what already pre-existed from your previously reported work.",
 
 "Words:![](../photos/MagrittePipe.jpg \"We sometimes use the same word for a thing and a representation of the thing. But it is common sense and logic that they are not the same.\"){style=\"float:right; position:relative; padding-top:10px; padding-left:20px; padding-bottom:10px\"}
-Use one term per concept, and one concept per term. Avoid synonyms and lexical variation. These only add unnecessary mental load on the reader ('Do they really mean the same? Do they mean to leave room for some subtle distinction? Do they even know what they mean?'). Similarly, do not use the same word for different concepts. A bad example is using the same word for observed data, and for the underlying, unobserved quantity that the experiment is meant to probe. E.g., in RNA-seq, you may have collected for each gene the number of matching sequencing reads, and want it to reflect the mRNA abundance, or even the encoded protein's activity. We hope that they are related. But they are not the same. There are many technical and biological steps in between them. It is part of the scientific approach (and logic and common sense) to care about such distinctions. Experienced scientists also know when it's fine to gloss over, and how to find the fine line between necessary precision and pedantry.",
+Use one term per concept, and one concept per term. Avoid synonyms and lexical variation. These only add unnecessary mental load on the reader ('Do they really mean the same? Do they mean to leave room for some subtle distinction? Do they even know what they mean?'). Similarly, do not use the same word for different concepts. An example is using the same word for observed data, and for the underlying, unobserved quantity that the experiment is meant to probe. E.g., in RNA-seq, you may have collected for each gene the number of matching sequencing reads, and want it to reflect the mRNA abundance, or even the encoded protein's activity. We hope that they are related. But they are not the same. There are many technical and biological steps in between them. It is part of the scientific approach (and logic and common sense) to care about such distinctions. Experienced scientists also know when it's fine to gloss over, and how to find the fine line between necessary precision and pedantry.",
 
 "Be explicit and quantitative. Don't say 'few' or 'many', but state the numbers and/or fractions quantitatively. Avoid most adjectives (e.g., high, good, efficient) and adverbs (e.g., fast). Instead, state the relevant physical quantities (e.g., speed, length, time interval) or numerical metrics (e.g., percent overlap, confusion table). Adverbs and adjectives are rarely needed in Results and Methods sections of papers.",
 
@@ -71,7 +71,7 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 
 "You don't need to dump on other people's work in order to make your work look good. It's not a null sum game. You can talk respectfully about prior attempts at your question, and still claim a major advance.",
 
-"Keep it lean. Periodically, go over the text and ask for *every single word* whether it is necessary. Does it carry new and relevant information? If not, remove it. E.g., prune for occurences of phrases of the form 'To achieve *X*, we did *(different word for X)*'. Don't say 'X represents Y' when it's just 'X is Y'. Doing so exposes you as careless of logical thinking.",
+"Keep it lean. Periodically, go over the text and ask for *every single sentence* and *every single word* whether it is necessary. Does it carry new and relevant information? If not, remove it. E.g., prune for occurences of phrases of the form 'To achieve *X*, we did *(different word for X)*'. Don't say 'X represents Y' when it's just 'X is Y'. Doing so exposes you as careless of logical thinking.",
 
 "Use a spell-checker.",
 
@@ -79,7 +79,7 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 
 "### Logistics",
 
-"If your paper involves data that you have generated: start early with uploading the data to the appropriate public repository, e.g., [EMBL-EBI](https://www.ebi.ac.uk/). The better the journal, the stricter their data reporting requirements. Assembling your data (and metadata) to meet the minimal reporting standards of the public repository can take days or weeks. After data upload, sometimes several rounds of back-and-forth with the operators of the database ensue, until the data are really accessible. You do not want to expend the time for this while a journal editor or reviewer are already impatiently waiting.",
+"If your paper involves data that you have generated: start early with uploading the data to the appropriate public repository, e.g., [EMBL-EBI](https://www.ebi.ac.uk/). The better the journal, the stricter their data reporting requirements. Assembling your data (and metadata) to meet the reporting standards of the repository and/or the journal can take days or weeks. After data upload, sometimes several rounds of back-and-forth with the operators of the database ensue, until the data are really accessible. You do not want to expend the time for this while a journal editor or reviewer are already impatiently waiting.",
 
 "Respect [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor): in analysis pipelines, remove inessential steps (transformations, filtering, etc.); in simulations, remove inessential model ornaments, parameters, keep parameter ranges as small needed. Think about what you really want to show. Do not do something just because others did it or because you once thought it was needed and have not bothered to throw it out.",
 
