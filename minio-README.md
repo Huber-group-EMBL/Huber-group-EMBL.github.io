@@ -51,6 +51,8 @@ mc ls myalias/mybucket/backup
 
 ```
 cd /Users/whuber/clones/Huber-group-EMBL.github.io
+git pull
+quarto render
 mc mirror --overwrite _site wwwhuber/www-huber/group
 ```
 
