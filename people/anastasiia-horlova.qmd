@@ -2,6 +2,9 @@
 title: "Anastasiia Horlova"
 description: "PhD candidate"
 image: "HorlovaPhoto3_5x4_5-sm.jpg"
+include-in-header:
+  - text: |
+     <link rel="shortcut icon" href="../resources/ukraine.png" />
 ---
 
 ![Anastasiia Horlova](HorlovaPhoto3_5x4_5.jpg){width=500 fig-align="center"}

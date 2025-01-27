@@ -5,6 +5,9 @@ author: "Wolfgang Huber"
 date: "2023-08-08"
 categories: "Past events"
 image: "../photos/2023-07-13-bds3-class-sm.jpg"
+include-in-header:
+  - text: |
+     <link rel="shortcut icon" href="../resources/ukraine.png" />
 ---
 
 From 2-14 July 2023, [we](https://bds3.org/our-team) organized a [summer school in Ukraine for university students on biological data science](https://bds3.org). Here’s some takeaways:

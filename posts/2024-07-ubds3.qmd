@@ -5,6 +5,9 @@ author: "Wolfgang Huber"
 date: "2024-08-10"
 categories: "Past events"
 image: "../photos/20240708_085930-sm.jpg"
+include-in-header:
+  - text: |
+     <link rel="shortcut icon" href="../resources/ukraine.png" />
 ---
 
 From 7-20 July 2024, [we](https://bds3.org/our-team) organized the second edition of the "Ukrainian Biological Data Science Summer School ([link to my post on the first edition](2023-07-ubds3.html)). 

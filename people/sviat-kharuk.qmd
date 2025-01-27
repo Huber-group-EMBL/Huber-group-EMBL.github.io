@@ -1,6 +1,9 @@
 ---
 title: "Sviatoslav Kharuk"
 description: "Consultant"
+include-in-header:
+  - text: |
+     <link rel="shortcut icon" href="../resources/ukraine.png" />
 ---
 
 ![Sviatoslav Kharuk](sviat-kharuk-photo.jpg){width=500 fig-align="center"}

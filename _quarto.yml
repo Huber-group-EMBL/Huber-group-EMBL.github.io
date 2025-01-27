@@ -21,16 +21,16 @@ website:
     search: true
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - href: research.qmd
-        text: Approach & Outputs
+        text: "Approach & Outputs"
       - workwithus.qmd
       - people.qmd
       - posts.qmd
       - events.qmd
       - pub.qmd
       - contact.qmd
-  favicon: resources/favicon.png
+  favicon: "resources/EMBL_120x128.png"
  
 format:
   html:

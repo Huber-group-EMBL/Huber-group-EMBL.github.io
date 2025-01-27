@@ -4,6 +4,9 @@ description: "Empowering Ukraine's Bioinformatics community through education an
 author: "Serghei Mangul"
 image: "../photos/bioin_general_logo_blue_grey_yellow_1.png"
 date: "2023-11-28"
+include-in-header:
+  - text: |
+     <link rel="shortcut icon" href="../resources/ukraine.png" />
 ---
 
 Announcing [Bioinformatics For Ukraine](http://bioinformaticsforukraine.com), a beacon of hope and support for Ukrainian scientists and students whose lives have been deeply affected by the ongoing Russian aggression.
