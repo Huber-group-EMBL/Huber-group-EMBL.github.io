@@ -13,7 +13,7 @@ image: "../photos/horseshoes-embeddings.jpg"
 
 This page contains R code that you can edit and run interactively in your browser -- there is no server-side computing involved. 
 
-- [See here for more on webR with quarto](<https://github.com/coatless/quarto-webr) 
+- [See here for more on webR with quarto](https://github.com/coatless/quarto-webr) 
 - [Source code for this page](https://github.com/Huber-group-EMBL/Huber-group-EMBL.github.io/blob/main/posts/horseshoes-embeddings.qmd)
 
 <!-- to execute the webR code in a regular R session:
