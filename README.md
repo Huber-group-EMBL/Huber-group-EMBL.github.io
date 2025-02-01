@@ -17,7 +17,7 @@ Run
 quarto add coatless/quarto-webr
 ```
 
-[See here for more on this](<https://github.com/coatless/quarto-webr).
+See here for more on this: <https://github.com/coatless/quarto-webr>.
 
 # To make webpage updates
 
