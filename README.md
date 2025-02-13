@@ -1,3 +1,8 @@
+This is the source code behind <https://www.huber.embl.de/group/>, a static directory of HTML files (and resources they require).
+
+The following is a set of instructions for group members on how to build their own instance locally, update content, and upload to the server.
+
+
 # One time actions
 
 ## Install Quarto 
@@ -12,7 +17,7 @@ Run
 quarto add coatless/quarto-webr
 ```
 
-[See here for more on this](<https://github.com/coatless/quarto-webr).
+See here for more on this: <https://github.com/coatless/quarto-webr>.
 
 # To make webpage updates
 
@@ -39,12 +44,7 @@ A directory of "static" HTML files will be created in the `_site` folder.
 
 ## Upload to EMBL's webserver
 
-Run
-```
-./upload-rsync.sh
-```
-
-This uploads the directory to the EMBL NFS file systems. It will take a few more minutes before the changes are visible on <https://www.huber.embl.de/group/> since these files will need to be further copied to an S3 bucket that serves the EMBL webserver, which is done by a demon. (I am not quite sure about this process.)
+Check <minio-README.md>
 
 ## Update the codebase in git
 
