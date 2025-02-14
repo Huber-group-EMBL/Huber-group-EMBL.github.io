@@ -2,26 +2,28 @@
 title: "Research Software Engineer"
 description: "Bioconductor tools for biological data science and AI"
 author: "Wolfgang Huber"
-date: "2024-12-01"
+date: "2025-02-14"
 categories: "Positions"
-image: "../photos/codexspots-h.jpg"
+image: "../photos/bnhl_neighbourhood_s.jpg"
+format:
+  html:
+    toc: false
 ---
 
-> Location: Heidelberg, Germany\
-<!--
-> Staff Category: 4, 5, 6 depending on experience and qualifications\
-> Contract duration: until 12/2026\
-> Job ad at EMBL HR site: <https://www.embl.org/jobs/position/HD02682>\
--->
+::: {.callout-tip}
+## How to apply
+Please go to <https://www.embl.org/careers/> and look for "JR466" or "Research Software Engineer"
+:::
+
 
 ## About
 
 ::: {layout="[[77,23]]"}
 
-EMBL is Europe’s life sciences laboratory – an intergovernmental organisation with more than 110 independent research groups and service teams covering the spectrum of molecular biology. It operates across six sites in Heidelberg (headquarters), Barcelona, Cambridge, Grenoble, Hamburg and Rome. Our mission is to perform basic research in molecular biology; train scientists, students and visitors at all levels; offer vital services to scientists in the public and private sectors within the member states; develop new instruments and methods; and engage actively in technology transfer.
+EMBL is Europe's life sciences laboratory – an intergovernmental organisation with more than 110 independent research groups and service teams covering the spectrum of molecular biology. It operates across six sites in Heidelberg (headquarters), Barcelona, Cambridge, Grenoble, Hamburg and Rome. Our mission is to perform basic research in molecular biology; train scientists, students and visitors at all levels; offer vital services to scientists in the public and private sectors within the member states; develop new instruments and methods; and engage actively in technology transfer.
 
 
-![Rendering of CODEX data from >200 tissue cores](../photos/codexspots-v.jpg)
+![The conference building (ATC) on the EMBL campus in Heidelberg](../photos/EMBL-ATC.jpg)
 
 :::
 
@@ -34,11 +36,11 @@ The research group of Wolfgang Huber at EMBL develops statistical data analysis 
 
 We are looking for a research software engineer with experience in open source scientific software engineering to join the Huber group at EMBL in Heidelberg. You will maintain and future-proof widely used existing R/Bioconductor packages for single cell RNA sequencing and multi-omics data analysis, for spatial omics, for integrative / multi-modal machine learning on large datasets.
 
-You will be working in a community of research software engineers and expert scientists, including Bioconductor, EMBL’s large and active community for bioinformatic services and data science, de.NBI and ELIXIR.
+You will be working in a community of research software engineers and expert scientists, including Bioconductor, EMBL's large and active community for bioinformatic services and data science, de.NBI and ELIXIR.
 
 Specific tasks include necessary and important reengineering work on the packages DESeq2, EBImage, biomaRt, Rarr, DEXSeq, IHW, rhdf5 (all on <https://www.bioconductor.org/packages/>). You will also contribute to training and support efforts for these packages and their use cases, through workflows, improved documentation, use of LLM-based tools, containerisation and cloudification. You will be embedded in a vibrant research team and wider research and scientific services community at EMBL that enables you to work at the cutting edge of scientific and technological developments.
 
-The position is part offunded by Baden-Württemberg’s State Institute for Bioinformatics Infrastructure (LIBIS) and aligns, in alignment with the aims and goals of [de.NBI/ELIXIR-DE](https://www.denbi.de). It is thus embedded in the coordinated European-wide effort ELIXIR (European Life Science Infrastructure for Biological Information).
+The position is funded by Baden-Württemberg's State Institute for Bioinformatics Infrastructure (LIBIS) and aligns, in alignment with the aims and goals of [de.NBI/ELIXIR-DE](https://www.denbi.de). It is thus embedded in the coordinated European-wide effort ELIXIR (European Life Science Infrastructure for Biological Information).
 
 
 ## You have
@@ -56,11 +58,11 @@ EMBL is curiosity-driven, community-oriented and international. As an inclusive,
 We encourage applications from individuals who can complement our existing team – we believe that success is built on having teams whose backgrounds and personal experiences reflect the diversity of the populations that our science serves. We actively encourage applications from all genders and cultures, ethnic groups and all demographics to help us avoid perpetuating biases and oversights at this transformational point in our people strategy.
 EMBL offers attractive conditions and benefits appropriate to an international research organisation with a very collegial and family-friendly working environment. Competitive salary and social security benefits, financial support for relocation, a relaxed culture, professional development, an on-site nursery, canteen and other staff facilities make EMBL a great place to work.
 
-**Don’t meet every single requirement? We are dedicated to building a diverse, inclusive and authentic workplace, so if you’re excited about this role but your past experience doesn’t align perfectly with every qualification in the job description, we encourage you to apply nevertheless.
+**Don't meet every single requirement? We are dedicated to building a diverse, inclusive and authentic workplace, so if you're excited about this role but your past experience doesn't align perfectly with every qualification in the job description, we encourage you to apply nevertheless.
 
 ## What else do I need to know
 
-We are Europe’s research laboratory for the life sciences – an intergovernmental organisation performing scientific research in disciplines including molecular biology, physics, chemistry and computer science. We are an international, innovative and interdisciplinary laboratory with more than 1900 employees from many nations, operating across six sites, in Heidelberg (HQ), Barcelona, Hinxton near Cambridge, Hamburg, Grenoble and Rome.
+We are Europe's research laboratory for the life sciences - an intergovernmental organisation performing scientific research in disciplines including molecular biology, physics, chemistry and computer science. We are an international, innovative and interdisciplinary laboratory with more than 1900 employees from many nations, operating across six sites, in Heidelberg (HQ), Barcelona, Hinxton near Cambridge, Hamburg, Grenoble and Rome.
 
 Our mission is to offer vital services in training scientists, students and visitors at all levels; to develop new instruments and methods in the life sciences and actively engage in technology transfer activities, and to integrate European life science research. The working language of the institute is English.
 
@@ -70,9 +72,10 @@ Please note that appointments on fixed term contracts can be renewed up to 9 yea
 
 EMBL is a signatory of DORA. Find out how we implement best practices in research assessment in our recruitment processes here.
 
-<!--Please apply online through: www.embl.org/jobs-->
-
 If you have any questions prior to your application for this job position, please contact Wolfgang Huber (<wolfgang.huber@embl.org>).
 
 
- 
+::: {.callout-tip}
+## How to apply
+Please go to <https://www.embl.org/careers/> and look for "JR466" or "Research Software Engineer"
+:::
