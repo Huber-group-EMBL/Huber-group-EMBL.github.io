@@ -13,7 +13,7 @@ published-title: "Start date"
 It will take place at [Uzhhorod National University](https://www.uzhnu.edu.ua/). Details TBA.
 
 
-Here are some [memories from the 2023 event](../posts/2023-08-onbds3.html).
+Here are some [memories from the 2023 event](../posts/2023-07-ubds3.html).
 
 
 ![](../photos/Uzhhorod-streetscene.jpg){fig-align="center" width=80% .lightbox}

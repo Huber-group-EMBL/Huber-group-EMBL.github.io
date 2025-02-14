@@ -40,7 +40,7 @@ We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes an
 
 We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2024 edition](https://csama2024.bioconductor.eu). See [here for some impressions](https://www.huber.embl.de/group/posts/2023-06-16-csama.html).
 
-In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org). See also [Wolfgang's post about it](posts/2023-08-onbds3.html). We [repeated it in July 2024](posts/2024-07-ubds3.html) and plan to do it again in July 2025.
+In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org). See also [Wolfgang's post about it](posts/2023-07-ubds3.html). We [repeated it in July 2024](posts/2024-07-ubds3.html). We plan to do it again in July 2025.
 
 We develop publicly available interactive [training materials on statistical methods](https://www.ebi.ac.uk/training/online/courses/biostatistics-introduction/). 
 
