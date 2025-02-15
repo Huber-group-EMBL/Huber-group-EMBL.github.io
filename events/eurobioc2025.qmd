@@ -8,6 +8,8 @@ format:
     email-obfuscation: references
 image: "https://www.bioconductor.org/images/logo/jpg/bioconductor_logo_rgb.jpg"
 published-title: "Start date"
+categories: "Future"
+description: " "
 ---
 
 Conference Website: <https://eurobioc2025.bioconductor.org/>

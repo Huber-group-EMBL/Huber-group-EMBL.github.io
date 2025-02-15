@@ -8,6 +8,8 @@ format:
     email-obfuscation: references
 image: "../photos/Uzhhorod-streetscene.jpg"
 published-title: "Start date"
+categories: "Future"
+description: " "
 ---
 
 It will take place at [Uzhhorod National University](https://www.uzhnu.edu.ua/). Details TBA.

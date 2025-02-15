@@ -8,8 +8,13 @@ format:
     email-obfuscation: references
 image: "../photos/csama2018_massiv.jpg"
 published-title: "Start date"
+categories: "Past"
+description: " "
 ---
 
 
-[![Link to course webpage](../photos/csama2018_massiv.jpg "Link to course webpage")](https://csama2024.bioconductor.eu/)
+
+![](https://csama2025.bioconductor.eu/images/csama2018_crop.jpeg){fig-align="center" width=80% .lightbox}
+
+Link to course webpage: <https://csama2024.bioconductor.eu/>
 

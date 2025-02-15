@@ -8,6 +8,7 @@ format:
     email-obfuscation: references
 image: "../photos/bnhl_neighbourhood_s.jpg"
 published-title: "Start date"
+categories: "Future"
 ---
 
 ::: {.column-margin}

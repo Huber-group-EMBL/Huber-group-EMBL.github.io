@@ -8,6 +8,7 @@ format:
     email-obfuscation: references
 image: "../photos/AI+Bio-banner.jpg"
 published-title: "Start date"
+categories: "Future"
 ---
 
 <!--

@@ -8,6 +8,8 @@ format:
     email-obfuscation: references
 image: "../photos/MMD22-01_herobanner_3000x1000px-scaled-e1689243558673.jpg"
 published-title: "Start date"
+categories: "Past"
+description: " "
 ---
 
 [![Link to course webpage](../photos/MMD22-01_herobanner_3000x1000px-scaled-e1689243558673.jpg "Link to course webpage")](https://www.embl.org/about/info/course-and-conference-office/events/mmd24-01/)

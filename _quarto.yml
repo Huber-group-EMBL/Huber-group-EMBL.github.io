@@ -27,7 +27,8 @@ website:
       - workwithus.qmd
       - people.qmd
       - posts.qmd
-      - events.qmd
+      - href: events.qmd#category=Future
+        text: "Events"
       - pub.qmd
       - contact.qmd
   favicon: "resources/EMBL_120x128.png"

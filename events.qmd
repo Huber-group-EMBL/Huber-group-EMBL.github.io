@@ -3,11 +3,11 @@ title: "Events"
 listing:
   contents: events
   type: default
-  sort: "date"
   date-format: "YYYY-MM-DD"
-  categories: false
-  sort-ui: false
+  categories: true
   filter-ui: false
+  sort-ui: false
+  sort: ["categories", "date"]
   field-display-names:
     date: "Date"
 page-layout: full

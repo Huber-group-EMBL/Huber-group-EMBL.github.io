@@ -8,6 +8,8 @@ format:
     email-obfuscation: references
 image: "../photos/AI+Bio-banner.jpg"
 published-title: "Start date"
+categories: "Past"
+description: " "
 ---
 
 [![Link to conference webpage](../photos/AI+Bio-banner.jpg "Link to conference webpage")](https://www.embl.org/about/info/course-and-conference-office/events/ees24-01/)

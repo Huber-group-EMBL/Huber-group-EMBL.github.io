@@ -1,15 +1,20 @@
 ---
-title: "CSAMA 2024: Biological Data Science"
-subtitle: "23-28 June 2024 in Brixen/Bressanone, Italy"
-date: "2024-06-23"
+title: "CSAMA 2025: Biological Data Science"
+subtitle: "6-11 July 2025 in Brixen/Bressanone, Italy"
+date: "2025-07-06"
 format:
   html:
     toc: false
     email-obfuscation: references
 image: "../photos/csama2018_massiv.jpg"
 published-title: "Start date"
+categories: "Future"
+description: " "
 ---
 
 
-[![Link to course webpage](../photos/csama2018_massiv.jpg "Link to course webpage")](https://csama2024.bioconductor.eu/)
+
+![](https://csama2025.bioconductor.eu/images/csama2018_crop.jpeg){fig-align="center" width=80% .lightbox}
+
+Link to course webpage: <https://csama2025.bioconductor.eu/>
 

@@ -8,12 +8,11 @@ format:
     email-obfuscation: references
 image: "../photos/Uzhhorod-streetscene.jpg"
 published-title: "Start date"
+categories: "Past"
+description: " "
 ---
 
-It will take place at [Uzhhorod National University](https://www.uzhnu.edu.ua/). Details TBA.
-
-
-Here are some [memories from the 2023 event](../posts/2023-07-ubds3.html).
-
+At [Uzhhorod National University](https://www.uzhnu.edu.ua/). 
+Some [memories from the](../posts/2024-07-ubds3.html).
 
 ![](../photos/Uzhhorod-streetscene.jpg){fig-align="center" width=80% .lightbox}
