@@ -1,7 +1,7 @@
 ---
-title: "Ascona Workshop: Spatial and temporal statistical modeling in molecular biology"
-subtitle: "8-13 September 2024 at Congressi Stefano Franscini on  Monte Verità in Ascona, CH"
-date: "2024-09-08"
+title: "Ascona Workshop: Statistical and AI methods for multi-modal multi-scale modeling of biological systems"
+subtitle: "28 June - 3 July 2026 at Congressi Stefano Franscini on  Monte Verità in Ascona, CH"
+date: "2026-06-28"
 format:
   html:
     toc: false
@@ -18,27 +18,27 @@ published-title: "Start date"
 ![](../photos/CSF-logo.gif)
 :::
 
-![](../photos/CSF-people.jpg){fig-align="center" width=80% .lightbox}
+![](../photos/CSF-people.jpg){fig-align="center" width=80%}
 
 Organizers: Niko Beerenwinkel (ETH), Valentina Boeva (ETH), Peter Bühlmann (ETH), Wolfgang Huber (EMBL)
 
 #### Scope
-Living systems operate in space and time, and recent developments in technologies, including spatial omics of tissues and organs, cell-scale structural biology, and planet-scale molecular sampling, are creating exciting new challenges for mathematical modeling, statistical inference and data science. This workshop has two main objectives: 
 
-- to bring together scientists close to data generation and scientists with advanced modeling and theoretical perspectives, and 
-- to explore conceptual and methodological analogies between different data types and spatiotemporal scales.
+The conference "Statistical and AI methods for multi-modal multi-scale modeling of biological systems" will address critical challenges in integrating and interpreting vast multi-modal datasets across different biological scales. This conference builds on a successful series of previous meetings at the Congressi Stefano Franscini, which have attracted top international experts from leading institutions globally.
 
-At the micrometer scale, it is now becoming possible to bridge from individual macromolecules to whole cells using light and electron microscopy and tomography, merging structural biology with cell biology; at the millimeter scale, we can image hundreds of biomolecules in tissues and organ(oid)s using multiplexed immunohistochemistry, fluorescence hybridization or spatially resolved mass spectrometry; at kilo- and megameter scale, systematic sampling of soil, sediment, (waste) water, air, or of model organisms characterizes species diversity, and molecular and genetic variation.
+The event will bring together leading researchers from fields such as statistics, artificial intelligence (AI), molecular biology, and biomedicine to explore cutting-edge methods for analyzing complex biological systems. Key topics will include multi-modal data integration, the use of deep learning and AI for high-dimensional data interpretation, and multi-scale modeling of biological processes. The conference will also cover AI's role in understanding dynamic biological systems and its potential to transform experimental design.
 
-This progress in data acquisition creates novel elementary challenges including data size, exploration and visualization, calibration and harmonization. 
-There are also new conceptual and theoretical challenges to develop suitable mathematical descriptions and models of the underlying biological systems. How can they optimally and practically be fit to the data? How can we use the results to understand the underlying dynamics of the biological systems? What are the important variables (“coarse graining”)? Can we use our models for prediction? How can such insights be used for interventions (e.g., maintenance of health, therapy against disease, bioengineering to improve crop yield, regulation to keep an ecosystem intact)?
-
+We aim to foster collaboration between quantitative researchers and biologists, providing a platform for interdisciplinary exchanges. Early-career scientists will be strongly encouraged to participate, with dedicated opportunities for poster presentations and contributed talks. This conference will not only showcase the latest advancements in AI and statistical modeling for biology but also pave the way for new research partnerships and innovations, helping to shape the future of biological research globally.
+The conference will be a forum for exploring the potential of AI in revolutionizing biological research and will facilitate collaborations that bridge traditional statistical methods with novel AI approaches. The event will offer networking opportunities, contributing to the continued growth of computational biology and AI-driven scientific discoveries.
 
 These questions will be explored by an interdisciplinary group of speakers and participants.
 
 #### Program
 
+TBC
+
 ```{r}
+#| eval: false
 #| label: program
 #| echo: false
 #| results: asis
@@ -51,7 +51,7 @@ library("knitr")
 library("kableExtra")
 options(knitr.kable.NA = "")
 
-p = read_tsv("ascona2024-program.tsv")
+p = read_tsv("ascona2026-program.tsv")
 
 # fill in day names
 stopifnot(nrow(p)>=2 && !is.na(p$day[1]))
@@ -70,12 +70,9 @@ p$what = vapply(strsplit(p$what, "talk:"),
 k = kable(p, align = "l", escape = FALSE) |>    
       collapse_rows(columns = 1, valign = "top")
 gsub("&lt;", "<", gsub("&gt;", ">", k))
-
-# An alternative table library, didn't seeem easier to use.
-# library("gt")
-# k = tab_row_group(gt(p), label = "day", rows = everything())
 ```
 
+<!--
 #### Keynote Speakers
 * Peer Bork, EMBL
 * Maria Cristina Gambetta, Univ. of Lausanne
@@ -88,151 +85,46 @@ gsub("&lt;", "<", gsub("&gt;", ">", k))
 * Ewa Szczurek, Univ. of Warsaw, Helmholtz Munich
 * Virginie Uhlmann, Univ. of Zürich
 * Lara Urban, Technical University Munich, Helmholtz Center
-
-#### Posters
-1. Maialen Arrieta-Lobo --
-Integrating Tessellation-Based Quantification with Spatial Omics for Improved Gene
-Colocalization Analysis of Glioblastoma Tumor Microenvironment (Maialen Arrieta-Lobo,
-Sébastian Lillo, Thomas Daubon and Macha Nikolski)
-2. Benjamin Bancher --
-Benchmarking cell instance segmentation algorithms in highly multiplexed microscopy
-images across modalities
-3. Daniela Beisser --
-Analysing stressor effects on decomposer communities in freshwater ecosytems
-4. Joana P. Bernardes --
-Longitudinal single cell transcription profiling of peripheral blood disentangles shared and
-biologic specific patters of early remission in active IBD patients
-5. Ilaria Billato --
-Integrating machine learning and omics data to address batch effects in histopathological
-image analysis for cancer research
-6. Alice Blondel --
-RNA point cloud segmentation for image-based spatial transcriptomics
-7. Jinseong Bok --
-Composite hidden Markov models for sequence data with clustered hidden states
-8. Thomas Bonte --
-Deep learning method for cell cycle phase classification from microscopy data
-9. Giulia Capitoli --
-Spatially informed sparse Gaussian Graphical Mixture Model to detect latent patterns in
-mass spectrometry imaging
-10. Pawel Czyz --
-Estimating growth advantages of SARS-CoV-2 variants through Bayesian hierarchical
-modeling of wastewater sequencing data across space and time
-11. Thomas Defard --
-RNA point cloud segmentation for image-based spatial transcriptomics
-12. Alessia Del Panta --
-Visualizing realized interactions in space
-13. Maciej Dobrzynski --
-Detection and quantification of emergent collective signalling in time-lapse microscopy
-images
-14. Yixing Dong --
-A comprehensive benchmarking on the impact of normalization across various Spatial
-Transcriptomics technologies
-15. Francesca Drummer --
-InterScale: Towards Understanding Long-Range Interactions in Spatial Transcriptomics
-16. Martin Emons --
-spatialFDA - a tool for spatial multi-sample comparisons
-17. Andreas Futschik --
-Statistical Inference for Time Series Allele Frequency Data
-18. Johannes Gawron --
-Phylogenetic inference reveals clonal heterogeneity in circulating tumor cell clusters
-19. Krzysztof Gogolewski --
-Probabilistic modeling of tumor infiltration processes
-20. Luca Gortana --
-Cell-type deconvolution from spatial transcriptomics data and single-cell-level histology
-21. Samuel Gunz --
-sosta: a framework to analyse spatial structures from spatial omics data
-22. Nikolai Köhler --
-Identifying Changes in Subcellular RNA Localization Across Cells
-23. Jack Kuipers --
-Network-based clustering unveils interconnected landscapes of genomic and clinical features
-across myeloid malignancies
-24. Thi Kim Hue Nguyen --
-Structure learning of dynamic graphical models for count data, with an application to single -
-cell RNA sequencing data
-25. Lennart Opitz --
-A Comparative Analysis of Spatial Transcriptomics in Colon Cancer Samples: 10x Visium vs.
-10x Visium HD Slides
-26. Ahmed Osman --
-Explainable Machine Learning for Identifying cis-Regulatory Elements Over Development
-Trajectories
-27. Pratibha Panwar --
-clustSIGNAL: a method for cell type clustering using Spatially Informed Gene expression with
-Neighbourhood Adapted Learning
-28. Ellis Patrick --
-Context is important! Identifying context aware spatial relationships with Kontextual.
-29. Lotte Pollaris --
-Revealing spatial expression patterns within cells with SPArrOW, a workflow for subcellular
-resolution spatial transcriptomics assays.
-30. Michael Prummer --
-SAUCE for a fast and robust detection of spatially variable genes
-31. Auguste Rimaite --
-Finding SARS-CoV-2 mutational patterns in wastewater NGS data
-32. Mayra Luisa Ruiz Tejada Segura --
-Nichesphere: Niches of differential cell - cell interactions
-33. Bechara Saade --
-Exploring Novel Spatial-temporal Models for Nuclear Receptor Activation: A Stability Analysis
-and Investigation of Oscillatory Solutions
-34. Antonietta Salerno --
-Unveiling the effects of copper-chelation therapy in Neuroblastoma immune
-microenvironment with a multi-modal approach
-35. Ela Sauerborn --
-Detection of hidden antibiotic resistance using real-time genomic technology
-36. Alexander Schönhuth --
-Generating synthetic human genomes using diffusion models
-37. Christoph Schultheiss --
-Assessing the overall and partial causal well-specification of nonlinear additive noise models
-38. Swayamshree Senapati --
-Polymer and Kinetic Modeling Unveils Quantitative Association of Chromatin Conformation
-and Gene Regulation 
-39. Lutecia Servius --
-Accurate Prediction of Antibody Isotype Distribution During Immune Response Time Course
-Using Aggregate Data
-40. Nikolay Shvetsov --
-Graph Neural Networks for Disease Gene Identification: Unveiling Disease-Specific Networks
-through Link Prediction
-41. Leon Strenger --
-Graph-based RNA Colocalization Analysis in Subcellular Spatial Transcriptomics Data
-42. Alena van Bömmel --
-Nonlinear DNA methylation trajectories in aging
-43. Michiel Ver Cruysse --
-ASAP: a Machine-Learning-Powered Automated Pipeline for Comparative Spatial Analysis of
-Liver Tissue
-44. Lin Wan --
-Mean-field modeling and learning of spatial-temporal transcriptome snapshot data
-45. Witold Wolski --
-Enhancing Mass Spectrometry Imaging Accuracy via Spatially Informed Mass Recalibration
-46. Zhi Zhao --
-Identification of cell composition-based omics features for cancer prognosis 
-47. Norio Zimmermann --
-Tree inference from single-cell RNA sequencing data
+-->
 
 #### How to participate
-Pre-registration is now closed.
-Following pre-registration, abstracts will be selected by the program committee.
+
+Pre-registration will in autumn 2025.
+
+<!--
 Pre-registration is non-binding and at no cost.
 Successful applications will be invited to register by mid-May.
 
+Pre-registration is now closed.
+Following pre-registration, abstracts will be selected by the program committee.
+-->
+
 #### Dates
-**Deadline for pre-registration:** 05 May 2024, 23:59 CEST\
-**Notification and invitation to register:** before 20 May 2024\
-**Deadline for registration:** 31 July 2024\
-**Workshop:**  8-13 September 2024 (Sunday evening till Friday noon)
+
+**Deadline for pre-registration:** TBC <!-- 05 May 2026, 23:59 CEST-->\
+**Notification and invitation to register:** TBC <!-- before 20 May 2024-->\
+**Deadline for registration:** TBC <!--31 July 2024-->\
+**Workshop:**  28.6. - 3.7. 2026 (Sunday evening till Friday noon)
 
 #### Location
 [Congressi Stefano Franscini](http://www.csf.ethz.ch/), Monte Verità, Ascona, Switzerland\
 For more information on how to get there, visit [https://csf.ethz.ch/monte-verita/by-train.html](https://csf.ethz.ch/monte-verita/by-train.html).\
 We will provide you with additional travel information shortly.
 
+<!--
 #### Registration fees (not due until final registration)
 Academia 300 CHF \
 Industry 900 CHF
+-->
 
-**Important**: Accommodation and full board will be available [at the conference venue](https://www.monteverita.org/en/hospitality/hotel-complex), and will be charged directly to you. Usually, most but not all conference attendees use this option. The venue is in Ascona, a lively tourist town, and in walking distance to many additional accommodation options.
+**Accommodation** and full board will be available [at the conference venue](https://www.monteverita.org/en/hospitality/hotel-complex), and will be charged directly to you. Usually, most but not all conference attendees use this option. The venue is in Ascona, a lively tourist town, and in walking distance to many additional accommodation options.
 
 #### Contact
 [Dr. Paolo Demaria](mailto:paolo.demaria@demariaevent.ch)
 
 #### Sponsors 
+<!--
 ![](../photos/Roche_logo.png){width=200px}  
 ![](../photos/Novartis_logo.png){width=200px} 
 ![](../photos/PHRT_logo.jpeg){width=300px} 
+-->

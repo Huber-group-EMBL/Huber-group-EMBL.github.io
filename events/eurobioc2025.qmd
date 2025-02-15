@@ -1,0 +1,14 @@
+---
+title: "European Bioconductor Conference 2025"
+subtitle: "17-19 September in Barcelona, Spain"
+date: "2025-09-17"
+format:
+  html:
+    toc: false
+    email-obfuscation: references
+image: "https://www.bioconductor.org/images/logo/jpg/bioconductor_logo_rgb.jpg"
+published-title: "Start date"
+---
+
+Conference Website: <https://eurobioc2025.bioconductor.org/>
+

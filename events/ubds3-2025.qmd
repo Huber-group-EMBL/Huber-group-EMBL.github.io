@@ -1,7 +1,7 @@
 ---
 title: "Ukrainian Biological Data Science Summer School"
-subtitle: "7-20 July 2024 in Uzhhorod, Ukraine"
-date: "2024-07-07"
+subtitle: "19 July - 1 August 2025 in Uzhhorod, Ukraine"
+date: "2025-07-19"
 format:
   html:
     toc: false
@@ -12,8 +12,8 @@ published-title: "Start date"
 
 It will take place at [Uzhhorod National University](https://www.uzhnu.edu.ua/). Details TBA.
 
-
-Here are some [memories from the 2023 event](../posts/2023-07-ubds3.html).
-
+Here are some memories from the 
+[2023](../posts/2023-07-ubds3.html) and
+[2024](../posts/2024-07-ubds3.html) events.
 
 ![](../photos/Uzhhorod-streetscene.jpg){fig-align="center" width=80% .lightbox}

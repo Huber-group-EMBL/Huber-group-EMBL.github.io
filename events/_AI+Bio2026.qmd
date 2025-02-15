@@ -1,0 +1,32 @@
+---
+title: "AI and Biology"
+subtitle: "March 2026 at EMBL Heidelberg, Germany"
+date: "2026-03 (TBC)"
+format:
+  html:
+    toc: false
+    email-obfuscation: references
+image: "../photos/AI+Bio-banner.jpg"
+published-title: "Start date"
+---
+
+<!--
+[![Link to conference webpage](../photos/AI+Bio-banner.jpg "Link to conference webpage")](https://www.embl.org/about/info/course-and-conference-office/events/ees24-01/)
+-->
+
+
+![](../photos/AI+Bio-banner.jpg){fig-align="center" width=80%}
+
+
+Artificial intelligence (AI) is transforming virtually all areas of science, and the life sciences are no exception. AI-based methods are pushing the limits of what is possible in experiment design, data analysis and modelling. The aim of this symposium is to catalyze synergistic interactions between AI researchers in different subfields of biology by exploring shared theoretical approaches, cross-domain experiments and data integration as well as shared topics in dissemination of tools and collaboration with colleagues in experimental labs.
+
+We will look into the future and discuss how the concerted actions of AI and life science communities can enable both fields to exploit the full potential of the ongoing data deluge and find new application areas ripe for disruption by AI.
+
+Organizers:
+
+- Anna Kreshuk
+- Mohammed AlQuraishi
+- Mor Nitzan
+- Wolfgang Huber
+
+Details and registration page: Coming soon.

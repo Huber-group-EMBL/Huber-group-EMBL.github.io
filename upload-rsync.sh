@@ -7,3 +7,5 @@
 # find _site -type f -exec chmod 664 {} \;
 # rsync -avz _site/ datatransfer.embl.de:/g/huber/www-huber/group
 
+
+mc mirror --overwrite _site wwwhuber/www-huber/group
