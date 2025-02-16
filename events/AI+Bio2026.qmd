@@ -1,7 +1,7 @@
 ---
 title: "AI and Biology"
-subtitle: "March 2026 at EMBL Heidelberg, Germany"
-date: "2026-03 (TBC)"
+subtitle: "10-13 March 2026 at EMBL Heidelberg, Germany"
+date: "2026-03-10"
 format:
   html:
     toc: false
@@ -10,10 +10,6 @@ image: "../photos/AI+Bio-banner.jpg"
 published-title: "Start date"
 categories: "Future"
 ---
-
-<!--
-[![Link to conference webpage](../photos/AI+Bio-banner.jpg "Link to conference webpage")](https://www.embl.org/about/info/course-and-conference-office/events/ees24-01/)
--->
 
 
 ![](../photos/AI+Bio-banner.jpg){fig-align="center" width=80%}
@@ -31,3 +27,7 @@ Organizers:
 - Wolfgang Huber
 
 Details and registration page: Coming soon.
+
+[Link to previous event in 2024.](https://www.embl.org/about/info/course-and-conference-office/events/ees24-01/)
+
+
