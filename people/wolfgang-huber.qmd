@@ -6,13 +6,15 @@ image: "wolfgang-huber-400x400.jpg"
 
 ![](wolfgang-huber-1000x700.jpg){width=500 fig-align="center"}
 
+>Bluesky         [@wkhuber.bsky.social](https://bsky.app/profile/wkhuber.bsky.social) \
 >Google Scholar  [gI8o6x8AAAAJ](https://scholar.google.com/citations?user=gI8o6x8AAAAJ&hl=en) \
 >GitHub          [wolfganghuber](https://github.com/wolfganghuber) \
->Bluesky         [@wkhuber.bsky.social](https://bsky.app/profile/wkhuber.bsky.social) \
->Twitter         [@wolfgangkhuber](https://twitter.com/wolfgangkhuber) \
 
-Wolfgang works as a research group leader.
-He enjoys exploring new datasets, developing statistical methods, and discovering new biological insights. Trained in theoretical physics, he now considers himself a statistician. He works with a brilliant team of master students, PhD candidates, postdocs and staff scientists, with outstanding colleagues at EMBL and with an international network of collaborators. When he is not working on science, he likes to spend time with his two sons, or biking up the hills around Heidelberg and elsewhere.
+::: {.callout-note}
+My email inbox gets so many messages per day that on some days I do not manage to read or respond to all of them. My apologies in advance. If your message is important, please also try to contact me by other means.</font>
+:::
+
+Wolfgang works as a research group leader. He enjoys exploring new datasets, developing statistical methods, and discovering new biological insights. Trained in theoretical physics, he now considers himself a statistician. He works with a brilliant team of master students, PhD candidates, postdocs and staff scientists, with outstanding colleagues at EMBL and with an international network of collaborators. When he is not working on science, he likes to spend time with his two sons, or biking up the hills around Heidelberg and elsewhere.
 
 Wolfgang is an EMBL Senior Scientist, co-director of the 
 [Molecular Medicine Partnership Unit], a joint venture between the Medical Faculty of the University of Heidelberg and EMBL, co-head of the 
