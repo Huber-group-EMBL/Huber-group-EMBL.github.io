@@ -89,7 +89,7 @@ Use one term per concept, and one concept per term. Avoid synonyms and lexical v
 
 "Colors are a great way of encoding a categorical or continuous variable in your data. Choose the color map carefully. There is [good advice on this on the internet](https://ggplot2-book.org/scales-colour). If your paper has multiple plots mentioning the same variable, make sure the color map is the same. Similarly, use distinct color maps for different variables.",
 
-"Pay attention to font sizes. Make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. In practice, this is surprisingly hard.",
+"Pay attention to font sizes. Make sure all text in figures is large enough to be legible. Avoid clutter and repetition. Make choice of font, font style and sizes consistent across figure panels and figures. In practice, this is surprisingly hard. Have a look at [Constantin Ahlmann-Eltze's exactplot package](https://github.com/const-ae/exactplot).",
 
 "For plots in which $x$- and $y$-axis show the same physical or conceptual units, make sure the aspect ratio is consistent, i.e., usually 1:1."
 )
