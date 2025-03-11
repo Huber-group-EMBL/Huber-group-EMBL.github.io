@@ -1,0 +1,42 @@
+name: Deploy to S3 with Quarto
+
+on:
+  push:
+    branches:
+      - main # Trigger workflow on pushes to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Check out the repository
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    # 2. Set up Docker container with Quarto
+    - name: Set up Docker
+      run: |
+        docker run -d --name quarto-container -v $(pwd):/project ghcr.io/quarto-dev/quarto:latest tail -f /dev/null
+
+    # 3. Render the Quarto project
+    - name: Render Quarto project
+      run: |
+        docker exec quarto-container quarto render /project --cache-refresh
+        ls -l _site
+
+#     4. Setup MinIO client
+    - name: Setup MinIO client
+      uses: lovellfelix/minio-deploy-action@v1
+      with:
+        endpoint: https://s3.embl.de/
+        access_key: ${{ secrets.MINIO_ACCESS_KEY }}
+        secret_key: ${{ secrets.MINIO_SECRET_KEY }}
+        bucket: 'intercept-testing'
+        source_dir: '_site'
+
+    # 7. Clean up Docker container
+    - name: Clean up Docker container
+      run: |
+        docker stop quarto-container
+        docker rm quarto-container
