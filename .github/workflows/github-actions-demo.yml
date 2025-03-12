@@ -18,6 +18,9 @@ jobs:
     - name: Set up Docker
       run: |
         docker run -d --name quarto-container -v "$(pwd)":/project rocker/verse tail -f /dev/null
+        
+        docker exec quarto-container R -e "install.packages('kableExtra', repos='http://cran.rstudio.com/')"
+
 #        docker run -d --name quarto-container -v $(pwd):/project ghcr.io/quarto-dev/quarto:latest tail -f /dev/null
 
 
