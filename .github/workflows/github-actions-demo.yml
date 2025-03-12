@@ -3,7 +3,7 @@ name: Deploy to S3 with Quarto
 on:
   push:
     branches:
-      - main # Trigger workflow on pushes to the main branch
+      - automated_branch # Trigger workflow on pushes to the main branch
 
 jobs:
   deploy:
