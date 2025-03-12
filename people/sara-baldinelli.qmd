@@ -1,0 +1,14 @@
+---
+title: "Sara Baldinelli"
+description: "Master Student"
+image: "SaraBaldinelli.jpeg"
+---
+
+![Sara Baldinelli](SaraBaldinelli.jpg){width=500 fig-align="center"}
+
+>LinkedIn [sara-baldinelli](https://www.linkedin.com/in/sara-baldinelli/) \
+>GitHub   [Sara-Baldinelli](https://github.com/Sara-Baldinelli) \
+
+Sara is a Master's student in Quantitative and Computational Biology. For her Master's thesis, she is working with the Huber group, performing data analysis of single-cell CRISPR perturbation data generated from in vivo Cas9, applied to the Drosophila melanogaster midgut as part of the ERC DECODE project.
+
+She holds a Bachelor's degree in Bioinformatics from La Sapienza University, Rome. In 2022-23, she completed an internship at the Regina Elena National Cancer Institute, where she worked on whole-transcriptome profiling of osteosarcoma through microenvironment deconvolution and network analysis.
