@@ -21,18 +21,27 @@ jobs:
         
         docker exec quarto-container R -e "install.packages('kableExtra', repos='http://cran.rstudio.com/')"
 
-#        docker run -d --name quarto-container -v $(pwd):/project ghcr.io/quarto-dev/quarto:latest tail -f /dev/null
+    # 3. Get the citation counts
+    - name: Run R script to get citation counts
+      run: |
+          Rscript rscripts/get_citation_counts.R
 
+    # 4. Renew the existing citation_counts.rds file
+    - name: Commit and push changes if any
+      run: |
+          git remote show origin
+          git add citation_counts.rds
+          git commit -m "Automatic update of citation counts on $(date -I)" || echo "No changes to commit"
+          git push -o ci.skip "https://x-access-token/${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io" HEAD:master || echo "No changes to commit"
 
-
-    # 3. Render the Quarto project
+    # 5. Render the Quarto project
     - name: Render Quarto project
       run: |
         docker exec quarto-container R --version
         docker exec quarto-container quarto render /project --cache-refresh
         ls -l _site
 
-#     4. Setup MinIO client
+#     6. Setup MinIO client
     - name: Setup MinIO client
       uses: lovellfelix/minio-deploy-action@v1
       with:
