@@ -22,7 +22,7 @@ jobs:
     # 3. Render the Quarto project
     - name: Render Quarto project
       run: |
-        docker exec -it quarto-container R --version
+        docker exec quarto-container R --version
         docker exec quarto-container quarto render /project --cache-refresh
         ls -l _site
 
