@@ -19,14 +19,13 @@ jobs:
       run: |
         docker run -d --name quarto-container -v "$(pwd)":/project rocker/verse tail -f /dev/null
 
-        docker exec quarto-container R -e "install.packages(c('kableExtra','scholar','bib2df'))"
+        docker exec quarto-container R -e "install.packages(c('kableExtra','scholar','bib2df','RCurl'))"
 
     # 4. Get the citation counts
     - name: Run R script to get citation counts
       run: |
         docker exec quarto-container sh -c "cd /project && Rscript rscripts/get_citation_counts.R"
 
-# seems to work until here, check actions
     # 5. Renew the existing citation_counts.rds file
     - name: Commit and push changes if any
       run: |
@@ -37,6 +36,7 @@ jobs:
         git commit -m "Automatic update of citation counts on $(date -I)" || echo "No changes to commit"
         git push -o ci.skip https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io.git HEAD:automated_branch || echo "No changes to commit"
 
+# seems to work until here, check actions
     # 6. Prepare the citations
     - name: Run R script to prepare the citations
       run: |
