@@ -2,7 +2,6 @@ library("httr")
 suppressPackageStartupMessages(library("dplyr"))
 library("stringr")
 library("RCurl")
-library(purrr)
 
 ## Currently the version on CRAN (1.1.1) is out-of-date and will throw errors
 ## from deprecated functions in dplyr

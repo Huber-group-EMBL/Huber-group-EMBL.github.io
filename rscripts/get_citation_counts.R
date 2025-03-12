@@ -86,7 +86,7 @@ cleandoi <- function(doi) {
 
 ## remove "comment" lines from bibtex.  bib2df tries to include these as 
 ## fields in the table later
-tmp <- readLines('lop_cleaned.bib')
+tmp <- readLines('lop.bib')
 idx_to_remove <- grep(pattern = "^%", x = tmp)
 if(length(idx_to_remove)) {
   tmp <- tmp[-idx_to_remove]
