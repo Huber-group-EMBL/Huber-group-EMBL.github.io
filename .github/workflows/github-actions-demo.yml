@@ -24,15 +24,15 @@ jobs:
     # 4. Get the citation counts
     - name: Run R script to get citation counts
       run: |
-          docker exec quarto-container R rscripts/get_citation_counts.R
+        docker exec quarto-container Rscript /project/rscripts/get_citation_counts.R
 
     # 5. Renew the existing citation_counts.rds file
     - name: Commit and push changes if any
       run: |
-          git remote show origin
-          git add citation_counts.rds
-          git commit -m "Automatic update of citation counts on $(date -I)" || echo "No changes to commit"
-          git push -o ci.skip "https://x-access-token/${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io" HEAD:automated_branch || echo "No changes to commit"
+        git checkout automated_branch
+        git add citation_counts.rds
+        git commit -m "Automatic update of citation counts on $(date -I)" || echo "No changes to commit"
+        git push -o ci.skip "https://x-access-token/${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io" HEAD:automated_branch || echo "No changes to commit"
 
     # 6. Render the Quarto project
     - name: Render Quarto project
