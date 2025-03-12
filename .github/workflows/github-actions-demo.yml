@@ -26,13 +26,35 @@ jobs:
       run: |
         docker exec quarto-container sh -c "cd /project && Rscript rscripts/get_citation_counts.R"
 
+# seems to work until here, check actions
     # 5. Renew the existing citation_counts.rds file
     - name: Commit and push changes if any
       run: |
-        git checkout automated_branch
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "github-actions@github.com"
+    
         git add citation_counts.rds
         git commit -m "Automatic update of citation counts on $(date -I)" || echo "No changes to commit"
-        git push -o ci.skip "https://x-access-token/${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io" HEAD:automated_branch || echo "No changes to commit"
+        git push -o ci.skip https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io.git HEAD:automated_branch || echo "No changes to commit"
+
+#    # 6. Prepare the citations
+#    - name: Run R script to prepare the citations
+#      run: |
+#        docker exec quarto-container sh -c "cd /project && Rscript rscripts/prepare_citations.R"
+#
+#    # 6. Make BBL
+#    - name: Make BBL
+#      run: |
+#        docker exec quarto-container sh -c "cd /project && Rscript rscripts/makebbl.R"
+#
+#    # 6. Create the page
+#    - name: Run R script to create the page
+#      run: |
+#        tth index
+#        rm -f index.aux index.blg index.log index.out index.pdf lopcit.bib publ.rda index.bbl
+#
+#        docker exec quarto-container sh -c "cd /project && Rscript rscripts/prochtml.R"
+#        rm index.html
 
     # 6. Render the Quarto project
     - name: Render Quarto project
