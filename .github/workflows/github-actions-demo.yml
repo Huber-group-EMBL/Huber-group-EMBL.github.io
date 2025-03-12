@@ -17,7 +17,8 @@ jobs:
     # 2. Set up Docker container with Quarto
     - name: Set up Docker
       run: |
-        docker run -d --name quarto-container -v $(pwd):/project ghcr.io/quarto-dev/quarto:latest tail -f /dev/null
+#        docker run -d --name quarto-container -v $(pwd):/project ghcr.io/quarto-dev/quarto:latest tail -f /dev/null
+        docker run -d --name quarto-container -v "$(pwd)":/project rocker/verse tail -f /dev/null
 
     # 3. Render the Quarto project
     - name: Render Quarto project
