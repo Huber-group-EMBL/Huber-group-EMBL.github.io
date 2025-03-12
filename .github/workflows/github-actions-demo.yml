@@ -32,7 +32,7 @@ jobs:
           git remote show origin
           git add citation_counts.rds
           git commit -m "Automatic update of citation counts on $(date -I)" || echo "No changes to commit"
-          git push -o ci.skip "https://x-access-token/${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io" HEAD:master || echo "No changes to commit"
+          git push -o ci.skip "https://x-access-token/${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io" HEAD:automated_branch || echo "No changes to commit"
 
     # 6. Render the Quarto project
     - name: Render Quarto project
