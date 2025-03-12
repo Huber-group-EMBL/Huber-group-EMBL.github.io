@@ -16,24 +16,15 @@ jobs:
 
     # 2. Set up Docker container with Quarto
     - name: Set up Docker
-      uses: rocker/r-ver@latest
-
-    # 3. Set up R dependencies
-    - name: Install R dependencies
       run: |
-        Rscript -e "install.packages('kableExtra', repos='http://cran.rstudio.com/')"
+        docker run -d --name quarto-container -v "$(pwd)":/project rocker/verse tail -f /dev/null
 
-#    # 2. Set up Docker container with Quarto
-#    - name: Set up Docker
-#      run: |
-#        docker run -d --name quarto-container -v "$(pwd)":/project rocker/verse tail -f /dev/null
-#
-#        docker exec quarto-container R -e "install.packages('kableExtra', repos='http://cran.rstudio.com/')"
+        docker exec quarto-container R -e "install.packages('kableExtra', repos='http://cran.rstudio.com/')"
 
     # 4. Get the citation counts
     - name: Run R script to get citation counts
       run: |
-          Rscript rscripts/get_citation_counts.R
+          docker exec quarto-container R rscripts/get_citation_counts.R
 
     # 5. Renew the existing citation_counts.rds file
     - name: Commit and push changes if any
