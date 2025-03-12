@@ -16,17 +16,26 @@ jobs:
 
     # 2. Set up Docker container with Quarto
     - name: Set up Docker
-      run: |
-        docker run -d --name quarto-container -v "$(pwd)":/project rocker/verse tail -f /dev/null
-        
-        docker exec quarto-container R -e "install.packages('kableExtra', repos='http://cran.rstudio.com/')"
+      uses: rocker/r-ver@latest
 
-    # 3. Get the citation counts
+    # 3. Set up R dependencies
+    - name: Install R dependencies
+      run: |
+        Rscript -e "install.packages('kableExtra', repos='http://cran.rstudio.com/')"
+
+#    # 2. Set up Docker container with Quarto
+#    - name: Set up Docker
+#      run: |
+#        docker run -d --name quarto-container -v "$(pwd)":/project rocker/verse tail -f /dev/null
+#
+#        docker exec quarto-container R -e "install.packages('kableExtra', repos='http://cran.rstudio.com/')"
+
+    # 4. Get the citation counts
     - name: Run R script to get citation counts
       run: |
           Rscript rscripts/get_citation_counts.R
 
-    # 4. Renew the existing citation_counts.rds file
+    # 5. Renew the existing citation_counts.rds file
     - name: Commit and push changes if any
       run: |
           git remote show origin
@@ -34,14 +43,14 @@ jobs:
           git commit -m "Automatic update of citation counts on $(date -I)" || echo "No changes to commit"
           git push -o ci.skip "https://x-access-token/${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io" HEAD:master || echo "No changes to commit"
 
-    # 5. Render the Quarto project
+    # 6. Render the Quarto project
     - name: Render Quarto project
       run: |
         docker exec quarto-container R --version
         docker exec quarto-container quarto render /project --cache-refresh
         ls -l _site
 
-#     6. Setup MinIO client
+#     7. Setup MinIO client
     - name: Setup MinIO client
       uses: lovellfelix/minio-deploy-action@v1
       with:
@@ -51,7 +60,7 @@ jobs:
         bucket: 'intercept-testing'
         source_dir: '_site'
 
-    # 7. Clean up Docker container
+    # 8. Clean up Docker container
     - name: Clean up Docker container
       run: |
         docker stop quarto-container
