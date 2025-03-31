@@ -41,7 +41,6 @@ jobs:
         git commit -m "Automatic update of citation counts on $(date -I)" || echo "No changes to commit"
         git push -o ci.skip https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io.git HEAD:automated_branch || echo "No changes to commit"
 
-# seems to work until here, check actions
     # 6. Prepare the citations
     - name: Run R script to prepare the citations
       run: |
