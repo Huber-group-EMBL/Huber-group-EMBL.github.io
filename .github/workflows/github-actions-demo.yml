@@ -69,7 +69,13 @@ jobs:
         docker exec quarto-container sh -c "cd /project && Rscript rscripts/prochtml.R"
 
         # Remove the old index.html (if needed outside the container)
-        rm -f index.html
+        #rm -f index.html
+        git add index.html
+        
+        git commit -m "Addition of index.html" || echo "No changes to commit"
+
+        git push -o ci.skip https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io.git HEAD:automated_branch || echo "No changes to commit"
+
 
     # 6. Render the Quarto project
     - name: Render Quarto project
