@@ -80,7 +80,7 @@ jobs:
 
         ls -l _site
 
-#     7. Setup MinIO client
+    # 7. Setup MinIO client
     - name: Setup MinIO client
       uses: lovellfelix/minio-deploy-action@v1
 
@@ -94,10 +94,6 @@ jobs:
         bucket: 'intercept-testing'
 
         source_dir: '_site'
-
-
-
-
 
     # 8. Clean up Docker container
     - name: Clean up Docker container
