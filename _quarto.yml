@@ -10,6 +10,7 @@ engine: knitr
  
 website:
   title: "Huber Group @ EMBL"
+  site-url: "https://s3.embl.de/intercept-testing/"
   open-graph:
      locale:
        en_US

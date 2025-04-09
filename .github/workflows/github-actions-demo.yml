@@ -70,12 +70,6 @@ jobs:
 
         # Remove the old index.html (if needed outside the container)
         rm -f index.html
-        git add pub.html
-        
-        git commit -m "Addition of pub.html" || echo "No changes to commit"
-
-        git push -o ci.skip https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io.git HEAD:automated_branch || echo "No changes to commit"
-
 
     # 6. Render the Quarto project
     - name: Render Quarto project
