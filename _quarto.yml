@@ -10,7 +10,6 @@ engine: knitr
  
 website:
   title: "Huber Group @ EMBL"
-  site-url: "https://s3.embl.de/intercept-testing/"
   open-graph:
      locale:
        en_US
@@ -21,7 +20,7 @@ website:
     foreground: "#D0DEBB"
     search: true
     left:
-      - href: index.qmd
+      - href: ./index.html
         text: "Home"
       - href: research.qmd
         text: "Approach & Outputs"
