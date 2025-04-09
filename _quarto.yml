@@ -29,7 +29,7 @@ website:
       - posts.qmd
       - href: events.qmd#category=Future
         text: "Events"
-      - href: pub.html
+      - href: pub.qmd
         text: "Publications"
       - contact.qmd
   favicon: "resources/EMBL_120x128.png"
