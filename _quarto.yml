@@ -50,6 +50,9 @@ format:
       - text: |
           <meta http-equiv="Cache-Control" content="max-age=1800, must-revalidate"> 
     lightbox: true
+
+resources:
+  - pub_raw.html
     
 # 
 # EMBL colors: https://www.embl.org/guidelines/design/design-guidelines/colours/
