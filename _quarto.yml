@@ -20,7 +20,7 @@ website:
     foreground: "#D0DEBB"
     search: true
     left:
-      - href: index.html
+      - href: index.qmd
         text: "Home"
       - href: research.qmd
         text: "Approach & Outputs"
