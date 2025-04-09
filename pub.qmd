@@ -8,7 +8,7 @@ format:
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(function() {
-      $("#includedContent").load("pub.html");
+      $("#includedContent").load("pub_raw.html");
     });
 </script>
 
