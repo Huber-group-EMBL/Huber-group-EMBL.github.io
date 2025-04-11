@@ -1,0 +1,13 @@
+---
+title: "Maximilian Herzog"
+description: "Scientific Vistor (Theory@EMBL)"
+image: "maximilian-herzog.jpeg"
+---
+
+![Maximilian Herzog](maximilian-herzog.jpeg){width=500 fig-align="center"}
+
+>GitHub   [maxiherzog](https://github.com/maxiherzog) \
+
+Maxi is currently visiting the Huber Group via the Theory@EMBL fellowship programme. He is curious to learn about and refine existing computational methods in single-cell and spatial omics data analysis. 
+
+He holds a Masters's degree in Physics from Heidelberg University, where he mainly worked on the relation between MCMC-related methods, thermodynamics and information geometry.
