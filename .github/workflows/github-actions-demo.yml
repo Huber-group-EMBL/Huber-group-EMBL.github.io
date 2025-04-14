@@ -1,9 +1,11 @@
 name: Deploy to S3 with Quarto
 
 on:
-  push:
+  push:             # Triggers on any push to any branch
     branches:
       - automated_branch # Trigger workflow on pushes to the main branch
+  schedule:         # Triggers on a weekly schedule (cron syntax)
+    - cron: '0 8 * * 1'  # Every Monday at 08:00 UTC
 
 jobs:
   deploy:
