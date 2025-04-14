@@ -1,6 +1,7 @@
 on:
-  schedule:
-    - cron: '0 9 * * 1'  # At 09:00 UTC on Monday
+  push:             # Triggers on any push to any branch
+  schedule:         # Triggers on a weekly schedule (cron syntax)
+    - cron: '0 8 * * 1'  # Every Monday at 08:00 UTC
 
 project:
   type: website
