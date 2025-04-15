@@ -3,7 +3,7 @@ name: Deploy to S3 with Quarto
 on:
   push:             # Triggers on any push to any branch
     branches:
-      - automated_branch # Trigger workflow on pushes to the main branch
+      - main # Trigger workflow on pushes to the main branch
   schedule:         # Triggers on a weekly schedule (cron syntax)
     - cron: '0 8 * * 1'  # Every Monday at 08:00 UTC
 
@@ -93,7 +93,7 @@ jobs:
 
         secret_key: ${{ secrets.MINIO_SECRET_KEY }}
 
-        bucket: 'intercept-testing'
+        bucket: 'www-huber'
 
         target_dir: '/group/'
 
