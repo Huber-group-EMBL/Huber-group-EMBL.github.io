@@ -20,7 +20,7 @@ website:
     foreground: "#D0DEBB"
     search: true
     left:
-      - href: index.qmd
+      - href: index.html
         text: "Home"
       - href: research.qmd
         text: "Approach & Outputs"
@@ -29,7 +29,8 @@ website:
       - posts.qmd
       - href: events.qmd#category=Future
         text: "Events"
-      - pub.qmd
+      - href: pub.qmd
+        text: "Publications"
       - contact.qmd
   favicon: "resources/EMBL_120x128.png"
  
@@ -49,6 +50,9 @@ format:
       - text: |
           <meta http-equiv="Cache-Control" content="max-age=1800, must-revalidate"> 
     lightbox: true
+
+resources:
+  - pub_raw.html
     
 # 
 # EMBL colors: https://www.embl.org/guidelines/design/design-guidelines/colours/

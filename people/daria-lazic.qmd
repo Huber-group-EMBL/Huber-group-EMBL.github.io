@@ -4,10 +4,11 @@ description: "Postdoctoral researcher"
 image: "daria-lazic.jpg"
 ---
 
-![Daria Lazic](daria-lazic.jpg){width=500 fig-align="center"}
+![Daria Lazic](daria-lazic.jpg){width="500" fig-align="center"}
 
->GitHub          [LazDaria](https://github.com/LazDaria) \
->LinkedIn          [Daria Lazic](https://www.linkedin.com/in/daria-lazic) \
+> Email: [daria.lazic\@embl.de](mailto:daria.lazic@embl.de)\
+> ORCID: [0000-0002-8793-6885](https://europepmc.org/authors/0000-0002-8793-6885)\
+> GitHub: [LazDaria](https://github.com/LazDaria)\
+> LinkedIn: [Daria Lazic](https://www.linkedin.com/in/daria-lazic)\
 
-Daria is a postdoctoral fellow, working as a Spatial Omics Data Scientist in a collaborative project between the Huber Lab at EMBL and Cellzome (GSK). She uses and develops spatial omics analysis approaches to uncover spatial patterns influencing disease progression and response to therapies.
-During her PhD, she collaborated with the Children's Cancer Research Institute in Vienna and the University of Zurich/ETH Zurich, where she developed workflows to study spatial and temporal dynamics in neuroblastoma through multiplexed imaging data analysis.
+Daria is a postdoctoral fellow, working as a Spatial Omics Data Scientist in a collaborative project between the Huber Lab at EMBL and Cellzome (GSK). She uses and develops spatial omics analysis approaches to uncover spatial patterns influencing disease progression and response to therapies. During her PhD, she collaborated with the Children's Cancer Research Institute in Vienna and the University of Zurich/ETH Zurich, where she developed workflows to study spatial and temporal dynamics in neuroblastoma through multiplexed imaging data analysis.

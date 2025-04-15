@@ -4,11 +4,11 @@ description: "Scientific Project Manager"
 image: "maja.jpg"
 ---
 
-![Maja Kaźmierczak-Barthel](maja.jpg){width=500 fig-align="center"}
+![Maja Kaźmierczak-Barthel](maja.jpg){width="500" fig-align="center"}
 
->LinkedIn          [Maja Kazmierczak-Barthel](https://www.linkedin.com/in/maja-kazmierczak-barthel/) \
->GitHub          [Maja-KB](https://github.com/Maja-KB) \
->[Personal Travel Blog](https://travelingrockhopper.com/) \
+> Email: [maja.barthel\@embl.de](mailto:maja.barthel@embl.de)\
+> LinkedIn: [Maja Kazmierczak-Barthel](https://www.linkedin.com/in/maja-kazmierczak-barthel/)\
+> GitHub: [Maja-KB](https://github.com/Maja-KB)\
+> [Personal Travel Blog](https://travelingrockhopper.com/)\
 
-Maja obtained a MSc and a PhD in physics/astronomy from Nicolaus Copernicus University in Toruń. She did a postdoc in astrochemistry at the SRON Netherlands Institute for Space
-Research, after which she joined the Institute of Space Systems at University of Stuttgart to manage the German contribution to the Stratospheric Observatory For Infrared Astronomy (SOFIA). Since 2024, she works as a project manager at EMBL.
+Maja obtained a MSc and a PhD in physics/astronomy from Nicolaus Copernicus University in Toruń. She did a postdoc in astrochemistry at the SRON Netherlands Institute for Space Research, after which she joined the Institute of Space Systems at University of Stuttgart to manage the German contribution to the Stratospheric Observatory For Infrared Astronomy (SOFIA). Since 2024, she works as a project manager at EMBL.
