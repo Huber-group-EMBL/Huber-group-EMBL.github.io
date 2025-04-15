@@ -95,6 +95,8 @@ jobs:
 
         bucket: 'intercept-testing'
 
+        target_dir: '/group/'
+
         source_dir: '_site'
 
     # 8. Clean up Docker container
