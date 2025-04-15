@@ -1,0 +1,61 @@
+---
+title: "Postdoc - Statistics and machine learning with spatial omics and single-cell perturbation data"
+description: "Precision Oncology and Multiomics"
+author: "Wolfgang Huber"
+date: "2025-03-13"
+categories: "Positions"
+image: "../photos/codex2.jpg"
+---
+
+> Location: Heidelberg, Germany\
+> Staff Category: Postdoctoral fellowship
+
+<!--
+> Contract duration: until 12/2026\
+> Job ad at EMBL HR site: <https://www.embl.org/jobs/position/HD02682>\
+-->
+
+## Position
+
+::: {.column-margin}
+![](../photos/codex1.jpg)\
+![](../photos/codex2.jpg)
+:::
+
+We are looking for a postdoctoral researcher to develop novel concepts and computational approaches in mathematical statistics, machine learning, data science and explainable AI, and to apply them in the broad areas of single-cell (multi)-omics, spatial omics, imaging-based phenotyping and high-throughput perturbation assays.\
+
+The research group of Wolfgang Huber at EMBL develops statistics and AI methods for modern biotechnologies, applies them to biological and biomedical discovery, and translates them into reusable, interoperable tools by engaging in open source software communities. The interdisciplinary and international team has deep collaborations with research groups active in cancer, developmental biology and pharmaceutical research, which include large-scale analyses of clinical tissue cohorts using spatial transcriptomics and spatial proteomics, digital pathology, and large-scale CRISPR screening.
+
+Your research will benefit from primary access to data from the ERC Synergy project DECODE, which uses a high-throughput reverse genetics approach to induce stem cell specific CRISPR-Cas9 gene knockouts in adult model organisms followed by single-cell RNA-seq (Perturb-Seq) and imaging-based phenotyping. Single-cell data from dozens of perturbations on whole organs exist, and scale-up to hundreds to thousands of perturbations and whole animal scale is on-going. DECODE is a collaboration between the cancer and developmental genetics labs of Michael Boutros (DKFZ) and Jan Lohmann (University of Heidelberg) and the computational groups of Wolfgang Huber (EMBL) and Oliver Stegle (DKFZ & EMBL).
+
+## Your role  
+
+As part of the computational research team based at EMBL, you will contribute your analytical skills to biological discovery studies in the DECODE consortium and shape your own research profile as a methods scientist. Your possible research areas may include:
+
+* Integrative data analysis for biological discovery from  
+  * Single-cell RNA-seq at ultra-large scale  
+  * High-throughput CRISPR-KO perturbation studies  
+  * Imaging-based phenotyping  
+* Multimodal factor analysis and manifold learning  
+* Modeling cell states and transitions; inferring cell type- and state-dependent gene regulatory networks  
+* Quantitative study of multicellular spatial or anatomical structures from spatial omics data  
+* Using deep learning for controlled inclusion of prior knowledge on biological networks, cellular differentiation, tissue biology and anatomy  
+* Virtual cells and ‘omics foundation models  
+* Foundations of data science incl. quality assurance, visualization and model diagnostics methods
+
+During the course of the project, you will  have the opportunity to raise your own research profile, contribute to future research project proposals, or develop your own fellowship.
+
+## You have
+
+A PhD or equivalent qualification in a quantitative discipline (theoretical physics, statistics, computer science, mathematics). We are looking for a range of talents, which should include some of the following: strong foundations in probability theory, mathematical statistics, linear algebra and/or differential geometry; machine learning and neural networks; biological data science and data-driven discovery; scientific programming. Applications from “newcomers” who are curious about scientific discovery and measurement technologies in modern biology are welcome.
+
+### You might also have
+
+You are excited by making or contributing to biological discoveries, you are interested in interdisciplinary science, enjoy collaborative work and like to communicate concepts and results to other scientists in different fields of research.
+
+## Why join us
+
+EMBL is Europe’s life sciences laboratory – an intergovernmental organisation with more than 110 independent research groups and service teams covering the spectrum of molecular biology. It operates across six sites in Heidelberg (headquarters), Barcelona, Cambridge, Grenoble, Hamburg and Rome. Our mission is to perform basic research in molecular biology; train scientists, students and visitors at all levels; offer vital services to scientists in the public and private sectors within the member states; develop new instruments and methods; and engage actively in technology transfer.  
+EMBL offers attractive conditions and benefits appropriate to an international research organisation with a collaborative and family-friendly working environment. Competitive salary and social security benefits, financial support for relocation, a relaxed culture, professional development, an on-site nursery, canteen and other staff facilities make EMBL a great place to work.  
+EMBL is curiosity-driven, community-oriented and international. As an [inclusive, equal opportunity employer](https://www.embl.org/about/info/equality-diversity/), we know that diversity enables us to collaborate more effectively and be innovative in our approaches.   
+EMBL is a signatory of DORA. Find out how we implement best practices in research assessment in our recruitment processes [here](https://www.embl.org/info/dora/).  
