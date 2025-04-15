@@ -89,7 +89,7 @@ jobs:
       with:
         endpoint: https://s3.embl.de/
 
-        access_key: ${{ secrets.MINIO_ACCESS_KEY }}
+        access_key: 4kRFKz352s8UbsA6Pycq
 
         secret_key: ${{ secrets.MINIO_SECRET_KEY }}
 
