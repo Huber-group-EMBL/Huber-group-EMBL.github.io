@@ -21,7 +21,7 @@ jobs:
     # 2. Get the citation counts
     #- name: Run R script to get citation counts
     #  run: |
-    #    docker exec quarto-container sh -c "cd /project && Rscript rscripts/get_citation_counts.R"
+    #    sh -c "cd /project && Rscript rscripts/get_citation_counts.R"
 
     # 3. Renew the existing citation_counts.rds file
     - name: Commit and push changes if any
@@ -40,24 +40,24 @@ jobs:
     # 4. Prepare the citations
     - name: Run R script to prepare the citations
       run: |
-        docker exec quarto-container sh -c "cd /project && Rscript rscripts/prepare_citations.R"
+        sh -c "cd /project && Rscript rscripts/prepare_citations.R"
 
     # 5. Make BBL
     - name: Make BBL
       run: |
-        docker exec quarto-container sh -c "cd /project && Rscript rscripts/makebbl.R"
+        sh -c "cd /project && Rscript rscripts/makebbl.R"
 
     # 6. Create the page
     - name: Run R script to create the page
       run: |
         # Ensure necessary dependencies exist
-        docker exec quarto-container sh -c "cd /project && tth index"
+        sh -c "cd /project && tth index"
 
         # Remove unnecessary files inside the container
-        docker exec quarto-container sh -c "cd /project && rm -f index.aux index.blg index.log index.out index.pdf lopcit.bib publ.rda index.bbl"
+        sh -c "cd /project && rm -f index.aux index.blg index.log index.out index.pdf lopcit.bib publ.rda index.bbl"
 
         # Run the R script inside the container
-        docker exec quarto-container sh -c "cd /project && Rscript rscripts/prochtml.R"
+        sh -c "cd /project && Rscript rscripts/prochtml.R"
 
         # Remove the old index.html (if needed outside the container)
         rm -f index.html
@@ -65,9 +65,9 @@ jobs:
     # 7. Render the Quarto project
     - name: Render Quarto project
       run: |
-        docker exec quarto-container R --version
+        R --version
 
-        docker exec quarto-container quarto render /project --cache-refresh
+        quarto render /project --cache-refresh
 
         ls -l _site
 
