@@ -11,7 +11,7 @@ jobs:
   run-in-container:
     runs-on: ubuntu-latest
 
-    container: ghcr.io/miri-2000/docker_container:latest@sha256:c14baf740d7f4243e1cef465989cef07e31f7dc598c7957b629f61b201e2e8cb
+    container: ghcr.io/miri-2000/docker_container:latest
 
     steps:
     # 1. Check out the repository
@@ -69,8 +69,6 @@ jobs:
     # 7. Render the Quarto project
     - name: Render Quarto project
       run: |
-        R --version
-
         quarto render /project --cache-refresh
 
         ls -l _site
