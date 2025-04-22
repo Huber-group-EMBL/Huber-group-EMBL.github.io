@@ -28,6 +28,10 @@ jobs:
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "github-actions@github.com"
+        
+        - name: Mark repo as safe
+        git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
 
         git add citation_counts.rds
 
