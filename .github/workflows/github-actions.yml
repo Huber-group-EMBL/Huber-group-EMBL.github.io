@@ -18,6 +18,10 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v3
 
+    # 1a. Check installed packages
+    - name: Check installed R packages
+      run: Rscript -e 'installed.packages()[,1]'
+
     # 2. Get the citation counts
     #- name: Run R script to get citation counts
     #  run: |

@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
     tth
 
 # Install R packages
-RUN R -e "install.packages(c('kableExtra', 'scholar', 'bib2df', 'RCurl', 'europepmc'), repos='https://cloud.r-project.org')"
+RUN R -e "install.packages(c('kableExtra', 'scholar', 'bib2df', 'RCurl', 'europepmc', 'RCurl', 'bib2df', 'httr', 'lubridate', 'scholar'), repos='https://cloud.r-project.org')"
 
 # Set default workdir
 WORKDIR /project
