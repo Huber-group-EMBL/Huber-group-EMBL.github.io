@@ -1,42 +1,30 @@
 name: Deploy to S3 with Quarto
 
 on:
-  push:             # Triggers on any push to any branch
+  push: # Trigger workflow on pushes to the main branch
     branches:
-      - main # Trigger workflow on pushes to the main branch
-  schedule:         # Triggers on a weekly schedule (cron syntax)
+      - optimise_workflow
+  schedule: # Triggers on a weekly schedule (cron syntax)
     - cron: '0 8 * * 1'  # Every Monday at 08:00 UTC
 
 jobs:
-  deploy:
+  run-in-container:
     runs-on: ubuntu-latest
+
+    container: ghcr.io/miri-2000/docker-container:latest
+    options: --user root
 
     steps:
     # 1. Check out the repository
     - name: Check out repository
       uses: actions/checkout@v3
 
-    # 2. Set up Docker container with Quarto
-    - name: Set up Docker
-      run: |
-        docker run -d --name quarto-container -v "$(pwd)":/project rocker/verse tail -f /dev/null
-
-        docker exec quarto-container apt update && \
-
-        docker exec quarto-container apt install -y texlive-fonts-recommended texlive-fonts-extra && \
-        docker exec quarto-container R -e "install.packages(c('kableExtra','scholar','bib2df','RCurl', 'europepmc'))"
-
-    # 3. Install tth
-    - name: Install tth
-      run: |
-        docker exec quarto-container sh -c "apt-get update && apt-get install -y tth"
-
-    # 4. Get the citation counts
+    # 2. Get the citation counts
     #- name: Run R script to get citation counts
     #  run: |
     #    docker exec quarto-container sh -c "cd /project && Rscript rscripts/get_citation_counts.R"
 
-    # 5. Renew the existing citation_counts.rds file
+    # 3. Renew the existing citation_counts.rds file
     - name: Commit and push changes if any
       run: |
         git config --global user.name "GitHub Actions"
@@ -48,12 +36,12 @@ jobs:
 
         git push -o ci.skip https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Huber-group-EMBL/Huber-group-EMBL.github.io.git HEAD:automated_branch || echo "No changes to commit"
 
-    # 6. Prepare the citations
+    # 4. Prepare the citations
     - name: Run R script to prepare the citations
       run: |
         docker exec quarto-container sh -c "cd /project && Rscript rscripts/prepare_citations.R"
 
-    # 6. Make BBL
+    # 5. Make BBL
     - name: Make BBL
       run: |
         docker exec quarto-container sh -c "cd /project && Rscript rscripts/makebbl.R"
@@ -73,7 +61,7 @@ jobs:
         # Remove the old index.html (if needed outside the container)
         rm -f index.html
 
-    # 6. Render the Quarto project
+    # 7. Render the Quarto project
     - name: Render Quarto project
       run: |
         docker exec quarto-container R --version
@@ -82,7 +70,7 @@ jobs:
 
         ls -l _site
 
-    # 7. Setup MinIO client
+    # 8. Setup MinIO client
     - name: Setup MinIO client
       uses: lovellfelix/minio-deploy-action@v1
 
@@ -99,7 +87,7 @@ jobs:
 
         source_dir: '_site'
 
-    # 8. Clean up Docker container
+    # 9. Clean up Docker container
     - name: Clean up Docker container
       run: |
         docker stop quarto-container
