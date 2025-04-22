@@ -40,7 +40,7 @@ jobs:
     # 4. Prepare the citations
     - name: Run R script to prepare the citations
       run: |
-        sh -c "cd /project && Rscript rscripts/prepare_citations.R"
+        Rscript rscripts/prepare_citations.R
 
     # 5. Make BBL
     - name: Make BBL
