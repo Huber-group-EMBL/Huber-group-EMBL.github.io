@@ -4,7 +4,7 @@ description: "Bioinformatician"
 image: "Miriam Mueller-sm.jpeg"
 ---
 
-![Miriam Müller](Miriam%20Mueller.jpg){width="500" fig-align="center"}
+![Miriam Müller](miriam_mueller.jpg){width="500" fig-align="center"}
 
 > Email: [miriam.mueller\@embl.de](mailto:miriam.mueller@embl.de)\
 > LinkedIn: [Miriam Müller](https://www.linkedin.com/in/miriam-m%C3%BCller-292533263/)\
