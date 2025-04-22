@@ -8,7 +8,7 @@ on:
     - cron: '0 8 * * 1'  # Every Monday at 08:00 UTC
 
 jobs:
-  run-in-container:
+  create_webpage:
     runs-on: ubuntu-latest
 
     container: ghcr.io/miri-2000/docker_container:latest

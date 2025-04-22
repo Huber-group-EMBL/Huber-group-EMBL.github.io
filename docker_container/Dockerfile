@@ -14,19 +14,24 @@ RUN apt-get update && apt-get install -y \
 # Install R packages
 #RUN R -e "install.packages(c('kableExtra', 'scholar', 'bib2df', 'RCurl', 'europepmc', 'RCurl', 'bib2df', 'httr', 'lubridate', 'scholar'), repos='https://cloud.r-project.org')"
 RUN apt-get update && apt-get install -y \
-    libxml2-dev \
-    libssl-dev \
+    texlive-latex-base \
+    texlive-latex-extra \
+    texlive-fonts-recommended \
+    texlive-fonts-extra \
+    texlive-bibtex-extra \
+    biber \
     libcurl4-openssl-dev \
-    libfontconfig1-dev \
-    libfreetype6-dev \
-    libpng-dev \
-    libharfbuzz-dev \
-    libfribidi-dev \
-    && rm -rf /var/lib/apt/lists/*
+    libssl-dev \
+    libxml2-dev \
+    tth \
+    && apt-get clean
 
-# Install R packages (duplicates removed)
-RUN R -e "install.packages(c('httr', 'kableExtra', 'scholar', 'bib2df', 'RCurl', 'europepmc', 'lubridate' \
-), repos='https://cloud.r-project.org')"
+RUN Rscript -e "\
+  pkgs <- c('kableExtra', 'scholar', 'bib2df', 'RCurl', 'europepmc', 'httr', 'lubridate', 'readr', 'rmarkdown', 'knitr'); \
+  missing <- pkgs[!sapply(pkgs, requireNamespace, quietly = TRUE)]; \
+  install.packages(missing, repos = 'https://cloud.r-project.org'); \
+  still_missing <- missing[!sapply(missing, requireNamespace, quietly = TRUE)]; \
+  if (length(still_missing) > 0) stop('Package installation failed: ', paste(still_missing, collapse = ', '))"
 
 # Set default workdir
 WORKDIR /project
