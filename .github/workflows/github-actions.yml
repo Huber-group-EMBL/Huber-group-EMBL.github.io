@@ -11,7 +11,7 @@ jobs:
   run-in-container:
     runs-on: ubuntu-latest
 
-    container: ghcr.io/miri-2000/docker-container:latest
+    container: ghcr.io/miri-2000/docker_container:latest
 
     steps:
     # 1. Check out the repository
