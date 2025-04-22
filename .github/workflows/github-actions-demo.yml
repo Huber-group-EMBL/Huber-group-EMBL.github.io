@@ -78,7 +78,7 @@ jobs:
       run: |
         docker exec quarto-container R --version
 
-        docker exec quarto-container quarto render /project --cache-refresh
+        docker exec quarto-container quarto render --cache-refresh /project 
 
         ls -l _site
 
