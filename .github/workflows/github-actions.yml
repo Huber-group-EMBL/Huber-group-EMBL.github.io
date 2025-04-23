@@ -69,7 +69,7 @@ jobs:
     # 7. Render the Quarto project
     - name: Render Quarto project
       run: |
-        quarto render /project --cache-refresh
+        quarto render --cache-refresh
 
         ls -l _site
 
