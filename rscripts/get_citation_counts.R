@@ -29,28 +29,46 @@ getSematicScholar <- function(doi) {
 }
 
 getOpenCitations <- function(doi) {
-  
   url_base <- 'https://w3id.org/oc/index/api/v1/citation-count/'
-  
-  if( is.na(doi) | doi == "NA" | nchar(doi) == 0 ) {
-    n_citations <- NA
-  } else {
-    message("OpenCitations: ", doi)
-    ##  We use an API token generated for the email address mike.smith@embl.de
-    result <- httr::GET( url = paste0(url_base, doi),
-                         add_headers(Authorization = "efaa452b-43c9-42a1-8721-76ec51863458")) %>%
-      httr::content() 
-    
-    if(length(result)) {
-      n_citations <- result %>%
-        magrittr::extract2(1) %>% 
-        as.integer()
-    } else {
-      n_citations <- NA
-    }
+
+  # Early exit for empty or invalid DOIs
+  if (is.na(doi) || doi == "NA" || nchar(doi) == 0) {
+    return(NA_integer_)
   }
-  
-  return(n_citations)
+
+  message("OpenCitations: ", doi)
+
+  # Optional pause to avoid rate limiting (adjust if needed)
+  Sys.sleep(0.5)
+
+  # Try with retries and error handling
+  result <- tryCatch({
+    response <- httr::RETRY(
+      verb = "GET",
+      url = paste0(url_base, doi),
+      times = 5,
+      pause_min = 1,
+      pause_cap = 5,
+      add_headers(Authorization = "efaa452b-43c9-42a1-8721-76ec51863458")
+    )
+
+    if (httr::http_error(response)) {
+      warning(paste("HTTP error for DOI:", doi, "-", httr::status_code(response)))
+      return(NA_integer_)
+    }
+
+    content <- httr::content(response)
+    if (length(content)) {
+      return(as.integer(content[[1]]))
+    } else {
+      return(NA_integer_)
+    }
+  }, error = function(e) {
+    warning(paste("Error retrieving citation for DOI:", doi, "-", e$message))
+    return(NA_integer_)
+  })
+
+  return(result)
 }
 
 ## this requires a perfect match between the title in the bibtex entry
