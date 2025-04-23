@@ -23,9 +23,9 @@ jobs:
       run: Rscript -e 'installed.packages()[,1]'
 
     # 2. Get the citation counts
-    #- name: Run R script to get citation counts
-    #  run: |
-    #    Rscript rscripts/get_citation_counts.R"
+    - name: Run R script to get citation counts
+      run: |
+        Rscript rscripts/get_citation_counts.R"
 
     # 3. Renew the existing citation_counts.rds file
     - name: Commit and push changes if any
