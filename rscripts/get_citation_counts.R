@@ -31,44 +31,43 @@ getSematicScholar <- function(doi) {
 getOpenCitations <- function(doi) {
   url_base <- 'https://w3id.org/oc/index/api/v1/citation-count/'
 
-  # Early exit for empty or invalid DOIs
   if (is.na(doi) || doi == "NA" || nchar(doi) == 0) {
     return(NA_integer_)
   }
 
   message("OpenCitations: ", doi)
 
-  # Optional pause to avoid rate limiting (adjust if needed)
-  Sys.sleep(0.5)
+  max_tries <- 5
+  for (i in seq_len(max_tries)) {
+    # Add jitter (random pause)
+    delay <- runif(1, min = 1, max = 2^i)
+    Sys.sleep(delay)
 
-  # Try with retries and error handling
-  result <- tryCatch({
-    response <- httr::RETRY(
-      verb = "GET",
-      url = paste0(url_base, doi),
-      times = 5,
-      pause_min = 1,
-      pause_cap = 5,
-      add_headers(Authorization = "efaa452b-43c9-42a1-8721-76ec51863458")
-    )
+    response <- tryCatch({
+      httr::GET(
+        url = paste0(url_base, doi),
+        add_headers(Authorization = "efaa452b-43c9-42a1-8721-76ec51863458")
+      )
+    }, error = function(e) {
+      warning(paste("Attempt", i, "- Connection error for", doi, ":", e$message))
+      return(NULL)
+    })
 
-    if (httr::http_error(response)) {
-      warning(paste("HTTP error for DOI:", doi, "-", httr::status_code(response)))
-      return(NA_integer_)
+    # If response is successful, parse and return
+    if (!is.null(response) && !httr::http_error(response)) {
+      content <- httr::content(response)
+      if (length(content)) {
+        return(as.integer(content[[1]]))
+      } else {
+        return(NA_integer_)
+      }
     }
 
-    content <- httr::content(response)
-    if (length(content)) {
-      return(as.integer(content[[1]]))
-    } else {
-      return(NA_integer_)
-    }
-  }, error = function(e) {
-    warning(paste("Error retrieving citation for DOI:", doi, "-", e$message))
-    return(NA_integer_)
-  })
+    warning(paste("Attempt", i, "- Failed for", doi, "-", if (!is.null(response)) httr::status_code(response)))
+  }
 
-  return(result)
+  warning(paste("All attempts failed for DOI:", doi))
+  return(NA_integer_)
 }
 
 ## this requires a perfect match between the title in the bibtex entry
