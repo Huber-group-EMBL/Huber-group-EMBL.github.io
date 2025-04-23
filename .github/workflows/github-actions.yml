@@ -89,10 +89,3 @@ jobs:
         target_dir: '/group/'
 
         source_dir: '_site'
-
-    # 9. Clean up Docker container
-    - name: Clean up Docker container
-      run: |
-        docker stop quarto-container
-
-        docker rm quarto-container
