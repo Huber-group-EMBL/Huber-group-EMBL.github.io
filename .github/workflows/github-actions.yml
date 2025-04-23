@@ -18,14 +18,11 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v3
 
-    # 1a. Check installed packages
-    - name: Check installed R packages
-      run: Rscript -e 'installed.packages()[,1]'
-
     # 2. Get the citation counts
     - name: Run R script to get citation counts
+#      if: github.event_name == 'schedule'
       run: |
-        Rscript rscripts/get_citation_counts.R"
+        Rscript rscripts/get_citation_counts.R
 
     # 3. Renew the existing citation_counts.rds file
     - name: Commit and push changes if any
