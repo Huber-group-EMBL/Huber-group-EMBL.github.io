@@ -46,7 +46,8 @@ getOpenCitations <- function(doi) {
     response <- tryCatch({
       httr::GET(
         url = paste0(url_base, doi),
-        add_headers(Authorization = "efaa452b-43c9-42a1-8721-76ec51863458")
+        add_headers(Authorization = "efaa452b-43c9-42a1-8721-76ec51863458"),
+        httr::timeout(5)  # <- timeout after 5 seconds
       )
     }, error = function(e) {
       warning(paste("Attempt", i, "- Connection error for", doi, ":", e$message))
