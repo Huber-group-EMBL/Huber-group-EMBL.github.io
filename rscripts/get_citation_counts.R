@@ -74,21 +74,43 @@ getOpenCitations <- function(doi) {
 ## this requires a perfect match between the title in the bibtex entry
 ## and the result from Google Scholar.  Not ideal, but we only use it for
 ## references without a DOI
-getGoogleScholar <- function(title) {
-  ## this gets Wolfgang's Google Scholar data
-  wh_gscholar <- scholar::get_publications('gI8o6x8AAAAJ')
-  
-  bibtex_title <- tolower(title) %>% 
-    str_remove_all("\\{|\\}")
-  
-  res <- wh_gscholar %>% 
-    mutate(t2 = tolower(title)) %>%
-    filter(t2 == bibtex_title)
-  
-  n_citations <- ifelse(nrow(res), as.integer(res$cites), NA)
+getGoogleScholar <- function(title, max_retries = 3, wait_seconds = 2) {
+  bibtex_title <- tolower(title) %>%
+    stringr::str_remove_all("\\{|\\}")
+
+  # Retry logic
+  attempt <- 1
+  wh_gscholar <- NULL
+
+  while (attempt <= max_retries) {
+    message(sprintf("Attempt %d to fetch Google Scholar data...", attempt))
+
+    wh_gscholar <- tryCatch(
+      scholar::get_publications('gI8o6x8AAAAJ'),
+      error = function(e) NULL,
+      warning = function(w) NULL
+    )
+
+    if (is.data.frame(wh_gscholar)) {
+      break  # success
+    } else {
+      Sys.sleep(wait_seconds)  # wait before retrying
+      attempt <- attempt + 1
+    }
+  }
+
+  if (!is.data.frame(wh_gscholar)) {
+    message("❌ Failed to fetch Google Scholar data. Possible connection issue.")
+    return(as.integer(NA))
+  }
+
+  res <- wh_gscholar %>%
+    dplyr::mutate(t2 = tolower(title)) %>%
+    dplyr::filter(t2 == bibtex_title)
+
+  n_citations <- if (nrow(res) > 0) as.integer(res$cites[1]) else as.integer(NA)
   return(n_citations)
 }
-
 
 cleandoi <- function(doi) {
   cdoi =
