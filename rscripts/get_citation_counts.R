@@ -82,6 +82,20 @@ getGoogleScholar <- function(title, max_retries = 3, wait_seconds = 2) {
   attempt <- 1
   wh_gscholar <- NULL
 
+  # Check Google Scholar connection
+  check_connection <- function() {
+    res <- tryCatch(
+      GET("https://scholar.google.com"),
+      error = function(e) NULL
+    )
+    return(!is.null(res) && status_code(res) == 200)
+  }
+
+  if (!check_connection()) {
+    message("❌ Unable to reach Google Scholar. Please check your internet connection.")
+    return(as.integer(NA))
+  }
+
   while (attempt <= max_retries) {
     message(sprintf("Attempt %d to fetch Google Scholar data...", attempt))
 
