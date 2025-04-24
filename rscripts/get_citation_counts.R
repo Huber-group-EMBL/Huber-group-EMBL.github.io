@@ -114,7 +114,7 @@ writeLines(tmp, tf)
 
 citation_counts <- bib2df(tf) %>%
   mutate(DOI = cleandoi(DOI)) %>%
-  mutate(search_id = if_else(DOI == "" | DOI == "NA", CORPUS, DOI)) %>%
+  mutate(search_id = if_else(DOI == "" | DOI == "NA", TITLE, DOI)) %>%
   mutate(
     open_citations = vapply(DOI, getOpenCitations, FUN.VALUE = integer(1)),
     semantic_scholar = vapply(search_id, getSematicScholar, FUN.VALUE = integer(1)),
