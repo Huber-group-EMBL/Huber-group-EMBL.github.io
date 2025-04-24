@@ -1,0 +1,74 @@
+## 3 columns used to underline group members in the bbl file
+## The first column is a regex used to match the names of group memebers.
+## Separate different versions of the same name via a vertical bar (|)
+## The second and third columns give the start and end years where someone
+## should be highlighted.  Leave these empty unless you have a co-author
+## who has been in the Huber group, but their contribution to this paper
+## was not during their time at EMBL.
+
+group_member,start_year,end_year
+Wolfgang Huber|W.~Huber,,
+Sviatoslav Kharuk,,
+Stefan Peidli,,
+Nick Hirschmüller|Nick Hirschm\{\\\"u\}ller,,
+Petr Smirnov,,
+Erin Chung,,
+Matthias Meyer-Bender,,
+Hosna Baniadam,,
+Klemens Tuemay Capraz|Tümay Capraz,,
+Julia Philipp,,
+Alexander Helmboldt|Alexander J. Helmboldt,,
+Harald Vöhringer|Harald V\{\\\"o\}hringer,,
+Nils Kurzawa,,
+Alina Batzilla,,
+Constantin Ahlmann-Eltze,,
+Donnacha Fitzgerald|D.~Fitzgerald,,
+Holly Giles|Holly A.~R. Giles,,
+Katharina Imkeller,,
+Vladislav Kim,,
+Thomas Naake,,
+Thomas Schwarzl,2014,
+Mike~L Smith|Mike~L. Smith|Mike Smith,,
+Junyan Lu,,2022
+Laleh Haghverdi,,
+Frederik Ziebell,,
+Britta Velten|B.~Velten,,2022
+Sascha Dietrich,,2018
+Bernd Klaus|B.~Klaus,,
+Jennifer H\{\\\"u\}llein|Jennifer Huellein,2017,
+Almut L\{\\\"u\}tge,,
+Dorothee Childs|D.~Childs,,
+Arne~H Smits|Arne~H. Smits,,
+Andrzej~K. Ole\\\'\{s\}|Andrzej~K Ole\\\'\{s\},,
+Alejandro Reyes,,
+Karsten Bach,,
+Olena Yavorska,,
+Julian Gehring|Julian~S. Gehring,,
+Nikolaos Ignatiadis,,
+Jacqueline Severino,,
+Aleksandra Pekowska|Aleksandra P\\k\{e\}kowska,,
+Ma\\l\{\}gorzata Ole\\\'\{s\},,
+Elin Axelsson,,
+Richard Bourgon,,
+L\{\\'i\}gia~P. Br\{\\'a\}s,,
+Alessandro Brozzi,,
+Tineke Casneuf,,
+Tony Chiang,,
+Florian Hahne,,
+Audrey Kauffmann,,
+Michael~I. Love,,
+Matthew~E. Ritchie,,
+Miriam Mueller,,
+Gregoire Pau,,
+Oleg Sklyar,,
+Michael Smith,,
+\{J\\\"orn\} \{T\\\"odling\},,
+Felix Klein|Felix~A. Klein|Felix~Alexander Klein,,
+Simon Anders,,2015
+Joseph Barry|Joseph~D. Barry,,
+Bernd Fischer,,2019
+Paul~T.Pyl|Paul~Theodor Pyl,,
+Tobias Roider,2021,2024
+Linsha Li,,
+Ainara Claveras Cabezudo,,
+Anastasiia Horlova,,
