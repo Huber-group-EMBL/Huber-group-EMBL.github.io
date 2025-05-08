@@ -29,102 +29,48 @@ getSematicScholar <- function(doi) {
 }
 
 getOpenCitations <- function(doi) {
+
   url_base <- 'https://w3id.org/oc/index/api/v1/citation-count/'
 
-  if (is.na(doi) || doi == "NA" || nchar(doi) == 0) {
-    return(NA_integer_)
-  }
+  if( is.na(doi) | doi == "NA" | nchar(doi) == 0 ) {
+    n_citations <- NA
+  } else {
+    message("OpenCitations: ", doi)
+    ##  We use an API token generated for the email address mike.smith@embl.de
+    result <- httr::GET( url = paste0(url_base, doi),
+                         add_headers(Authorization = "efaa452b-43c9-42a1-8721-76ec51863458")) %>%
+      httr::content()
 
-  message("OpenCitations: ", doi)
-
-  max_tries <- 5
-  for (i in seq_len(max_tries)) {
-    # Add jitter (random pause)
-    delay <- runif(1, min = 1, max = 2^i)
-    Sys.sleep(delay)
-
-    response <- tryCatch({
-      httr::GET(
-        url = paste0(url_base, doi),
-        add_headers(Authorization = "efaa452b-43c9-42a1-8721-76ec51863458"),
-        httr::timeout(5)  # <- timeout after 5 seconds
-      )
-    }, error = function(e) {
-      warning(paste("Attempt", i, "- Connection error for", doi, ":", e$message))
-      return(NULL)
-    })
-
-    # If response is successful, parse and return
-    if (!is.null(response) && !httr::http_error(response)) {
-      content <- httr::content(response)
-      if (length(content)) {
-        return(as.integer(content[[1]]))
-      } else {
-        return(NA_integer_)
-      }
+    if(length(result)) {
+      n_citations <- result %>%
+        magrittr::extract2(1) %>%
+        as.integer()
+    } else {
+      n_citations <- NA
     }
-
-    warning(paste("Attempt", i, "- Failed for", doi, "-", if (!is.null(response)) httr::status_code(response)))
   }
 
-  warning(paste("All attempts failed for DOI:", doi))
-  return(NA_integer_)
+  return(n_citations)
 }
 
 ## this requires a perfect match between the title in the bibtex entry
 ## and the result from Google Scholar.  Not ideal, but we only use it for
 ## references without a DOI
-getGoogleScholar <- function(title, max_retries = 3, wait_seconds = 2) {
+getGoogleScholar <- function(title) {
+  ## this gets Wolfgang's Google Scholar data
+  wh_gscholar <- scholar::get_publications('gI8o6x8AAAAJ')
+
   bibtex_title <- tolower(title) %>%
-    stringr::str_remove_all("\\{|\\}")
-
-  # Retry logic
-  attempt <- 1
-  wh_gscholar <- NULL
-
-  # Check Google Scholar connection
-  check_connection <- function() {
-    res <- tryCatch(
-      GET("https://scholar.google.com"),
-      error = function(e) NULL
-    )
-    return(!is.null(res) && status_code(res) == 200)
-  }
-
-  if (!check_connection()) {
-    message("❌ Unable to reach Google Scholar. Please check your internet connection.")
-    return(as.integer(NA))
-  }
-
-  while (attempt <= max_retries) {
-    message(sprintf("Attempt %d to fetch Google Scholar data...", attempt))
-
-    wh_gscholar <- tryCatch(
-      scholar::get_publications('gI8o6x8AAAAJ'),
-      error = function(e) NULL,
-      warning = function(w) NULL
-    )
-
-    if (is.data.frame(wh_gscholar)) {
-      break  # success
-    } else {
-      Sys.sleep(wait_seconds)  # wait before retrying
-      attempt <- attempt + 1
-    }
-  }
-
-  if (!is.data.frame(wh_gscholar)) {
-    message("❌ Failed to fetch Google Scholar data. Possible connection issue.")
-    return(as.integer(NA))
-  }
+    str_remove_all("\\{|\\}")
 
   res <- wh_gscholar %>%
-    dplyr::mutate(t2 = tolower(title)) %>%
-    dplyr::filter(t2 == bibtex_title)
+    mutate(t2 = tolower(title)) %>%
+    filter(t2 == bibtex_title)
 
-  n_citations <- if (nrow(res) > 0) as.integer(res$cites[1]) else as.integer(NA)
+  n_citations <- ifelse(nrow(res), as.integer(res$cites), NA)
   return(n_citations)
 }
+
 
 cleandoi <- function(doi) {
   cdoi =
@@ -133,12 +79,12 @@ cleandoi <- function(doi) {
     stringr::str_remove('^"') |>
     stringr::str_remove('"$') |>
     stringr::str_remove('\\},$')
-  
+
   stopifnot(identical(cdoi, doi))
   cdoi
 }
 
-## remove "comment" lines from bibtex.  bib2df tries to include these as 
+## remove "comment" lines from bibtex.  bib2df tries to include these as
 ## fields in the table later
 tmp <- readLines('lop.bib')
 idx_to_remove <- grep(pattern = "^%", x = tmp)
@@ -150,7 +96,7 @@ writeLines(tmp, tf)
 
 citation_counts <- bib2df(tf) %>%
   mutate(DOI = cleandoi(DOI)) %>%
-  mutate(search_id = if_else(DOI == "" | DOI == "NA", "", DOI)) %>%
+  mutate(search_id = if_else(DOI == "" | DOI == "NA", CORPUS, DOI)) %>%
   mutate(
     open_citations = vapply(DOI, getOpenCitations, FUN.VALUE = integer(1)),
     semantic_scholar = vapply(search_id, getSematicScholar, FUN.VALUE = integer(1)),
@@ -159,4 +105,3 @@ citation_counts <- bib2df(tf) %>%
   select(BIBTEXKEY, open_citations, semantic_scholar, google_scholar)
 
 saveRDS(citation_counts, file = "citation_counts.rds")
-

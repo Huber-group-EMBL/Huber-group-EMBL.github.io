@@ -71,18 +71,18 @@ jobs:
         ls -l _site
 
     # 8. Setup MinIO client
-    - name: Setup MinIO client
-      uses: lovellfelix/minio-deploy-action@v1
-
-      with:
-        endpoint: https://s3.embl.de/
-
-        access_key: 4kRFKz352s8UbsA6Pycq
-
-        secret_key: ${{ secrets.MINIO_SECRET_KEY }}
-
-        bucket: 'www-huber'
-
-        target_dir: '/group/'
-
-        source_dir: '_site'
+#    - name: Setup MinIO client
+#      uses: lovellfelix/minio-deploy-action@v1
+#
+#      with:
+#        endpoint: https://s3.embl.de/
+#
+#        access_key: 4kRFKz352s8UbsA6Pycq
+#
+#        secret_key: ${{ secrets.MINIO_SECRET_KEY }}
+#
+#        bucket: 'www-huber'
+#
+#        target_dir: '/group/'
+#
+#        source_dir: '_site'
