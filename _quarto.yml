@@ -37,7 +37,7 @@ website:
 format:
   html:
     theme:
-      - materia
+      - cosmo
     linkcolor: "#2A57A3"
     toc-color: "#2A57A3"
     toc: true
