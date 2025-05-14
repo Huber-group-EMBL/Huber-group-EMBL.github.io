@@ -1,0 +1,12 @@
+---
+title: "Martin Emons"
+description: "Visiting PhD Student"
+---
+
+![Martin Emons](martin-emons.jpg){width=500 fig-align="center"}
+
+> ORCID: [0009-0000-5219-5311](https://orcid.org/0009-0000-5219-5311)
+
+Martin is a visiting PhD student in Epidemiology and Biostatistics from the University of Zurich, Switzerland. His general interests lie in the development and evaluation of methods for biological data. Specifically, Martin works on spatial Omics data. He has worked on spatial statistics and developed a method to compare differential spatial arrangements across conditions/samples.
+
+Martin holds a BSc in Biology from the University of Bern and a MSc in Computational Biology and Bioinformatics from ETH Zurich, UZH and UniBas.
