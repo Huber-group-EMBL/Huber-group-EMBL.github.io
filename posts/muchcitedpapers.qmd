@@ -4,7 +4,7 @@ description: "Top 100 papers of all time and Top 25 of the 21st century"
 author: "Wolfgang Huber"
 date: "2025-05-16"
 categories: "Wisdom"
-image: "muchcitedpapers-sm.jpg"
+image: "../photos/muchcitedpapers-sm.jpg"
 ---
 
 ![](../photos/muchcitedpapers.jpg){width="400px"}
