@@ -1,0 +1,26 @@
+---
+title: "The usefulness of tools"
+description: "Top 100 papers of all time and Top 25 of the 21st century"
+author: "Wolfgang Huber"
+date: "2025-05-16"
+categories: "Wisdom"
+image: "muchcitedpapers-sm.jpg"
+---
+
+![](../photos/muchcitedpapers.jpg){width="400px"}
+
+Nature published, in April 2025, two meta-analyses of
+
+  (a) the [top 100 papers of all time](https://doi.org/10.1038/d41586-025-01124-w)
+  (b) the [top 25 papers of this century](https://doi.org/10.1038/d41586-025-01125-9)
+
+Out of EMBL, we have 
+
+ - [the DESeq2 paper](https://doi.org/10.1186/s13059-014-0550-8), which is on Rank 26 in (a) and Rank 18 in (b)
+ - [the CLUSTAL W paper](https://doi.org/10.1093/nar/22.22.4673), on Rank 37 in (a).
+
+The actual data are, as usual, in the Supplement files: 
+
+ - <https://www.nature.com/magazine-assets/d41586-025-01124-w/50860380> 
+ - <https://www.nature.com/magazine-assets/d41586-025-01125-9/50860378>
+
