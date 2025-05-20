@@ -3,7 +3,7 @@ title: "Tweet archive"
 description: "I moved from X to Bluesky"
 author: "Wolfgang Huber"
 date: "2024-11-25"
-categories: "Wisdom"
+categories: "Resources"
 image: "../photos/tweetarchive.jpg"
 ---
 

@@ -3,7 +3,7 @@ title: "The usefulness of tools"
 description: "Top 100 papers of all time and Top 25 of the 21st century"
 author: "Wolfgang Huber"
 date: "2025-05-16"
-categories: "Wisdom"
+categories: "News"
 image: "../photos/muchcitedpapers-sm.jpg"
 ---
 
