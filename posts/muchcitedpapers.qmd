@@ -19,7 +19,7 @@ Out of EMBL, we have
  - [the DESeq2 paper](https://doi.org/10.1186/s13059-014-0550-8) (2014) on Rank 26 in *all time* and Rank 18 in *21st century*,
  - [the CLUSTAL W paper](https://doi.org/10.1093/nar/22.22.4673) (1994) on Rank 37 together with [the CLUSTAL X paper](https://doi.org/10.1093/nar/25.24.4876) (1997) on Rank 83 in *all time*.
  
-The actual data are, as usual, in the Supplement files: 
+The data are, as usual, in the Supplement files: 
 
  - For *all time*: <https://www.nature.com/magazine-assets/d41586-025-01124-w/50860380> 
  - For *21st century*: <https://www.nature.com/magazine-assets/d41586-025-01125-9/50860378>
