@@ -1,0 +1,11 @@
+---
+title: "Tweet archive"
+description: "I moved from X to Bluesky"
+author: "Wolfgang Huber"
+date: "2024-11-25"
+categories: "Wisdom"
+image: "../photos/tweetarchive.jpg"
+---
+
+[My tweet archive 2015—24](https://wolfganghuber.github.io/tweets/index.html#638628214785613824). 
+Now I am on [Bluesky: @wkhuber.bsky.social](https://bsky.app/profile/wkhuber.bsky.social).
