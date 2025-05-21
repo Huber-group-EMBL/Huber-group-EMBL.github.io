@@ -21,6 +21,6 @@ Out of EMBL, we have
  
 The data are, as usual, in the Supplement files: 
 
- - For *all time*: <https://www.nature.com/magazine-assets/d41586-025-01124-w/50860380> 
- - For *21st century*: <https://www.nature.com/magazine-assets/d41586-025-01125-9/50860378>
+ - For *all time:* <https://www.nature.com/magazine-assets/d41586-025-01124-w/50860380> 
+ - For *21st century:* <https://www.nature.com/magazine-assets/d41586-025-01125-9/50860378>
 
