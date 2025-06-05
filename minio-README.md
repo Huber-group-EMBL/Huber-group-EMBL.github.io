@@ -3,7 +3,7 @@
 If you haven’t already, install the MinIO Client `mc`. On MacOS:
 
 ```
-brew install minio-mc.
+brew install minio-mc
 ```
 
 Or see <https://min.io>, <https://dl.min.io>.
