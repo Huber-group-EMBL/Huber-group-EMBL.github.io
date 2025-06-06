@@ -10,6 +10,8 @@ engine: knitr
  
 website:
   title: "Huber Group @ EMBL"
+  site-path: "/group/"
+  site-url: "https://www.huber.embl.de/group/"
   open-graph:
      locale:
        en_US
