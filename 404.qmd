@@ -7,3 +7,5 @@ title: "404"
 The page you requested was not found. 
 You may want to try this website's search function (&#x1F50D;) to find what you are looking for.
 :::
+
+![](photos/Wright_of_Derby_The_Orrery.jpg){width="50%" fig-align="center"}
