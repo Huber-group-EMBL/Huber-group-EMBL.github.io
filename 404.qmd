@@ -1,11 +1,12 @@
 ---
-title: "404"
+title: "Page not found"
 ---
 
-::: {.callout-tip}
-## Page not found
-The page you requested was not found. 
-You may want to try this website's search function (&#x1F50D;) to find what you are looking for.
-:::
-
-![](photos/Wright_of_Derby_The_Orrery.jpg){width="50%" fig-align="center"}
+```{r}
+#| label: "404"
+#| error: true
+#| eval: !expr 1:2
+#| echo: !expr 1
+0x4*0x65
+stop("The page you requested was not found. You may want to try the search function (🔍) to find what you are looking for.")
+```
