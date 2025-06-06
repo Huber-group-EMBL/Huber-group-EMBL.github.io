@@ -72,4 +72,4 @@ We are a frequent contributor to the Bioconductor project
 
 {{< include _links.qmd >}}
 
-![The manifold hypothesis](photos/manifold-hypothesis.jpg){width=400 fig-align="center"}
+![](photos/manifold-hypothesis.jpg){width=400 fig-align="center"}
