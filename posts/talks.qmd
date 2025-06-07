@@ -3,11 +3,11 @@ title: "Talks"
 description: "Selection of recent talks"
 author: "Wolfgang Huber"
 date: "2025-06-07"
-image: "wolfgang-talk-at-ubds3-2023.jpg"
+image: "../photos/wolfgang-talk-at-ubds3-2023.jpg"
 categories: "Wisdom"
 ---
 
-#
+
 | Title           | Occasion(s) |
 | --------------- | ----------- |
 | [Responsible Research Assessment](https://docs.google.com/presentation/d/1okGOJ4zVG7idQ-RqgGVMKjZnWimi90HwODR6l3L7eRQ/edit?usp=sharing) | 6th Zurich Precision Oncology Symposium 2 April 2025 |

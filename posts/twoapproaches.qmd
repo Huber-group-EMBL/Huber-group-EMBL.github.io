@@ -12,4 +12,6 @@ There are two major types of approaches in bioinformatics:
 - there is a cool new method (maybe you invented/wrote it), and now you want to figure out what it can do with your data. The more sophisticated, the better. **The hammer looking for a nail.**
 - there is a cool new dataset, and a scientific question, and now you look for the most straightforward and robust way to answer the question. If this is simply done by a good visualisation and a t-test, so be it. **The problem solver.**
 
+<br><br>
+
 [![Rube Goldberg machine](../photos/Rube_Goldberg_Self-Operating_Napkin.gif)](https://en.wikipedia.org/wiki/Rube_Goldberg_machine)
