@@ -29,6 +29,7 @@ format:
 
 | Name         | What they did with us | Where they moved on to; where are they are now |
 | --------------- | --------- | ----------------- |
+| **Petr Smirnov** | Postdoc | AI/ML Engineer - Biomedical AI, GSK/Cellzome |
 | **Tümay Capraz** | PhD | Postdoc, St. Anna Children’s Cancer Research Institute, Vienna |
 | **Donnacha Fitzgerald** | PhD | Biotech, London, UK |
 | **Dr. Julia Philipp** | Data Manager / Data Scientist | Merck Healthcare KGaA, Darmstadt |
