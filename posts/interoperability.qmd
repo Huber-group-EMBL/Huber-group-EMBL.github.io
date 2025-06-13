@@ -4,7 +4,7 @@ description: "Choosing tools for constructing bioinformatics workflows"
 author: "Wolfgang Huber"
 date: "2025-06-13"
 categories: "Wisdom"
-format: html
+image: "../photos/ascona_22.png"
 ---
 
 I sometimes overhear conversations about tool choice in bioinformatics, where implementation language is stated as the primary criterion. Such thinking stands in the way of scientific quality and productivity. It is a form of self-harm.
