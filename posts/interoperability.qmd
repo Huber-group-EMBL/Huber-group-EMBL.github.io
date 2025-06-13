@@ -9,9 +9,10 @@ image: "../photos/ascona_22.png"
 
 I sometimes overhear conversations about tool choice in bioinformatics, where implementation language is stated as the primary criterion. Such thinking stands in the way of scientific quality and productivity. It is a form of self-harm.
 
-What should one really care about? Here's some criteria: scientific rigor of the tool, its software engineering quality, number of bugs, robustness and clarity of error messages, feature richness, ease of installation, ease of use, documentation, viability of the tool's maintenance over the time I intend to rely on it.
+What should one really care about? Here's some criteria: scientific rigor of the tool, its software engineering quality, number of bugs, robustness and clarity of error messages, feature richness, ease of installation, ease of use, documentation, viability of the tool's maintenance over the time I plan to rely on it.
 
 Also important: the format ('schema') of the data inputs and outputs of the tool, and how well that interoperates with tools up- and downstream in the workflow. E.g., many numerics-heavy packages internally rely on C or Fortran, but the user only sees and cares about what she sees as matrices or n-dim arrays in R, Python, Julia etc. The keyword is interoperability.
 
-Similarly, just at a slightly higher level of abstraction, bioinformatics workflow builders should care about data structures such as dataframe, SummarizedExperiment, AnnData, etc. Whether the thing you call is written in R, Python, Rust, bash, awk, ... has some undeniable consequences -- e.g., how easy will I personally find to install, debug or extend it --, but seems quite low on the list of important criteria.
+Similarly, just at a slightly higher level of abstraction, bioinformatics workflow builders should care about data structures. Whether the thing you call is written in R, Python, Rust, bash, awk, ... has some undeniable consequences--e.g., how easy will I personally find to install, debug or extend it--, but is just one on the list of important criteria.
 
+[Bluesky](https://bsky.app/profile/wkhuber.bsky.social/post/3lrixal725k2n)
