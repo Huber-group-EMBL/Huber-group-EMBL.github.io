@@ -1,0 +1,19 @@
+---
+title: "Talks"
+description: "Selection of recent talks"
+author: "Wolfgang Huber"
+date: "2025-06-07"
+image: "../photos/wolfgang-talk-at-ubds3-2023.jpg"
+categories: "Wisdom"
+---
+
+
+| Title           | Occasion(s) |
+| --------------- | ----------- |
+| [Responsible Research Assessment](https://docs.google.com/presentation/d/1okGOJ4zVG7idQ-RqgGVMKjZnWimi90HwODR6l3L7eRQ/edit?usp=sharing) | 6th Zurich Precision Oncology Symposium 2 April 2025 |
+| [Good scientific practice: Design of High Throughput Experiments and their Analysis](https://www.huber.embl.de/users/whuber/goodanalysispractice/design.html) | Based on [Chapter 13 of the Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/)  book |
+| [Images are just data](https://www.huber.embl.de/users/whuber/2304-Imaging-Data-in-R/demo.html)| [Workshops for Ukraine series](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine) organized by Dariia Mykhailyshyna |
+
+
+
+ 
