@@ -1,8 +1,8 @@
 ---
-title: "Interoperability"
-description: "Choosing tools for constructing bioinformatics workflows"
+description: "Interoperability is the keyword"
+title: "Choosing tools for building bioinformatics workflows"
 author: "Wolfgang Huber"
-date: "2025-06-13"
+date: "2025-06-16"
 categories: "Wisdom"
 image: "../photos/ascona_22.png"
 ---
@@ -15,4 +15,12 @@ Also important: the format ('schema') of the data inputs and outputs of the tool
 
 Similarly, just at a slightly higher level of abstraction, bioinformatics workflow builders should care about data structures. Whether the thing you call is written in R, Python, Rust, bash, awk, ... has some undeniable consequences--e.g., how easy will I personally find to install, debug or extend it--, but is just one on the list of important criteria.
 
-[Bluesky](https://bsky.app/profile/wkhuber.bsky.social/post/3lrixal725k2n)
+A [Bluesky post](https://bsky.app/profile/wkhuber.bsky.social/post/3lrixal725k2n) with essentially the above
+
+<br><br>
+
+## Some other decision criteria I'd rather not recommend
+
+- **Herd effect**: use a method or an approach because "everyone else" (or instead: a particular group of people that really impresses you) does it. But is your problem really the same? Are your interests aligned?
+
+- The **IBM effect**: this is a term that apparently goes back to the 1970s (I learned it when I worked as a postdoc at IBM Research in 1998), a time when IBM completely dominated the market for enterprise scale databases and information management systems. The expression goes something like: "you never get fired for choosing IBM". It rides on the fact that people in big (and perhaps in small) organisations would rather minimize the risk of being personally blamed for the failure of a project, than optimize the probability or magnitude of its success.
