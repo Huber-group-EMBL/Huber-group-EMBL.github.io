@@ -55,7 +55,7 @@ jobs:
         docker exec quarto-container sh -c "mkdir .ssh && echo '${{ secrets.SSH_PRIVATE_KEY }}' > key.pem && chmod 600 key.pem"
         
         # Step 2: Add remote host to known_hosts
-        docker exec quarto-container sh -c "cd .ssh && ssh-keyscan -H @${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts"
+        docker exec quarto-container sh -c "cd .ssh && ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts"
 
         # Step 3: Run scp
         docker exec quarto-container sh -c "scp -i key.pem -r project/test/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/g/huber/www-huber/pub/pdf/"
