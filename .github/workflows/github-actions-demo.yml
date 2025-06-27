@@ -52,7 +52,7 @@ jobs:
     - name: Sync pdfs to /g/huber/www-huber/pub/pdf/
       run: |
         docker exec quarto-container sh -c "echo '${{ secrets.SSH_PRIVATE_KEY }}' > key.pem | chmod 600 key.pem"
-        docker exec quarto-container sh -c "scp -i key.pem -r ./test/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}"
+        docker exec quarto-container sh -c "scp -i key.pem -r project/test/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}"
     # rsync -avz -e 'ssh -o StrictHostKeyChecking=no -i <(echo "$PRIVATE_KEY")' ./pdfs user@host:/remote/path
 
 #    # 6. Prepare the citations
