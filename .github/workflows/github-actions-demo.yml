@@ -51,8 +51,14 @@ jobs:
     # 5.5 Check if all pdfs are on /g/huber/www-huber/pub/pdf/
     - name: Sync pdfs to /g/huber/www-huber/pub/pdf/
       run: |
-        docker exec quarto-container sh -c "echo '${{ secrets.SSH_PRIVATE_KEY }}' > key.pem | chmod 600 key.pem"
-        docker exec quarto-container sh -c "scp -i key.pem -r project/test/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}"
+        # Step 1: Write the key and set permissions
+        docker exec quarto-container sh -c "mkdir .ssh && echo '${{ secrets.SSH_PRIVATE_KEY }}' > key.pem && chmod 600 key.pem"
+        
+        # Step 2: Add remote host to known_hosts
+        docker exec quarto-container sh -c "cd .ssh && ssh-keyscan -H @${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts"
+
+        # Step 3: Run scp
+        docker exec quarto-container sh -c "scp -i key.pem -r project/test/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/g/huber/www-huber/pub/pdf/"
     # rsync -avz -e 'ssh -o StrictHostKeyChecking=no -i <(echo "$PRIVATE_KEY")' ./pdfs user@host:/remote/path
 
 #    # 6. Prepare the citations
