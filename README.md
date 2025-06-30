@@ -64,10 +64,10 @@ The line can get a bit blurred with long-term projects, paper revisions, or for 
 
 ## Instructions to add a new entry
 
-1. Put a PDF copy of your paper on the Huber group shared drive under `/g/huber/www-huber/pub/pdf`.  Preferably name the PDF `<SURNAME>-<JOURNAL>-<YEAR>.pdf`.  There are lots of ways to do this; I would run the following command:
+1. Put a PDF copy of your paper on the Huber group S3 bucket by following this command:
 
 ```
-scp <FILENAME.pdf> <EMBL_USERNAME>@datatransfer.embl.de:/g/huber/www-huber/pub/pdf/
+mc cp <FILENAME.pdf> <S3_bucket>/www-huber/pub/pdf/
 ```
 
 2. Create a new branch of this Git repository. You can call the new branch anything you like.
