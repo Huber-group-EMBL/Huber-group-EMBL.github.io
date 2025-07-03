@@ -47,7 +47,7 @@ x[which(x=="<hr /><h3>Footnotes:</h3>")] = "<br />"
 
 i1 = grep("^<meta name=\"GENERATOR\"", x)
 i2 = grep("^<h2>Publications Huber group</h2>", x)
-stopifnot(length(i1)==1, length(i2)==1)
+stopifnot(length(i1)==1, length(i2)==1, i1 < i2)
 x = c(
   x[1:(i1-1)],
   '<head>',
