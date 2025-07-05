@@ -7,9 +7,10 @@ image: "wolfgang-huber-400x400.jpg"
 ![](wolfgang-huber-1000x700.jpg){width="500" fig-align="center"}
 
 > Email: [wolfgang.huber\@embl.org](mailto:wolfgang.huber@embl.org)\
+> ORCID: [0000-0002-0474-2218](https://orcid.org/0000-0002-0474-2218)\
+> GitHub: [wolfganghuber](https://github.com/wolfganghuber)\
 > Bluesky: [\@wkhuber.bsky.social](https://bsky.app/profile/wkhuber.bsky.social)\
 > Google Scholar: [gI8o6x8AAAAJ](https://scholar.google.com/citations?user=gI8o6x8AAAAJ&hl=en)\
-> GitHub: [wolfganghuber](https://github.com/wolfganghuber)\
 
 ::: {.callout-note}
 My email inbox gets so many messages per day that on some days I do not manage to read or respond to all of them. My apologies in advance. If your message is important, please also consider contacting team members directly, or contacting me by other means.</font>
