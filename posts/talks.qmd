@@ -2,7 +2,7 @@
 title: "Talks"
 description: "Selection of recent talks"
 author: "Wolfgang Huber"
-date: "2025-06-07"
+date: "2025-07-24"
 image: "../photos/wolfgang-talk-at-ubds3-2023.jpg"
 categories: "Wisdom"
 ---
@@ -11,7 +11,7 @@ categories: "Wisdom"
 | Title           | Occasion(s) |
 | --------------- | ----------- |
 | [Responsible Research Assessment](https://docs.google.com/presentation/d/10ZBw6HmfE9VzpgFQc6X221G3xi4Xd9xKPbQvLIGKRfU) | 6th Zurich Precision Oncology Symposium 2 April 2025; RRA Champions Day 30 June 2025 |
-| [Regression and testing](https://www.huber.embl.de/users/whuber/talks/regression+testing/index.html) <nbsp;> ([Quarto source](https://github.com/wolfganghuber/talks/tree/main/regression%2Btesting)| [Ukrainian Biological Data Science Summer School 2025](https://www.bds3.org)) |
+| [Regression and testing](https://www.huber.embl.de/users/whuber/talks/regression+testing/index.html) &nbsp; ([Quarto source](https://github.com/wolfganghuber/talks/tree/main/regression%2Btesting))| [Ukrainian Biological Data Science Summer School 2025](https://www.bds3.org) |
 | [Multivariate analysis - PCA](https://www.huber.embl.de/users/whuber/talks/2025-UBDS3-MultivariateAnalysis.pdf) | [Ukrainian Biological Data Science Summer School 2025](https://www.bds3.org) |
 | [Machine learning](https://www.huber.embl.de/users/whuber/talks/2025-07-25-ML-MachineLearning-UBDS3.pdf) | [Ukrainian Biological Data Science Summer School 2025](https://www.bds3.org) |
 | [Hypothesis testing](https://docs.google.com/presentation/d/13S3A2gWKo0noX0nFIIJIfqKGsUBgTMnGLzLH9D8_c4g/) | [CSAMA 2025](https://csama2025.bioconductor.eu) |
