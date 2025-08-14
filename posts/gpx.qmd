@@ -2,7 +2,7 @@
 title: "GPS tracks for cycling around EMBL"
 description: "Bike commute to EMBL, and some after work tour options"
 author: "Wolfgang Huber"
-date: "2023-08-01"
+date: "2025-08-14"
 categories: "Resources"
 ---
 
@@ -50,6 +50,23 @@ Instead, we go up slightly left of Kühler Grund and pass Bierhelder Hof on a pa
 
 [GPX track](../gpx/Rohrbach-to-EMBL.gpx).
 View [on Komoot](https://www.komoot.com/tour/1261647422).
+
+## README ##
+
+The company MOVELO offers an e-bike rental service on campus [Intranet link](https://www.embl.org/internal-information/administration/ebike-hire/).
+
+The tours below involve parts that are off-road, washed-out single trails, steep descents. Please use with caution. Even though the routes were fine for biking when I recorded them, changes are always possible, e.g., due to forest works, falling trees, erosion, etc. A full suspension mountain bike is recommended. The altitude measurements in the GPX files seem to be some 60m too high, possibly an artefact of my phone.
+
+<!--      -->
+## Bike commute from Wieblingen, Bahnstadt to EMBL via Rohrbach and Bierhelder Hof
+<!--      -->
+
+This is an extended version of the above route, starting from Wieblingen via the Bahnstadt promenade, minimizing intersections with car traffic and traffic lights.
+
+`r myfig500("Commute-from-Wieblingen-to-EMBL.jpg")`
+
+[GPX track](../gpx/Wieblingen-to-EMBL.gpx).
+View [on Komoot](https://www.komoot.com/tour/2492354744).
 
 ## README ##
 
