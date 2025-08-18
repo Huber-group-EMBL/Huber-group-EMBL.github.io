@@ -8,7 +8,7 @@ format:
     email-obfuscation: references
 image: "../photos/Uzhhorod-streetscene.jpg"
 published-title: "Start date"
-categories: "Future"
+categories: "Past"
 description: " "
 ---
 

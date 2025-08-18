@@ -4,7 +4,7 @@ description: "An eclectic and subjective list"
 author: "Wolfgang Huber"
 categories: "Wisdom"
 image: "../photos/einstein-gr.jpg"
-date: "2025-01-21"
+date: "2025-08-18"
 ---
 
 ```{r}
@@ -15,7 +15,9 @@ tips = c(
 "### Structure",
 
 "Find the right pitch for your story. Research happens in the thin grey zone between the well-known and the totally unknown. Make sure you describe your specific achievement: what has been known, what used to be unknown or controversial, and how does your result change that?", 
-  
+ 
+"[(From Itai Yanai)](https://bsky.app/profile/did:plc:hfp3die5v5ojjt3bdm2luips/post/3lwnia5ojxc2c): [The difference between doing a project and presenting it. An observation can lead to many avenues of explorations before focus turns to a specific discovery. Presenting it, in a talk / paper, follows inversely, with broad perspectives coming before & after the specific discovery.](../photos/yanai-manuscript-structures.png)",
+
 "In the Introduction, describe what is known and relevant previous work. Find the right scope and framing. It is rarely necessary to start with Darwin in the 1860s or the invention of digital computers. But it is helpful to give a wide enough background for a target audience that has not been completely immersed in the topic for the last three years. Papers can work in multiple ways, here are some:
 
 - there is a controversy or a contradiction in the existing literature, which you resolve;
