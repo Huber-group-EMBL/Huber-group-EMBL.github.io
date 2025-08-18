@@ -1,0 +1,21 @@
+---
+title: "Hugo Gruson"
+description: "Research Software Engineer"
+---
+
+> Email: <hugo.gruson@embl.de>\
+> ORCID: [0000-0002-4094-1476](https://orcid.org/0000-0002-4094-1476)\
+> GitHub: [Bisaloo](https://github.com/Bisaloo)\
+> Mastodon: [@grusonh@mastodon.social](https://mastodon.social/@grusonh)
+
+Hugo is originally an evolutionary biologist who fell in love with R and R
+package development during his PhD at the University of Montpellier.
+
+After this PhD, he started working as a Research Software Engineer to build
+tools for other researchers. He has since then worked in many different
+domains, including ecology, evolutionary biology, and epidemiology. During this
+time, he has strived to contribute to the wider R community and open-source
+community by contributing to infrastructure and development tooling.
+
+He joined the team in August 2025 to maintain and develop bioconductor R
+packages.
