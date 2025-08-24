@@ -10,7 +10,7 @@ include-in-header:
      <link rel="shortcut icon" href="../resources/ukraine.png" />
 ---
 
-From 19 July till 1 August 2025, [we](https://www.bds3.org/our-team) organized the third edition of the [Ukrainian Biological Data Science Summer School](https://www.bds3.org). (See also the links to my posts on the [first](2023-07-ubds3.html) and [second](2024-07-ubds3.html) and  editions). 
+From 19 July till 1 August 2025, [we](https://www.bds3.org/our-team) organized the third edition of the [Ukrainian Biological Data Science Summer School](https://www.bds3.org) (UBDS$^\textsf{3}$). Now taking place for the third time (links to posts on [first](2023-07-ubds3.html) and [second](2024-07-ubds3.html) editions), the summer school has created a sense of community: young people eager to learn, expanding their scope, networking across the country and around the world, students from the first or second year coming back as tutors. Seeing how science is a positive and optimistic force. Also, how it goes together with strong civil society: during the time of the summer school, many students got engaged in the [demonstrations against corruption](https://en.wikipedia.org/wiki/2025_anti-corruption_protests_in_Ukraine) that swept Ukraine. UBDS$^\textsf{3}$ also partly inspired a sister event [CRABS](https://crabs.kse.ua/), which took place two weeks later in Kyiv for the first time.
 
 Some photo impressions:
 
@@ -27,15 +27,13 @@ Some photo impressions:
 
 ![Learning DNA extraction](../photos/Flow_IMG_20250727_181148_01_948.jpg)
 
-![Learning DNA extraction](../photos/Flow_IMG_20250729_172851_01_012.jpg)
-
 ![Socializing](../photos/2025-07-28-UBDS3-pub.jpg)
 
 ![Socializing](../photos/2025-07-29-BuffaloUngvar.jpg)
 
 ![Week 1 Faculty: Roderic Guigó i Corominas, Roderic Guigó i Serra, Wolfgang Huber, Aleksandra Pękowska, Helena L. Crowell, Ian U. Kouzel, Volodymyr Shvadchak](../photos/2025-07-UBDS3-Faculty-Week1.jpg)
 
-![Uzhhorod Night Run 2025: Charity race in support of the Armed Forces of Ukraine](../photos/2025-07-UBDS3-NightRun.jpg)
+![UBDS$^\textsf{3}$ team at the Uzhhorod Night Run 2025, a charity race in support of the Armed Forces of Ukraine](../photos/2025-07-UBDS3-NightRun.jpg)
 
 ![Michael Love](../photos/2025-07-UBDS3-MikeLove.jpg)
 
