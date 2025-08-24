@@ -2,9 +2,9 @@
 title: "Ukrainian Biological Data Science Summer School 2025"
 description: "Uzhhorod, 19 July  - 1 August 2025: the third edition"
 author: "Wolfgang Huber"
-date: "2025-08-14"
+date: "2025-08-24"
 categories: "Past events"
-image: "../photos/20240708_085930-sm.jpg"
+image: "../photos/2025-07-22-UBDS3-class-sm.jpg"
 include-in-header:
   - text: |
      <link rel="shortcut icon" href="../resources/ukraine.png" />
