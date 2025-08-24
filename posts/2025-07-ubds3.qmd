@@ -14,8 +14,33 @@ From 19 July till 1 August 2025, [we](https://www.bds3.org/our-team) organized t
 
 Some photo impressions:
 
-![The UBDS$^\textrm{3}$ class of 2024](../photos/20240708_085930.jpg)
+![The UBDS$^\textsf{3}$ class of 2025 (Week 1)](../photos/2025-07-22-UBDS3-class.jpg)
 
-![Working on statistics labs](../photos/20240710_154550.jpg)
+:::: {layout-ncol=2}
+![Class room](../photos/2025-07-UBDS3-AleksMikeHelena.jpg)
 
-![Working on statistics labs](../photos/20240713_105123.jpg)
+![Class room](../photos/2025-07-UBDS3-classroom.jpg)
+ 
+![Object of type 'closure' is not subsettable](../photos/Flow_IMG_20250729_151243_01_997.jpg)
+
+![Learning DNA extraction](../photos/Flow_IMG_20250727_175846_01_955.jpg)
+
+![Learning DNA extraction](../photos/Flow_IMG_20250727_181148_01_948.jpg)
+
+![Learning DNA extraction](../photos/Flow_IMG_20250729_172851_01_012.jpg)
+
+![Socializing](../photos/2025-07-28-UBDS3-pub.jpg)
+
+![Socializing](../photos/2025-07-29-BuffaloUngvar.jpg)
+
+![Week 1 Faculty: Roderic Guigó i Corominas, Roderic Guigó i Serra, Wolfgang Huber, Aleksandra Pękowska, Helena L. Crowell, Ian U. Kouzel, Volodymyr Shvadchak](../photos/2025-07-UBDS3-Faculty-Week1.jpg)
+
+![Uzhhorod Night Run 2025: Charity race in support of the Armed Forces of Ukraine](../photos/2025-07-UBDS3-NightRun.jpg)
+
+![Michael Love](../photos/2025-07-UBDS3-MikeLove.jpg)
+
+![Wolfgang Huber](../photos/2025-07-UBDS3-Wolfgang.jpg)
+:::
+
+<!-- ![Matthias Meyer-Bender](../photos/) -->
+
