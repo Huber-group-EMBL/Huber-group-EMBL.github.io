@@ -2,10 +2,15 @@
 title: "Working with us"
 ---
 
+<!--
 ### Current openings
 
 - [Research Software Engineer — Bioconductor tools for biological data science and AI](posts/2024-11-research-software-engineer.html)
 - [Postdoctoral position in statistical and AI method development for in-vivo Perturb-Seq in the ERC project DECODE](https://erc-decode.eu/)
+
+Besides these specific calls,
+
+-->
 
 ::: {.column-margin}
 [![](photos/EIPOD_LinC_RGB.png)](https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/)
@@ -17,7 +22,7 @@ title: "Working with us"
 ![](photos/20240325_131603-sm.jpeg){.lightbox}
 :::
 
-Besides these specific calls, we are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
+We are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
 
 - Method development in statistical methodology and computational biology
 - Biological discovery through integrative data analysis

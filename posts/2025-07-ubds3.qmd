@@ -28,7 +28,7 @@ Some photo impressions:
 ![Class room](../photos/2025-07-UBDS3-AleksMikeHelena.jpg)
 
 ![Class room](../photos/2025-07-UBDS3-classroom.jpg)
- 
+  
 ![Object of type 'closure' is not subsettable](../photos/Flow_IMG_20250729_151243_01_997.jpg)
 
 ![Learning DNA extraction](../photos/Flow_IMG_20250727_175846_01_955.jpg)
