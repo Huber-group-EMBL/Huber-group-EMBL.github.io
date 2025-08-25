@@ -33,7 +33,7 @@ For Track 2, you will have a training in life sciences and strong coding skills 
 
 To apply, please contact Wolfgang Huber with your CV, a brief statement of research interests, and examples of your work: besides your publications, this can include theses, research reports, talk slides, software projects (e.g. R packages, github projects) or data analysis reports (e.g., Quarto/Rmarkdown reports or Jupyter notebooks).
 
-Please note that we recruit PhD candidates via the [EMBL international PhD programme](https://www.embl.org/about/info/embl-international-phd-programme/). You are highly welcome to discuss your application with Wolfgang Huber in advance.
+Please note that we recruit PhD candidates solely through the [EMBL international PhD programme](https://www.embl.org/about/info/embl-international-phd-programme/) or---for candidates with a background in statistics and machine learning---through the [ELLIS PhD programme](https://ellis.eu/phd-postdoc), which collaborates with EMBL. You are highly welcome to discuss with Wolfgang Huber in advance.
 
 ## Partners for collaborative projects
 
