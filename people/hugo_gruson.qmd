@@ -3,6 +3,8 @@ title: "Hugo Gruson"
 description: "Research Software Engineer"
 ---
 
+![Hugo Gruson](hugo-gruson.jpg){width="500" fig-align="center"}
+
 > Email: <hugo.gruson@embl.de>\
 > ORCID: [0000-0002-4094-1476](https://orcid.org/0000-0002-4094-1476)\
 > GitHub: [Bisaloo](https://github.com/Bisaloo)\
