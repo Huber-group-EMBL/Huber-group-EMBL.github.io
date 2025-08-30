@@ -12,10 +12,6 @@ categories: "Past"
 description: " "
 ---
 
-It will take place at [Uzhhorod National University](https://www.uzhnu.edu.ua/). Details TBA.
-
-Here are some memories from the 
-[2023](../posts/2023-07-ubds3.html) and
-[2024](../posts/2024-07-ubds3.html) events.
+[See a post on the event here](../posts/2025-07-ubds3.html).
 
 ![](../photos/Uzhhorod-streetscene.jpg){fig-align="center" width=80% .lightbox}

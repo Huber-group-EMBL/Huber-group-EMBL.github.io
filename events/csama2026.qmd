@@ -1,0 +1,22 @@
+---
+title: "CSAMA 2026: Biological Data Science"
+subtitle: "June 2026 in Brixen/Bressanone, Italy"
+date: "2026-06-01"
+format:
+  html:
+    toc: false
+    email-obfuscation: references
+image: "../photos/csama2018_massiv.jpg"
+published-title: "Start date"
+categories: "Future"
+description: " "
+---
+
+
+![](https://csama2025.bioconductor.eu/images/csama2018_crop.jpeg){fig-align="center" width=80% .lightbox}
+
+TBA
+
+<!--
+Link to course webpage: <https://csama2026.bioconductor.eu/>
+-->
