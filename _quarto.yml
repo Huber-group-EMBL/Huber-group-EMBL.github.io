@@ -39,7 +39,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - brite
     linkcolor: "#2A57A3"
     toc-color: "#2A57A3"
     toc: true
