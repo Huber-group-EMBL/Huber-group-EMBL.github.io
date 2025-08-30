@@ -4,9 +4,9 @@ title: "Approach & Outputs"
 
 We exploit new data types and new types of experiments and studies by developing the computational techniques needed to turn raw data into biology.
 
-- **Multi-scale biology in space and time**: bringing together different data types and resolutions to find low-dimensional explanations (factors, gradients, clusters, trees and networks) of high-dimensional data, using statistical models, first-principles based theory and machine learning.
-- Use **spatial omics in immunooncology** to find and improve treatment options for patients.
-- Multidimensional **phenotyping of genetic and drug-based perturbation** assays to map context-dependent gene-gene and gene-drug interaction networks.
+- **Multi-scale biology in space and time**: bringing together different data types and resolutions to find low-dimensional explanations (factors, gradients, regions, graphs and networks) of high-dimensional data, using statistical models, first-principles based theory and machine learning.
+- **Spatial omics in immunooncology** to find and improve treatment options for patients.
+- **Multidimensional phenotypes from genetic and drug-based perturbation assays** to map context-dependent gene-gene and gene-drug interaction networks.
 - Many powerful mathematical and computational ideas exist but are difficult to access. We aim to translate them into practical methods and software that make a real difference to biomedical researchers. We sometimes term this approach **translational statistics**.
 
 
@@ -22,13 +22,17 @@ We exploit new data types and new types of experiments and studies by developing
 ![Ternary plots of relative sensitivities to targeted kinase inhibitors for a cohort of primary tumour samples of chronic lymphocytic leukaemia (CLL). [Paper link](https://doi.org/10.1172/JCI93801).](photos/JCI2018-fig_02_l.jpg){width=240 fig-align="center"}
 :::
 
-### Functional precision medicine
+### Spatial omics and imaging
 
-Omics and imaging technologies are producing increasingly detailed biology-based understanding of human health and disease. The next challenge is using this knowledge to engineer treatments and cures. To this end, we integrate observational data, such as from large-scale sequencing and molecular profiling, with interventional data, such as from systematic genetic or chemical screens, to reconstruct a fuller picture of the underlying causal relationships and actionable intervention points. A fascinating example is our collaboration on molecular mechanisms of individual sensitivity and resistance of tumors to treatments in our precision oncology project together with Thorsten Zenz at University Hospital Zurich and Sascha Dietrich at University Hospital Düsseldorf.
+Modern spatial omics techniques measure the spatial distribution of tens of thousands distinct molecules, with major limiting factors being sampling efficiency and spatial resolution. Photon microscopy observes one or a few distinct molecules at resolutions of tens of nanometers. Electron microscopy measures e$^-$ densities at resolutions of a few angstroms. But how to bring this all together? How to navigate huge Terabyte-scale maps of cells and organisms? How to decipher biological functions and processes, associate them with phenotypes in health and disease, and exploit this for better understanding fundamental biology and advance biotechnology and biomedicine?
+
+### Functional precision medicine and immuno-oncology
+
+We integrate observational 'omics data, interventional clinical data, and systematic genetic or chemical perturbation data on (ex-vivo) model systems to decipher the molecular mechanisms of variable sensitivity and resistance of tumors to treatments (precision oncology collaboration with Thorsten Zenz at University Hospital Zurich), and to understand the role of the immune system and the tumour microenvironment in tumourigenesis, progression and treatment (systems immunology collaboration with Sascha Dietrich at University Hospital Düsseldorf).
 
 ### Open science
 
-As we engage with new data types, we aim to develop high-quality computational methods of wide applicability. We consider the release and maintenance of scientific software an integral part of doing science. We contribute to the [Bioconductor] project, an open source software collaboration to provide tools for the analysis and understanding of genome-scale data. An example is our [DESeq2] package for analyzing count data from high-throughput sequencing.
+As we engage with new data types, we aim to develop high-quality computational methods of wide applicability. We consider the release and maintenance of scientific software an integral part of doing science. We contribute to the [Bioconductor] project, an open source software collaboration to provide tools for the analysis and understanding of genome-scale data. An [example is our DESeq2 package](posts/muchcitedpapers.html) for analyzing count data from high-throughput sequencing.
 
 ### Mentoring and career development
 
@@ -38,9 +42,9 @@ Science is an intellectual adventure and a creative process done by people. For 
 
 We maintain the textbook Modern Statistics for Modern Biology by Susan Holmes and Wolfgang Huber. The book is available [online, for free, as HTML](https://www.huber.embl.de/msmb/). It was published as a [printed book in 2019 by Cambridge University Press](https://www.cambridge.org/it/universitypress/subjects/statistics-probability/statistics-life-sciences-medicine-and-health/modern-statistics-modern-biology?format=HB).
 
-We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2024 edition](https://csama2024.bioconductor.eu). See [here for some impressions](https://www.huber.embl.de/group/posts/2023-06-16-csama.html).
+We run the annual summer school CSAMA—Biological Data Science. It usually takes place in June in Brixen/Bressanone. [Here is the webpage of the 2025 edition](https://csama2025.bioconductor.eu). See [here for some impressions](https://www.huber.embl.de/group/posts/2023-06-16-csama.html).
 
-In July 2023, we co-organized the first [Biological Data Science Summer School in Ukraine, in Uzhhorod](https://www.bds3.org). See also [Wolfgang's post about it](posts/2023-07-ubds3.html). We [repeated it in July 2024](posts/2024-07-ubds3.html). We plan to do it again in July 2025.
+In July 2023, 2024 and 2025, we co-organized the [Ukrainian Biological Data Science Summer School](https://www.bds3.org) in Uzhhorod, Ukraine. See also [Wolfgang's post about it](posts/2025-07-ubds3.html).
 
 We develop publicly available interactive [training materials on statistical methods](https://www.ebi.ac.uk/training/online/courses/biostatistics-introduction/). 
 
