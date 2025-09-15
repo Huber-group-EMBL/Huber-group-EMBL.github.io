@@ -1,0 +1,20 @@
+---
+title: "Florian Kluger"
+description: "Visiting postdoctoral researcher"
+image: florian-kluger.jpg"
+---
+
+![Florian Kluger](florian-kluger.jpg){width="500" fig-align="center"}
+
+> [Personal webpage](https://fkluger.github.io/)\
+> Email: [florian.kluger\@embl.de](mailto:florian.kluger@embl.de)\
+> ORCID:  [0000-0002-8557-5238](https://europepmc.org/authors/0000-0002-8557-5238)\
+> GitHub: [fkluger](https://github.com/fkluger)\
+> LinkedIn: [Florian Kluger](https://www.linkedin.com/in/florian-kluger)\
+> Google Scholar: [KNIzPH8AAAA](https://scholar.google.com/citations?user=KNIzPH8AAAA&hl=en)\
+
+
+Florian is a postdoctoral fellow with [Dr. Aurélie Ernst](https://www.dkfz.de/en/genome-instability-in-tumors) at the German Cancer Research Center (DKFZ) in collaboration with the Huber group.
+His current research focuses on computational methods for the detection of chromosomal instability from omics data of pre-cancer tissue.
+
+Previously, Florian obtained a PhD in computer science from [Leibniz University Hannover](https://www.tnt.uni-hannover.de/), where his research focused on machine learning based methods for robust geometric model fitting in computer vision.
