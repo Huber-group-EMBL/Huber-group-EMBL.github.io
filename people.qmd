@@ -29,6 +29,7 @@ format:
 
 | Name         | What they did with us | Where they moved on to; where are they are now |
 | --------------- | --------- | ----------------- |
+| **Hosna Baniadam** | PhD | Postdoc, Univ. Hospital Freiburg |
 | **Thomas Naake** | Postdoc | Group Leader, Physikalisch-Technische Bundesanstalt, PTB |
 | **Sara Baldinelli** | Master thesis | Back to studies at Univ. Trento, IT |
 | **Petr Smirnov** | Postdoc | AI/ML Engineer - Biomedical AI, GSK/Cellzome |
