@@ -30,9 +30,9 @@ format:
 | Name         | What they did with us | Where they moved on to; where are they are now |
 | --------------- | --------- | ----------------- |
 | **Hosna Baniadam** | PhD | Postdoc, Univ. Hospital Freiburg |
-| **Thomas Naake** | Postdoc | Group Leader, Physikalisch-Technische Bundesanstalt, PTB |
+| **Dr. Thomas Naake** | Postdoc | Group Leader, Physikalisch-Technische Bundesanstalt, PTB |
 | **Sara Baldinelli** | Master thesis | Back to studies at Univ. Trento, IT |
-| **Petr Smirnov** | Postdoc | AI/ML Engineer - Biomedical AI, GSK/Cellzome |
+| **Dr. Petr Smirnov** | Postdoc | AI/ML Engineer - Biomedical AI, GSK/Cellzome |
 | **Tümay Capraz** | PhD | Postdoc, St. Anna Children’s Cancer Research Institute, Vienna |
 | **Donnacha Fitzgerald** | PhD | Biotech, London, UK |
 | **Dr. Julia Philipp** | Data Manager / Data Scientist | Merck Healthcare KGaA, Darmstadt |
@@ -49,9 +49,9 @@ format:
 | **Dorothee Mersch** | Intern ||
 | **Ainara Claveras Cabezudo** | Master thesis | PhD at MPI Biophysics, Frankfurt |
 | **Stefanie Reisenauer** | Master thesis | PhD with Thorsten Zenz, Univ. Hospital Zurich |
-| **Arne Hindrik Smits** | Postdoc | Bayer |
-| **Frederik Ziebell** | Postdoc | Cellzome/GSK |
-| **Jennifer Hüllein** | Staff researcher | DKFZ |
+| **Dr. Arne Hindrik Smits** | Postdoc | Bayer |
+| **Dr. Frederik Ziebell** | Postdoc | Cellzome/GSK |
+| **Dr. Jennifer Hüllein** | Staff researcher | DKFZ |
 | **Emma Dann** | Master thesis | PhD at Sanger Institute |
 | **Cécile Le Sueur** | Master thesis | PhD with M. Savitski |
 | **Almut Lütge** | Master thesis | PhD with Mark Robinson, Univ. Zurich |
@@ -82,7 +82,7 @@ format:
 | **Paul-Theodor Pyl** | PhD | Lund University Cancer Center, Sweden |
 | **Alejandro Reyes** | PhD | Postdoc at DFCI, Harvard; Novartis Institute for Biomedical Research (Basel) |
 | **Julian Gehring** | PhD | Illumina (UK) |
-| **Dr. Michael Smith** |	Staff researcher | EMBL Data Science Centre |
+| **Dr. Michael Smith** | Staff researcher | EMBL Data Science Centre |
 | **Dr. Joseph Barry** | Postdoc | Postdoc at DFCI, Harvard; Associate Director, Alnylam Pharmaceuticals, Cambridge MA | 
 | **Dr. Simon Anders** | Postdoc, Staff researcher | [Professor at Univ. Heidelberg](https://www.zmbh.uni-heidelberg.de/Anders/) |
 | **Maria Secrier** | PhD | Assistant Professor, UCL, UK |
