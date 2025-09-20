@@ -36,7 +36,7 @@ format:
 | **Tümay Capraz** | PhD | Postdoc, St. Anna Children’s Cancer Research Institute, Vienna |
 | **Donnacha Fitzgerald** | PhD | Biotech, London, UK |
 | **Dr. Julia Philipp** | Data Manager / Data Scientist | Merck Healthcare KGaA, Darmstadt |
-| **Dr. Constantin Ahlmann-Eltze** | PhD | Postdoc, UCL Cancer Institute, London, UK |
+| **[Constantin Ahlmann-Eltze](https://const-ae.name/)** | PhD | Postdoc, UCL Cancer Institute, London, UK |
 | **Simone Bell** | Senior Project Manager | Project Leader, Bausch + Lomb, Eppelheim  |
 | **Yuliia Lazoriak** | Intern |  Master student, Vienna |
 | **Dr. Sarah Kaspar** | Biostatistics Consultant and Trainer | Biological Data Analysis - Statistician, EMBL Heidelberg  |
