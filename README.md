@@ -50,6 +50,17 @@ Check <minio-README.md>
 
 Use `git add`, `git commit`, and finally `git push`.
 
+
+
+
+
+
+
+
+
+
+
+
 # Adding publications to the publication page
 
 This repository stores the data used to generate [Huber Group Publications](https://www.huber.embl.de/group/pub.html). An automated job updates that page with current citation counts on a weekly basis.
