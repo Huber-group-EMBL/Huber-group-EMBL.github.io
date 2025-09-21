@@ -1,0 +1,16 @@
+---
+title: "Bihan Shen"
+description: "Postdoctoral researcher"
+image: "bihan.jpg"
+---
+
+![Bihan Shen](bihan.jpg){width="500" fig-align="center"}
+
+> [Personal webpage](https://shenbihan.netlify.app/)\
+> Email: [bihan.shen\@embl.de](mailto:bihan.shen@embl.de)\
+> ORCID: [0000-0003-4592-2554](https://orcid.org/0000-0003-4592-2554)\
+> Google Scholar: [Bihan Shen](https://scholar.google.com.hk/citations?user=v_2MAF0AAAAJ&hl=en)\
+
+Bihan is a Postdoctoral Researcher in Huber group. Her research lies at the intersection of deep learning and biology, with a particular focus on tackling challenges in high-content CRISPR screening through innovative computational approaches.
+
+During her PhD in computational biology at Shanghai Institute of Health and Nutrition, she focused on deep learning and multi-omics data integration, particularly in applying these methods to improve cancer treatment and understand complex biological systems.
