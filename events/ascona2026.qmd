@@ -6,7 +6,7 @@ format:
   html:
     toc: false
     email-obfuscation: references
-image: "../photos/bnhl_neighbourhood_s.jpg"
+image: "../photos/ascona2026-logo.svg"
 published-title: "Start date"
 categories: "Future"
 ---
@@ -19,7 +19,7 @@ categories: "Future"
 ![](../photos/CSF-logo.gif)
 :::
 
-![](../photos/CSF-people.jpg){fig-align="center" width=80%}
+![](../photos/ascona2026-logo.svg){fig-align="center" width=80%}
 
 Organizers: Niko Beerenwinkel (ETH), Valentina Boeva (ETH), Peter Bühlmann (ETH), Wolfgang Huber (EMBL)
 
