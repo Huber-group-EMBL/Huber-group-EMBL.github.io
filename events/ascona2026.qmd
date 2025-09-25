@@ -109,7 +109,7 @@ Following pre-registration, abstracts will be selected by the program committee.
 
 #### Location
 [Congressi Stefano Franscini](http://www.csf.ethz.ch/), Monte Verità, Ascona, Switzerland\
-For more information on how to get there, visit [https://csf.ethz.ch/monte-verita/by-train.html](https://csf.ethz.ch/monte-verita/by-train.html).\
+For more information on how to get there, visit <https://csf.ethz.ch/monte-verita/by-train0.html>.\
 We will provide you with additional travel information shortly.
 
 <!--
