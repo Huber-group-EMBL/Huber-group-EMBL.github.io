@@ -1,6 +1,6 @@
 ---
 title: "Sviatoslav Kharuk"
-description: "Consultant"
+description: "Research Software Engineer"
 include-in-header:
   - text: |
      <link rel="shortcut icon" href="../resources/ukraine.png" />
@@ -8,7 +8,7 @@ include-in-header:
 
 ![Sviatoslav Kharuk](sviat-kharuk-photo.jpg){width=500 fig-align="center"}
 
-Sviat completed his Bachelor in Biochemistry at Vasyl Stefanyk Precarpathian National University of Ukraine. With the Huber group, he applies and benchmarks mathematical models and deep learning methods for single-cell resolution perturbation / RNA-sequencing data from the ERC DECODE project.
+Sviat completed his Bachelor in Biochemistry at Vasyl Stefanyk Precarpathian National University of Ukraine. He applies and benchmarks mathematical models and deep learning methods for single-cell resolution perturbation / RNA-sequencing data from the ERC DECODE project.
 
 >[Personal webpage](https://sviatkh.github.io/) \
 >GitHub          [sviatkh](https://github.com/sviatkh) \
