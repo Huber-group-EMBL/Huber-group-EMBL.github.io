@@ -1,0 +1,9 @@
+---
+title: "Prisca Kweyamba"
+description: "Visiting PhD Student"
+image: "prisca.jpg"
+---
+
+![Prisca Kweyamba](prisca.jpg){width="500" fig-align="center"}
+
+Prisca is a visiting PhD student affiliated with the Ifakara Health Institute, Tanzania. Her research explores how mosquitoes respond to different insecticide-treated bed nets, including Interceptor G1, Interceptor G2, and chlorfenapyr-only formulations. Using RNA-seq data, she aims to identify genes involved in insecticide resistance for targeted CRISPR–Cas modification and RNAi validation. Her work contributes to understanding mosquito resistance mechanisms and advancing more effective malaria control strategies.
