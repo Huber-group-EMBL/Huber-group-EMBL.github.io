@@ -6,7 +6,7 @@ format:
   html:
     toc: false
     email-obfuscation: references
-image: "../photos/Uzhhorod-streetscene.jpg"
+image: "../photos/Uzhhorod-aerial-s.jpg"
 published-title: "Start date"
 categories: "Future"
 description: " "
@@ -19,4 +19,4 @@ Here are some memories from the
 [2024](../posts/2024-07-ubds3.html) and
 [2023](../posts/2023-07-ubds3.html) events.
 
-![](../photos/Uzhhorod-streetscene.jpg){fig-align="center" width=80% .lightbox}
+![](../photos/Uzhhorod-Uzhhorod-aerial.jpg){fig-align="center" width=80% .lightbox}

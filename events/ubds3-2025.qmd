@@ -6,7 +6,7 @@ format:
   html:
     toc: false
     email-obfuscation: references
-image: "../photos/Uzhhorod-streetscene.jpg"
+image: "../photos/Uzhhorod-aerial-s.jpg"
 published-title: "Start date"
 categories: "Past"
 description: " "
@@ -14,4 +14,4 @@ description: " "
 
 [See a post on the event here](../posts/2025-07-ubds3.html).
 
-![](../photos/Uzhhorod-streetscene.jpg){fig-align="center" width=80% .lightbox}
+![](../photos/Uzhhorod-aerial.jpg){fig-align="center" width=80% .lightbox}
