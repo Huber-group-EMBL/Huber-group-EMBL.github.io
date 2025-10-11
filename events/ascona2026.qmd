@@ -34,13 +34,13 @@ The conference will be a forum for exploring the potential of AI in revolutioniz
 
 These questions will be explored by an interdisciplinary group of speakers and participants.
 
-#### Program
+#### Programme
 
 TBC
 
 ```{r}
 #| eval: false
-#| label: program
+#| label: programme
 #| echo: false
 #| results: asis
 #| message: false
@@ -75,22 +75,12 @@ gsub("&lt;", "<", gsub("&gt;", ">", k))
 
 <!--
 #### Keynote Speakers
-* Peer Bork, EMBL
-* Maria Cristina Gambetta, Univ. of Lausanne
-* Shila Ghazanfar, Univ. of Sydney
-* Stephanie Hicks, Johns Hopkins University
-* Dmitry Kobak, Univ. of Tübingen
-* Anna Kreshuk, EMBL
-* Andreas Moor, ETH
-* Emma Schymanski, Univ. of Luxemburg	
-* Ewa Szczurek, Univ. of Warsaw, Helmholtz Munich
-* Virginie Uhlmann, Univ. of Zürich
-* Lara Urban, Technical University Munich, Helmholtz Center
+* NN, Organisation
 -->
 
 #### How to participate
 
-Pre-registration will in autumn 2025.
+Pre-registration will begin in autumn 2025.
 
 <!--
 Pre-registration is non-binding and at no cost.
