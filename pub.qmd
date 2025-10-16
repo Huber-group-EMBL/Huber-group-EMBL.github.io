@@ -5,6 +5,8 @@ format:
     css: dtdd.css
 ---
 
+Page built: `r format(Sys.time(), "%c")`
+
 ```{r, echo = FALSE}
 format_bibentry <- function(x) {
   ref <- glue::glue(
