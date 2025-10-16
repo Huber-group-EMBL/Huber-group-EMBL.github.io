@@ -5,12 +5,87 @@ format:
     css: dtdd.css
 ---
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(function() {
-      $("#includedContent").load("pub_raw.html");
-    });
-</script>
+```{r, echo = FALSE}
+format_bibentry <- function(x) {
+  ref <- glue::glue(
+    '
+    **{ x$title }**, \\
+    { x$formatted_authors }. \\
+    *{ x$journal }*, \\
+    { x$year } \n
+    '
+  )
 
-<div id="includedContent"></div>
+  pdf <- doi <- preprint <- pmc <- NULL
+  if (!is.null(x$pdf) && !is.na(x$pdf)) {
+    pdf <- glue::glue('[PDF](https://www.huber.embl.de/pub/pdf/{ x$pdf })')
+  }
+  if (!is.null(x$doi) && !is.na(x$doi)) {
+    doi <- glue::glue('[DOI:{ x$doi }](https://doi.org/{ x$doi })')
+  }
+  if (!is.null(x$preprint) && !is.na(x$preprint)) {
+    preprint <- glue::glue('[Preprint](https://doi.org/{ x$doi })')
+  }
+  if (!is.null(x$epmc) && !is.null(x$epmc)) {
+    pmc <- glue::glue('[PMC]({ x$epmc })')
+  }
 
+  links <- glue::glue_collapse(c(pdf, doi, preprint, pmc), sep = " - ")
+
+  res <- glue::glue_collapse(c(ref, links), sep = "\n")
+
+  return(res)
+}
+
+format_and_highlight <- function(bibentry, group_members) {
+  formatted_authors <- glue::glue_collapse(
+    format(bibentry$author),
+    sep = ", ",
+    last = ", and "
+  )
+
+  members_when_published <- group_members |>
+    dplyr::filter(
+      is.na(start_year) | bibentry$year >= start_year,
+      is.na(end_year) | bibentry$year <= end_year
+    ) |>
+    dplyr::pull(group_member)
+
+  for (member in members_when_published) {
+    formatted_authors <- gsub(
+      paste0("(", member, ")"),
+      "[\\1]{.underline}",
+      formatted_authors
+    )
+  }
+
+  bibentry$formatted_authors <- formatted_authors
+
+  return(bibentry)
+}
+```
+
+```{r, echo = FALSE}
+group_members <- readr::read_csv(
+  "group_members.csv",
+  col_types = "ccc",
+  comment = "#"
+)
+```
+
+```{r, echo = FALSE, results='asis'}
+publist <- bibtex::read.bib("lop.bib") |>
+  purrr::keep(~ identical(attr(unclass(.x), "bibtype"), "Article"))
+
+formatted_publist <- publist |>
+  purrr::map(format_and_highlight, group_members) |>
+  purrr::map_chr(format_bibentry)
+
+numbered_publist <- sprintf(
+  '[%i] %s',
+  seq_along(formatted_publist),
+  formatted_publist
+)
+
+cat(numbered_publist, sep = "\n\n")
+```
