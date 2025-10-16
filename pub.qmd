@@ -77,6 +77,14 @@ group_members <- readr::read_csv(
 publist <- bibtex::read.bib("lop.bib") |>
   purrr::keep(~ identical(attr(unclass(.x), "bibtype"), "Article"))
 
+# Sort elements by year
+publist <- suppressWarnings(publist[
+  order(
+    purrr::map_int(publist, ~ as.integer(.x$year)),
+    decreasing = TRUE
+  )
+])
+
 formatted_publist <- publist |>
   purrr::map(format_and_highlight, group_members) |>
   purrr::map_chr(format_bibentry)
