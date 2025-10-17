@@ -9,11 +9,21 @@ Page built: `r format(Sys.time(), "%c")`
 
 ```{r, echo = FALSE}
 format_bibentry <- function(x) {
+
+  journal <- NULL
+  if (!is.null(x$journal)) {
+    journal <- paste0("*", unbrace(x$journal), "*")
+  } else if (!is.null(x$booktitle)) {
+    journal <- paste0("*", x$booktitle, "*")
+  } else {
+    journal <- ""
+  }
+
   ref <- glue::glue(
     '
-    **{ x$title }**, \\
+    **{ unbrace(x$title) }**, \\
     { x$formatted_authors }. \\
-    *{ x$journal }*, \\
+    { journal }, \\
     { x$year } \n
     '
   )
@@ -37,6 +47,10 @@ format_bibentry <- function(x) {
   res <- glue::glue_collapse(c(ref, links), sep = "\n")
 
   return(res)
+}
+
+unbrace <- function(string) {
+  gsub("[{}]", "", string)
 }
 
 format_and_highlight <- function(bibentry, group_members) {
@@ -76,8 +90,7 @@ group_members <- readr::read_csv(
 ```
 
 ```{r, echo = FALSE, results='asis'}
-publist <- bibtex::read.bib("lop.bib") |>
-  purrr::keep(~ identical(attr(unclass(.x), "bibtype"), "Article"))
+publist <- bibtex::read.bib("lop.bib")
 
 # Sort elements by year
 publist <- suppressWarnings(publist[
