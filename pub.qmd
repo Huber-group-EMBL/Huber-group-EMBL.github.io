@@ -104,11 +104,5 @@ formatted_publist <- publist |>
   purrr::map(format_and_highlight, group_members) |>
   purrr::map_chr(format_bibentry)
 
-numbered_publist <- sprintf(
-  '[%i] %s',
-  seq_along(formatted_publist),
-  formatted_publist
-)
-
-cat(numbered_publist, sep = "\n\n")
+cat(formatted_publist, sep = "\n\n")
 ```
