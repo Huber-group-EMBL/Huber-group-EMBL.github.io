@@ -32,7 +32,7 @@ format_bibentry <- function(x) {
   if (!is.null(x$pdf) && !is.na(x$pdf)) {
     pdf <- glue::glue('[PDF](https://www.huber.embl.de/pub/pdf/{ x$pdf })')
   }
-  if (!is.null(x$doi) && !is.na(x$doi)) {
+  if (!is.null(x$doi) && !is.na(x$doi) && !identical(x$doi, "NA")) {
     doi <- glue::glue('[DOI:{ x$doi }](https://doi.org/{ x$doi })')
   }
   if (!is.null(x$preprint) && !is.na(x$preprint)) {
