@@ -15,9 +15,9 @@ We exploit new data types and new types of experiments and studies by developing
 
 ![Cellular neighborhood analysis of healthy and malignant lymph nodes based on single-cell resolution spatial proteomics by multiplexed immunohistochemistry.](photos/cellularneighborhoods.png){width=240 fig-align="center"}
 
-![Cluster-free differential expression analysis of sc-RNA-seq data using LEMUR. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/clusterfreeDE-2048x1649.png){width=240 fig-align="center"}
+![Cluster-free differential expression analysis of sc-RNA-seq data using LEMUR. [Paper link](https://doi.org/10.1038/s41588-024-01996-0).](photos/clusterfreeDE-2048x1649.png){width=240 fig-align="center"}
 
-![Comparison of transformations for single-cell RNA-seq data. [Paper link](https://doi.org/10.1038/s41592-023-01814-1).](photos/Transformations-Fig1c.png){width=240 fig-align="center"}
+![Beautiful R.](photos/R-dh.jpg){width=240 fig-align="center"}
 
 ![Ternary plots of relative sensitivities to targeted kinase inhibitors for a cohort of primary tumour samples of chronic lymphocytic leukaemia (CLL). [Paper link](https://doi.org/10.1172/JCI93801).](photos/JCI2018-fig_02_l.jpg){width=240 fig-align="center"}
 :::
