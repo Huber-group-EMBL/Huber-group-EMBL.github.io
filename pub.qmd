@@ -27,7 +27,7 @@ format_bibentry <- function(x) {
     '
   )
 
-  pdf <- doi <- preprint <- pmc <- NULL
+  pdf <- doi <- preprint <- pmc <- citations <- NULL
   if (!is.null(x$pdf) && !is.na(x$pdf)) {
     pdf <- glue::glue('[PDF](https://www.huber.embl.de/pub/pdf/{ x$pdf })')
   }
@@ -40,10 +40,15 @@ format_bibentry <- function(x) {
   if (!is.null(x$epmc) && !is.null(x$epmc)) {
     pmc <- glue::glue('[PMC]({ x$epmc })')
   }
+  if (!is.null(x$citations) && !is.na(x$citations) && x$citations > 0) {
+    citations <- glue::glue(
+      '{ x$citations } citation(s) (source: Semantic Scholar).\n\n'
+    )
+  }
 
   links <- glue::glue_collapse(c(pdf, doi, preprint, pmc), sep = " - ")
 
-  res <- glue::glue_collapse(c(ref, links), sep = "\n")
+  res <- glue::glue_collapse(c(ref, citations, links), sep = "<br>")
 
   return(res)
 }
@@ -101,8 +106,22 @@ group_members <- readr::read_csv(
 )
 ```
 
+```{r, echo = FALSE}
+citations <- readRDS("citation_counts.rds")
+```
+
 ```{r, echo = FALSE, results='asis'}
 publist <- bibtex::read.bib("lop.bib")
+
+publist <- publist |>
+  purrr::imap(function(x, y) {
+    if (y %in% citations$BIBTEXKEY) {
+      x$citations <- citations[citations$BIBTEXKEY == y, "semantic_scholar", drop = TRUE]
+    } else {
+      x$citations <- NA
+    }
+    return(x)
+  })
 
 # Sort elements by year
 publist <- suppressWarnings(publist[
