@@ -9,7 +9,6 @@ Page built: `r format(Sys.time(), "%c")`
 
 ```{r, echo = FALSE}
 format_bibentry <- function(x) {
-
   journal <- NULL
   if (!is.null(x$journal)) {
     journal <- paste0("*", unbrace(x$journal), "*")
@@ -74,6 +73,19 @@ format_and_highlight <- function(bibentry, group_members) {
       formatted_authors
     )
   }
+
+  formatted_authors <- gsub(
+    "\\cocorr",
+    "✉",
+    formatted_authors,
+    fixed = TRUE
+  )
+  formatted_authors <- gsub(
+    "\\cofirst",
+    "✷", # not an actual asterisk to avoid markdown issues
+    formatted_authors,
+    fixed = TRUE
+  )
 
   bibentry$formatted_authors <- formatted_authors
 
