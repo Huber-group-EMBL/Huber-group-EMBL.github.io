@@ -42,7 +42,7 @@ format_bibentry <- function(x) {
   }
   if (!is.null(x$citations) && !is.na(x$citations) && x$citations > 0) {
     citations <- glue::glue(
-      '{ x$citations } citation(s) (source: Semantic Scholar).\n\n'
+      '{ x$citations } citation(s) (source: OpenAlex, via the openalexR package).\n\n'
     )
   }
 
@@ -106,17 +106,24 @@ group_members <- readr::read_csv(
 )
 ```
 
-```{r, echo = FALSE}
-citations <- readRDS("citation_counts.rds")
-```
-
 ```{r, echo = FALSE, results='asis'}
 publist <- bibtex::read.bib("lop.bib")
 
+citations <- publist |>
+  purrr::map_chr("doi") |>
+  # 1 API request / 50 DOIs
+  openalexR::oa_fetch(doi = _, entity = "works") |>
+  dplyr::select(doi, cited_by_count) |>
+  dplyr::mutate(doi = gsub("^https://doi.org/", "", doi))
+
 publist <- publist |>
-  purrr::imap(function(x, y) {
-    if (y %in% citations$BIBTEXKEY) {
-      x$citations <- citations[citations$BIBTEXKEY == y, "semantic_scholar", drop = TRUE]
+  purrr::map(function(x) {
+    if (x$doi %in% citations$doi) {
+      x$citations <- citations[
+        citations$doi == x$doi,
+        "cited_by_count",
+        drop = TRUE
+      ]
     } else {
       x$citations <- NA
     }
