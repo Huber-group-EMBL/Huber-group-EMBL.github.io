@@ -117,16 +117,20 @@ group_members <- readr::read_csv(
 )
 ```
 
-```{r, results='asis'}
+```{r}
 publist <- bibtex::read.bib("lop.bib")
+```
 
+```{r, cache = TRUE}
 citations <- publist |>
   purrr::map_chr("doi") |>
   # 1 API request / 50 DOIs
   openalexR::oa_fetch(doi = _, entity = "works") |>
   dplyr::select(doi, cited_by_count) |>
   dplyr::mutate(doi = gsub("^https://doi.org/", "", doi))
+```
 
+```{r, results='asis'}
 publist <- publist |>
   purrr::map(function(x) {
     if (x$doi %in% citations$doi) {
