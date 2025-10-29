@@ -8,6 +8,15 @@ format:
 Page built: `r format(Sys.time(), "%c")`
 
 ```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
+
+)
+```
+
+```{r}
 format_bibentry <- function(x) {
   journal <- NULL
   if (!is.null(x$journal)) {
@@ -98,7 +107,7 @@ format_and_highlight <- function(bibentry, group_members) {
 }
 ```
 
-```{r, echo = FALSE}
+```{r}
 group_members <- readr::read_csv(
   "group_members.csv",
   col_types = "ccc",
@@ -106,7 +115,7 @@ group_members <- readr::read_csv(
 )
 ```
 
-```{r, echo = FALSE, results='asis'}
+```{r, results='asis'}
 publist <- bibtex::read.bib("lop.bib")
 
 citations <- publist |>
