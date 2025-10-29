@@ -137,3 +137,6 @@ formatted_publist <- publist |>
 
 cat(formatted_publist, sep = "\n\n")
 ```
+
+✷ indicates equal contributions <br>
+✉ co-corresponding authorships
