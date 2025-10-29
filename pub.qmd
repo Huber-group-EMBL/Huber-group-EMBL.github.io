@@ -65,7 +65,9 @@ format_bibentry <- function(x) {
 }
 
 unbrace <- function(string) {
-  gsub("[{}]", "", string)
+  tools::parseLatex(string) |>
+    tools::latexToUtf8() |>
+    tools::deparseLatex(dropBraces = TRUE)
 }
 
 format_and_highlight <- function(bibentry, group_members) {
