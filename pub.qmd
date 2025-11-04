@@ -21,18 +21,18 @@ format_bibentry <- function(x) {
   # FIXME: ultimately, this should be turned in a proper bibstyle, registered via `tools::bibstyle()`
   type <- attr(unclass(x), "bibtype")
 
-  if (type == "Article" && !is.null(x$journal)) {
-    journal <- paste0("*", unbrace(x$journal), "*")
+  journal <- if (type == "Article" && !is.null(x$journal)) {
+    paste0("*", unbrace(x$journal), "*")
   } else if (type %in% c("InCollection", "InBook") && !is.null(x$booktitle)) {
-    journal <- paste0("*", x$booktitle, "*")
+    paste0("*", x$booktitle, "*")
   } else if (type == "TechReport" && !is.null(x$institution)) {
-    journal <- paste0("*", x$institution, "*")
+    paste0("*", x$institution, "*")
   } else if (!is.null(x$type)) {
-    journal <- paste0("*", x$type, "*")
+    paste0("*", x$type, "*")
   } else if (type == "PhdThesis") {
-    journal <- "*PhD Thesis*"
+    "*PhD Thesis*"
   } else {
-    journal <- ""
+    ""
   }
 
   ref <- glue::glue(
