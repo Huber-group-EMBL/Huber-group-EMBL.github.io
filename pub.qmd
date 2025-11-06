@@ -7,7 +7,9 @@ format:
 
 Page built: `r format(Sys.time(), "%c")`
 
-```{r set-options, echo = FALSE}
+```{r}
+#| label: set-options
+#| echo: false
 knitr::opts_chunk$set(
   echo = FALSE,
   warning = FALSE,
@@ -17,7 +19,8 @@ knitr::opts_chunk$set(
 minCitationsForDisplay = 100
 ```
 
-```{r define-formatters}
+```{r}
+#| label: define-formatters
 format_bibentry <- function(x) {
   # FIXME: ultimately, this should be turned in a proper bibstyle, registered via `tools::bibstyle()`
   type <- attr(unclass(x), "bibtype")
@@ -58,19 +61,17 @@ format_bibentry <- function(x) {
   if (!is.null(x$epmc) && !is.null(x$epmc)) {
     pmc <- glue::glue('[PMC]({ x$epmc })')
   }
+  
   # Displaying all citations is too noisy so we only do it for "highly cited"
-  # papers (with an abritrary definition of highly cited)
+  # papers (with an arbitrary definition of highly cited)
   if (!is.null(x$citations) && !is.na(x$citations) && x$citations >= minCitationsForDisplay) {
     citations <- glue::glue(
-      '{ x$citations } citations (source: OpenAlex, via the openalexR package).\n\n'
+      '{ x$citations } citations (source: OpenAlex via openalexR).\n\n'
     )
   }
 
   links <- glue::glue_collapse(c(pdf, doi, preprint, pmc), sep = " - ")
-
-  res <- glue::glue_collapse(c(ref, citations, links), sep = "<br>")
-
-  return(res)
+  glue::glue_collapse(c(ref, citations, links), sep = "<br>")
 }
 
 unbrace <- function(string) {
@@ -132,16 +133,21 @@ group_members <- readr::read_csv(
 publist <- bibtex::read.bib("lop.bib")
 ```
 
-```{r fetch-citations, cache = TRUE}
+```{r}
+#| label: fetch-citations
+#| cache: true
+# 1 API request / 50 DOIs
 citations <- publist |>
   purrr::map_chr("doi") |>
-  # 1 API request / 50 DOIs
   openalexR::oa_fetch(doi = _, entity = "works") |>
   dplyr::select(doi, cited_by_count) |>
   dplyr::mutate(doi = gsub("^https://doi.org/", "", doi))
 ```
 
-```{r render-publications, results='asis'}
+```{r}
+#| label: render-publications
+#| results: asis
+#| warning: false
 publist <- publist |>
   purrr::map(function(x) {
     if (x$doi %in% citations$doi) {
@@ -157,12 +163,10 @@ publist <- publist |>
   })
 
 # Sort elements by year
-publist <- suppressWarnings(publist[
-  order(
+publist <- publist[order(
     purrr::map_int(publist, ~ as.integer(.x$year)),
     decreasing = TRUE
-  )
-])
+  )]
 
 formatted_publist <- publist |>
   purrr::map(format_and_highlight, group_members) |>
