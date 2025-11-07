@@ -3,7 +3,7 @@ title: "Elizabeth Purdom"
 description: "Visiting Faculty"
 ---
 
-![Elizabeth Purdom](elizabeth-purdom.jpg){width="500" fig-align="center"}
+![Elizabeth Purdom](elizabeth-purdom.jpeg){width="500" fig-align="center"}
 
 > Email: <epurdom@stat.berkeley.edu>\
 > Website: [https://www.stat.berkeley.edu/~epurdom/](https://www.stat.berkeley.edu/~epurdom/)
