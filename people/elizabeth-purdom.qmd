@@ -1,0 +1,19 @@
+---
+title: "Elizabeth Purdom"
+description: "Visiting Faculty"
+---
+
+![Elizabeth Purdom](elizabeth-purdom.jpg){width="500" fig-align="center"}
+
+> Email: <epurdom@stat.berkeley.edu>\
+> Website: [https://www.stat.berkeley.edu/~epurdom/](https://www.stat.berkeley.edu/~epurdom/)
+> ORCID: [0000-0001-9455-7990](https://orcid.org/0000-0001-9455-7990)\
+> GitHub: [epurdom](https://github.com/epurdom)\
+
+Elizabeth is a faculty of UC, Berkeley in the Department of Statistics and the Center for Computational Biology. 
+Her visit with the Huber group is sponsered by the [Theory@EMBL](https://www.embl.org/about/info/scientific-visitor-programme/theoryembl/) scientific visitor program. 
+
+Research in the Purdom group focuses on developing and applying methodologies to solve statistical problems that arise in 'omics applications, particularly in the area of single-cell and spatial transcriptomic studies. 
+
+Elizabeth received her PhD in Statistics from Stanford University in 2006 under the guidence of Susan Holmens for work on multivariate kernel methods in the analysis of graphical structures found in biology, such as gene networks or phylogenetic trees. She was then awarded a NSF Bioinformatics post-doctoral fellowship where she researched methods for transcriptomic platforms and cancer genomics under the guidence of Terry Speed in the Department of Statistics at UC Berkeley. Since 2009, she has been a faculty member in the Department of Statistics of UC Berkeley.
+
