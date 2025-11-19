@@ -29,13 +29,19 @@ format:
 
 | Name         | What they did with us | Where they moved on to; where are they are now |
 | --------------- | --------- | ----------------- |
-|**Stefan Peidli** | |
+|**Nineļa Vainšeļbauma** | internship |back to Latvia |
+|**Dr. Stefan Peidli** |Postdoc | |
+|**Martin Emons** | PhD internship | back to University of Zurich |
+|**Maximilian Herzog** | internship | |
 | **Hosna Baniadam** | PhD | Postdoc, Univ. Hospital Freiburg |
 | **Dr. Thomas Naake** | Postdoc | Group Leader, Physikalisch-Technische Bundesanstalt, PTB |
 | **Sara Baldinelli** | Master thesis | Back to studies at Univ. Trento, IT |
 | **Dr. Petr Smirnov** | Postdoc | AI/ML Engineer - Biomedical AI, GSK/Cellzome |
+|**Harald Vöhringer ** | Postdoc | |
+|**Michelle Chan ** |Master thesis | Back to studies at Uni. Vienna |
 | **Tümay Capraz** | PhD | Postdoc, St. Anna Children’s Cancer Research Institute, Vienna |
 | **Donnacha Fitzgerald** | PhD | Biotech, London, UK |
+|**Rafael Barrero Rodriguez ** | PhD internship | back to Spain |
 | **Dr. Julia Philipp** | Data Manager / Data Scientist | Merck Healthcare KGaA, Darmstadt |
 | **[Constantin Ahlmann-Eltze](https://const-ae.name/)** | PhD | Postdoc, UCL Cancer Institute, London, UK |
 | **Simone Bell** | Senior Project Manager | Project Leader, Bausch + Lomb, Eppelheim  |
