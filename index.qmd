@@ -14,7 +14,7 @@ the ERC Synergy project [DECODE],
 the [ELLIS Unit Heidelberg]
 and the [Bioconductor] project.
 
-Our interdisciplinary team comprises researchers from quantitative disciplines – such as physics, mathematics, statistics, computer science – and different fields of biology and medicine. We employ statistics and machine learning to discover patterns in data, understand mechanisms, and to build and investigate models. We pursue three main aims:
+Our interdisciplinary team comprises researchers from quantitative disciplines – such as physics, mathematics, statistics, computer science – and different fields of biology and medicine. We pursue three main aims:
 
 - Develop and improve new data generating technologies by powering them with the best statistical methods. This includes inference – reasoning with uncertainty, making optimal decisions based on incomplete, noisy or overwhelming data – as well as data exploration and visualization: helping scientists make and discoveries from large, complex datasets that they could not grasp otherwise.
 - Make biological discoveries on drug-gene-environment interaction networks and their dynamical and context-dependent outcome in phenotypes. This includes the use of high-throughput perturbation data, single-cell and spatial omics, and imaging.
