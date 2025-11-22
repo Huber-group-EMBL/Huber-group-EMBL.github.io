@@ -8,10 +8,10 @@ The Huber group develops statistical and machine learning methods for modern bio
 
 ![Group retreat in March 2024, Baiersbronn (Black Forest)](photos/20240325_142944-sm.jpeg){width=640 fig-align="center"}
 
-Our team studies biological systems by developing computational methods for the analysis of new data types and novel, large systematic datasets: single-cell and **spatial omics**, high-throughput drug- and CRISPR-based perturbation assays, and quantitative imaging. Projects range from applied data analysis for biological discovery to theoretical method development in statistical modeling and machine learning. We study fundamental biological model systems, as well as clinical samples for direct applications in biomedicine and precision oncology. We maintain an extensive network of collaborations. These include the 
-[Molecular Medicine Partnership Unit] (MMPU) [Systems Medicine of Cancer Drugs](https://www.embl.org/about/info/mmpu/research-groups/systems-medicine-of-cancer-drugs), 
+Our team studies biological systems by analysing new, cutting-edge data types and novel, large systematic datasets: spatial and single-cell omics, high-throughput drug- and CRISPR-based perturbation assays, quantitative imaging. Projects range from biological discovery-driven to theoretical method development. We study fundamental biological model systems, as well as clinical samples for direct applications in biomedicine and precision oncology. We maintain an extensive network of collaborations. These include
+the [Molecular Medicine Partnership Unit] (MMPU), 
 the ERC Synergy project [DECODE], 
-the [ELLIS Unit Heidelberg], 
+the [ELLIS Unit Heidelberg]
 and the [Bioconductor] project.
 
 Our interdisciplinary team comprises researchers from quantitative disciplines – such as physics, mathematics, statistics, computer science – and different fields of biology and medicine. We employ statistics and machine learning to discover patterns in data, understand mechanisms, and to build and investigate models. We pursue three main aims:
