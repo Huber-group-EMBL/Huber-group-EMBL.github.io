@@ -10,7 +10,7 @@ categories: "Wisdom"
 
 | Title           | Occasion(s) |
 | --------------- | ----------- |
-| [Responsible Research Assessment](https://docs.google.com/presentation/d/10ZBw6HmfE9VzpgFQc6X221G3xi4Xd9xKPbQvLIGKRfU) | 6th Zurich Precision Oncology Symposium 2 April 2025; RRA Champions Day 30 June 2025 |
+| [Responsible Research Assessment](https://docs.google.com/presentation/d/10ZBw6HmfE9VzpgFQc6X221G3xi4Xd9xKPbQvLIGKRfU) | 6th Zurich Precision Oncology Symposium, 2 April 2025; EMMBL RRA Champions Day, 30 June 2025 |
 | [False Discovery Rate](https://docs.google.com/presentation/d/1509v8sNlGmYwLxwRXuoS1NxMphBXfpT7d9wAn1d72HE/edit?usp=sharing) | BBS (Basel Biometrics Section) Workshop on the False Discovery Rate, 24 Nov 2025 |
 | [Benchmarking perturbation predictions](https://www.huber.embl.de/users/whuber/talks/2025-11-19-EMBL-EBI-Industry-Workshop.pdf) | [EMBL-EBI Industry](https://www.ebi.ac.uk/industry/) Workshop, Basel 20 Nov 2025 |
 | [Regression and testing](https://www.huber.embl.de/users/whuber/talks/regression+testing/index.html) &nbsp; ([Quarto source](https://github.com/wolfganghuber/talks/tree/main/regression%2Btesting))| [Ukrainian Biological Data Science Summer School 2025](https://www.bds3.org) |
