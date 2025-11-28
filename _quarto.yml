@@ -14,7 +14,7 @@ website:
   site-url: "https://www.huber.embl.de/group/"
   open-graph:
      locale:
-       en_US
+       en_GB
      site-name:
        "Huber Group @ EMBL"
   navbar:
@@ -39,7 +39,7 @@ website:
 format:
   html:
     theme:
-      - brite
+      - materia
     linkcolor: "#2A57A3"
     toc-color: "#2A57A3"
     toc: true
