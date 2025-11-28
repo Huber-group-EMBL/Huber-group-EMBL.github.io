@@ -22,16 +22,16 @@ Besides these specific calls,
 ![](photos/20240325_131603-sm.jpeg){.lightbox}
 :::
 
-We are continually inviting applications for postdoc, PhD and internship positions. You can mix and match from two tracks:
+We are continually inviting applications for Postdoc, PhD thesis, Master thesis and internship positions. You can mix and match from two tracks:
 
 - Method development in statistical methodology and computational biology
 - Biological discovery through integrative data analysis
 
-For Track 1, you will have strong quantitative and analytical skills, such as acquired through a degree in physics, statistics, mathematics, computer science or a related field. You have curiosity and motivation to work in interdisciplinary projects, which include generation of new data and their analysis, and are eager to get to grips with relevant areas of biology and the technologies used in biology research. You have experience in scientific computing and are familiar with one or several computer languages. Familiarity with R is definitively a plus.
+For Track 1, you will have strong quantitative and analytical skills, such as acquired through a degree in theoretical physics, statistics, mathematics, computer science or a related field. You have curiosity and motivation to work in interdisciplinary projects, which include generation of new data and their analysis, and are eager to get to grips with relevant areas of biology and the measurement technologies used. You have experience in scientific computing and are familiar with one or several computer languages. Familiarity with R is a plus.
 
-For Track 2, you will have a training in life sciences and strong coding skills that enable you to undertake complex data transformations, integrative operations, applications of mathematical models and visualizations. You are driven by making fundamental discoveries by mining cutting-edge, large data sets.
+For Track 2, you will have a training in life sciences and strong coding skills that enable you to undertake complex data transformations, visualizations, integrative operations and application of mathematical models. You are driven by making fundamental discoveries by mining cutting-edge, large data sets, often in collaboration with experimental or biomedical scientists.
 
-To apply, please contact Wolfgang Huber with your CV, a brief statement of research interests, and examples of your work: besides your publications, this can include theses, research reports, talk slides, software projects (e.g. R packages, github projects) or data analysis reports (e.g., Quarto/Rmarkdown reports or Jupyter notebooks).
+To apply, please contact Wolfgang Huber with your CV, a brief statement of research interests, and examples of your work: besides your publications, this can include theses, research reports, talk slides, software projects (e.g. R packages, GitHub repositories) or data analysis reports (e.g., Quarto/Rmarkdown reports, Jupyter notebooks).
 
 Please note that we recruit PhD candidates solely through the [EMBL international PhD programme](https://www.embl.org/about/info/embl-international-phd-programme/) or---for candidates with a background in statistics and machine learning---through the [ELLIS PhD programme](https://ellis.eu/phd-postdoc), which collaborates with EMBL. You are highly welcome to discuss with Wolfgang Huber in advance.
 
@@ -41,6 +41,8 @@ The following list provides potential co-supervision partners for exciting oppor
 
 - [Michael Boutros](https://erc-decode.eu/), DKFZ: statistical method development for in-vivo Perturb-Seq and high-throughput imaging-based phenotyping
 - [Sascha Dietrich](https://www.dietrichlab.de/), University Hospital Düsseldorf and [MMPU](https://www.embl.org/about/info/mmpu/research-groups/systems-medicine-of-cancer-drugs/): spatial omics, immunotherapies and the tumor microenvironment, immunooncology
+- [Thorsten Zenz](https://www.lymphomaresearchzurich.com/), University Hospital Zürich: 'omics of drug sensitivity in blood cancers
+- [Oliver Stegle](https://www.embl.org/groups/stegle/), EMBL: statistical genomics and systems genetics
 - [Aurélie Ernst](https://www.dkfz.de/en/genominstabilitaet-in-tumoren/), DKFZ: Genome Instability in Tumors
 - [Nikos Ignatiadis](https://nignatiadis.github.io/), Chicago: statistical methodology
 - [Victoria Ingham](https://www.klinikum.uni-heidelberg.de/zentrum-fuer-infektiologie/parasitology-unit/research/ingham-lab), University Hospital Heidelberg: Parasitology, insecticide resistance and malaria
@@ -48,8 +50,6 @@ The following list provides potential co-supervision partners for exciting oppor
 - [Davide Risso](https://drisso.github.io/), University of Padova: statistical method development for spatial omics, deep - [Lars Steinmetz](https://www.embl.org/groups/steinmetz/), EMBL and  [Stanford](https://web.stanford.edu/group/steinmetzlab/cgi-bin/wordpress/): statistical method development for phenotyping environmental microbial communities using high-speed fluorescence image–enabled cell sorting
 - [Sinem Saka](https://www.embl.org/groups/saka/), EMBL: spatial biology from molecules to tissues
 - [Misha Savitski](https://www.embl.org/groups/savitski/), EMBL: stability proteomics
-- [Oliver Stegle](https://www.embl.org/groups/stegle/), EMBL: statistical genomics and systems genetics
 - [Nassos Typas](https://www.embl.org/groups/typas/), EMBL: high-throughput phenotyping of microbial communities under genetic and chemical perturbations; antibiotica, phages
-- [Thorsten Zenz](https://www.lymphomaresearchzurich.com/), University Hospital Zürich: 'omics of drug sensitivity in blood cancers
 - **The Bioconductor Community**
 
